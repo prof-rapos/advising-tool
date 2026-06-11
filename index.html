@@ -663,8 +663,8 @@ function applyMapping(){
   const untyped   = [];        // elective cards with no type
 
   for(const r of reqs){
-    if(r.type==='course' && r.course){
-      byCourse.set(r.course, r);
+    if(r.type==='course' && r.code){
+      byCourse.set(r.code, r);
     } else if(r.type==='elective'){
       const et = st.elecTypes?.[r.id] || r.elecType || null;
       if(et){
