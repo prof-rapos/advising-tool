@@ -658,13 +658,17 @@ function applyMapping(){
   const reqs = allRequirements();
 
   // Build lookup pools (mutable — we remove each card once placed)
-  const byCourse  = new Map(); // code → req
+  const byCourse  = new Map(); // code → req (for required and option cards)
   const byElecType= new Map(); // elecType → [req, ...]
   const untyped   = [];        // elective cards with no type
+  const slotTypeMap = map.slotTypeToElecType || {};
 
   for(const r of reqs){
     if(r.type==='course' && r.code){
       byCourse.set(r.code, r);
+    } else if(r.type==='option' && r.options){
+      // Index option cards by every possible course code they contain
+      for(const opt of r.options) byCourse.set(opt.code, r);
     } else if(r.type==='elective'){
       const et = st.elecTypes?.[r.id] || r.elecType || null;
       if(et){
@@ -676,19 +680,17 @@ function applyMapping(){
     }
   }
 
+  // Track placed option cards so we don't place the same card twice
+  const placedIds = new Set();
+
   function takeElec(slotType){
-    // scse-group / scse / cs4000 → match by elecType key
-    const typeKeys = {
-      'scse-group': ['scse','scseGroup','scse-group'],
-      'scse':       ['scse','scseGroup','scse-group'],
-      'cs4000':     ['cs4000','csci4000','seniorCsci'],
-    };
-    const candidates = typeKeys[slotType] || [];
-    for(const key of candidates){
-      const pool = byElecType.get(key);
+    // Use explicit slotTypeToElecType from mapping file
+    const etKey = slotTypeMap[slotType];
+    if(etKey){
+      const pool = byElecType.get(etKey);
       if(pool?.length) return pool.shift();
     }
-    // generic elective → try untyped first, then any pool
+    // generic elective → try untyped first, then any elec pool
     if(slotType === 'elective'){
       if(untyped.length) return untyped.shift();
       for(const pool of byElecType.values()) if(pool.length) return pool.shift();
@@ -707,19 +709,25 @@ function applyMapping(){
 
       if(slot.type === 'required' && slot.code){
         req = byCourse.get(slot.code);
-        if(req) byCourse.delete(slot.code);
+        if(req){ byCourse.delete(slot.code); }
 
       } else if(slot.type === 'choice' && slot.options){
         for(const opt of slot.options){
-          req = byCourse.get(opt.code);
-          if(req){ byCourse.delete(opt.code); break; }
+          const candidate = byCourse.get(opt.code);
+          if(candidate && !placedIds.has(candidate.id)){
+            req = candidate;
+            // Remove all codes that point to this same option card
+            for(const o of req.options||[]) byCourse.delete(o.code);
+            break;
+          }
         }
 
       } else {
         req = takeElec(slot.type);
       }
 
-      if(req){
+      if(req && !placedIds.has(req.id)){
+        placedIds.add(req.id);
         if(!st.semContents[semId]) st.semContents[semId]={};
         // Expand slot count if needed
         if(slotIdx >= (st.semSlots[semId]||5))

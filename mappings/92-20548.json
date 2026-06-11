@@ -4,6 +4,11 @@
   "program": "Computer Science",
   "degree": "BSc (Honours)",
   "notes": "Slot types: required | choice | elective | scse-group | scse | cs4000",
+  "slotTypeToElecType": {
+    "scse-group": "seniorComputerScience",
+    "scse":       "seniorComputerScience",
+    "cs4000":     "csciAtThe4000Level"
+  },
 
   "elecRequirements": [
     {"id": "general",    "label": "General",       "required": 3},
