@@ -971,6 +971,16 @@ const server = http.createServer(async (req, res) => {
         return jsonRes(res, await parseProgramPage(catoid, poid));
       }
 
+      if (pathname === '/api/mapping') {
+        const catoid = +searchParams.get('catoid');
+        const poid   = +searchParams.get('poid');
+        if (!catoid || !poid) return errRes(res, 'Missing catoid or poid', 400);
+        const fp = path.join(__dirname, 'mappings', `${catoid}-${poid}.json`);
+        if (!fs.existsSync(fp)) return errRes(res, 'No mapping found', 404);
+        const data = JSON.parse(fs.readFileSync(fp, 'utf8'));
+        return jsonRes(res, data);
+      }
+
       if (pathname === '/api/courses') {
         const catoid   = +searchParams.get('catoid');
         const prefixes = (searchParams.get('prefixes')||'').split(',').map(s=>s.trim()).filter(Boolean);

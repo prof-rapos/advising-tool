@@ -24,6 +24,8 @@
     .hdr-btn{background:transparent;border:1px solid rgba(255,255,255,.3);color:#c5d8f0;
              font-size:.7rem;padding:4px 9px;border-radius:5px;cursor:pointer;white-space:nowrap}
     .hdr-btn:hover{background:rgba(255,255,255,.12)}
+    .hdr-btn-map{border-color:rgba(100,200,140,.6);color:#8fe8b0;}
+    .hdr-btn-map:hover{background:rgba(100,200,140,.15);}
 
     /* ── Progress bar ── */
     .prog-bar-wrap{background:#1a3a5c;height:3px;flex-shrink:0}
@@ -208,6 +210,7 @@
   </div>
   <div class="hdr-right">
     <button class="hdr-btn" id="addMinorBtn" style="display:none" onclick="openMinorModal()">+ Minor</button>
+    <button class="hdr-btn hdr-btn-map" id="applyMapBtn" style="display:none" onclick="applyMapping()">✦ Apply Suggested Map</button>
     <button class="hdr-btn" onclick="addSemester()">+ Semester</button>
     <button class="hdr-btn" onclick="resetProgress()">Reset</button>
   </div>
@@ -277,6 +280,7 @@ let st = {
   semSlots:  Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,DEFAULT_SLOT_COUNT])),
   semContents: Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,{}])),
   done:{}, selections:{}, elecTypes:{},
+  mapping: null,   // loaded mapping JSON or null
 };
 
 // Lazy-loaded course lists: elecType -> [{code,name}]
@@ -445,6 +449,12 @@ async function onProgChange(poid){
     pruneStale();
     // Show "+ Minor" button if there are minors available
     document.getElementById('addMinorBtn').style.display = st.allMinors.length ? '' : 'none';
+    // Check for suggested mapping
+    st.mapping = null;
+    document.getElementById('applyMapBtn').style.display = 'none';
+    api(`/api/mapping?catoid=${st.catoid}&poid=${poid}`)
+      .then(m=>{ st.mapping=m; document.getElementById('applyMapBtn').style.display=''; })
+      .catch(()=>{}); // 404 = no mapping, silently ignore
     showLayout(); render();
     // Pre-fetch course lists in background
     prefetchElecCourses();
@@ -632,6 +642,95 @@ function placeReq(reqId,semId,slotIdx){
     st.semContents[semId][String(slotIdx)]=reqId;
   }
   saveP();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// APPLY SUGGESTED MAPPING
+// ═══════════════════════════════════════════════════════════════
+function applyMapping(){
+  const map = st.mapping;
+  if(!map) return;
+  if(!confirm('This will place all courses into the suggested semesters, overwriting any current placement. Continue?')) return;
+
+  // Reset all placements
+  for(const s of st.semesters) st.semContents[s.id]={};
+
+  const reqs = allRequirements();
+
+  // Build lookup pools (mutable — we remove each card once placed)
+  const byCourse  = new Map(); // code → req
+  const byElecType= new Map(); // elecType → [req, ...]
+  const untyped   = [];        // elective cards with no type
+
+  for(const r of reqs){
+    if(r.type==='course' && r.course){
+      byCourse.set(r.course, r);
+    } else if(r.type==='elective'){
+      const et = st.elecTypes?.[r.id] || r.elecType || null;
+      if(et){
+        if(!byElecType.has(et)) byElecType.set(et,[]);
+        byElecType.get(et).push(r);
+      } else {
+        untyped.push(r);
+      }
+    }
+  }
+
+  function takeElec(slotType){
+    // scse-group / scse / cs4000 → match by elecType key
+    const typeKeys = {
+      'scse-group': ['scse','scseGroup','scse-group'],
+      'scse':       ['scse','scseGroup','scse-group'],
+      'cs4000':     ['cs4000','csci4000','seniorCsci'],
+    };
+    const candidates = typeKeys[slotType] || [];
+    for(const key of candidates){
+      const pool = byElecType.get(key);
+      if(pool?.length) return pool.shift();
+    }
+    // generic elective → try untyped first, then any pool
+    if(slotType === 'elective'){
+      if(untyped.length) return untyped.shift();
+      for(const pool of byElecType.values()) if(pool.length) return pool.shift();
+    }
+    return null;
+  }
+
+  // The mapping semesters array aligns with st.semesters indices 0-7
+  for(let si=0; si < map.semesters.length && si < st.semesters.length; si++){
+    const semId  = st.semesters[si].id;
+    const mSem   = map.semesters[si];
+    let slotIdx  = 0;
+
+    for(const slot of mSem.slots){
+      let req = null;
+
+      if(slot.type === 'required' && slot.code){
+        req = byCourse.get(slot.code);
+        if(req) byCourse.delete(slot.code);
+
+      } else if(slot.type === 'choice' && slot.options){
+        for(const opt of slot.options){
+          req = byCourse.get(opt.code);
+          if(req){ byCourse.delete(opt.code); break; }
+        }
+
+      } else {
+        req = takeElec(slot.type);
+      }
+
+      if(req){
+        if(!st.semContents[semId]) st.semContents[semId]={};
+        // Expand slot count if needed
+        if(slotIdx >= (st.semSlots[semId]||5))
+          st.semSlots[semId] = slotIdx + 1;
+        st.semContents[semId][String(slotIdx)] = req.id;
+        slotIdx++;
+      }
+    }
+  }
+
+  saveP(); render();
 }
 
 // ═══════════════════════════════════════════════════════════════
