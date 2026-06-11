@@ -684,11 +684,23 @@ function applyMapping(){
   const placedIds = new Set();
 
   function takeElec(slotType){
-    // Use explicit slotTypeToElecType from mapping file
-    const etKey = slotTypeMap[slotType];
-    if(etKey){
-      const pool = byElecType.get(etKey);
-      if(pool?.length) return pool.shift();
+    // slotTypeMap value can be a string or array of candidate keys
+    const candidates = slotTypeMap[slotType];
+    if(candidates){
+      const keys = Array.isArray(candidates) ? candidates : [candidates];
+      for(const k of keys){
+        const pool = byElecType.get(k);
+        if(pool?.length) return pool.shift();
+      }
+      // Fuzzy fallback: find any pool whose key contains all words from any candidate key
+      for(const k of keys){
+        const words = k.replace(/([A-Z])/g,' $1').toLowerCase().split(/\s+/).filter(w=>w.length>2);
+        for(const [poolKey, pool] of byElecType){
+          if(!pool.length) continue;
+          const pk = poolKey.replace(/([A-Z])/g,' $1').toLowerCase();
+          if(words.every(w=>pk.includes(w))) return pool.shift();
+        }
+      }
     }
     // generic elective → try untyped first, then any elec pool
     if(slotType === 'elective'){
@@ -716,7 +728,17 @@ function applyMapping(){
           const candidate = byCourse.get(opt.code);
           if(candidate && !placedIds.has(candidate.id)){
             req = candidate;
-            // Remove all codes that point to this same option card
+            for(const o of req.options||[]) byCourse.delete(o.code);
+            break;
+          }
+        }
+
+      } else if(slot.type === 'scse-group' && slot.courses){
+        // scse-group: pick-one-of list → find the option card whose options overlap
+        for(const c of slot.courses){
+          const candidate = byCourse.get(c.code);
+          if(candidate && !placedIds.has(candidate.id)){
+            req = candidate;
             for(const o of req.options||[]) byCourse.delete(o.code);
             break;
           }

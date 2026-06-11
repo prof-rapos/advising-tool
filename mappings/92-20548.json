@@ -5,9 +5,8 @@
   "degree": "BSc (Honours)",
   "notes": "Slot types: required | choice | elective | scse-group | scse | cs4000",
   "slotTypeToElecType": {
-    "scse-group": "seniorComputerScience",
-    "scse":       "seniorComputerScience",
-    "cs4000":     "csciAtThe4000Level"
+    "scse": "seniorComputerScience",
+    "cs4000": ["computerScienceAtThe4000Level","csciAtThe4000Level","csciCourseAtThe4000Level","csci4000"]
   },
 
   "elecRequirements": [
