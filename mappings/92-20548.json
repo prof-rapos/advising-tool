@@ -1,0 +1,152 @@
+{
+  "catoid": 92,
+  "poid": 20548,
+  "program": "Computer Science",
+  "degree": "BSc (Honours)",
+  "notes": "Slot types: required | choice | elective | scse-group | scse | cs4000",
+
+  "elecRequirements": [
+    {"id": "general",    "label": "General",       "required": 3},
+    {"id": "nonscience", "label": "Non-Science",   "required": 2},
+    {"id": "comm",       "label": "Communication", "required": 1},
+    {"id": "business",   "label": "Business",      "required": 1},
+    {"id": "science",    "label": "Science",        "required": 3}
+  ],
+
+  "scseConfig": {
+    "comment": "Any CSCI at 3000+ or 4000+ level, excluding explicitly required courses",
+    "prefixes": ["CSCI"],
+    "minLevel": 3000,
+    "exclude": ["CSCI 3070U", "CSCI 4040U"]
+  },
+
+  "cs4000Config": {
+    "comment": "Specifically 4000-level CSCI courses (not thesis unless chosen)",
+    "prefixes": ["CSCI"],
+    "minLevel": 4000,
+    "exclude": ["CSCI 4040U"]
+  },
+
+  "sciencePrefixes": {
+    "comment": "Faculty of Science prefixes eligible for Science Elective (excludes CSCI)",
+    "prefixes": ["BIOL","CHEM","ENVS","FSCI","MATH","NSCI","PHY","STAT"]
+  },
+
+  "allSciencePrefixes": {
+    "comment": "All Faculty of Science prefixes (used to detect Non-Science courses)",
+    "prefixes": ["BIOL","CHEM","CSCI","ENVS","FSCI","MATH","NSCI","PHY","STAT"]
+  },
+
+  "semesters": [
+    {
+      "label": "Y1 Fall", "year": 1, "sem": "Fall",
+      "slots": [
+        {"id": "elec1", "type": "elective"},
+        {"id": "csci1030u", "type": "required", "code": "CSCI 1030U", "name": "Intro to Computer Science"},
+        {"id": "prog1", "type": "choice", "label": "1060U / 1062U", "name": "Programming Workshop", "options": [
+          {"code": "CSCI 1060U", "name": "Programming Workshop I"},
+          {"code": "CSCI 1062U", "name": "Accelerated Programming Workshop"}
+        ]},
+        {"id": "calc1", "type": "choice", "label": "Calc 1", "name": "Calculus I", "options": [
+          {"code": "MATH 1000U", "name": "Introductory Calculus"},
+          {"code": "MATH 1010U", "name": "Calculus I"}
+        ]},
+        {"id": "phys1", "type": "choice", "label": "Phys 1", "name": "Physics I", "options": [
+          {"code": "PHY 1010U", "name": "Physics I"},
+          {"code": "PHY 1030U", "name": "Introductory Physics"}
+        ]}
+      ]
+    },
+    {
+      "label": "Y1 Winter", "year": 1, "sem": "Winter",
+      "slots": [
+        {"id": "elec2", "type": "elective"},
+        {"id": "csci1050u", "type": "required", "code": "CSCI 1050U", "name": "Computer Architecture"},
+        {"id": "prog2", "type": "choice", "label": "1061U / 1063U", "name": "Programming Workshop II", "options": [
+          {"code": "CSCI 1061U", "name": "Programming Workshop II"},
+          {"code": "CSCI 1063U", "name": "Computer Programming Project"}
+        ]},
+        {"id": "calc2", "type": "required", "code": "MATH 1020U", "name": "Calculus II"},
+        {"id": "phys2", "type": "required", "code": "PHY 1020U", "name": "Physics II"}
+      ]
+    },
+    {
+      "label": "Y2 Fall", "year": 2, "sem": "Fall",
+      "slots": [
+        {"id": "elec3", "type": "elective"},
+        {"id": "csci2000u", "type": "required", "code": "CSCI 2000U", "name": "Scientific Data Analysis"},
+        {"id": "csci2010u", "type": "required", "code": "CSCI 2010U", "name": "Data Structures"},
+        {"id": "csci2110u", "type": "required", "code": "CSCI 2110U", "name": "Discrete Mathematics"},
+        {"id": "stat2010u", "type": "required", "code": "STAT 2010U", "name": "Statistics & Probability"}
+      ]
+    },
+    {
+      "label": "Y2 Winter", "year": 2, "sem": "Winter",
+      "slots": [
+        {"id": "elec4", "type": "elective"},
+        {"id": "csci2020u", "type": "required", "code": "CSCI 2020U", "name": "Software Systems Dev. & Integration"},
+        {"id": "csci2040u", "type": "required", "code": "CSCI 2040U", "name": "Software Design and Analysis"},
+        {"id": "csci2072u", "type": "required", "code": "CSCI 2072U", "name": "Computational Science I"},
+        {"id": "math2050u", "type": "required", "code": "MATH 2050U", "name": "Linear Algebra"}
+      ]
+    },
+    {
+      "label": "Y3 Fall", "year": 3, "sem": "Fall",
+      "slots": [
+        {"id": "elec5", "type": "elective"},
+        {"id": "elec7", "type": "elective"},
+        {"id": "csci3070u", "type": "required", "code": "CSCI 3070U", "name": "Analysis & Design of Algorithms"},
+        {"id": "scse_sys", "type": "scse-group", "label": "Systems Option", "courses": [
+          {"code": "CSCI 3020U", "name": "Operating Systems"},
+          {"code": "CSCI 3055U", "name": "Programming Languages"},
+          {"code": "CSCI 3090U", "name": "Computer Graphics & Visualization"},
+          {"code": "CSCI 3150U", "name": "Computer Networks"},
+          {"code": "CSCI 3310U", "name": "Systems Programming"}
+        ]},
+        {"id": "scse_a", "type": "scse", "label": "Sr. CS Elective"}
+      ]
+    },
+    {
+      "label": "Y3 Winter", "year": 3, "sem": "Winter",
+      "slots": [
+        {"id": "elec6", "type": "elective"},
+        {"id": "elec8", "type": "elective"},
+        {"id": "scse_dai", "type": "scse-group", "label": "Data / AI Option", "courses": [
+          {"code": "CSCI 3000U", "name": "Information Visualization"},
+          {"code": "CSCI 3010U", "name": "Simulation and Modelling"},
+          {"code": "CSCI 3030U", "name": "Database Systems and Concepts"},
+          {"code": "CSCI 3052U", "name": "Machine Learning I"},
+          {"code": "CSCI 3240U", "name": "Computer Vision I"}
+        ]},
+        {"id": "scse_sfw", "type": "scse-group", "label": "Software Option", "courses": [
+          {"code": "CSCI 3060U", "name": "Software Quality Assurance"},
+          {"code": "CSCI 3101U", "name": "Mobile Devices"},
+          {"code": "CSCI 3230U", "name": "Web Application Development"},
+          {"code": "CSCI 3540U", "name": "Software Security"},
+          {"code": "CSCI 3620U", "name": "Human-Computer Interaction"}
+        ]},
+        {"id": "scse_b", "type": "scse", "label": "Sr. CS Elective"}
+      ]
+    },
+    {
+      "label": "Y4 Fall", "year": 4, "sem": "Fall",
+      "slots": [
+        {"id": "elec9", "type": "elective"},
+        {"id": "csci4040u", "type": "required", "code": "CSCI 4040U", "name": "Ethics, Law & Social Impacts"},
+        {"id": "cs4000a", "type": "cs4000", "label": "4000-level CS Elective"},
+        {"id": "cs4000b", "type": "cs4000", "label": "4000-level CS Elective"},
+        {"id": "scse_c",  "type": "scse",   "label": "Sr. CS Elective"}
+      ]
+    },
+    {
+      "label": "Y4 Winter", "year": 4, "sem": "Winter",
+      "slots": [
+        {"id": "elec10",  "type": "elective"},
+        {"id": "cs4000c", "type": "cs4000", "label": "4000-level CS Elective"},
+        {"id": "cs4000d", "type": "cs4000", "label": "4000-level CS Elective"},
+        {"id": "scse_d",  "type": "scse",   "label": "Sr. CS Elective"},
+        {"id": "scse_e",  "type": "scse",   "label": "Sr. CS Elective"}
+      ]
+    }
+  ]
+}
