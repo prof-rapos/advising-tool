@@ -20,5 +20,11 @@ jobs:
           kill $SERVER_PID 2>/dev/null || true
 
       - name: Trigger Render deploy
-        if: ${{ secrets.RENDER_DEPLOY_HOOK != '' }}
-        run: curl -sf "${{ secrets.RENDER_DEPLOY_HOOK }}"
+        run: |
+          if [ -n "$RENDER_DEPLOY_HOOK" ]; then
+            curl -sf "$RENDER_DEPLOY_HOOK"
+          else
+            echo "No deploy hook configured, skipping."
+          fi
+        env:
+          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
