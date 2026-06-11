@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Student Advising Tool – Ontario Tech</title>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+         background:#f0f2f5;color:#1a1a2e;overflow-x:hidden;height:100vh;
+         display:flex;flex-direction:column}
+
+    /* ── Header ── */
+    header{background:#002147;color:#fff;padding:8px 14px;display:flex;
+           align-items:center;gap:8px;flex-wrap:wrap;flex-shrink:0;
+           box-shadow:0 2px 6px rgba(0,0,0,.3)}
+    header h1{font-size:.92rem;font-weight:700;white-space:nowrap}
+    .hdr-grp{display:flex;align-items:center;gap:4px}
+    .hdr-grp label{font-size:.7rem;color:#a8c4e0;white-space:nowrap}
+    header select{padding:4px 8px;border-radius:5px;border:none;font-size:.78rem;
+                  background:#1a3a5c;color:#fff;cursor:pointer;max-width:260px}
+    header select:disabled{opacity:.4;cursor:default}
+    .hdr-right{margin-left:auto;display:flex;gap:6px;align-items:center}
+    .hdr-btn{background:transparent;border:1px solid rgba(255,255,255,.3);color:#c5d8f0;
+             font-size:.7rem;padding:4px 9px;border-radius:5px;cursor:pointer;white-space:nowrap}
+    .hdr-btn:hover{background:rgba(255,255,255,.12)}
+
+    /* ── Progress bar ── */
+    .prog-bar-wrap{background:#1a3a5c;height:3px;flex-shrink:0}
+    .prog-bar{height:3px;background:#4caf82;transition:width .4s}
+
+    /* ── Combined info bar (stats + elective tracker) ── */
+    .info-bar{display:none;align-items:center;gap:0;padding:0;flex-shrink:0;
+              background:#fff;border-bottom:1px solid #dde3ec}
+
+    /* Stats section */
+    .stats-row{display:flex;gap:8px;padding:6px 14px;flex-wrap:wrap;align-items:center;
+               border-right:1px solid #dde3ec}
+    .stat-card{background:#f5f7fa;border-radius:7px;padding:4px 10px;text-align:center;min-width:66px}
+    .stat-card .val{font-size:1rem;font-weight:700;color:#002147}
+    .stat-card .lbl{font-size:.56rem;color:#666;margin-top:1px}
+
+    /* Elective tracker section */
+    .elec-req-bar{display:flex;gap:6px;padding:6px 14px;flex-wrap:wrap;align-items:center;flex:1}
+    .elec-req-bar h4{font-size:.63rem;font-weight:700;color:#666;text-transform:uppercase;
+                     letter-spacing:.06em;white-space:nowrap}
+    .elec-badge{padding:2px 9px;border-radius:20px;font-size:.65rem;font-weight:600;border:1.5px solid}
+    .elec-badge.ok  {border-color:#4caf82;color:#217a44;background:#edfaf3}
+    .elec-badge.warn{border-color:#e8a020;color:#8a5200;background:#fff8ec}
+    .elec-badge.over{border-color:#c0392b;color:#900;   background:#fee;font-weight:700}
+    .elec-badge.none{border-color:#ddd;   color:#999;   background:#f8f8f8}
+
+    /* ── Main layout ── */
+    .main-layout{display:flex;flex:1;overflow:hidden;padding:8px 14px;gap:0}
+
+    /* ── Semester grid (left ~80%) ── */
+    .grid-area{flex:4;overflow-y:auto;overflow-x:hidden;padding-right:8px}
+
+    .grid-table{width:100%;border-collapse:separate;border-spacing:3px;table-layout:fixed}
+
+    /* Semester label column */
+    .sem-lbl-cell{width:74px;background:#1a3a5c;color:#e0eaf5;border-radius:6px;
+                  vertical-align:middle;padding:5px 4px 4px}
+    .sem-name-wrap{display:flex;align-items:center;justify-content:center;gap:2px;padding:0 1px}
+    .sem-name-input{background:transparent;border:none;border-bottom:1.5px dashed transparent;
+                    color:inherit;font-size:.7rem;font-weight:700;width:100%;text-align:center;
+                    outline:none;cursor:text;transition:border-color .15s,background .15s;
+                    padding:1px 0;letter-spacing:.01em}
+    .sem-name-input:hover{border-bottom-color:rgba(255,255,255,.5)}
+    .sem-name-input:focus{border-bottom-color:#fff;background:rgba(255,255,255,.1);
+                          border-radius:2px;padding:1px 3px}
+    .sem-edit-icon{font-size:.62rem;color:rgba(255,255,255,.35);flex-shrink:0;pointer-events:none}
+    .sem-ctrl{display:flex;gap:1px;align-items:center;justify-content:center;margin-top:3px}
+    .sem-ctrl-btn{border:none;background:transparent;cursor:pointer;
+                  color:rgba(255,255,255,.45);font-size:.72rem;padding:1px 3px;line-height:1;
+                  border-radius:3px}
+    .sem-ctrl-btn:hover{color:#fff;background:rgba(255,255,255,.15)}
+    .sem-ctrl-btn.del:hover{color:#ffaaaa;background:rgba(255,80,80,.2)}
+
+    /* ── Slot cells ── */
+    .slot-cell{vertical-align:top;padding:2px}
+    .slot-drop{border-radius:6px;border:1.5px dashed #ccd6e0;background:#f8fafc;
+               padding:3px;transition:background .15s,border-color .15s;
+               display:flex;flex-direction:column;height:100%;min-height:78px}
+    .slot-drop.drag-over{background:#e4f0ff;border-color:#3a80cc;border-style:solid}
+    .slot-drop.occupied{border:none;background:transparent;padding:0}
+
+    /* Add-slot / header cells */
+    .add-slot-cell{vertical-align:middle;padding:2px;width:24px}
+    .add-slot-btn{width:20px;height:20px;border-radius:50%;border:1.5px dashed #b0c0cc;
+                  background:transparent;color:#809aaa;font-size:.9rem;cursor:pointer;
+                  display:flex;align-items:center;justify-content:center;line-height:1}
+    .add-slot-btn:hover{background:#dde8ee;border-color:#5090aa;color:#002147}
+
+    /* ── Cards ── */
+    .req-card{border-radius:6px;padding:5px 7px;font-size:.75rem;cursor:grab;
+              box-shadow:0 1px 3px rgba(0,0,0,.1);user-select:none;position:relative;
+              flex:1;display:flex;flex-direction:column}
+    .req-card:active{cursor:grabbing}
+    .req-card.dragging{opacity:.3}
+
+    /* Card base colours — elective accent colour applied via inline style */
+    .req-card.t-course  {background:#fff;    border-left:3px solid #b0bec5}
+    .req-card.t-option  {background:#fff9f0; border-left:3px solid #e09000}
+    .req-card.t-elective{background:#f5f0fd; border-left:3px solid #9b7fe8}
+    .req-card.done-card {background:#edfaf3!important;border-left-color:#4caf82!important;opacity:.8}
+
+    .card-top{display:flex;align-items:flex-start;gap:4px}
+    .card-code{font-weight:700;font-size:.7rem;color:#002147;white-space:nowrap}
+    .card-name{font-size:.66rem;color:#444;line-height:1.25;flex:1;
+               overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+    .card-label{font-weight:600;font-size:.68rem;color:#333;flex:1;line-height:1.3}
+    .card-check{margin-left:auto;flex-shrink:0;cursor:pointer;accent-color:#4caf82;margin-top:1px}
+    .card-inputs{flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:2px;margin-top:3px}
+    .card-sel{width:100%;font-size:.66rem;border:1px solid #dde3ec;border-radius:4px;
+              padding:2px 22px 2px 5px;background:#fff;color:#222;
+              appearance:auto;-webkit-appearance:auto}
+    .card-inp{width:100%;font-size:.66rem;border:1px solid #dde3ec;border-radius:4px;
+              padding:2px 5px;background:#fff;color:#222}
+    .card-inp::placeholder{color:#bbb}
+    .drag-hint{position:absolute;top:3px;right:4px;font-size:.55rem;color:#ccc;pointer-events:none}
+    .loading-hint{font-size:.6rem;color:#aaa;font-style:italic;margin-top:2px}
+
+    /* ── Requirements panel (right ~20%) ── */
+    .req-panel{flex:1;min-width:172px;max-width:235px;overflow-y:auto;
+               padding-left:8px;border-left:1px solid #dde3ec}
+    .req-panel-hdr{font-size:.66rem;font-weight:700;color:#555;text-transform:uppercase;
+                   letter-spacing:.06em;padding:2px 2px 6px;position:sticky;top:0;
+                   background:#f0f2f5;z-index:10}
+    .req-panel-hdr span{font-weight:400;color:#888;font-size:.62rem;display:block}
+    .yr-group-hdr{font-size:.62rem;font-weight:700;color:#002147;background:#dde5f0;
+                  padding:2px 6px;border-radius:4px;margin:6px 0 3px;text-transform:uppercase}
+    .panel-drop{min-height:6px;border-radius:4px;transition:background .15s,min-height .1s}
+    .panel-drop.drag-over{background:#e4f0ff;outline:1.5px dashed #3a80cc;min-height:20px}
+
+    /* ── Status messages ── */
+    .status-msg{text-align:center;color:#888;font-size:.85rem;padding:40px 20px;flex:1}
+
+    /* ── Legend ── */
+    .legend{display:none;flex-wrap:wrap;gap:7px;padding:5px 14px;font-size:.63rem;
+            color:#555;flex-shrink:0;border-top:1px solid #dde3ec;background:#fff}
+    .leg-item{display:flex;align-items:center;gap:3px}
+    .leg-dot{width:9px;height:9px;border-radius:2px;flex-shrink:0}
+
+    /* ── Minor panel ── */
+    .minor-modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:100;
+                    align-items:center;justify-content:center}
+    .minor-modal-bg.open{display:flex}
+    .minor-modal{background:#fff;border-radius:10px;padding:18px 20px;min-width:300px;max-width:420px;
+                 box-shadow:0 4px 24px rgba(0,0,0,.25)}
+    .minor-modal h3{font-size:.85rem;font-weight:700;color:#002147;margin-bottom:10px}
+    .minor-modal select{width:100%;padding:6px 8px;border:1px solid #ccd6e0;border-radius:5px;
+                        font-size:.8rem;margin-bottom:10px}
+    .minor-modal-btns{display:flex;gap:8px;justify-content:flex-end}
+    .minor-modal-btns button{padding:5px 14px;border-radius:5px;font-size:.78rem;cursor:pointer;border:none}
+    .btn-cancel{background:#eee;color:#444}
+    .btn-add{background:#002147;color:#fff}
+    .btn-cancel:hover{background:#ddd}
+    .btn-add:hover{background:#003a80}
+  /* ── Wake screen ── */
+  #wake-screen{
+    position:fixed;inset:0;z-index:9999;
+    background:#f4f6f9;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;
+    transition:opacity .4s ease;
+  }
+  #wake-screen.hidden{opacity:0;pointer-events:none;}
+  .wake-spinner{
+    width:48px;height:48px;border-radius:50%;
+    border:4px solid #d0d8e8;
+    border-top-color:#002147;
+    animation:spin .9s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .wake-title{font-size:1.2rem;font-weight:600;color:#002147;}
+  .wake-sub{font-size:.85rem;color:#666;max-width:320px;text-align:center;line-height:1.5;}
+  .wake-timer{font-size:.8rem;color:#999;font-variant-numeric:tabular-nums;}
+  </style>
+</head>
+<body>
+
+<div id="wake-screen">
+  <div class="wake-spinner"></div>
+  <div class="wake-title">Student Advising Tool</div>
+  <div class="wake-sub" id="wake-msg">Connecting to server…</div>
+  <div class="wake-timer" id="wake-timer"></div>
+</div>
+
+<header>
+  <h1>Student Advising Tool</h1>
+  <div class="hdr-grp">
+    <label>Year</label>
+    <select id="yearSel" onchange="onYearChange(this.value)">
+      <option value="">— Select year —</option>
+    </select>
+  </div>
+  <div class="hdr-grp">
+    <label>Faculty</label>
+    <select id="facultySel" disabled onchange="onFacultyChange(this.value)">
+      <option value="">— select year first —</option>
+    </select>
+  </div>
+  <div class="hdr-grp">
+    <label>Program</label>
+    <select id="progSel" disabled onchange="onProgChange(this.value)">
+      <option value="">— select faculty first —</option>
+    </select>
+  </div>
+  <div class="hdr-right">
+    <button class="hdr-btn" id="addMinorBtn" style="display:none" onclick="openMinorModal()">+ Minor</button>
+    <button class="hdr-btn" onclick="addSemester()">+ Semester</button>
+    <button class="hdr-btn" onclick="resetProgress()">Reset</button>
+  </div>
+</header>
+<div class="prog-bar-wrap"><div class="prog-bar" id="progBar" style="width:0%"></div></div>
+
+<div class="info-bar" id="infoBar">
+  <div class="stats-row" id="statsRow">
+    <div class="stat-card"><div class="val" id="statDone">0</div><div class="lbl">Done</div></div>
+    <div class="stat-card"><div class="val" id="statTotal">0</div><div class="lbl">Total</div></div>
+    <div class="stat-card"><div class="val" id="statPct">0%</div><div class="lbl">Progress</div></div>
+    <div class="stat-card"><div class="val" id="statPlaced">0</div><div class="lbl">Placed</div></div>
+    <div class="stat-card"><div class="val" id="statRemaining">0</div><div class="lbl">Unplaced</div></div>
+  </div>
+  <div class="elec-req-bar" id="elecBar">
+    <h4>Electives:</h4>
+    <div id="elecBadges" style="display:flex;gap:5px;flex-wrap:wrap"></div>
+  </div>
+</div>
+
+<div class="main-layout" id="mainLayout">
+  <div class="status-msg">Select a calendar year and program to begin.</div>
+</div>
+
+<div class="legend" id="legend"></div>
+
+<!-- Minor picker modal -->
+<div class="minor-modal-bg" id="minorModalBg">
+  <div class="minor-modal">
+    <h3>Add a Minor</h3>
+    <select id="minorSel"><option value="">— select minor —</option></select>
+    <div class="minor-modal-btns">
+      <button class="btn-cancel" onclick="closeMinorModal()">Cancel</button>
+      <button class="btn-add" onclick="confirmAddMinor()">Add Minor</button>
+    </div>
+  </div>
+</div>
+
+<script>
+
+// ═══════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════
+const DEFAULT_SEMS = [
+  {id:'s0',label:'Y1 Fall'},{id:'s1',label:'Y1 Winter'},
+  {id:'s2',label:'Y2 Fall'},{id:'s3',label:'Y2 Winter'},
+  {id:'s4',label:'Y3 Fall'},{id:'s5',label:'Y3 Winter'},
+  {id:'s6',label:'Y4 Fall'},{id:'s7',label:'Y4 Winter'},
+];
+const DEFAULT_SLOT_COUNT = 5;
+
+let st = {
+  catoid:null, poid:null, facultyNavoid:null,
+  facultyList:[],         // [{navoid, name}] loaded when year changes
+  requirements:[],       // [{id,type,year,code?,name?,label?,options?,elecType?,source?}]
+  elecRestrictions:{},   // {scienceNonCS:3, nonscience:2, ...}
+  elecSubsets:{},        // {biology:'science', business:'nonscience', ...}
+  elecLabels:{},         // {key: 'Human Label'} — authoritative names from server
+  elecFilterRules:{},    // {key: {prefixes?,minLevel?,maxLevel?}} — from server
+  restrictedElectives:{},// {business:[...], comm:[...]}
+  elecSanityOk:true,     // server sanity flag: untyped elective cards == restriction slots
+  elecCardCount:0,
+  elecRestrictionSum:0,
+  minors:[],             // [{poid,name,requirements:[]}] added minors
+  allMinors:[],          // [{poid,name}] available minors for picker
+  semesters: JSON.parse(JSON.stringify(DEFAULT_SEMS)),
+  semSlots:  Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,DEFAULT_SLOT_COUNT])),
+  semContents: Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,{}])),
+  done:{}, selections:{}, elecTypes:{},
+};
+
+// Lazy-loaded course lists: elecType -> [{code,name}]
+const courseCache = {};
+let   courseFetching = {};
+
+let dragId = null;
+
+// ═══════════════════════════════════════════════════════════════
+// PERSISTENCE
+// ═══════════════════════════════════════════════════════════════
+function lsKey(){ return `adv4:${st.catoid}:${st.poid}`; }
+function saveP(){
+  if(!st.catoid||!st.poid) return;
+  try{ localStorage.setItem(lsKey(), JSON.stringify({
+    semesters:st.semesters, semSlots:st.semSlots, semContents:st.semContents,
+    done:st.done, selections:st.selections, elecTypes:st.elecTypes,
+    minors:st.minors,
+  })); }catch(e){}
+}
+function loadP(){
+  try{
+    const raw=localStorage.getItem(lsKey());
+    if(!raw) return;
+    const s=JSON.parse(raw);
+    if(s.semesters)  st.semesters  =s.semesters;
+    if(s.semSlots)   st.semSlots   =s.semSlots;
+    if(s.semContents)st.semContents=s.semContents;
+    if(s.done)       st.done       =s.done;
+    if(s.selections) st.selections =s.selections;
+    if(s.elecTypes)  st.elecTypes  =s.elecTypes;
+    if(s.minors)     st.minors     =s.minors;
+  }catch(e){}
+}
+function resetProgress(){
+  if(!confirm('Reset all placement and progress?')) return;
+  st.semesters   =JSON.parse(JSON.stringify(DEFAULT_SEMS));
+  st.semSlots    =Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,DEFAULT_SLOT_COUNT]));
+  st.semContents =Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,{}]));
+  st.done={}; st.selections={}; st.elecTypes={}; st.minors=[];
+  saveP(); render();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// API
+// ═══════════════════════════════════════════════════════════════
+// ── Wake-screen helpers ──────────────────────────────────────────
+let _wakeHidden = false;
+function _hideWake(){
+  if(_wakeHidden) return;
+  _wakeHidden = true;
+  clearInterval(_wakeInterval);
+  const el = document.getElementById('wake-screen');
+  if(el){ el.classList.add('hidden'); setTimeout(()=>el.remove(), 500); }
+}
+let _wakeInterval = null;
+(function _startWakeTimer(){
+  const timerEl = document.getElementById('wake-timer');
+  const msgEl   = document.getElementById('wake-msg');
+  let secs = 0;
+  _wakeInterval = setInterval(()=>{
+    secs++;
+    if(timerEl) timerEl.textContent = `${secs}s`;
+    if(secs === 5  && msgEl) msgEl.textContent = 'Waking up the server — this takes up to 30 s on first load…';
+    if(secs === 20 && msgEl) msgEl.textContent = 'Almost there, still warming up…';
+  }, 1000);
+})();
+
+async function api(url){
+  const r=await fetch(url);
+  if(!r.ok){ const e=await r.json().catch(()=>({error:r.statusText})); throw new Error(e.error||r.statusText); }
+  return r.json();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// YEAR → FACULTY → PROGRAM SELECTION
+// ═══════════════════════════════════════════════════════════════
+async function initYears(){
+  try{
+    const years=await api('/api/years');
+    _hideWake();
+    const seen=new Set(), sel=document.getElementById('yearSel');
+    for(const y of years){
+      if(y.type!=='undergraduate') continue;
+      if(seen.has(y.label)) continue;
+      seen.add(y.label);
+      const o=document.createElement('option');
+      o.value=y.catoid; o.textContent=y.label; sel.appendChild(o);
+    }
+  }catch(e){ _hideWake(); showErr('Failed to load years: '+e.message); }
+}
+
+async function onYearChange(catoid){
+  st.catoid=catoid?+catoid:null; st.poid=null; st.facultyNavoid=null; st.facultyList=[];
+  clearMain();
+  const fSel=document.getElementById('facultySel');
+  const pSel=document.getElementById('progSel');
+  fSel.innerHTML='<option value="">— Loading… —</option>'; fSel.disabled=true;
+  pSel.innerHTML='<option value="">— select faculty first —</option>'; pSel.disabled=true;
+  if(!catoid){ fSel.innerHTML='<option value="">— select year first —</option>'; return; }
+
+  try{
+    const list=await api(`/api/faculty-list?catoid=${catoid}`);
+    st.facultyList=list;
+    fSel.innerHTML='<option value="">— Select faculty/school —</option>';
+    for(const f of list){
+      const o=document.createElement('option');
+      o.value=f.entOid; o.textContent=f.name; fSel.appendChild(o);
+    }
+    fSel.disabled=false;
+
+  }catch(e){ showErr('Failed to load faculties: '+e.message); }
+}
+
+async function onFacultyChange(entOid){
+  st.facultyNavoid=entOid||null; st.poid=null;
+  clearMain();
+  const pSel=document.getElementById('progSel');
+  pSel.innerHTML='<option value="">— Loading… —</option>'; pSel.disabled=true;
+  if(!entOid){ pSel.innerHTML='<option value="">— select faculty first —</option>'; return; }
+
+  try{
+    const progs=await api(`/api/programs-for-entity?catoid=${st.catoid}&entOid=${entOid}`);
+    progs.sort((a,b)=>a.name.localeCompare(b.name));
+    const degrees=progs.filter(p=>!/\bminor\b/i.test(p.name)&&!/\bminor\b/i.test(p.degree||''));
+    const minors =progs.filter(p=> /\bminor\b/i.test(p.name)|| /\bminor\b/i.test(p.degree||''));
+    st.allMinors=minors;
+
+    pSel.innerHTML='<option value="">— Select program —</option>';
+    for(const p of degrees){
+      const o=document.createElement('option');
+      o.value=p.poid; o.textContent=p.name+(p.degree?` (${p.degree})`:''); pSel.appendChild(o);
+    }
+    if(minors.length){
+      const grp=document.createElement('optgroup');
+      grp.label='── Minors (use "+ Minor" button) ──';
+      pSel.appendChild(grp);
+    }
+    pSel.disabled=false;
+  }catch(e){ showErr('Failed to load programs: '+e.message); }
+}
+
+async function onProgChange(poid){
+  st.poid=poid?+poid:null; st.minors=[];
+  if(!poid){ clearMain(); return; }
+  st.semesters  =JSON.parse(JSON.stringify(DEFAULT_SEMS));
+  st.semSlots   =Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,DEFAULT_SLOT_COUNT]));
+  st.semContents=Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,{}]));
+  st.done={}; st.selections={}; st.elecTypes={};
+  loadP();
+  showLoading('Parsing program requirements…');
+  try{
+    const data=await api(`/api/parse-program?catoid=${st.catoid}&poid=${poid}`);
+    st.requirements        =data.requirements||[];
+    st.elecRestrictions    =data.elecRestrictions||{};
+    st.elecSubsets         =data.elecSubsets||{};
+    st.elecLabels          =data.elecLabels||{};
+    st.elecFilterRules     =data.elecFilterRules||{};
+    st.restrictedElectives =data.restrictedElectives||{};
+    // Clear course cache so rules from new program take effect
+    Object.keys(courseCache).forEach(k=>delete courseCache[k]);
+    Object.keys(courseFetching).forEach(k=>delete courseFetching[k]);
+    st.elecSanityOk        =data.elecSanityOk!==false;
+    st.elecCardCount       =data.elecCardCount||0;
+    st.elecRestrictionSum  =data.elecRestrictionSum||0;
+    pruneStale();
+    // Show "+ Minor" button if there are minors available
+    document.getElementById('addMinorBtn').style.display = st.allMinors.length ? '' : 'none';
+    showLayout(); render();
+    // Pre-fetch course lists in background
+    prefetchElecCourses();
+  }catch(e){ showErr('Failed to parse program: '+e.message); }
+}
+
+function pruneStale(){
+  const valid=new Set(allRequirements().map(r=>r.id));
+  for(const semId of Object.keys(st.semContents)){
+    for(const slot of Object.keys(st.semContents[semId]||{})){
+      if(!valid.has(st.semContents[semId][slot])) delete st.semContents[semId][slot];
+    }
+  }
+}
+
+// All requirements including those from added minors
+function allRequirements(){
+  const base=st.requirements;
+  const minorReqs=st.minors.flatMap(m=>m.requirements.map(r=>({...r,_minor:m.name})));
+  return [...base,...minorReqs];
+}
+
+// ═══════════════════════════════════════════════════════════════
+// MINOR SUPPORT
+// ═══════════════════════════════════════════════════════════════
+function openMinorModal(){
+  const sel=document.getElementById('minorSel');
+  sel.innerHTML='<option value="">— select minor —</option>';
+  const added=new Set(st.minors.map(m=>m.poid));
+  for(const m of st.allMinors){
+    if(added.has(m.poid)) continue;
+    const o=document.createElement('option');
+    o.value=m.poid; o.textContent=m.name; sel.appendChild(o);
+  }
+  document.getElementById('minorModalBg').classList.add('open');
+}
+function closeMinorModal(){ document.getElementById('minorModalBg').classList.remove('open'); }
+
+async function confirmAddMinor(){
+  const poid=+document.getElementById('minorSel').value;
+  if(!poid){ alert('Please select a minor.'); return; }
+  closeMinorModal();
+  const minorMeta=st.allMinors.find(m=>m.poid===poid);
+  if(!minorMeta) return;
+  try{
+    showLoading('Loading minor requirements…');
+    const data=await api(`/api/parse-program?catoid=${st.catoid}&poid=${poid}`);
+    // Give minor reqs distinct IDs to avoid clash
+    const reqs=(data.requirements||[]).map((r,i)=>({...r,id:`m${poid}_r${i+1}`}));
+    st.minors.push({ poid, name:minorMeta.name, requirements:reqs });
+    saveP(); showLayout(); render();
+  }catch(e){ showErr('Failed to load minor: '+e.message); }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// SEMESTER MANAGEMENT
+// ═══════════════════════════════════════════════════════════════
+function addSemester(){
+  const id='sx'+Date.now();
+  st.semesters.push({id,label:'New Semester'});
+  st.semSlots[id]=DEFAULT_SLOT_COUNT; st.semContents[id]={};
+  saveP(); render();
+}
+function removeSemester(semId){
+  const placed=Object.values(st.semContents[semId]||{}).filter(Boolean).length;
+  if(placed>0&&!confirm(`Semester has ${placed} placed course(s). Remove anyway?`)) return;
+  st.semesters=st.semesters.filter(s=>s.id!==semId);
+  delete st.semSlots[semId]; delete st.semContents[semId];
+  saveP(); render();
+}
+function addSlot(semId){
+  st.semSlots[semId]=(st.semSlots[semId]||DEFAULT_SLOT_COUNT)+1;
+  saveP(); render();
+}
+function removeSlot(semId){
+  const count=st.semSlots[semId]||DEFAULT_SLOT_COUNT;
+  if(count<=1) return;
+  const lastIdx=String(count-1);
+  if(st.semContents[semId]?.[lastIdx]){
+    if(!confirm('Last slot has a course. Remove it anyway?')) return;
+    delete st.semContents[semId][lastIdx];
+  }
+  st.semSlots[semId]=count-1;
+  saveP(); render();
+}
+function renameSem(semId,val){
+  const s=st.semesters.find(s=>s.id===semId);
+  if(s&&s.label!==val){s.label=val;saveP();}
+}
+function moveSem(semId,dir){
+  const idx=st.semesters.findIndex(s=>s.id===semId);
+  if(idx<0) return;
+  const to=idx+dir;
+  if(to<0||to>=st.semesters.length) return;
+  [st.semesters[idx],st.semesters[to]]=[st.semesters[to],st.semesters[idx]];
+  saveP(); renderGrid();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// ELECTIVE COURSE LOADING
+// ═══════════════════════════════════════════════════════════════
+
+// Returns the filter rule for a given elective type key.
+// Server-provided elecFilterRules (which already incorporate the PREFIX_FACULTY map)
+// are the primary source; card-embedded filterRule is the fallback.
+function getFilterRule(elecType){
+  if(!elecType) return null;
+  if(st.elecFilterRules?.[elecType]) return st.elecFilterRules[elecType];
+  const card=allRequirements().find(r=>r.elecType===elecType&&r.filterRule);
+  return card?.filterRule||null;
+}
+
+function prefetchElecCourses(){
+  const types=new Set(allRequirements().map(r=>r.elecType).filter(Boolean));
+  for(const t of types){
+    if(st.restrictedElectives?.[t]?.length>0) continue; // already have list
+    if(getFilterRule(t)) fetchElecCourses(t);
+  }
+}
+
+// Max prefixes before we give up on a dropdown and use free text instead.
+// A single faculty has at most ~13 prefixes; anything larger is multi-faculty
+// and would take too long to load.
+const MAX_DROPDOWN_PREFIXES = 15;
+
+function fetchElecCourses(elecType){
+  if(courseCache[elecType]!==undefined || courseFetching[elecType]) return;
+  if(st.restrictedElectives?.[elecType]?.length>0) return; // no need
+  const rule=getFilterRule(elecType);
+  if(!rule) return;
+  // Too broad → free text (set empty cache so we don't retry)
+  if(rule.prefixes && rule.prefixes.length > MAX_DROPDOWN_PREFIXES){
+    courseCache[elecType]=[]; return;
+  }
+  courseFetching[elecType]=true;
+
+  // Build URL: pass prefixes (for server-side subject filtering) and level bounds
+  const params=new URLSearchParams({catoid:st.catoid});
+  if(rule.prefixes?.length) params.set('prefixes', rule.prefixes.join(','));
+  if(rule.minLevel)         params.set('minLevel', rule.minLevel);
+  if(rule.maxLevel)         params.set('maxLevel', rule.maxLevel);
+
+  api(`/api/courses?${params}`)
+    .then(courses=>{
+      courseCache[elecType]=courses;
+      delete courseFetching[elecType];
+      renderPanel(); renderGrid();
+    })
+    .catch(()=>{ courseCache[elecType]=[]; delete courseFetching[elecType]; });
+}
+
+function getElecCourses(elecType){
+  if(!elecType) return null;
+  if(st.restrictedElectives?.[elecType]?.length>0) return st.restrictedElectives[elecType];
+  if(courseCache[elecType]!==undefined) return courseCache[elecType];
+  const rule=getFilterRule(elecType);
+  if(rule){
+    if(rule.prefixes && rule.prefixes.length > MAX_DROPDOWN_PREFIXES) return []; // too broad → free text
+    if(!courseFetching[elecType]) fetchElecCourses(elecType);
+    return null; // loading
+  }
+  return [];
+}
+
+// ═══════════════════════════════════════════════════════════════
+// PLACEMENT HELPERS
+// ═══════════════════════════════════════════════════════════════
+function allPlacedIds(){
+  const ids=new Set();
+  for(const s of st.semesters)
+    for(const id of Object.values(st.semContents[s.id]||{})) if(id) ids.add(id);
+  return ids;
+}
+function unplacedReqs(){
+  const placed=allPlacedIds();
+  return allRequirements().filter(r=>!placed.has(r.id));
+}
+function placeReq(reqId,semId,slotIdx){
+  for(const s of st.semesters){
+    const c=st.semContents[s.id]||{};
+    for(const[k,v]of Object.entries(c)){if(v===reqId)delete c[k];}
+  }
+  if(semId!=null&&slotIdx!=null){
+    if(!st.semContents[semId])st.semContents[semId]={};
+    st.semContents[semId][String(slotIdx)]=reqId;
+  }
+  saveP();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// DRAG & DROP
+// ═══════════════════════════════════════════════════════════════
+function onDragStart(e,reqId){
+  dragId=reqId;
+  e.dataTransfer.effectAllowed='move';
+  e.dataTransfer.setData('text/plain',reqId);
+  setTimeout(()=>{
+    const el=document.querySelector(`[data-req-id="${reqId}"]`);
+    if(el)el.classList.add('dragging');
+  },0);
+}
+function onDragEnd(){
+  document.querySelectorAll('.dragging').forEach(el=>el.classList.remove('dragging'));
+  document.querySelectorAll('.drag-over').forEach(el=>el.classList.remove('drag-over'));
+  dragId=null;
+}
+function onDragOver(e){e.preventDefault();e.currentTarget.classList.add('drag-over');}
+function onDragLeave(e){e.currentTarget.classList.remove('drag-over');}
+function onDropSlot(e,semId,slotIdx){
+  e.preventDefault();e.stopPropagation();
+  e.currentTarget.classList.remove('drag-over');
+  const reqId=e.dataTransfer.getData('text/plain')||dragId;
+  if(!reqId) return;
+  const occupant=(st.semContents[semId]||{})[String(slotIdx)];
+  if(occupant&&occupant!==reqId) return; // slot occupied — reject
+  placeReq(reqId,semId,slotIdx); render();
+}
+function onDropPanel(e){
+  e.preventDefault();e.stopPropagation();
+  e.currentTarget.classList.remove('drag-over');
+  const reqId=e.dataTransfer.getData('text/plain')||dragId;
+  if(!reqId) return;
+  placeReq(reqId,null,null); render();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// CARD RENDERING
+// ═══════════════════════════════════════════════════════════════
+function effectiveElecType(req){ return req.elecType||st.elecTypes[req.id]||null; }
+
+// Labels come from the server (st.elecLabels); auto-capitalise as last resort.
+function toTitleCase(s){
+  const JOINERS  = new Set(['a','an','the','and','or','but','for','nor','in','of','on','at','to','by','up','as','is']);
+  const ACRONYMS = new Set(['CSCI','MATH','STAT','BIOL','CHEM','PHY','ENVS','COMM','BUSI','ECON',
+                             'INFR','SOFE','HLSC','KINE','NURS','PSYC','SOCI','EDUC','CS','IT','IS',
+                             'BIT','MIS','AI','ML','UI','UX','API','CPU','GPU','RAM']);
+  const titleWord = (word, isFirst) => {
+    const up = word.toUpperCase();
+    if (ACRONYMS.has(up)) return up;
+    const lower = word.toLowerCase();
+    return (isFirst || !JOINERS.has(lower))
+      ? lower.charAt(0).toUpperCase() + lower.slice(1)
+      : lower;
+  };
+  const words = s.trim().split(/\s+/);
+  return words.map((w, i) => {
+    const parts = w.split('-');
+    return parts.map((part, pi) => titleWord(part, i === 0 && pi === 0)).join('-');
+  }).join(' ');
+}
+function elecTypeLabel(key){
+  if(!key) return 'Elective';
+  const raw = st.elecLabels?.[key]
+    || key.replace(/([a-z])([A-Z])/g,'$1 $2').replace(/[-_]/g,' ');
+  return toTitleCase(raw);
+}
+
+// Colour: stable hue derived from the key string — no hardcoded table.
+function elecTypeColor(key){
+  if(!key) return '#9b7fe8';
+  const hue = Math.abs([...key].reduce((h,c)=>((h<<5)-h)+c.charCodeAt(0),0)) % 360;
+  return `hsl(${hue},52%,38%)`;
+}
+
+// Build the list of types a student can assign to an untyped elective card.
+// Derived purely from what the program specifies — no hardcoded list.
+// Parser-typed electives (those already set via r.elecType) are excluded so
+// students can only assign types that are actually required by the program.
+function getAvailableElecTypes(){
+  // Types the parser explicitly tagged cards with — students don't reassign these
+  const parserTypes=new Set(allRequirements().filter(r=>r.elecType).map(r=>r.elecType));
+
+  const types=new Set();
+  // Add any type that has a prose restriction count
+  for(const [k,v] of Object.entries(st.elecRestrictions||{})){
+    if(v>0 && !parserTypes.has(k)) types.add(k);
+  }
+  // Add types from named restricted-elective lists
+  for(const k of Object.keys(st.restrictedElectives||{})){
+    if((st.restrictedElectives[k]||[]).length>0 && !parserTypes.has(k)) types.add(k);
+  }
+  // Always offer general as a catch-all
+  types.add('general');
+
+  // Sort alphabetically by label
+  return [...types].sort((a,b)=>elecTypeLabel(a).localeCompare(elecTypeLabel(b)));
+}
+
+function renderCard(req){
+  const isDone=!!st.done[req.id];
+  const sel=st.selections[req.id]||'';
+  const eType=effectiveElecType(req);
+  const typeClass=`t-${req.type}`;
+  const doneClass=isDone?' done-card':'';
+  // Elective accent colour applied inline so any key works without CSS class
+  const accentStyle=req.type==='elective'&&eType&&!isDone
+    ?`border-left-color:${elecTypeColor(eType)};background:${elecTypeColor(eType)}18`
+    :'';
+  const minorTag=req._minor?`<span style="font-size:.55rem;background:#e0d8f8;color:#5040a0;border-radius:3px;padding:1px 4px;margin-left:2px">${esc(req._minor)}</span>`:'';
+
+  let inner='';
+
+  if(req.type==='course'){
+    inner=`<div class="card-top">
+      <div style="flex:1;min-width:0">
+        <div class="card-code">${esc(req.code)}${minorTag}</div>
+        <div class="card-name">${esc(req.name)}</div>
+      </div>
+      <input type="checkbox" class="card-check" ${isDone?'checked':''}
+        onchange="onDone('${req.id}',this.checked)" onclick="event.stopPropagation()">
+    </div>`;
+
+  }else if(req.type==='option'){
+    // Mark courses used by OTHER cards so student knows they can't double-count
+    const selectedMap=allSelectedCodes();
+    const usedElsewhere=new Set(
+      Object.entries(selectedMap)
+        .filter(([code,ids])=>ids.some(id=>id!==req.id))
+        .map(([code])=>code)
+    );
+    const opts=(req.options||[]).map(o=>{
+      const v=o.code||o.text||'';
+      const lbl=o.code?`${esc(o.code)} – ${esc(o.name||'')}`:esc(o.text||'');
+      const used=usedElsewhere.has(v);
+      return `<option value="${esc(v)}" ${sel===v?'selected':''} ${used&&sel!==v?'disabled':''}>
+        ${lbl}${used&&sel!==v?' (used)':''}</option>`;
+    }).join('');
+    inner=`<div class="card-top">
+      <div class="card-label">${esc(req.label||'One of')}${minorTag}</div>
+      <input type="checkbox" class="card-check" ${isDone?'checked':''}
+        onchange="onDone('${req.id}',this.checked)" onclick="event.stopPropagation()">
+    </div>
+    <div class="card-inputs">
+      <div style="display:flex;gap:3px;align-items:center">
+        <select class="card-sel" style="flex:1" onchange="onSelect('${req.id}',this.value)" onclick="event.stopPropagation()">
+          <option value="">— choose —</option>${opts}
+        </select>
+        ${sel?`<button style="border:none;background:#fee;color:#c00;border-radius:3px;cursor:pointer;font-size:.7rem;padding:2px 5px;flex-shrink:0" onclick="onSelect('${req.id}','');event.stopPropagation()" title="Clear selection">✕</button>`:''}
+      </div>
+    </div>`;
+
+  }else{ // elective
+    const courses=getElecCourses(eType);
+    const displayLabel=req.elecType
+      ? esc(req.label||elecTypeLabel(req.elecType))
+      : (eType?esc(elecTypeLabel(eType)):'<span style="color:#bbb;font-style:italic">Elective</span>');
+
+    inner=`<div class="card-top">
+      <div class="card-label">${displayLabel}${minorTag}</div>
+      <input type="checkbox" class="card-check" ${isDone?'checked':''}
+        onchange="onDone('${req.id}',this.checked)" onclick="event.stopPropagation()">
+    </div>
+    <div class="card-inputs">`;
+
+    // Type selector for untyped electives — options derived from program's elecRestrictions
+    if(!req.elecType){
+      const availTypes=getAvailableElecTypes();
+      const typeOpts=availTypes.map(t=>`<option value="${t}" ${eType===t?'selected':''}>${elecTypeLabel(t)}</option>`).join('');
+      inner+=`<select class="card-sel" onchange="onElecType('${req.id}',this.value)" onclick="event.stopPropagation()">
+        <option value="">— type —</option>${typeOpts}
+      </select>`;
+    }
+
+    // Course selector
+    if(courses===null){
+      // Still loading — show a disabled input preserving any existing selection so it
+      // doesn't look like the value was cleared
+      inner+=`<input class="card-inp" type="text" disabled
+        placeholder="Loading courses…"
+        value="${esc(sel)}"
+        style="opacity:.6">`;
+    }else if(courses.length>0){
+      // Use datalist for searchable autocomplete — better UX than a long <select>
+      const dlId=`dl-${req.id}`;
+      const dlOpts=courses.map(c=>`<option value="${esc(c.code)} – ${esc(c.name)}"></option>`).join('');
+      // Display value: if sel is a bare code, find the full label
+      const selDisplay=sel?(courses.find(c=>c.code===sel)?`${sel} – ${courses.find(c=>c.code===sel).name}`:sel):'';
+      inner+=`<datalist id="${dlId}">${dlOpts}</datalist>
+      <input class="card-inp" type="text" list="${dlId}"
+        placeholder="Search course…"
+        value="${esc(selDisplay)}"
+        oninput="onElecInput('${req.id}',this.value)"
+        onchange="onElecInput('${req.id}',this.value)"
+        onclick="event.stopPropagation()"
+        autocomplete="off">`;
+    }else{
+      // Free text (no filter rule and no explicit list)
+      inner+=`<input class="card-inp" type="text" placeholder="Course code / name"
+        value="${esc(sel)}" oninput="onSelect('${req.id}',this.value)"
+        onclick="event.stopPropagation()">`;
+    }
+    inner+=`</div>`;
+  }
+
+  return `<div class="${typeClass}${doneClass} req-card" style="${accentStyle}"
+    data-req-id="${req.id}"
+    draggable="true"
+    ondragstart="onDragStart(event,'${req.id}')"
+    ondragend="onDragEnd()"
+    title="Drag into a semester slot">
+    <span class="drag-hint">⠿</span>
+    ${inner}
+  </div>`;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// EVENT HANDLERS
+// ═══════════════════════════════════════════════════════════════
+// Returns a map of courseCode → [reqId, ...] for all cards that have selected that code
+function allSelectedCodes(){
+  const map={};
+  for(const [id,val] of Object.entries(st.selections)){
+    if(!val) continue;
+    const code=val.split(' – ')[0].trim(); // handle "CODE – Name" or just "CODE"
+    if(!map[code]) map[code]=[];
+    map[code].push(id);
+  }
+  return map;
+}
+
+function onDone(reqId,checked){
+  st.done[reqId]=checked;
+  const el=document.querySelector(`[data-req-id="${reqId}"]`);
+  if(el){if(checked)el.classList.add('done-card');else el.classList.remove('done-card');}
+  saveP(); updateStats(); renderElecBar();
+}
+function onSelect(reqId,val){
+  // Warn if this course code is already used by another card
+  if(val){
+    const code=val.split(' – ')[0].trim();
+    const map=allSelectedCodes();
+    const others=(map[code]||[]).filter(id=>id!==reqId);
+    if(others.length>0){
+      const otherReq=allRequirements().find(r=>r.id===others[0]);
+      const label=otherReq?(otherReq.code||otherReq.label||otherReq.id):'another requirement';
+      if(!confirm(`"${code}" is already selected for "${label}".\nUsing the same course for two requirements is typically not allowed.\n\nAssign anyway?`)){
+        // Revert the select element
+        const sel=document.querySelector(`[data-req-id="${reqId}"] .card-sel`);
+        if(sel) sel.value=st.selections[reqId]||'';
+        return;
+      }
+    }
+  }
+  st.selections[reqId]=val;
+  if(!val){ st.done[reqId]=false; const cb=document.querySelector(`[data-req-id="${reqId}"] .card-check`); if(cb)cb.checked=false; }
+  saveP(); updateStats(); renderElecBar();
+}
+function onElecInput(reqId, inputVal){
+  // datalist value is "CODE – Name"; extract just the code
+  const raw = inputVal.trim();
+  const code = raw.split(/\s*[–\-—]\s*/)[0].trim().toUpperCase();
+  if(!raw){ onSelect(reqId,''); return; }
+  // Look up valid codes from current cache — no large JSON embedded in HTML
+  const req = allRequirements().find(r=>r.id===reqId);
+  if(!req) return;
+  const eType = effectiveElecType(req);
+  const courses = (eType && st.restrictedElectives?.[eType]?.length)
+    ? st.restrictedElectives[eType]
+    : (eType && courseCache[eType]) || [];
+  if(courses.some(c=>c.code===code)) onSelect(reqId, code);
+  // else: still typing, wait for a valid match
+}
+function onElecType(reqId,val){
+  st.elecTypes[reqId]=val;
+  st.selections[reqId]=''; st.done[reqId]=false;
+  // Fetch courses for this type if not yet loaded
+  if(val && courseCache[val]===undefined) fetchElecCourses(val);
+  saveP(); renderGrid(); renderPanel(); updateStats(); renderElecBar();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════════════════════════════
+function render(){ renderGrid(); renderPanel(); updateStats(); renderElecBar(); renderLegend(); }
+
+function renderGrid(){
+  const ga=document.getElementById('gridArea');
+  if(!ga) return;
+  const maxSlots=Math.max(DEFAULT_SLOT_COUNT,...st.semesters.map(s=>st.semSlots[s.id]||DEFAULT_SLOT_COUNT));
+  const isDefault=id=>DEFAULT_SEMS.some(d=>d.id===id);
+
+  let h=`<table class="grid-table">`;
+  for(const sem of st.semesters){
+    const slotCount=st.semSlots[sem.id]||DEFAULT_SLOT_COUNT;
+    const contents=st.semContents[sem.id]||{};
+    const canRemoveSlot=slotCount>DEFAULT_SLOT_COUNT;
+
+    h+=`<tr>`;
+    h+=`<td class="sem-lbl-cell">
+      <div class="sem-name-wrap">
+        <input class="sem-name-input" value="${esc(sem.label)}"
+          title="Click to rename semester"
+          onblur="renameSem('${sem.id}',this.value)"
+          onkeydown="if(event.key==='Enter')this.blur()"
+          onclick="event.stopPropagation()">
+        <span class="sem-edit-icon">✎</span>
+      </div>
+      <div class="sem-ctrl">
+        <button class="sem-ctrl-btn" onclick="moveSem('${sem.id}',-1)" title="Move up">↑</button>
+        <button class="sem-ctrl-btn" onclick="moveSem('${sem.id}',1)" title="Move down">↓</button>
+        <button class="sem-ctrl-btn" onclick="addSlot('${sem.id}')" title="Add slot">+</button>
+        ${canRemoveSlot?`<button class="sem-ctrl-btn" onclick="removeSlot('${sem.id}')" title="Remove last slot">−</button>`:''}
+        ${!isDefault(sem.id)?`<button class="sem-ctrl-btn del" onclick="removeSemester('${sem.id}')" title="Remove semester">✕</button>`:''}
+      </div>
+    </td>`;
+
+    for(let slot=0;slot<maxSlots;slot++){
+      if(slot<slotCount){
+        const reqId=contents[String(slot)];
+        const req=reqId?allRequirements().find(r=>r.id===reqId):null;
+        h+=`<td class="slot-cell">
+          <div class="slot-drop${req?' occupied':''}"
+            ondragover="onDragOver(event)" ondragleave="onDragLeave(event)"
+            ondrop="onDropSlot(event,'${sem.id}',${slot})">
+            ${req?renderCard(req):''}
+          </div>
+        </td>`;
+      }else{
+        h+=`<td class="slot-cell" style="padding:0"><div style="min-height:78px"></div></td>`;
+      }
+    }
+    h+=`</tr>`;
+  }
+  h+=`</table>`;
+  ga.innerHTML=h;
+}
+
+function renderPanel(){
+  const panel=document.getElementById('reqPanel');
+  if(!panel) return;
+  const unplaced=unplacedReqs();
+  const total=allRequirements().length;
+
+  // Group: main program reqs by year, then each minor separately
+  const mainUnplaced=unplaced.filter(r=>!r._minor);
+  const byYear=new Map();
+  for(const r of mainUnplaced){
+    const y=r.year||0;
+    if(!byYear.has(y))byYear.set(y,[]);
+    byYear.get(y).push(r);
+  }
+
+  let h=`<div class="req-panel-hdr">Remaining Requirements<span>${unplaced.length} unplaced of ${total}</span></div>`;
+  h+=dropZone();
+
+  if(unplaced.length===0){
+    h+=`<div style="font-size:.72rem;color:#2e9e5b;padding:10px 4px;text-align:center">✓ All placed!</div>`;
+  }else{
+    for(const yr of [...byYear.keys()].sort((a,b)=>a-b)){
+      h+=`<div class="yr-group-hdr">${yr>0?'Year '+yr:'Requirements'}</div>`;
+      for(const req of byYear.get(yr)) h+=renderCard(req);
+      h+=dropZone();
+    }
+    // Minors
+    for(const m of st.minors){
+      const mUnplaced=unplaced.filter(r=>r._minor===m.name);
+      if(mUnplaced.length===0) continue;
+      h+=`<div class="yr-group-hdr" style="background:#e8e0f8;color:#5040a0">Minor: ${esc(m.name)}</div>`;
+      for(const req of mUnplaced) h+=renderCard(req);
+      h+=dropZone();
+    }
+  }
+  panel.innerHTML=h;
+}
+
+function dropZone(){
+  return `<div class="panel-drop"
+    ondragover="onDragOver(event)" ondragleave="onDragLeave(event)"
+    ondrop="onDropPanel(event)"></div>`;
+}
+
+// ── Elective requirements bar ──────────────────────────────────
+// Requirements come from two sources:
+//   A) Parser-typed cards (explicit typed electives from year lists)
+//      → required count = number of those cards
+//   B) Prose elecRestrictions (for the untyped pool)
+//      → required count from prose; done count = untyped cards the student assigns that type
+function renderElecBar(){
+  const badges=document.getElementById('elecBadges');
+  if(!badges) return;
+
+  const reqs=allRequirements().filter(r=>r.type==='elective');
+  if(reqs.length===0){ badges.innerHTML=''; return; }
+  const placed=allPlacedIds();
+
+  // A) Required counts from typed cards (parser-assigned types)
+  const required={};
+  for(const r of reqs){
+    if(!r.elecType) continue;
+    required[r.elecType]=(required[r.elecType]||0)+1;
+  }
+
+  // B) Prose restrictions — take the MAX of typed-card count and prose count.
+  // This handles the case where the year list pre-labels some cards with a type
+  // (e.g. "Two general electives") while the prose describes the full slot count
+  // for that type (e.g. "9 credit hours in general electives" = 3 slots).
+  // Math.max keeps the higher number so neither source silently wins.
+  for(const [k,v] of Object.entries(st.elecRestrictions||{})){
+    if(!v) continue;
+    required[k] = Math.max(required[k]||0, v);
+  }
+
+  // Count done/placed per type — each card counts only toward its own type.
+  // The server already nets sub-requirements out of their parent (e.g. nonscience:2
+  // is the residual after subtracting business:1 and comm:1), so no rollup needed here.
+  const doneCnt={}, placedCnt={};
+  for(const r of reqs){
+    const t=effectiveElecType(r);
+    if(!t) continue;
+    if(!!st.done[r.id])   doneCnt[t]  =(doneCnt[t]  ||0)+1;
+    if(placed.has(r.id))  placedCnt[t]=(placedCnt[t]||0)+1;
+  }
+
+  const untyped=reqs.filter(r=>!effectiveElecType(r)).length;
+
+  // Order by label alphabetically — no hierarchy
+  const types=Object.keys(required).sort((a,b)=>elecTypeLabel(a).localeCompare(elecTypeLabel(b)));
+
+  let html='';
+  for(const t of types){
+    const req=required[t];
+    const nDone=doneCnt[t]||0;
+    const nPlaced=placedCnt[t]||0;
+    const label=elecTypeLabel(t).replace(' Elective','').replace('Communication','Comm');
+    const cls=nDone>req?'over':nDone>=req?'ok':nDone>0||nPlaced>0?'warn':'none';
+    const overWarn=nDone>req?` ⚠ +${nDone-req}`:'';
+    html+=`<span class="elec-badge ${cls}">${esc(label)}: ${nDone}/${req}${overWarn}</span>`;
+  }
+  if(untyped>0){
+    html+=`<span class="elec-badge none" title="Assign a type using the dropdown on each card">⚠ ${untyped} need type</span>`;
+  }
+  if(!st.elecSanityOk){
+    html+=`<span class="elec-badge warn" title="Some elective cards have no matching category — check the program page. cards=${st.elecCardCount}, accounted=${st.elecRestrictionSum}">⚠ ${st.elecCardCount - st.elecRestrictionSum} elective(s) unaccounted</span>`;
+  }
+  badges.innerHTML=html;
+}
+
+function updateStats(){
+  const total  =allRequirements().length;
+  const placed =allPlacedIds().size;
+  const done   =Object.values(st.done).filter(Boolean).length;
+  const pct    =total>0?Math.round(done/total*100):0;
+  setText('statDone',done); setText('statTotal',total); setText('statPct',pct+'%');
+  setText('statPlaced',placed); setText('statRemaining',total-placed);
+  document.getElementById('progBar').style.width=pct+'%';
+}
+function setText(id,v){const el=document.getElementById(id);if(el)el.textContent=v;}
+
+function renderLegend(){
+  const el=document.getElementById('legend');
+  if(!el||el.style.display==='none') return;
+  const reqs=allRequirements();
+
+  const items=[];
+  const hasType=(t)=>reqs.some(r=>r.type==='elective'&&effectiveElecType(r)===t);
+
+  if(reqs.some(r=>r.type==='course'))
+    items.push({color:'#b0bec5',label:'Required Course'});
+  if(reqs.some(r=>r.type==='option'))
+    items.push({color:'#e09000',label:'Option (choose one)'});
+  if(reqs.some(r=>r.type==='elective'&&!effectiveElecType(r)))
+    items.push({color:'#9b7fe8',label:'Elective (type needed)'});
+
+  // All elective types actually present in requirements OR in elecRestrictions
+  const elecTypesPresent=new Set();
+  for(const r of reqs) if(r.type==='elective'&&effectiveElecType(r)) elecTypesPresent.add(effectiveElecType(r));
+  for(const k of Object.keys(st.elecRestrictions||{})) if(st.elecRestrictions[k]>0) elecTypesPresent.add(k);
+
+  for(const t of elecTypesPresent)
+    items.push({color:elecTypeColor(t), label:elecTypeLabel(t)});
+
+  items.push({color:'#4caf82',label:'Completed'});
+
+  el.innerHTML=`<span style="font-weight:700;margin-right:4px">Key:</span>`+
+    items.map(d=>`<div class="leg-item"><div class="leg-dot" style="background:${d.color}"></div>${esc(d.label)}</div>`).join('');
+}
+
+// ═══════════════════════════════════════════════════════════════
+// LAYOUT
+// ═══════════════════════════════════════════════════════════════
+function showLayout(){
+  document.getElementById('mainLayout').innerHTML=`
+    <div class="grid-area" id="gridArea"></div>
+    <div class="req-panel" id="reqPanel"
+      ondragover="onDragOver(event)" ondragleave="onDragLeave(event)"
+      ondrop="onDropPanel(event)"></div>`;
+  document.getElementById('infoBar').style.display='flex';
+  document.getElementById('legend').style.display='flex';
+}
+function clearMain(){
+  document.getElementById('mainLayout').innerHTML=
+    '<div class="status-msg">Select a calendar year and program to begin.</div>';
+  document.getElementById('infoBar').style.display='none';
+  document.getElementById('legend').style.display='none';
+  document.getElementById('addMinorBtn').style.display='none';
+}
+function showLoading(msg){
+  document.getElementById('mainLayout').innerHTML=`<div class="status-msg">${esc(msg)}</div>`;
+  document.getElementById('infoBar').style.display='none';
+}
+function showErr(msg){
+  document.getElementById('mainLayout').innerHTML=
+    `<div class="status-msg" style="color:#c0392b">${esc(msg)}</div>`;
+}
+function esc(s){
+  return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Init ──
+initYears();
+</script>
+</body>
+</html>

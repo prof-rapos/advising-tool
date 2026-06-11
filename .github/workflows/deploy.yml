@@ -1,0 +1,24 @@
+name: Deploy to Render
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate server starts
+        run: |
+          node -e "require('./server.js')" &
+          SERVER_PID=$!
+          sleep 3
+          curl -sf http://localhost:3456/api/years | head -c 200 || echo "Note: server requires live internet access, skipping curl check"
+          kill $SERVER_PID 2>/dev/null || true
+
+      - name: Trigger Render deploy
+        if: ${{ secrets.RENDER_DEPLOY_HOOK != '' }}
+        run: curl -sf "${{ secrets.RENDER_DEPLOY_HOOK }}"

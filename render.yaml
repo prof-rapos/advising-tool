@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: advising-tool
+    runtime: node
+    buildCommand: echo "no build step"
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+    autoDeploy: true
