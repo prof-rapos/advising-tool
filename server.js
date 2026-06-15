@@ -288,8 +288,10 @@ function inferFilterRule(text) {
     const sciSet = new Set(prefixesForFaculty('Sci'));
     return { prefixes: ALL_PREFIXES.filter(p => !sciSet.has(p)) };
   }
-  // "Faculty of Science" / "science elective" (but not non-science) → all Sci prefixes
-  if (/faculty\s+of\s+science|\bscience\s+elective|\bin\s+science\b/i.test(text)) {
+  // "Faculty of Science" / "science elective" → all Sci prefixes
+  // But NOT "computer science elective" — that's a CS-specific type, not a faculty filter
+  if (/faculty\s+of\s+science|\bscience\s+elective|\bin\s+science\b/i.test(text)
+      && !/computer\s+science/i.test(text)) {
     return { prefixes: prefixesForFaculty('Sci') };
   }
 
