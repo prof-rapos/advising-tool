@@ -139,7 +139,6 @@
         {"id": "csci4040u", "type": "required", "code": "CSCI 4040U", "name": "Ethics, Law & Social Impacts"},
         {"id": "cs4000a", "type": "cs4000", "label": "4000-level CS Elective"},
         {"id": "cs4000b", "type": "cs4000", "label": "4000-level CS Elective"},
-        {"id": "scse_c",  "type": "scse",   "label": "Sr. CS Elective"},
         {"id": "thesis_a", "type": "choice", "label": "Thesis or Sr. CS Elective", "options": [
           {"code": "CSCI 4410U", "name": "Computer Science Thesis Project I"}
         ]}
@@ -152,7 +151,6 @@
         {"id": "cs4000c", "type": "cs4000", "label": "4000-level CS Elective"},
         {"id": "cs4000d", "type": "cs4000", "label": "4000-level CS Elective"},
         {"id": "scse_d",  "type": "scse",   "label": "Sr. CS Elective"},
-        {"id": "scse_e",  "type": "scse",   "label": "Sr. CS Elective"},
         {"id": "thesis_b", "type": "choice", "label": "Thesis or Sr. CS Elective", "options": [
           {"code": "CSCI 4420U", "name": "Computer Science Thesis Project II"}
         ]}
