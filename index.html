@@ -784,7 +784,7 @@ function placeReq(reqId,semId,slotIdx){
 // ═══════════════════════════════════════════════════════════════
 // APPLY SUGGESTED MAPPING
 // ═══════════════════════════════════════════════════════════════
-function applyMapping(){
+async function applyMapping(){
   const map = st.mapping;
   if(!map) return;
   const ok=await showConfirm('This will place all courses into the suggested semesters, overwriting any current placement.',{okLabel:'Apply Map'});
