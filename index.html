@@ -10,6 +10,21 @@
          background:#f0f2f5;color:#1a1a2e;overflow-x:hidden;height:100vh;
          display:flex;flex-direction:column}
 
+    /* ── Student info bar ── */
+    #student-bar{background:#001533;color:#c5d8f0;padding:5px 14px;
+                 display:flex;align-items:center;gap:12px;flex-shrink:0;flex-wrap:wrap;
+                 border-bottom:1px solid rgba(255,255,255,.08)}
+    .stu-field{display:flex;align-items:center;gap:5px;}
+    .stu-field label{font-size:.68rem;font-weight:600;white-space:nowrap;
+                     opacity:.7;text-transform:uppercase;letter-spacing:.04em}
+    .stu-inp{background:transparent;border:none;border-bottom:1.5px solid rgba(255,255,255,.2);
+             color:#e8f0fb;font-size:.78rem;padding:2px 4px;outline:none;width:140px;
+             transition:border-color .15s}
+    .stu-inp:focus{border-bottom-color:#7eb8f7;}
+    .stu-inp.invalid{border-bottom-color:#f07070;}
+    #stuBannerId{width:100px;font-variant-numeric:tabular-nums;letter-spacing:.05em}
+    #stuEmail{width:200px;}
+
     /* ── Header ── */
     header{background:#002147;color:#fff;padding:8px 14px;display:flex;
            align-items:center;gap:8px;flex-wrap:wrap;flex-shrink:0;
@@ -186,6 +201,25 @@
   <div class="wake-title">Student Advising Tool</div>
   <div class="wake-sub" id="wake-msg">Connecting to server…</div>
   <div class="wake-timer" id="wake-timer"></div>
+</div>
+
+<div id="student-bar">
+  <div class="stu-field">
+    <label for="stuName">Student Name</label>
+    <input class="stu-inp" id="stuName" type="text" placeholder="First Last"
+           oninput="saveStuInfo()" autocomplete="name">
+  </div>
+  <div class="stu-field">
+    <label for="stuBannerId">Banner ID</label>
+    <input class="stu-inp" id="stuBannerId" type="text" placeholder="100000000"
+           maxlength="9" inputmode="numeric"
+           oninput="onBannerInput(this)" autocomplete="off">
+  </div>
+  <div class="stu-field">
+    <label for="stuEmail">Email</label>
+    <input class="stu-inp" id="stuEmail" type="email" placeholder="student@ontariotechu.ca"
+           oninput="onEmailInput(this)" autocomplete="email">
+  </div>
 </div>
 
 <header>
@@ -1325,6 +1359,33 @@ function showErr(msg){
 function esc(s){
   return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
+
+// ── Student info ──────────────────────────────────────────────
+function saveStuInfo(){
+  localStorage.setItem('stu-info', JSON.stringify({
+    name:  document.getElementById('stuName').value,
+    banner:document.getElementById('stuBannerId').value,
+    email: document.getElementById('stuEmail').value,
+  }));
+}
+function onBannerInput(el){
+  el.value = el.value.replace(/\D/g,'').slice(0,9); // digits only, max 9
+  el.classList.toggle('invalid', el.value.length > 0 && el.value.length !== 9);
+  saveStuInfo();
+}
+function onEmailInput(el){
+  const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value);
+  el.classList.toggle('invalid', el.value.length > 0 && !valid);
+  saveStuInfo();
+}
+(function loadStuInfo(){
+  try{
+    const s = JSON.parse(localStorage.getItem('stu-info')||'{}');
+    if(s.name)   document.getElementById('stuName').value   = s.name;
+    if(s.banner) document.getElementById('stuBannerId').value = s.banner;
+    if(s.email)  document.getElementById('stuEmail').value  = s.email;
+  }catch(e){}
+})();
 
 // ── Init ──
 initYears();
