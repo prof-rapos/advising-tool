@@ -620,9 +620,16 @@ function getElecCourses(elecType, {includeThesis=false}={}){
     }
     return [];
   }
-  // Exclude thesis/capstone courses from general elective lists
-  if(!includeThesis && courses){
-    courses = courses.filter(c => !/\bthesis\b|\bcapstone\b/i.test(c.name||''));
+  if(courses){
+    // Exclude thesis/capstone courses from general elective lists
+    if(!includeThesis){
+      courses = courses.filter(c => !/\bthesis\b|\bcapstone\b/i.test(c.name||''));
+    }
+    // Exclude courses that are hard requirements in this program
+    const requiredCodes = new Set(
+      allRequirements().filter(r=>r.type==='course' && r.code).map(r=>r.code)
+    );
+    if(requiredCodes.size) courses = courses.filter(c => !requiredCodes.has(c.code));
   }
   return courses;
 }
