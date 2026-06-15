@@ -22,8 +22,17 @@
              transition:border-color .15s}
     .stu-inp:focus{border-bottom-color:#7eb8f7;}
     .stu-inp.invalid{border-bottom-color:#f07070;}
+    .stu-inp:-webkit-autofill,.stu-inp:-webkit-autofill:focus{
+      -webkit-box-shadow:0 0 0 1000px #001533 inset!important;
+      -webkit-text-fill-color:#e8f0fb!important;
+      caret-color:#e8f0fb;
+      border-bottom-color:rgba(255,255,255,.2);}
     #stuBannerId{width:100px;font-variant-numeric:tabular-nums;letter-spacing:.05em}
     #stuEmail{width:200px;}
+    .stu-new-btn{margin-left:auto;background:transparent;border:1px solid rgba(255,255,255,.2);
+                 color:rgba(255,255,255,.5);font-size:.68rem;padding:3px 9px;border-radius:4px;
+                 cursor:pointer;white-space:nowrap;transition:all .15s}
+    .stu-new-btn:hover{border-color:rgba(255,120,120,.6);color:#ffaaaa;background:rgba(255,80,80,.1)}
 
     /* ── Header ── */
     header{background:#002147;color:#fff;padding:8px 14px;display:flex;
@@ -159,6 +168,40 @@
     .leg-item{display:flex;align-items:center;gap:3px}
     .leg-dot{width:9px;height:9px;border-radius:2px;flex-shrink:0}
 
+    /* ── Custom dialog ── */
+    .dlg-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:500;
+            align-items:center;justify-content:center}
+    .dlg-bg.open{display:flex}
+    .dlg-box{background:#fff;border-radius:10px;padding:22px 24px;min-width:300px;max-width:420px;
+             box-shadow:0 8px 32px rgba(0,0,0,.28);display:flex;flex-direction:column;gap:14px}
+    .dlg-msg{font-size:.85rem;color:#1a1a2e;line-height:1.5;white-space:pre-wrap}
+    .dlg-btns{display:flex;gap:8px;justify-content:flex-end}
+    .dlg-btns button{padding:6px 16px;border-radius:5px;font-size:.78rem;cursor:pointer;border:none;font-weight:600}
+    .dlg-cancel{background:#eee;color:#444}
+    .dlg-cancel:hover{background:#ddd}
+    .dlg-ok{background:#002147;color:#fff}
+    .dlg-ok:hover{background:#003a80}
+    .dlg-ok.danger{background:#c0392b}
+    .dlg-ok.danger:hover{background:#a93226}
+
+    /* ── Suggested map banner ── */
+    #mapBanner{display:none;align-items:center;gap:10px;padding:6px 14px;flex-shrink:0;
+               background:linear-gradient(90deg,#0a2e1a,#0d3b22);
+               border-bottom:1px solid rgba(100,200,140,.25)}
+    #mapBanner span{font-size:.78rem;color:#8fe8b0;flex:1}
+    #mapBanner strong{color:#b8f0cc}
+    .map-banner-btn{background:rgba(100,200,140,.2);border:1px solid rgba(100,200,140,.5);
+                    color:#8fe8b0;font-size:.72rem;padding:3px 12px;border-radius:4px;
+                    cursor:pointer;white-space:nowrap;transition:all .15s}
+    .map-banner-btn:hover{background:rgba(100,200,140,.35);color:#c8ffd8}
+
+    /* ── Add semester row ── */
+    #addSemRow{display:none;padding:6px 14px 10px;flex-shrink:0}
+    .add-sem-btn{background:transparent;border:1.5px dashed #b0b8c8;color:#7a8898;
+                 font-size:.75rem;padding:5px 18px;border-radius:5px;cursor:pointer;
+                 transition:all .15s}
+    .add-sem-btn:hover{border-color:#002147;color:#002147;background:#eef2f8}
+
     /* ── Minor panel ── */
     .minor-modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:100;
                     align-items:center;justify-content:center}
@@ -220,6 +263,7 @@
     <input class="stu-inp" id="stuEmail" type="email" placeholder="student@ontariotechu.ca"
            oninput="onEmailInput(this)" autocomplete="email">
   </div>
+  <button class="stu-new-btn" onclick="newStudent()" title="Clear student info and reset plan">⊕ New Student</button>
 </div>
 
 <header>
@@ -244,8 +288,6 @@
   </div>
   <div class="hdr-right">
     <button class="hdr-btn" id="addMinorBtn" style="display:none" onclick="openMinorModal()">+ Minor</button>
-    <button class="hdr-btn hdr-btn-map" id="applyMapBtn" style="display:none" onclick="applyMapping()">✦ Apply Suggested Map</button>
-    <button class="hdr-btn" onclick="addSemester()">+ Semester</button>
     <button class="hdr-btn" onclick="exportMap()">↓ Export</button>
     <button class="hdr-btn" onclick="exportSuggestedMap()" title="Export current layout as a suggested mapping template for this program">↓ Export Map Template</button>
     <button class="hdr-btn" onclick="document.getElementById('importFile').click()">↑ Import</button>
@@ -254,6 +296,12 @@
   </div>
 </header>
 <div class="prog-bar-wrap"><div class="prog-bar" id="progBar" style="width:0%"></div></div>
+
+<div id="mapBanner">
+  <span>✦ A <strong>suggested semester map</strong> is available for this program —</span>
+  <button class="map-banner-btn" onclick="applyMapping()">Apply it</button>
+  <button class="map-banner-btn" onclick="dismissMapBanner()" style="background:transparent;border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.3);font-size:.65rem">✕</button>
+</div>
 
 <div class="info-bar" id="infoBar">
   <div class="stats-row" id="statsRow">
@@ -273,7 +321,19 @@
   <div class="status-msg">Select a calendar year and program to begin.</div>
 </div>
 
+<div id="addSemRow">
+  <button class="add-sem-btn" onclick="addSemester()">+ Add Semester</button>
+</div>
+
 <div class="legend" id="legend"></div>
+
+<!-- Custom dialog -->
+<div class="dlg-bg" id="dlgBg">
+  <div class="dlg-box">
+    <div class="dlg-msg" id="dlgMsg"></div>
+    <div class="dlg-btns" id="dlgBtns"></div>
+  </div>
+</div>
 
 <!-- Minor picker modal -->
 <div class="minor-modal-bg" id="minorModalBg">
@@ -353,8 +413,8 @@ function loadP(){
     if(s.minors)     st.minors     =s.minors;
   }catch(e){}
 }
-function resetProgress(){
-  if(!confirm('Reset all placement and progress?')) return;
+async function resetProgress(silent=false){
+  if(!silent){ const ok=await showConfirm('Reset all placement and progress?',{okLabel:'Reset',danger:true}); if(!ok)return; }
   st.semesters   =JSON.parse(JSON.stringify(DEFAULT_SEMS));
   st.semSlots    =Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,DEFAULT_SLOT_COUNT]));
   st.semContents =Object.fromEntries(DEFAULT_SEMS.map(s=>[s.id,{}]));
@@ -489,9 +549,9 @@ async function onProgChange(poid){
     document.getElementById('addMinorBtn').style.display = st.allMinors.length ? '' : 'none';
     // Check for suggested mapping
     st.mapping = null;
-    document.getElementById('applyMapBtn').style.display = 'none';
+    hideMapBanner();
     api(`/api/mapping?catoid=${st.catoid}&poid=${poid}`)
-      .then(m=>{ st.mapping=m; document.getElementById('applyMapBtn').style.display=''; })
+      .then(m=>{ st.mapping=m; showMapBanner(); })
       .catch(()=>{}); // 404 = no mapping, silently ignore
     // Restore imported state if one is waiting
     if(_pendingImport){
@@ -544,7 +604,7 @@ function closeMinorModal(){ document.getElementById('minorModalBg').classList.re
 
 async function confirmAddMinor(){
   const poid=+document.getElementById('minorSel').value;
-  if(!poid){ alert('Please select a minor.'); return; }
+  if(!poid){ await showAlert('Please select a minor first.'); return; }
   closeMinorModal();
   const minorMeta=st.allMinors.find(m=>m.poid===poid);
   if(!minorMeta) return;
@@ -567,9 +627,9 @@ function addSemester(){
   st.semSlots[id]=DEFAULT_SLOT_COUNT; st.semContents[id]={};
   saveP(); render();
 }
-function removeSemester(semId){
+async function removeSemester(semId){
   const placed=Object.values(st.semContents[semId]||{}).filter(Boolean).length;
-  if(placed>0&&!confirm(`Semester has ${placed} placed course(s). Remove anyway?`)) return;
+  if(placed>0){ const ok=await showConfirm(`This semester has ${placed} placed course(s). Remove it anyway?`,{okLabel:'Remove',danger:true}); if(!ok)return; }
   st.semesters=st.semesters.filter(s=>s.id!==semId);
   delete st.semSlots[semId]; delete st.semContents[semId];
   saveP(); render();
@@ -578,12 +638,12 @@ function addSlot(semId){
   st.semSlots[semId]=(st.semSlots[semId]||DEFAULT_SLOT_COUNT)+1;
   saveP(); render();
 }
-function removeSlot(semId){
+async function removeSlot(semId){
   const count=st.semSlots[semId]||DEFAULT_SLOT_COUNT;
   if(count<=1) return;
   const lastIdx=String(count-1);
   if(st.semContents[semId]?.[lastIdx]){
-    if(!confirm('Last slot has a course. Remove it anyway?')) return;
+    const ok=await showConfirm('The last slot has a course placed in it. Remove it anyway?',{okLabel:'Remove',danger:true}); if(!ok) return;
     delete st.semContents[semId][lastIdx];
   }
   st.semSlots[semId]=count-1;
@@ -727,7 +787,8 @@ function placeReq(reqId,semId,slotIdx){
 function applyMapping(){
   const map = st.mapping;
   if(!map) return;
-  if(!confirm('This will place all courses into the suggested semesters, overwriting any current placement. Continue?')) return;
+  const ok=await showConfirm('This will place all courses into the suggested semesters, overwriting any current placement.',{okLabel:'Apply Map'});
+  if(!ok) return;
 
   // Reset all placements
   for(const s of st.semesters) st.semContents[s.id]={};
@@ -1097,7 +1158,7 @@ function onDone(reqId,checked){
   if(el){if(checked)el.classList.add('done-card');else el.classList.remove('done-card');}
   saveP(); updateStats(); renderElecBar();
 }
-function onSelect(reqId,val){
+async function onSelect(reqId,val){
   // Warn if this course code is already used by another card
   if(val){
     const code=val.split(' – ')[0].trim();
@@ -1106,7 +1167,8 @@ function onSelect(reqId,val){
     if(others.length>0){
       const otherReq=allRequirements().find(r=>r.id===others[0]);
       const label=otherReq?(otherReq.code||otherReq.label||otherReq.id):'another requirement';
-      if(!confirm(`"${code}" is already selected for "${label}".\nUsing the same course for two requirements is typically not allowed.\n\nAssign anyway?`)){
+      const ok=await showConfirm(`"${code}" is already selected for "${label}".\nUsing the same course for two requirements is typically not allowed.\n\nAssign anyway?`,{okLabel:'Assign anyway'});
+      if(!ok){
         // Revert the select element
         const sel=document.querySelector(`[data-req-id="${reqId}"] .card-sel`);
         if(sel) sel.value=st.selections[reqId]||'';
@@ -1359,13 +1421,16 @@ function showLayout(){
       ondrop="onDropPanel(event)"></div>`;
   document.getElementById('infoBar').style.display='flex';
   document.getElementById('legend').style.display='flex';
+  document.getElementById('addSemRow').style.display='block';
 }
 function clearMain(){
   document.getElementById('mainLayout').innerHTML=
     '<div class="status-msg">Select a calendar year and program to begin.</div>';
   document.getElementById('infoBar').style.display='none';
   document.getElementById('legend').style.display='none';
+  document.getElementById('addSemRow').style.display='none';
   document.getElementById('addMinorBtn').style.display='none';
+  hideMapBanner();
 }
 function showLoading(msg){
   document.getElementById('mainLayout').innerHTML=`<div class="status-msg">${esc(msg)}</div>`;
@@ -1378,6 +1443,46 @@ function showErr(msg){
 function esc(s){
   return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
+
+// ── Custom dialogs ────────────────────────────────────────────
+function showAlert(msg){
+  return new Promise(resolve=>{
+    document.getElementById('dlgMsg').textContent=msg;
+    document.getElementById('dlgBtns').innerHTML=`<button class="dlg-ok" id="dlgOk">OK</button>`;
+    const bg=document.getElementById('dlgBg'); bg.classList.add('open');
+    document.getElementById('dlgOk').focus();
+    document.getElementById('dlgOk').onclick=()=>{ bg.classList.remove('open'); resolve(); };
+  });
+}
+function showConfirm(msg, {okLabel='OK', danger=false}={}){
+  return new Promise(resolve=>{
+    document.getElementById('dlgMsg').textContent=msg;
+    document.getElementById('dlgBtns').innerHTML=
+      `<button class="dlg-cancel" id="dlgCancel">Cancel</button>
+       <button class="dlg-ok${danger?' danger':''}" id="dlgOk">${okLabel}</button>`;
+    const bg=document.getElementById('dlgBg'); bg.classList.add('open');
+    document.getElementById('dlgOk').focus();
+    const close=v=>{ bg.classList.remove('open'); resolve(v); };
+    document.getElementById('dlgOk').onclick=()=>close(true);
+    document.getElementById('dlgCancel').onclick=()=>close(false);
+  });
+}
+
+// ── New Student ───────────────────────────────────────────────
+async function newStudent(){
+  const ok = await showConfirm('Clear student info and reset the current plan?', {okLabel:'New Student', danger:true});
+  if(!ok) return;
+  ['stuName','stuBannerId','stuEmail'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('stuEmail').classList.remove('invalid');
+  document.getElementById('stuBannerId').classList.remove('invalid');
+  saveStuInfo();
+  resetProgress(true); // silent reset — no second confirm
+}
+
+// ── Map banner ────────────────────────────────────────────────
+function showMapBanner(){ document.getElementById('mapBanner').style.display='flex'; }
+function hideMapBanner(){ document.getElementById('mapBanner').style.display='none'; }
+function dismissMapBanner(){ hideMapBanner(); }
 
 // ── Export Suggested Map Template ─────────────────────────────
 function exportSuggestedMap(){
@@ -1500,7 +1605,8 @@ async function importMap(input){
 
   const prog = payload.program;
   const desc = [prog.programName, prog.yearLabel, prog.facultyName].filter(Boolean).join(', ');
-  if(!confirm(`Import advising map for: ${desc || 'this program'}?\n\nThis will replace your current view.`)) return;
+  const ok = await showConfirm(`Import advising map for:\n${desc || 'this program'}\n\nThis will replace your current view.`, {okLabel:'Import'});
+  if(!ok) return;
 
   // Restore student info
   if(payload.student){
