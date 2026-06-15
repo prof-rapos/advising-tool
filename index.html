@@ -606,17 +606,38 @@ function fetchElecCourses(elecType){
     .catch(()=>{ courseCache[elecType]=[]; delete courseFetching[elecType]; });
 }
 
-function getElecCourses(elecType){
+function getElecCourses(elecType, {includeThesis=false}={}){
   if(!elecType) return null;
-  if(st.restrictedElectives?.[elecType]?.length>0) return st.restrictedElectives[elecType];
-  if(courseCache[elecType]!==undefined) return courseCache[elecType];
-  const rule=getFilterRule(elecType);
-  if(rule){
-    if(rule.prefixes && rule.prefixes.length > MAX_DROPDOWN_PREFIXES) return []; // too broad → free text
-    if(!courseFetching[elecType]) fetchElecCourses(elecType);
-    return null; // loading
+  let courses = null;
+  if(st.restrictedElectives?.[elecType]?.length>0) courses = st.restrictedElectives[elecType];
+  else if(courseCache[elecType]!==undefined) courses = courseCache[elecType];
+  else {
+    const rule=getFilterRule(elecType);
+    if(rule){
+      if(rule.prefixes && rule.prefixes.length > MAX_DROPDOWN_PREFIXES) return [];
+      if(!courseFetching[elecType]) fetchElecCourses(elecType);
+      return null; // loading
+    }
+    return [];
   }
-  return [];
+  // Exclude thesis/capstone courses from general elective lists
+  if(!includeThesis && courses){
+    courses = courses.filter(c => !/\bthesis\b|\bcapstone\b/i.test(c.name||''));
+  }
+  return courses;
+}
+
+// Mirror of server's textToElecKey — derives a camelCase key from elective label text
+function textToElecKey(text){
+  let s = text.toLowerCase()
+    .replace(/\s*\([^)]*\)/g,' ')
+    .replace(/\belectives?\b/gi,'')
+    .replace(/\bcourses?\b/gi,'')
+    .replace(/\s+/g,' ').trim();
+  if(!s) return null;
+  const words = s.replace(/[^a-zA-Z0-9]+/g,' ').trim().split(/\s+/).filter(Boolean);
+  if(!words.length) return null;
+  return words.map((w,i)=> i===0 ? w.toLowerCase() : w.charAt(0).toUpperCase()+w.slice(1).toLowerCase()).join('');
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -894,13 +915,29 @@ function renderCard(req){
         .filter(([code,ids])=>ids.some(id=>id!==req.id))
         .map(([code])=>code)
     );
-    const opts=(req.options||[]).map(o=>{
-      const v=o.code||o.text||'';
-      const lbl=o.code?`${esc(o.code)} – ${esc(o.name||'')}`:esc(o.text||'');
-      const used=usedElsewhere.has(v);
-      return `<option value="${esc(v)}" ${sel===v?'selected':''} ${used&&sel!==v?'disabled':''}>
-        ${lbl}${used&&sel!==v?' (used)':''}</option>`;
-    }).join('');
+    let optsHtml='';
+    for(const o of (req.options||[])){
+      if(o.code){
+        const used=usedElsewhere.has(o.code);
+        optsHtml+=`<option value="${esc(o.code)}" ${sel===o.code?'selected':''} ${used&&sel!==o.code?'disabled':''}>
+          ${esc(o.code)} – ${esc(o.name||'')}${used&&sel!==o.code?' (used)':''}</option>`;
+      } else if(o.text){
+        // Text-only option (e.g. "Senior Computer Science elective") — load its courses
+        const etKey = textToElecKey(o.text);
+        const elecCourses = etKey ? getElecCourses(etKey) : null;
+        optsHtml += `<option disabled>── ${esc(o.text)} ──</option>`;
+        if(elecCourses===null){
+          optsHtml += `<option disabled>Loading…</option>`;
+        } else {
+          for(const c of elecCourses){
+            const used=usedElsewhere.has(c.code);
+            optsHtml+=`<option value="${esc(c.code)}" ${sel===c.code?'selected':''} ${used&&sel!==c.code?'disabled':''}>
+              ${esc(c.code)} – ${esc(c.name||'')}${used&&sel!==c.code?' (used)':''}</option>`;
+          }
+        }
+      }
+    }
+    const opts=optsHtml;
     inner=`<div class="card-top">
       <div class="card-label">${esc(req.label||'One of')}${minorTag}</div>
       <input type="checkbox" class="card-check" ${isDone?'checked':''}
