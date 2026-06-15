@@ -137,6 +137,7 @@
                overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
     .card-label{font-weight:600;font-size:.68rem;color:#333;flex:1;line-height:1.3}
     .card-check{margin-left:auto;flex-shrink:0;cursor:pointer;accent-color:#4caf82;margin-top:1px}
+    .card-print-val{display:none}
     .card-inputs{flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:2px;margin-top:3px}
     .card-sel{width:100%;font-size:.66rem;border:1px solid #dde3ec;border-radius:4px;
               padding:2px 22px 2px 5px;background:#fff;color:#222;
@@ -217,6 +218,69 @@
     .btn-add{background:#002147;color:#fff}
     .btn-cancel:hover{background:#ddd}
     .btn-add:hover{background:#003a80}
+    /* ── Print header (screen: hidden) ── */
+    #print-header{display:none}
+
+    /* ══════════════════════════════════════════
+       PRINT / PDF EXPORT
+    ══════════════════════════════════════════ */
+    @media print{
+      @page{margin:1.2cm;size:landscape}
+      body{height:auto;overflow:visible;display:block;background:#fff}
+
+      /* Hide all chrome */
+      #student-bar .stu-new-btn,#mapBanner,#addSemRow,.legend,
+      header .hdr-right,.prog-bar-wrap,.sem-ctrl,
+      .card-check,.card-inp,.card-sel,datalist,
+      #wake-screen,button{display:none!important}
+
+      /* Student info bar: keep fields, hide button */
+      #student-bar{background:#fff;color:#111;border-bottom:1px solid #ccc;
+                   padding:4px 0;gap:16px}
+      .stu-field label{color:#555}
+      .stu-inp{color:#111;border-bottom-color:#999;-webkit-text-fill-color:#111}
+
+      /* Print header */
+      #print-header{display:block;margin-bottom:8px;padding-bottom:6px;
+                    border-bottom:2px solid #002147}
+      #print-header h2{font-size:13pt;color:#002147;margin:0 0 2px}
+      .ph-meta{font-size:9pt;color:#444;display:flex;gap:18px;flex-wrap:wrap}
+      .ph-prog{font-size:9.5pt;color:#333;margin-top:2px}
+
+      /* Info bar */
+      .info-bar{display:flex!important;border:none;border-bottom:1px solid #ddd;padding:2px 0}
+      .stats-row{font-size:8pt}
+      .stat-card{padding:2px 8px}
+      .elec-bar-wrap{display:none}
+
+      /* Layout */
+      .main-layout{display:block;overflow:visible;height:auto}
+      .grid-area{overflow:visible;flex:none;width:100%}
+      .req-panel{max-width:100%;border:none;border-top:2px solid #002147;
+                 margin-top:12px;padding-top:8px;overflow:visible;page-break-before:always}
+
+      /* Grid */
+      .grid-table{width:100%;border-collapse:collapse;font-size:7.5pt}
+      .sem-lbl-cell{width:58px;font-size:7pt;padding:3px 4px;border-radius:3px}
+      .slot-cell{padding:2px 3px;vertical-align:top}
+      .slot-drop{min-height:0;border:none}
+
+      /* Cards */
+      .card{min-width:0;padding:3px 5px;border-radius:3px;
+            box-shadow:none;border:1px solid #ccc;page-break-inside:avoid}
+      .card-top{margin-bottom:1px}
+      .card-code{font-size:7pt;font-weight:700}
+      .card-name{font-size:6.5pt}
+      .card-label{font-size:7pt;font-weight:600}
+      .card-print-val{display:block!important;font-size:6.5pt;color:#555;font-style:italic;margin-top:1px}
+      .card-inputs{display:none!important}
+
+      /* Panel */
+      .req-panel-hdr{position:static;background:#fff;font-size:9pt;padding:0 0 6px}
+      .yr-group-hdr{font-size:8pt}
+      .panel-card{font-size:7.5pt}
+    }
+
   /* ── Wake screen ── */
   #wake-screen{
     position:fixed;inset:0;z-index:9999;
@@ -288,6 +352,7 @@
   </div>
   <div class="hdr-right">
     <button class="hdr-btn" id="addMinorBtn" style="display:none" onclick="openMinorModal()">+ Minor</button>
+    <button class="hdr-btn" onclick="printMap()">⎙ Print / PDF</button>
     <button class="hdr-btn" onclick="exportMap()">↓ Export</button>
     <button class="hdr-btn" onclick="exportSuggestedMap()" title="Export current layout as a suggested mapping template for this program">↓ Export Map Template</button>
     <button class="hdr-btn" onclick="document.getElementById('importFile').click()">↑ Import</button>
@@ -315,6 +380,12 @@
     <h4>Electives:</h4>
     <div id="elecBadges" style="display:flex;gap:5px;flex-wrap:wrap"></div>
   </div>
+</div>
+
+<div id="print-header">
+  <h2 id="ph-title"></h2>
+  <div class="ph-prog" id="ph-prog"></div>
+  <div class="ph-meta" id="ph-meta"></div>
 </div>
 
 <div class="main-layout" id="mainLayout">
@@ -1059,11 +1130,13 @@ function renderCard(req){
       }
     }
     const opts=optsHtml;
+    const selLabel = sel ? sel : '';
     inner=`<div class="card-top">
       <div class="card-label">${esc(req.label||'One of')}${minorTag}</div>
       <input type="checkbox" class="card-check" ${isDone?'checked':''}
         onchange="onDone('${req.id}',this.checked)" onclick="event.stopPropagation()">
     </div>
+    <span class="card-print-val">${esc(selLabel)}</span>
     <div class="card-inputs">
       <div style="display:flex;gap:3px;align-items:center">
         <select class="card-sel" style="flex:1" onchange="onSelect('${req.id}',this.value)" onclick="event.stopPropagation()">
@@ -1084,6 +1157,7 @@ function renderCard(req){
       <input type="checkbox" class="card-check" ${isDone?'checked':''}
         onchange="onDone('${req.id}',this.checked)" onclick="event.stopPropagation()">
     </div>
+    <span class="card-print-val">${esc(sel)}</span>
     <div class="card-inputs">`;
 
     // Type selector for untyped electives — options derived from program's elecRestrictions
@@ -1483,6 +1557,33 @@ async function newStudent(){
 function showMapBanner(){ document.getElementById('mapBanner').style.display='flex'; }
 function hideMapBanner(){ document.getElementById('mapBanner').style.display='none'; }
 function dismissMapBanner(){ hideMapBanner(); }
+
+// ── Print / PDF ───────────────────────────────────────────────
+function printMap(){
+  if(!st.poid) return showAlert('Please load a program before printing.');
+
+  const yearSel  = document.getElementById('yearSel');
+  const facSel   = document.getElementById('facultySel');
+  const progSel  = document.getElementById('progSel');
+  const name   = document.getElementById('stuName').value.trim();
+  const banner = document.getElementById('stuBannerId').value.trim();
+  const email  = document.getElementById('stuEmail').value.trim();
+
+  // Populate the print header
+  document.getElementById('ph-title').textContent =
+    name ? `Advising Map — ${name}` : 'Student Advising Map';
+  document.getElementById('ph-prog').textContent =
+    [progSel.options[progSel.selectedIndex]?.text,
+     yearSel.options[yearSel.selectedIndex]?.text].filter(Boolean).join(' · ');
+  const metaParts = [];
+  if(banner) metaParts.push(`Banner ID: ${banner}`);
+  if(email)  metaParts.push(`Email: ${email}`);
+  metaParts.push(`Faculty: ${facSel.options[facSel.selectedIndex]?.text||''}`);
+  metaParts.push(`Printed: ${new Date().toLocaleDateString('en-CA',{year:'numeric',month:'long',day:'numeric'})}`);
+  document.getElementById('ph-meta').textContent = metaParts.join('   ·   ');
+
+  window.print();
+}
 
 // ── Export Suggested Map Template ─────────────────────────────
 function exportSuggestedMap(){
