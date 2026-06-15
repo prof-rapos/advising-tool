@@ -246,6 +246,9 @@
     <button class="hdr-btn" id="addMinorBtn" style="display:none" onclick="openMinorModal()">+ Minor</button>
     <button class="hdr-btn hdr-btn-map" id="applyMapBtn" style="display:none" onclick="applyMapping()">✦ Apply Suggested Map</button>
     <button class="hdr-btn" onclick="addSemester()">+ Semester</button>
+    <button class="hdr-btn" onclick="exportMap()">↓ Export</button>
+    <button class="hdr-btn" onclick="document.getElementById('importFile').click()">↑ Import</button>
+    <input type="file" id="importFile" accept=".json" style="display:none" onchange="importMap(this)">
     <button class="hdr-btn" onclick="resetProgress()">Reset</button>
   </div>
 </header>
@@ -489,6 +492,17 @@ async function onProgChange(poid){
     api(`/api/mapping?catoid=${st.catoid}&poid=${poid}`)
       .then(m=>{ st.mapping=m; document.getElementById('applyMapBtn').style.display=''; })
       .catch(()=>{}); // 404 = no mapping, silently ignore
+    // Restore imported state if one is waiting
+    if(_pendingImport){
+      const imp = _pendingImport; _pendingImport = null;
+      if(imp.semesters)   st.semesters   = imp.semesters;
+      if(imp.semSlots)    st.semSlots    = imp.semSlots;
+      if(imp.semContents) st.semContents = imp.semContents;
+      if(imp.done)        st.done        = imp.done;
+      if(imp.selections)  st.selections  = imp.selections;
+      if(imp.elecTypes)   st.elecTypes   = imp.elecTypes;
+      pruneStale();
+    }
     showLayout(); render();
     // Pre-fetch course lists in background
     prefetchElecCourses();
@@ -1358,6 +1372,109 @@ function showErr(msg){
 }
 function esc(s){
   return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Export / Import ───────────────────────────────────────────
+let _pendingImport = null;
+
+function exportMap(){
+  const yearSel  = document.getElementById('yearSel');
+  const facSel   = document.getElementById('facultySel');
+  const progSel  = document.getElementById('progSel');
+  const yearLabel   = yearSel.options[yearSel.selectedIndex]?.text  || '';
+  const facultyName = facSel.options[facSel.selectedIndex]?.text    || '';
+  const programName = progSel.options[progSel.selectedIndex]?.text  || '';
+
+  const payload = {
+    version: 1,
+    exported: new Date().toISOString(),
+    student: {
+      name:   document.getElementById('stuName').value.trim(),
+      banner: document.getElementById('stuBannerId').value.trim(),
+      email:  document.getElementById('stuEmail').value.trim(),
+    },
+    program: {
+      catoid: st.catoid,
+      poid:   st.poid,
+      yearLabel,
+      facultyName,
+      programName,
+    },
+    semesters:   st.semesters,
+    semSlots:    st.semSlots,
+    semContents: st.semContents,
+    done:        st.done,
+    selections:  st.selections,
+    elecTypes:   st.elecTypes,
+  };
+
+  const name = [
+    payload.student.name || 'student',
+    payload.program.programName || 'program',
+    payload.program.yearLabel || '',
+  ].filter(Boolean).join(' – ').replace(/[^a-zA-Z0-9 –\-]/g,'').trim();
+
+  const blob = new Blob([JSON.stringify(payload, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${name || 'advising-map'}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+async function importMap(input){
+  const file = input.files[0];
+  input.value = ''; // reset so same file can be re-imported
+  if(!file) return;
+  let payload;
+  try{
+    payload = JSON.parse(await file.text());
+  }catch(e){ return showErr('Could not read file — make sure it is a valid advising map JSON.'); }
+
+  if(!payload.version || !payload.program?.catoid || !payload.program?.poid)
+    return showErr('Invalid advising map file.');
+
+  const prog = payload.program;
+  const desc = [prog.programName, prog.yearLabel, prog.facultyName].filter(Boolean).join(', ');
+  if(!confirm(`Import advising map for: ${desc || 'this program'}?\n\nThis will replace your current view.`)) return;
+
+  // Restore student info
+  if(payload.student){
+    const s = payload.student;
+    if(s.name)   document.getElementById('stuName').value    = s.name;
+    if(s.banner) document.getElementById('stuBannerId').value= s.banner;
+    if(s.email)  document.getElementById('stuEmail').value   = s.email;
+    saveStuInfo();
+  }
+
+  // Stash placement data — onProgChange will pick it up once parsing completes
+  _pendingImport = {
+    semesters:   payload.semesters,
+    semSlots:    payload.semSlots,
+    semContents: payload.semContents,
+    done:        payload.done        || {},
+    selections:  payload.selections  || {},
+    elecTypes:   payload.elecTypes   || {},
+  };
+
+  // Drive the year → faculty → program cascade
+  const yearSel = document.getElementById('yearSel');
+  yearSel.value = prog.catoid;
+  await onYearChange(prog.catoid);
+
+  // Pick matching faculty by name, fall back to first if not found
+  const facSel = document.getElementById('facultySel');
+  const facOpt = [...facSel.options].find(o=>o.text===prog.facultyName) || facSel.options[1];
+  if(!facOpt?.value) return showErr('Could not find faculty from the imported file.');
+  facSel.value = facOpt.value;
+  await onFacultyChange(facOpt.value);
+
+  // Pick matching program by poid
+  const progSel = document.getElementById('progSel');
+  const progOpt = [...progSel.options].find(o=>+o.value===prog.poid);
+  if(!progOpt) return showErr(`Could not find program (poid ${prog.poid}) in the loaded list.`);
+  progSel.value = progOpt.value;
+  await onProgChange(prog.poid);
 }
 
 // ── Student info ──────────────────────────────────────────────
