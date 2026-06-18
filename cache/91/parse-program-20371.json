@@ -1,0 +1,41 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20371",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5511G",
+      "name": "Railway Systems Foundations"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5522G",
+      "name": "Safety and Signalling for Railway Systems"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5533G",
+      "name": "Design of Railway Rolling Stock"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5544G",
+      "name": "Operation and Maintenance of Railway Systems"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

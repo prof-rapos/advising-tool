@@ -1,0 +1,110 @@
+[
+  {
+    "code": "SOFE 2250U",
+    "name": "Digital Systems and Computer Architecture"
+  },
+  {
+    "code": "SOFE 2710U",
+    "name": "Object Oriented Programming and Design"
+  },
+  {
+    "code": "SOFE 2715U",
+    "name": "Data Structures"
+  },
+  {
+    "code": "SOFE 2720U",
+    "name": "Principles of Software and Requirements Engineering"
+  },
+  {
+    "code": "SOFE 2800U",
+    "name": "Web Programming"
+  },
+  {
+    "code": "SOFE 2850U",
+    "name": "Natural Foundations for Information Technology"
+  },
+  {
+    "code": "SOFE 3200U",
+    "name": "Systems Programming"
+  },
+  {
+    "code": "SOFE 3290U",
+    "name": "Software Quality and Project Management"
+  },
+  {
+    "code": "SOFE 3490U",
+    "name": "Software Project Management"
+  },
+  {
+    "code": "SOFE 3620U",
+    "name": "Machine Learning and Data Mining"
+  },
+  {
+    "code": "SOFE 3650U",
+    "name": "Software Design and Architectures"
+  },
+  {
+    "code": "SOFE 3700U",
+    "name": "Data Management Systems"
+  },
+  {
+    "code": "SOFE 3720U",
+    "name": "Introduction to Artificial Intelligence"
+  },
+  {
+    "code": "SOFE 3770U",
+    "name": "Design and Analysis of Algorithms"
+  },
+  {
+    "code": "SOFE 3850U",
+    "name": "Computer Networks"
+  },
+  {
+    "code": "SOFE 3950U",
+    "name": "Operating Systems"
+  },
+  {
+    "code": "SOFE 3980U",
+    "name": "Software Quality"
+  },
+  {
+    "code": "SOFE 4590U",
+    "name": "Embedded Systems"
+  },
+  {
+    "code": "SOFE 4610U",
+    "name": "Design&nbsp;and&nbsp;Analysis&nbsp;of&nbsp;IoT&nbsp;Software&nbsp;Systems"
+  },
+  {
+    "code": "SOFE 4630U",
+    "name": "Cloud Computing"
+  },
+  {
+    "code": "SOFE 4640U",
+    "name": "Mobile Application Development"
+  },
+  {
+    "code": "SOFE 4790U",
+    "name": "Distributed Systems"
+  },
+  {
+    "code": "SOFE 4820U",
+    "name": "Modelling and Simulation"
+  },
+  {
+    "code": "SOFE 4840U",
+    "name": "Software and Computer Security"
+  },
+  {
+    "code": "SOFE 4850U",
+    "name": "User Interface and Experience Design"
+  },
+  {
+    "code": "SOFE 4870U",
+    "name": "Special Topics in Software Engineering"
+  },
+  {
+    "code": "SOFE 4890U",
+    "name": "Advanced Computer Networks"
+  }
+]

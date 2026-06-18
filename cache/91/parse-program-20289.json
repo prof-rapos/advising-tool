@@ -1,0 +1,236 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20289",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6010G",
+      "name": "Mathematical Modelling"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6020G",
+      "name": "Numerical Analysis"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6030G",
+      "name": "High-Performance Computing"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6040G",
+      "name": "Modeling and Simulating Systems using Discrete Units"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6001G",
+      "name": "MSc Thesis"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6000G",
+      "name": "Graduate Seminar in Modelling and Computational Science"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6003G",
+      "name": "Modelling and Computational Science Professional Skills"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7000G",
+      "name": "Modelling and Computational Science Professional Skills"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7001G",
+      "name": "PhD Thesis Proposal and Candidacy Exam"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7002G",
+      "name": "PhD Research"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7003G",
+      "name": "PhD Dissertation"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6180G",
+      "name": "Computational Physics"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6210G",
+      "name": "Advanced Topics in Mathematical Modelling"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6220G",
+      "name": "Advanced Topics in Numerical Analysis"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6230G",
+      "name": "Advanced Topics in High-Performance Computing"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6240G",
+      "name": "Advanced Topics in Dynamical Systems"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6280G",
+      "name": "Advanced Topics in Computational Science"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7210G",
+      "name": "Advanced Topics in Mathematical Modelling"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7220G",
+      "name": "Advanced Topics in Numerical Analysis"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7230G",
+      "name": "Advanced Topics in High-Performance Computing"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7240G",
+      "name": "Advanced Topics in Dynamical Systems"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7250G",
+      "name": "Advanced Topics in Fluid Dynamics"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7270G",
+      "name": "Advanced Topics in Industrial Mathematics: Case Studies"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 7280G",
+      "name": "Advanced Topics in Computational Science"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "graduate": [
+      {
+        "code": "MCSC 6180G",
+        "name": "Computational Physics"
+      },
+      {
+        "code": "MCSC 6210G",
+        "name": "Advanced Topics in Mathematical Modelling"
+      },
+      {
+        "code": "MCSC 6220G",
+        "name": "Advanced Topics in Numerical Analysis"
+      },
+      {
+        "code": "MCSC 6230G",
+        "name": "Advanced Topics in High-Performance Computing"
+      },
+      {
+        "code": "MCSC 6240G",
+        "name": "Advanced Topics in Dynamical Systems"
+      },
+      {
+        "code": "MCSC 6280G",
+        "name": "Advanced Topics in Computational Science"
+      },
+      {
+        "code": "MCSC 7210G",
+        "name": "Advanced Topics in Mathematical Modelling"
+      },
+      {
+        "code": "MCSC 7220G",
+        "name": "Advanced Topics in Numerical Analysis"
+      },
+      {
+        "code": "MCSC 7230G",
+        "name": "Advanced Topics in High-Performance Computing"
+      },
+      {
+        "code": "MCSC 7240G",
+        "name": "Advanced Topics in Dynamical Systems"
+      },
+      {
+        "code": "MCSC 7250G",
+        "name": "Advanced Topics in Fluid Dynamics"
+      },
+      {
+        "code": "MCSC 7270G",
+        "name": "Advanced Topics in Industrial Mathematics: Case Studies"
+      },
+      {
+        "code": "MCSC 7280G",
+        "name": "Advanced Topics in Computational Science"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

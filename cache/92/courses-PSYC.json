@@ -1,0 +1,138 @@
+[
+  {
+    "code": "PSYC 1000U",
+    "name": "Introductory Psychology"
+  },
+  {
+    "code": "PSYC 2010U",
+    "name": "Developmental Psychology"
+  },
+  {
+    "code": "PSYC 2020U",
+    "name": "Social Psychology"
+  },
+  {
+    "code": "PSYC 2030U",
+    "name": "Psychopathology"
+  },
+  {
+    "code": "PSYC 2050U",
+    "name": "Brain and Behaviour"
+  },
+  {
+    "code": "PSYC 2060U",
+    "name": "Cognitive Psychology"
+  },
+  {
+    "code": "PSYC 2900U",
+    "name": "Research Methods in Psychology"
+  },
+  {
+    "code": "PSYC 2910U",
+    "name": "Data Analysis in Psychology"
+  },
+  {
+    "code": "PSYC 3035U",
+    "name": "Adolescence"
+  },
+  {
+    "code": "PSYC 3045U",
+    "name": "Child Maltreatment"
+  },
+  {
+    "code": "PSYC 3060U",
+    "name": "Personality Psychology"
+  },
+  {
+    "code": "PSYC 3065U",
+    "name": "Emotion"
+  },
+  {
+    "code": "PSYC 3070U",
+    "name": "Stress and Coping"
+  },
+  {
+    "code": "PSYC 3075U",
+    "name": "Biopsychology of Sex"
+  },
+  {
+    "code": "PSYC 3090U",
+    "name": "Social Affective Neuroscience"
+  },
+  {
+    "code": "PSYC 3110U",
+    "name": "Directed Laboratory Research in Psychology"
+  },
+  {
+    "code": "PSYC 3150U",
+    "name": "Psychology of Aging"
+  },
+  {
+    "code": "PSYC 3330U",
+    "name": "Developmental Psychopathology"
+  },
+  {
+    "code": "PSYC 3500U",
+    "name": "Stereotypes and Prejudice"
+  },
+  {
+    "code": "PSYC 3510U",
+    "name": "Research Methods in Neuroscience"
+  },
+  {
+    "code": "PSYC 3520U",
+    "name": "Introduction to Cognitive Neuroscience"
+  },
+  {
+    "code": "PSYC 3530U",
+    "name": "Developmental Neuroscience"
+  },
+  {
+    "code": "PSYC 3550U",
+    "name": "Psychology of Gender"
+  },
+  {
+    "code": "PSYC 3610U",
+    "name": "Thinking and Decision Making"
+  },
+  {
+    "code": "PSYC 3620U",
+    "name": "Motivation and Emotion"
+  },
+  {
+    "code": "PSYC 3630U",
+    "name": "Sleep and Consciousness"
+  },
+  {
+    "code": "PSYC 3700U",
+    "name": "Aging and Mental Health"
+  },
+  {
+    "code": "PSYC 3710U",
+    "name": "Positive Psychology"
+  },
+  {
+    "code": "PSYC 3900U",
+    "name": "Special Topics in Psychology I"
+  },
+  {
+    "code": "PSYC 3910U",
+    "name": "Advanced Data Analysis in Psychology"
+  },
+  {
+    "code": "PSYC 4110U",
+    "name": "Honours Thesis in Psychology I"
+  },
+  {
+    "code": "PSYC 4120U",
+    "name": "Honours Thesis in Psychology II"
+  },
+  {
+    "code": "PSYC 4210U",
+    "name": "Social Cognition"
+  },
+  {
+    "code": "PSYC 4900U",
+    "name": "Special Topics in Psychology II"
+  }
+]

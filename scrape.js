@@ -1,18 +1,26 @@
 'use strict';
 // Pre-scrapes the Ontario Tech academic calendar using a headless browser.
 // Playwright's Chromium solves the AWS WAF JavaScript challenge automatically.
-// Results are written to cache/ and committed to the repo, so the Render
-// server never needs to do live calendar fetches at runtime.
+// Results are written to cache/ and committed to the repo.
 //
 // Usage:  node scrape.js
 //         npm run scrape
 // Also triggered weekly by .github/workflows/scrape.yml
 
 const { chromium } = require('playwright-chromium');
+const fs   = require('fs');
 const path = require('path');
 const { parseProgramFromHtml, diskSet, ALL_PREFIXES } = require('./server');
 
-const CAL = 'https://calendar.ontariotechu.ca';
+const CAL        = 'https://calendar.ontariotechu.ca';
+const CACHE_DIR  = path.join(__dirname, 'cache');
+const POOL_SIZE  = 4;   // parallel browser pages
+
+// Skip files already in cache (speeds up weekly re-runs significantly)
+function alreadyCached(rel) {
+  const fp = path.join(CACHE_DIR, rel);
+  try { return fs.statSync(fp).size > 2; } catch(e) { return false; }
+}
 
 function decode(s) {
   return s.replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<')
@@ -22,7 +30,8 @@ function decode(s) {
 
 async function browserGet(page, url, retries = 2) {
   for (let attempt = 0; attempt <= retries; attempt++) {
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    // domcontentloaded is much faster than networkidle for server-rendered HTML
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
     const html = await page.content();
     if (html.includes('AwsWafIntegration') && html.length < 5000) {
       if (attempt < retries) {
@@ -34,6 +43,18 @@ async function browserGet(page, url, retries = 2) {
     }
     return html;
   }
+}
+
+// Distribute items across a pool of pages
+async function pagePool(pages, items, fn) {
+  let i = 0;
+  async function worker(page) {
+    while (i < items.length) {
+      const item = items[i++];
+      await fn(page, item);
+    }
+  }
+  await Promise.all(pages.map(worker));
 }
 
 function parseYears(html) {
@@ -106,84 +127,113 @@ function getTotalPages(html) {
 }
 
 async function main() {
+  const t0 = Date.now();
   console.log('[scrape] Launching Chromium...');
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     viewport: { width: 1280, height: 800 },
   });
-  const page = await context.newPage();
+
+  // Create page pool — all pages share the WAF cookie via the same context
+  const pages = await Promise.all(Array.from({ length: POOL_SIZE }, () => context.newPage()));
 
   try {
-    // Homepage visit — Chromium solves WAF challenge, stores aws-waf-token cookie
+    // Warm up on first page — solves WAF challenge, cookie shared to all pages
     console.log('[scrape] Warming up (WAF challenge)...');
-    const homeHtml = await browserGet(page, `${CAL}/`);
+    const homeHtml = await browserGet(pages[0], `${CAL}/`);
     console.log('[scrape] WAF cleared.');
 
     const years = parseYears(homeHtml);
     diskSet('years.json', years);
     console.log(`[scrape] ${years.length} catalogs → years.json`);
 
-    const active = years.filter(y => !y.archived);
-    console.log(`[scrape] Active: ${active.map(y => `${y.label}(${y.catoid})`).join(', ')}`);
+    // Undergraduate only, 2020 onwards
+    const targets = years.filter(y => {
+      if (y.type !== 'undergraduate') return false;
+      const startYear = parseInt((y.label.match(/^(\d{4})/) || [])[1]);
+      return startYear >= 2020;
+    });
+    console.log(`[scrape] Targets: ${targets.map(y => `${y.label}(${y.catoid})`).join(', ')}`);
 
-    for (const { catoid } of active) {
+    for (const { catoid } of targets) {
+      const ct0 = Date.now();
       console.log(`\n[scrape] === catoid=${catoid} ===`);
 
-      const indexHtml = await browserGet(page, `${CAL}/index.php?catoid=${catoid}`);
+      const indexHtml = await browserGet(pages[0], `${CAL}/index.php?catoid=${catoid}`);
       const navLinks  = parseNavLinks(indexHtml);
       const byFacLink = navLinks.find(l => /programs?\s+\(?\s*by\s+faculty/i.test(l.text));
       const courseLink = navLinks.find(l => /course\s+description/i.test(l.text)) ||
                          navLinks.find(l => /^courses?$/i.test(l.text));
 
-      // ── Faculties + programs + program parse ─────────────────────
+      // ── Faculties ────────────────────────────────────────────────
+      let allPoids = [];
       if (!byFacLink) {
         console.error(`[scrape] No "Programs by faculty" link for catoid=${catoid}`);
+      } else if (alreadyCached(`${catoid}/faculty-list.json`)) {
+        // Faculty list cached — still need poids for program parsing
+        const facHtml = await browserGet(pages[0], `${CAL}/content.php?catoid=${catoid}&navoid=${byFacLink.navoid}`);
+        const faculties = parseFaculties(facHtml);
+        for (const fac of faculties) {
+          const rel = `${catoid}/programs-${fac.entOid}.json`;
+          if (alreadyCached(rel)) {
+            const data = JSON.parse(fs.readFileSync(path.join(CACHE_DIR, rel), 'utf8'));
+            for (const p of data) allPoids.push(p.poid);
+          }
+        }
+        console.log(`[scrape] Faculty list already cached, ${allPoids.length} known poids`);
       } else {
-        const facHtml   = await browserGet(page, `${CAL}/content.php?catoid=${catoid}&navoid=${byFacLink.navoid}`);
+        const facHtml   = await browserGet(pages[0], `${CAL}/content.php?catoid=${catoid}&navoid=${byFacLink.navoid}`);
         const faculties = parseFaculties(facHtml);
         diskSet(`${catoid}/faculty-list.json`, faculties);
         console.log(`[scrape] ${faculties.length} faculties`);
 
-        const allPoids = [];
-        for (const fac of faculties) {
+        // Fetch entity pages in parallel
+        const facItems = faculties.map(f => ({ catoid, entOid: f.entOid, name: f.name }));
+        await pagePool(pages, facItems, async (page, { entOid, name }) => {
+          const rel = `${catoid}/programs-${entOid}.json`;
+          if (alreadyCached(rel)) {
+            const data = JSON.parse(fs.readFileSync(path.join(CACHE_DIR, rel), 'utf8'));
+            for (const p of data) allPoids.push(p.poid);
+            return;
+          }
           try {
-            const entHtml = await browserGet(page, `${CAL}/preview_entity.php?catoid=${catoid}&ent_oid=${fac.entOid}`);
+            const entHtml = await browserGet(page, `${CAL}/preview_entity.php?catoid=${catoid}&ent_oid=${entOid}`);
             const progs   = parsePrograms(entHtml);
-            diskSet(`${catoid}/programs-${fac.entOid}.json`, progs);
-            console.log(`[scrape]   ${fac.name}: ${progs.length} programs`);
+            diskSet(rel, progs);
             for (const p of progs) allPoids.push(p.poid);
-          } catch (e) {
-            console.error(`[scrape]   ${fac.name} failed: ${e.message}`);
-          }
-        }
-
-        console.log(`[scrape] Parsing ${allPoids.length} programs...`);
-        let parsed = 0, pfailed = 0;
-        for (const poid of allPoids) {
-          try {
-            const html = await browserGet(page, `${CAL}/preview_program.php?catoid=${catoid}&poid=${poid}`);
-            const data = parseProgramFromHtml(html, catoid, poid);
-            diskSet(`${catoid}/parse-program-${poid}.json`, data);
-            parsed++;
-            if (parsed % 10 === 0) process.stdout.write(`  ${parsed}/${allPoids.length} programs\r`);
-          } catch (e) {
-            pfailed++;
-            console.error(`[scrape]   parse failed poid=${poid}: ${e.message}`);
-          }
-        }
-        console.log(`[scrape] Programs: ${parsed} ok, ${pfailed} failed        `);
+            console.log(`[scrape]   ${name}: ${progs.length} programs`);
+          } catch (e) { console.error(`[scrape]   ${name} failed: ${e.message}`); }
+        });
       }
 
-      // ── Courses by prefix ──────────────────────────────────────────
+      // ── Program pages (parallel) ──────────────────────────────────
+      const toParsePooids = allPoids.filter(poid => !alreadyCached(`${catoid}/parse-program-${poid}.json`));
+      console.log(`[scrape] Parsing ${toParsePooids.length} programs (${allPoids.length - toParsePooids.length} cached)...`);
+      let parsed = 0, pfailed = 0;
+      await pagePool(pages, toParsePooids, async (page, poid) => {
+        try {
+          const html = await browserGet(page, `${CAL}/preview_program.php?catoid=${catoid}&poid=${poid}`);
+          const data = parseProgramFromHtml(html, catoid, poid);
+          diskSet(`${catoid}/parse-program-${poid}.json`, data);
+          parsed++;
+        } catch (e) {
+          pfailed++;
+          console.error(`[scrape]   parse failed poid=${poid}: ${e.message}`);
+        }
+      });
+      console.log(`[scrape] Programs: ${parsed} parsed, ${pfailed} failed, ${allPoids.length - toParsePooids.length} from cache`);
+
+      // ── Courses by prefix (parallel) ──────────────────────────────
       if (!courseLink) {
         console.error(`[scrape] No course descriptions link for catoid=${catoid}`); continue;
       }
       const navoid = courseLink.navoid;
-      console.log(`[scrape] Fetching ${ALL_PREFIXES.length} course prefixes...`);
+      const toFetchPrefixes = ALL_PREFIXES.filter(p => !alreadyCached(`${catoid}/courses-${p}.json`));
+      console.log(`[scrape] Fetching ${toFetchPrefixes.length} course prefixes (${ALL_PREFIXES.length - toFetchPrefixes.length} cached)...`);
 
       let cfetched = 0, cfailed = 0;
-      for (const prefix of ALL_PREFIXES) {
+      await pagePool(pages, toFetchPrefixes, async (page, prefix) => {
         try {
           const url1 = `${CAL}/content.php?catoid=${catoid}&navoid=${navoid}` +
                        `&filter%5Bkeyword%5D=&filter%5Bprefix%5D=${prefix}&filter%5Bcpage%5D=1`;
@@ -201,19 +251,22 @@ async function main() {
           }
           diskSet(`${catoid}/courses-${prefix}.json`, courses);
           cfetched++;
-          if (cfetched % 10 === 0) process.stdout.write(`  ${cfetched}/${ALL_PREFIXES.length} prefixes\r`);
         } catch (e) {
           cfailed++;
           console.error(`[scrape]   courses failed prefix=${prefix}: ${e.message}`);
         }
-      }
-      console.log(`[scrape] Courses: ${cfetched} prefixes ok, ${cfailed} failed        `);
+      });
+      console.log(`[scrape] Courses: ${cfetched} fetched, ${cfailed} failed, ${ALL_PREFIXES.length - toFetchPrefixes.length} from cache`);
+
+      const elapsed = ((Date.now() - ct0) / 60000).toFixed(1);
+      console.log(`[scrape] catoid=${catoid} done in ${elapsed} min`);
     }
   } finally {
     await browser.close();
   }
 
-  console.log('\n[scrape] Done. Commit the cache/ directory to deploy the data.');
+  const total = ((Date.now() - t0) / 60000).toFixed(1);
+  console.log(`\n[scrape] All done in ${total} min. Commit cache/ to deploy.`);
 }
 
 main().catch(e => { console.error('[scrape] Fatal:', e.message); process.exit(1); });

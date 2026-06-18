@@ -1,0 +1,337 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20254",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5001G",
+      "name": "MASc Thesis"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5003G",
+      "name": "Seminar"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5004G",
+      "name": "Directed Studies"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5005G",
+      "name": "Special Topics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5010G",
+      "name": "Project Management for Nuclear Engineers"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5040G",
+      "name": "Monte Carlo Methods"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5050G",
+      "name": "Applied Risk Analysis"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5060G",
+      "name": "Nuclear Concepts for Engineers and Scientists"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5070G",
+      "name": "Environmental Modelling"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5090G",
+      "name": "Occupational Health and Safety"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5100G",
+      "name": "Nuclear Plant Systems and Operation"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5111G",
+      "name": "CANDU Safety Systems"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5120G",
+      "name": "Design of Nuclear Plant Systems"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5130G",
+      "name": "Nuclear Design Processes and Techniques"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5140G",
+      "name": "CANDU Steam Supply Systems"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5150G",
+      "name": "CANDU and PWR Steam Utilization Systems"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5160G",
+      "name": "CANDU Electric and Auxiliary Systems"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5225G",
+      "name": "Nuclear Fuel Engineering"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5230G",
+      "name": "Advanced Nuclear Thermalhydraulics"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5250G",
+      "name": "Power Plant Thermodynamics"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5275G",
+      "name": "Safety Instrumented Systems (SIS)"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5285G",
+      "name": "Advanced Process Control Systems"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5300G",
+      "name": "Advanced Topics in Radioactive Waste Management"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5310G",
+      "name": "Transmutation of Nuclear Waste"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5330G",
+      "name": "Principles of Nuclear Facility Decommissioning"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5350G",
+      "name": "Regulatory Affairs and Licensing Concepts"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5400G",
+      "name": "Advanced Radiation Science"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5430G",
+      "name": "Advanced Dosimetry"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5440G",
+      "name": "Advanced Radiation Biophysics and Microdosimetry"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5470G",
+      "name": "Nuclear Forensic Analysis"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5500G",
+      "name": "Introduction to Nuclear Security"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5510G",
+      "name": "Nuclear Safety Design and Regulation"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 6140G",
+      "name": "Life Cycle Assessment in Nuclear Applications"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5010G",
+      "name": "Advanced Optimization"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5122G",
+      "name": "Computational Fluid Dynamics"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5910G",
+      "name": "Embedded Real-Time Control Systems"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5930G",
+      "name": "Adaptive Control"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5940G",
+      "name": "Intelligent Control Systems"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5960G",
+      "name": "Power System Operations, Analysis and Planning"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6010G",
+      "name": "Mathematical Modelling"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6030G",
+      "name": "High-Performance Computing"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "graduateFromTheFacultyOfEngineeringAndAppliedScience": [
+      {
+        "code": "ENGR 5010G",
+        "name": "Advanced Optimization"
+      },
+      {
+        "code": "ENGR 5122G",
+        "name": "Computational Fluid Dynamics"
+      },
+      {
+        "code": "ENGR 5910G",
+        "name": "Embedded Real-Time Control Systems"
+      },
+      {
+        "code": "ENGR 5930G",
+        "name": "Adaptive Control"
+      },
+      {
+        "code": "ENGR 5940G",
+        "name": "Intelligent Control Systems"
+      },
+      {
+        "code": "ENGR 5960G",
+        "name": "Power System Operations, Analysis and Planning"
+      }
+    ],
+    "graduateFromTheFacultyOfScience": [
+      {
+        "code": "MCSC 6010G",
+        "name": "Mathematical Modelling"
+      },
+      {
+        "code": "MCSC 6030G",
+        "name": "High-Performance Computing"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

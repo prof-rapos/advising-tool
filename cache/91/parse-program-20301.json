@@ -1,0 +1,33 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20301",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 5413G",
+      "name": "Occupational Ergonomics and Work Disability Prevention"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 5046G",
+      "name": "Practicum in Return to Work Management"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {
+    "note": {
+      "prefixes": [
+        "HLSC"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

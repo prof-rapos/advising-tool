@@ -1,0 +1,18 @@
+[
+  {
+    "code": "SIMU 1000U",
+    "name": "Foundations of Healthcare Simulation"
+  },
+  {
+    "code": "SIMU 2000U",
+    "name": "Immersion in Critical Care and Perioperative Environments"
+  },
+  {
+    "code": "SIMU 3000U",
+    "name": "Applied Theory and Technology in Simulation Operations"
+  },
+  {
+    "code": "SIMU 3050U",
+    "name": "Simulation Design and Applied Methodology"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "code": "STAT 2010U",
+    "name": "Statistics and Probability for Physical Science"
+  },
+  {
+    "code": "STAT 2020U",
+    "name": "Statistics and Probability for Biological Science"
+  },
+  {
+    "code": "STAT 2800U",
+    "name": "Statistics and Probability for Engineers"
+  },
+  {
+    "code": "STAT 3010U",
+    "name": "Biostatistics"
+  },
+  {
+    "code": "STAT 3020U",
+    "name": "Applied Statistical Methods for Data Science"
+  }
+]

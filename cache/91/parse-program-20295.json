@@ -1,0 +1,41 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20295",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0502",
+      "name": "Nuclear Power Plant Systems and Operations"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0802",
+      "name": "Nuclear Reactor Physics"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0803",
+      "name": "Nuclear Reactor Safety Design"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0804",
+      "name": "Nuclear Reactor Heat Transport System Design"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

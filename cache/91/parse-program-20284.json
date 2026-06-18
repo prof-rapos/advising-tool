@@ -1,0 +1,55 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20284",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5010G",
+      "name": "Survey of Computer Science Research Topics and Methods"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5020G",
+      "name": "Collaborative Design and Research"
+    },
+    {
+      "id": "r3",
+      "type": "elective",
+      "year": 0,
+      "elecType": null,
+      "label": "elective courses"
+    },
+    {
+      "id": "r4",
+      "type": "elective",
+      "year": 0,
+      "elecType": null,
+      "label": "elective courses"
+    },
+    {
+      "id": "r5",
+      "type": "elective",
+      "year": 0,
+      "elecType": null,
+      "label": "elective courses"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5001G",
+      "name": "MSc Thesis"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": false,
+  "elecCardCount": 3,
+  "elecRestrictionSum": 0
+}

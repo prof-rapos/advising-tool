@@ -1,0 +1,209 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20253",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5001G",
+      "name": "Principles of Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5002G",
+      "name": "Introduction to Research in Education"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5003G",
+      "name": "Research Proposal Seminar"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5101G",
+      "name": "Innovative Digital Pedagogies"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5103G",
+      "name": "Innovative Online Learning Spaces"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5104G",
+      "name": "Analysis and Design of Digital Learning Tools"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5109G",
+      "name": "Emerging Trends and Issues in Learning Technologies"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5110G",
+      "name": "Global Perspectives in Education and Technology"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5111G",
+      "name": "Social Media and Education"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5201G",
+      "name": "Foundations of Leadership"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5203G",
+      "name": "Leadership for Change and Educational Reform"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5205G",
+      "name": "Leadership and Technology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5208G",
+      "name": "Leadership for Equity, Diversity and Inclusion"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5209G",
+      "name": "Critical Issues in Leadership and Education"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5301G",
+      "name": "Educational Innovation for Interdisciplinary Learning"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5302G",
+      "name": "Critical Debates in Education"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5304G",
+      "name": "Critical Digital Literacies and Global Competencies"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5305G",
+      "name": "Alternative and Inclusive Assessment"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5306G",
+      "name": "Youth Media and Popular Culture"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5406G",
+      "name": "Digital Wellness"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5407G",
+      "name": "Trauma-Informed Education"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5408G",
+      "name": "Mindfulness in Technology-Infused Education"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5409G",
+      "name": "Mental Health and Well-Being in a Digital Age"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5502G",
+      "name": "Social and Cultural Context of Education"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5503G",
+      "name": "Decolonizing Education"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5504G",
+      "name": "Inclusive Pedagogical Spaces"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5506G",
+      "name": "Foundations of Equity, Diversity and Inclusion"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5507G",
+      "name": "Accessible Learning with Technology"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

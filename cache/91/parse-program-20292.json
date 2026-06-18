@@ -1,0 +1,90 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20292",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5010G",
+      "name": "Data Analysis 1 - Graduate"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5050G",
+      "name": "Professional Seminar"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5060G",
+      "name": "Advanced Methods in Qualitative Research"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5020G",
+      "name": "Criminological Theory"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5100G",
+      "name": "Graduate Seminar on Contemporary Issues in Criminology"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5001G",
+      "name": "Major Paper in Criminology"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5200G",
+      "name": "Graduate Seminar in Inequality and Crime"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5400G",
+      "name": "Special Topics in Criminology"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5002G",
+      "name": "MA Thesis in Criminology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5015G",
+      "name": "Data Analysis 2 - Graduate"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5500G",
+      "name": "Reading Course"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

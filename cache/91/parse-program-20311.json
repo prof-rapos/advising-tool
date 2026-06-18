@@ -1,0 +1,121 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20311",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5013G",
+      "name": "Advanced Engineering Mathematics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5201G",
+      "name": "Engineering Communication and Ethics"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5410G",
+      "name": "Project Management for Engineers"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "softwareEngineering": [
+      {
+        "code": "ENGR 5510G",
+        "name": "Foundations of Software Engineering"
+      },
+      {
+        "code": "ENGR 5520G",
+        "name": "Software Development Methods and Tools"
+      },
+      {
+        "code": "ENGR 5550G",
+        "name": "Software Testing and Quality Assurance"
+      },
+      {
+        "code": "ENGR 5560G",
+        "name": "Software Security and Dependability"
+      },
+      {
+        "code": "ENGR 5570G",
+        "name": "Software Maintenance and Evolution"
+      },
+      {
+        "code": "ENGR 5590G",
+        "name": "Software Engineering Studio"
+      }
+    ],
+    "softwareSystems": [
+      {
+        "code": "ENGR 5775G",
+        "name": "Knowledge Discovery and Data Mining"
+      },
+      {
+        "code": "ENGR 5785G",
+        "name": "Real-Time Data Analytics for Internet of Things"
+      },
+      {
+        "code": "ENGR 5790G",
+        "name": "Safety-Critical Software Systems"
+      }
+    ],
+    "general": [
+      {
+        "code": "ENGR 5004G",
+        "name": "MASc/MEng Directed Studies"
+      },
+      {
+        "code": "ENGR 5005G",
+        "name": "Special Topics"
+      },
+      {
+        "code": "ENGR 5010G",
+        "name": "Advanced Optimization"
+      },
+      {
+        "code": "ENGR 5427G",
+        "name": "Operations Research"
+      },
+      {
+        "code": "ENGR 5660G",
+        "name": "Next Generation Computing and Communication Networks"
+      },
+      {
+        "code": "ENGR 5670G",
+        "name": "Secure Communications and Networking"
+      },
+      {
+        "code": "ENGR 5675G",
+        "name": "AI-Enabled Smart Grid Systems Engineering"
+      },
+      {
+        "code": "ENGR 5710G",
+        "name": "Network Computing"
+      },
+      {
+        "code": "ENGR 5720G",
+        "name": "Pervasive and Mobile Computing"
+      },
+      {
+        "code": "ENGR 5910G",
+        "name": "Embedded Real-Time Control Systems"
+      },
+      {
+        "code": "ENGR 5940G",
+        "name": "Intelligent Control Systems"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,265 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20364",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5013G",
+      "name": "Advanced Engineering Mathematics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5200G",
+      "name": "Programming Methodology and Abstraction for Engineers"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5201G",
+      "name": "Engineering Communication and Ethics"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5410G",
+      "name": "Project Management for Engineers"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5260G",
+      "name": "Advanced Robotics and Automation"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5261G",
+      "name": "Advanced Mechatronics: MEMS and Nanotechnology"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5262G",
+      "name": "Manipulator and Mechanism Design"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5945G",
+      "name": "Mobile Robotic Systems"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5101G",
+      "name": "Artificial Intelligence and Machine Learning Methods and Applications"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5102G",
+      "name": "Control Design in Robotic Systems"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5103G",
+      "name": "Model Predictive Control"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5106G",
+      "name": "Advanced System Dynamics"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5107G",
+      "name": "Biomechatronic Systems"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5108G",
+      "name": "Neuromechanics and Control of Human Movement"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5280G",
+      "name": "Robotic Manipulators"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5300G",
+      "name": "Mobile Robotics"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5002G",
+      "name": "MEng/MEngM Project"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5005G",
+      "name": "Special Topics"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5010G",
+      "name": "Advanced Optimization"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5012G",
+      "name": "Advanced and Smart Materials"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5240G",
+      "name": "Advanced Dynamics"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5245G",
+      "name": "Micro and Nano Manufacturing"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5263G",
+      "name": "Advanced Control"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5271G",
+      "name": "Innovative Design Engineering"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5273G",
+      "name": "Design by Failure"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5510G",
+      "name": "Foundations of Software Engineering"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5520G",
+      "name": "Software Development Methods and Tools"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5605G",
+      "name": "Convex Optimization"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5910G",
+      "name": "Embedded Real-Time Control Systems"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5915G",
+      "name": "Discrete Time Control Systems"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5930G",
+      "name": "Adaptive Control"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5940G",
+      "name": "Intelligent Control Systems"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5946G",
+      "name": "Advanced Fluid Power Control and Simulation"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5003G",
+      "name": "MASc Seminar for Mechatronics Engineering"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5104G",
+      "name": "Multivariable Feedback Control"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "METE 5105G",
+      "name": "Nonlinear Control Systems"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

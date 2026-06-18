@@ -1,0 +1,104 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20294",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6010G",
+      "name": "Research in Applied Bioscience"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 7080G",
+      "name": "PhD Graduate Seminar in Applied Bioscience"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 7070G",
+      "name": "PhD Dissertation"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 7040G",
+      "name": "PhD Thesis Proposal and Candidacy Exam"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 7050G",
+      "name": "Doctoral Exit Seminar"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 7000G",
+      "name": "PhD Applied Bioscience Seminar Series"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 7060G",
+      "name": "PhD Research"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6100G",
+      "name": "Advanced Cell and Molecular Biology"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6300G",
+      "name": "Advanced Topics in Biological Chemistry"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6400G",
+      "name": "Advanced Topics in Forensic Bioscience"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6500G",
+      "name": "Advanced Topics in Medicinal Chemistry"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6600G",
+      "name": "Design, Analysis &amp; Interpretation of Quantitative Biological Research"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6800G",
+      "name": "Geographic Information Systems (GIS) and Spatial Analysis"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

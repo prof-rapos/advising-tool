@@ -1,0 +1,125 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20265",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5070G",
+      "name": "Environmental Modelling"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5090G",
+      "name": "Occupational Health and Safety"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5300G",
+      "name": "Advanced Topics in Radioactive Waste Management"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5430G",
+      "name": "Advanced Dosimetry"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5440G",
+      "name": "Advanced Radiation Biophysics and Microdosimetry"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5010G",
+      "name": "Project Management for Nuclear Engineers"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5040G",
+      "name": "Monte Carlo Methods"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5060G",
+      "name": "Nuclear Concepts for Engineers and Scientists"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5275G",
+      "name": "Safety Instrumented Systems (SIS)"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5285G",
+      "name": "Advanced Process Control Systems"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5330G",
+      "name": "Principles of Nuclear Facility Decommissioning"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5500G",
+      "name": "Introduction to Nuclear Security"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 6140G",
+      "name": "Life Cycle Assessment in Nuclear Applications"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5010G",
+      "name": "Advanced Optimization"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6210G",
+      "name": "Advanced Topics in Mathematical Modelling"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6230G",
+      "name": "Advanced Topics in High-Performance Computing"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "poid": 20267,
+    "name": "Automotive Engineering, MASc"
+  },
+  {
+    "poid": 20268,
+    "name": "Automotive Engineering, MEng"
+  },
+  {
+    "poid": 20270,
+    "name": "Electrical and Computer Engineering, MASc"
+  },
+  {
+    "poid": 20271,
+    "name": "Electrical and Computer Engineering, MEng"
+  },
+  {
+    "poid": 20274,
+    "name": "Engineering Management, MEngM"
+  },
+  {
+    "poid": 20277,
+    "name": "Mechanical Engineering, MASc"
+  },
+  {
+    "poid": 20278,
+    "name": "Mechanical Engineering, MEng"
+  },
+  {
+    "poid": 20363,
+    "name": "Mechatronics Engineering, MASc"
+  },
+  {
+    "poid": 20364,
+    "name": "Mechatronics Engineering, MEng"
+  },
+  {
+    "poid": 20254,
+    "name": "Nuclear Engineering, MASc"
+  },
+  {
+    "poid": 20255,
+    "name": "Nuclear Engineering, MEng"
+  },
+  {
+    "poid": 20258,
+    "name": "Nuclear Engineering, MEng - UNENE administered program"
+  },
+  {
+    "poid": 20310,
+    "name": "Software Engineering, MASc"
+  },
+  {
+    "poid": 20311,
+    "name": "Software Engineering, MEng"
+  },
+  {
+    "poid": 20273,
+    "name": "Electrical and Computer Engineering, PhD"
+  },
+  {
+    "poid": 20280,
+    "name": "Mechanical Engineering, PhD"
+  },
+  {
+    "poid": 20259,
+    "name": "Nuclear Engineering, PhD"
+  },
+  {
+    "poid": 20276,
+    "name": "Engineering Management, Graduate Diploma"
+  },
+  {
+    "poid": 20260,
+    "name": "Nuclear Design Engineering, Graduate Diploma"
+  },
+  {
+    "poid": 20261,
+    "name": "Nuclear Technology, Graduate Diploma - Fuel, Materials and Chemistry"
+  },
+  {
+    "poid": 20265,
+    "name": "Nuclear Technology, Graduate Diploma - Health Physics"
+  },
+  {
+    "poid": 20262,
+    "name": "Nuclear Technology, Graduate Diploma - Operation and Maintenance"
+  },
+  {
+    "poid": 20266,
+    "name": "Nuclear Technology, Graduate Diploma - Radiological Applications"
+  },
+  {
+    "poid": 20263,
+    "name": "Nuclear Technology, Graduate Diploma - Reactor Systems"
+  },
+  {
+    "poid": 20264,
+    "name": "Nuclear Technology, Graduate Diploma - Safety, Licensing and Regulatory Affairs"
+  },
+  {
+    "poid": 20371,
+    "name": "Railway Engineering, Graduate Diploma"
+  },
+  {
+    "poid": 20295,
+    "name": "UNENE Graduate Diploma in Nuclear Engineering"
+  }
+]

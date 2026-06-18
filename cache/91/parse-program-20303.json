@@ -1,0 +1,104 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20303",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7014G",
+      "name": "Interdisciplinary Perspectives on Health Data and Technology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7010G",
+      "name": "Critical Perspectives in Research and Knowledge Translation in Health Sciences"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7012G",
+      "name": "Graduate Seminar in Health Sciences"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7096G",
+      "name": "PhD Thesis"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7095G",
+      "name": "Candidacy Examination and Thesis Proposal"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7110G",
+      "name": "Research with Communities: Approaches and Best Practices"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7112G",
+      "name": "Advanced Research Design"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7190G",
+      "name": "Advanced Disciplinary Studies in Community, Public and Population Health"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7290G",
+      "name": "Advanced Disciplinary Studies in Health Informatics"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7310G",
+      "name": "Competency in Laboratory Based Exercise Physiology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7312G",
+      "name": "Advanced Concepts in Neuromechanics and Sensorimotor Integration"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7390G",
+      "name": "Advanced Disciplinary Studies in Kinesiology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 7092G",
+      "name": "PhD Comprehensive"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

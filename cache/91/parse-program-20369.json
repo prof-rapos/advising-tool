@@ -1,0 +1,97 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20369",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5001G",
+      "name": "Foundations in the Online Creator Economy and Influencer Industries"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5002G",
+      "name": "Online Creativity for Advocacy and Impact"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5003G",
+      "name": "Digital Storytelling, Viral Writing and Design"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5004G",
+      "name": "Capstone I: Concept Development and Strategy"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5005G",
+      "name": "Online Content Planning, Production and Management"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5006G",
+      "name": "Economic and Entrepreneurial Strategies for Online Creators: Funding, Negotiation and Partnership"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5007G",
+      "name": "Navigating Ethics, Policy, Law, and Regulation for Online Creators"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5008G",
+      "name": "Transformational Technologies and Techniques for Content Creation"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5010G",
+      "name": "Capstone II: Execution and Impact Analysis"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5009G",
+      "name": "Special Topics in the Creator Ecosystem"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5011G",
+      "name": "Social Problems in Global Online Creation: Ethics, EDID and Intersectionality"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MOCR 5012G",
+      "name": "Global Perspectives in the Creator Economy"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

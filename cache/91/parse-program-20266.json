@@ -1,0 +1,104 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20266",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5400G",
+      "name": "Advanced Radiation Science"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5470G",
+      "name": "Nuclear Forensic Analysis"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5010G",
+      "name": "Project Management for Nuclear Engineers"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5040G",
+      "name": "Monte Carlo Methods"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5060G",
+      "name": "Nuclear Concepts for Engineers and Scientists"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5275G",
+      "name": "Safety Instrumented Systems (SIS)"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5285G",
+      "name": "Advanced Process Control Systems"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5330G",
+      "name": "Principles of Nuclear Facility Decommissioning"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5500G",
+      "name": "Introduction to Nuclear Security"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 6140G",
+      "name": "Life Cycle Assessment in Nuclear Applications"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5010G",
+      "name": "Advanced Optimization"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6210G",
+      "name": "Advanced Topics in Mathematical Modelling"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "MCSC 6230G",
+      "name": "Advanced Topics in High-Performance Computing"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,97 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20293",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6010G",
+      "name": "Research in Applied Bioscience"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6040G",
+      "name": "MSc Graduate Seminar in Applied Bioscience"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6000G",
+      "name": "MSc Applied Bioscience Seminar Series"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6030G",
+      "name": "MSc Exit Seminar"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6020G",
+      "name": "MSc Thesis in Applied Bioscience"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6100G",
+      "name": "Advanced Cell and Molecular Biology"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6300G",
+      "name": "Advanced Topics in Biological Chemistry"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6400G",
+      "name": "Advanced Topics in Forensic Bioscience"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6500G",
+      "name": "Advanced Topics in Medicinal Chemistry"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6600G",
+      "name": "Design, Analysis &amp; Interpretation of Quantitative Biological Research"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6700G",
+      "name": "Advances in Applied Bioscience"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "APBS 6800G",
+      "name": "Geographic Information Systems (GIS) and Spatial Analysis"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,125 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20305",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5010G",
+      "name": "Research Approaches for Nursing and Health Sciences"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5021G",
+      "name": "Advancing Nursing through Leadership"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5120G",
+      "name": "Philosophy of Nursing Science"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5096G",
+      "name": "MScN Thesis in Nursing Advanced/Professional Practice"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5118G",
+      "name": "Applied Biostatistics for Nursing and Health Sciences"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5123G",
+      "name": "Qualitative Research Methods"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5111G",
+      "name": "Health and Public Policy"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5119G",
+      "name": "Program Evaluation for Healthcare Leaders"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5205G",
+      "name": "Informatics for Nursing and Health Sciences"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 5097G",
+      "name": "Nursing Advanced/Professional Practice Research Project"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 6050G",
+      "name": "Patient Journey Modelling"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 6115G",
+      "name": "Community Health of Vulnerable Populations"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 6116G",
+      "name": "Systematic Reviews for Personal, Professional and Policy Decisions"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 5324G",
+      "name": "Critical Issues in Skilled Performance"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5101G",
+      "name": "Innovative Digital Pedagogies"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5205G",
+      "name": "Leadership and Technology"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

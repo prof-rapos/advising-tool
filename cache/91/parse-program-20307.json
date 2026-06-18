@@ -1,0 +1,132 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20307",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5100G",
+      "name": "Business Analytics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5200G",
+      "name": "Ethical and Legal Issues in Analytics and AI"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5300G",
+      "name": "Programming and Data Processing"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5310G",
+      "name": "Artificial Intelligence Programming"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5400G",
+      "name": "Visualization and Storytelling"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5500G",
+      "name": "Security, Privacy, and Trust in AI Systems"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5110G",
+      "name": "Big Data Systems Design"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5410G",
+      "name": "Digital Transformation"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5810G",
+      "name": "Strategic Supply Chain Leadership"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5820G",
+      "name": "Operations and Supply Chain Analytics"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5830G",
+      "name": "New Business Ideation"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5840G",
+      "name": "Entrepreneurship and AI"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5850G",
+      "name": "Global AI Governance"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5860G",
+      "name": "AI Leadership"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5600G",
+      "name": "Applied Integrative Analytics Project"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5610G",
+      "name": "MBAI Research Project"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5700G",
+      "name": "Business Analytics Internship"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

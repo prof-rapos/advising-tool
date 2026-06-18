@@ -1,0 +1,66 @@
+[
+  {
+    "code": "METE 4280U",
+    "name": "Robotics and Automation"
+  },
+  {
+    "code": "METE 2010U",
+    "name": "Circuits and Electronics"
+  },
+  {
+    "code": "METE 2020U",
+    "name": "Circuit Design for Mechatronics"
+  },
+  {
+    "code": "METE 2030U",
+    "name": "Electronics Applications in Mechatronics"
+  },
+  {
+    "code": "METE 3100U",
+    "name": "Actuators and Power Electronics"
+  },
+  {
+    "code": "METE 3200U",
+    "name": "Sensors and Instrumentation"
+  },
+  {
+    "code": "METE 3300U",
+    "name": "Systems Modelling"
+  },
+  {
+    "code": "METE 3350U",
+    "name": "Microprocessors and Digital Systems"
+  },
+  {
+    "code": "METE 3400U",
+    "name": "Automatic Control Systems"
+  },
+  {
+    "code": "METE 4000U",
+    "name": "Special Topics in Mechatronics Engineering"
+  },
+  {
+    "code": "METE 4100U",
+    "name": "Mechatronics Design"
+  },
+  {
+    "code": "METE 4200U",
+    "name": "Industrial Automation"
+  },
+  {
+    "code": "METE 4300U",
+    "name": "Introduction to Mobile Robotics"
+  },
+  {
+    "code": "METE 4350U",
+    "name": "Linear State‐Space Control Systems"
+  },
+  {
+    "code": "METE 4400U",
+    "name": "Introduction to Real-Time Embedded Systems"
+  },
+  {
+    "code": "METE 4500U",
+    "name": "Machine Vision for Robotic Systems"
+  }
+]

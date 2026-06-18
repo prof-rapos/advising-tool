@@ -1,0 +1,444 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20281",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5020G",
+      "name": "Studies in Community, Public and Population Health"
+    },
+    {
+      "id": "r2",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "HLSC 5118G",
+          "name": "Intermediate Statistics for Health Sciences"
+        },
+        {
+          "code": "HLSC 6123G",
+          "name": "Advanced Qualitative Methods in Health Research"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "HLSC 5117G",
+          "name": "Epidemiology"
+        },
+        {
+          "code": "HLSC 5124G",
+          "name": "Public Health in Canada"
+        },
+        {
+          "code": "HLSC 6111G",
+          "name": "Health Policy"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5011G",
+      "name": "Graduate Seminar in Health Sciences"
+    },
+    {
+      "id": "r5",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "Elective Course"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5096G",
+      "name": "MHSc Thesis in Health Sciences"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5205G",
+      "name": "Multidisciplinary Perspectives in Health Informatics"
+    },
+    {
+      "id": "r8",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "HLSC 5118G",
+          "name": "Intermediate Statistics for Health Sciences"
+        },
+        {
+          "code": "HLSC 6123G",
+          "name": "Advanced Qualitative Methods in Health Research"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5011G",
+      "name": "Graduate Seminar in Health Sciences"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "Elective Courses"
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "Elective Courses"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5096G",
+      "name": "MHSc Thesis in Health Sciences"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5030G",
+      "name": "Studies in Kinesiology"
+    },
+    {
+      "id": "r14",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "HLSC 5118G",
+          "name": "Intermediate Statistics for Health Sciences"
+        },
+        {
+          "code": "HLSC 6123G",
+          "name": "Advanced Qualitative Methods in Health Research"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5011G",
+      "name": "Graduate Seminar in Health Sciences"
+    },
+    {
+      "id": "r16",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "Elective Courses"
+    },
+    {
+      "id": "r17",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "Elective Courses"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 5096G",
+      "name": "MHSc Thesis in Health Sciences"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {
+    "oneOf": {
+      "prefixes": [
+        "HLSC"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "designatedForCommunityPublicAndPopulationHealth": [
+      {
+        "code": "HLSC 6050G",
+        "name": "Patient Journey Modelling"
+      },
+      {
+        "code": "HLSC 5060G",
+        "name": "Special Topics in Health Sciences Research"
+      },
+      {
+        "code": "HLSC 6111G",
+        "name": "Health Policy"
+      },
+      {
+        "code": "HLSC 6115G",
+        "name": "Community Health of Vulnerable Populations"
+      },
+      {
+        "code": "HLSC 6116G",
+        "name": "Systematic Reviews for Personal, Professional and Policy Decisions"
+      },
+      {
+        "code": "HLSC 5117G",
+        "name": "Epidemiology"
+      },
+      {
+        "code": "HLSC 5118G",
+        "name": "Intermediate Statistics for Health Sciences"
+      },
+      {
+        "code": "HLSC 6122G",
+        "name": "Successful Ageing"
+      },
+      {
+        "code": "HLSC 6123G",
+        "name": "Advanced Qualitative Methods in Health Research"
+      },
+      {
+        "code": "HLSC 5124G",
+        "name": "Public Health in Canada"
+      },
+      {
+        "code": "HLSC 6129G",
+        "name": "Program Evaluation for Healthcare Leaders"
+      },
+      {
+        "code": "HLSC 5190G",
+        "name": "Advanced Topics in Community Health Research"
+      },
+      {
+        "code": "HLSC 5205G",
+        "name": "Multidisciplinary Perspectives in Health Informatics"
+      },
+      {
+        "code": "HLSC 6210G",
+        "name": "Advanced Statistics for Health Sciences"
+      },
+      {
+        "code": "HLSC 6314G",
+        "name": "Environmental Determinants of Health"
+      },
+      {
+        "code": "HLSC 6320G",
+        "name": "Advanced Topics in Neuromechanics"
+      },
+      {
+        "code": "HLSC 6323G",
+        "name": "Physical Activity and Chronic Health Conditions"
+      },
+      {
+        "code": "HLSC 5324G",
+        "name": "Critical Issues in Skilled Performance"
+      }
+    ],
+    "designatedForHealthInformatics": [
+      {
+        "code": "HLSC 6050G",
+        "name": "Patient Journey Modelling"
+      },
+      {
+        "code": "HLSC 5060G",
+        "name": "Special Topics in Health Sciences Research"
+      },
+      {
+        "code": "HLSC 6111G",
+        "name": "Health Policy"
+      },
+      {
+        "code": "HLSC 6116G",
+        "name": "Systematic Reviews for Personal, Professional and Policy Decisions"
+      },
+      {
+        "code": "HLSC 5117G",
+        "name": "Epidemiology"
+      },
+      {
+        "code": "HLSC 5118G",
+        "name": "Intermediate Statistics for Health Sciences"
+      },
+      {
+        "code": "HLSC 6123G",
+        "name": "Advanced Qualitative Methods in Health Research"
+      },
+      {
+        "code": "HLSC 5124G",
+        "name": "Public Health in Canada"
+      },
+      {
+        "code": "HLSC 6129G",
+        "name": "Program Evaluation for Healthcare Leaders"
+      },
+      {
+        "code": "HLSC 5205G",
+        "name": "Multidisciplinary Perspectives in Health Informatics"
+      },
+      {
+        "code": "HLSC 6210G",
+        "name": "Advanced Statistics for Health Sciences"
+      },
+      {
+        "code": "HLSC 5291G",
+        "name": "Advanced Topics in Health Informatics Research"
+      },
+      {
+        "code": "HLSC 6322G",
+        "name": "Theory and Application of Biomedical Signals and Images"
+      },
+      {
+        "code": "HLSC 6323G",
+        "name": "Physical Activity and Chronic Health Conditions"
+      },
+      {
+        "code": "HLSC 5324G",
+        "name": "Critical Issues in Skilled Performance"
+      },
+      {
+        "code": "MITS 5400G",
+        "name": "Secure Software Systems"
+      },
+      {
+        "code": "ENGR 5720G",
+        "name": "Pervasive and Mobile Computing"
+      }
+    ],
+    "designatedForKinesiology": [
+      {
+        "code": "HLSC 5020G",
+        "name": "Studies in Community, Public and Population Health"
+      },
+      {
+        "code": "HLSC 6050G",
+        "name": "Patient Journey Modelling"
+      },
+      {
+        "code": "HLSC 5060G",
+        "name": "Special Topics in Health Sciences Research"
+      },
+      {
+        "code": "HLSC 6111G",
+        "name": "Health Policy"
+      },
+      {
+        "code": "HLSC 6115G",
+        "name": "Community Health of Vulnerable Populations"
+      },
+      {
+        "code": "HLSC 6116G",
+        "name": "Systematic Reviews for Personal, Professional and Policy Decisions"
+      },
+      {
+        "code": "HLSC 5117G",
+        "name": "Epidemiology"
+      },
+      {
+        "code": "HLSC 5118G",
+        "name": "Intermediate Statistics for Health Sciences"
+      },
+      {
+        "code": "HLSC 6122G",
+        "name": "Successful Ageing"
+      },
+      {
+        "code": "HLSC 6123G",
+        "name": "Advanced Qualitative Methods in Health Research"
+      },
+      {
+        "code": "HLSC 5124G",
+        "name": "Public Health in Canada"
+      },
+      {
+        "code": "HLSC 5126G",
+        "name": "Motor Behaviour and Developmental Disabilities"
+      },
+      {
+        "code": "HLSC 6129G",
+        "name": "Program Evaluation for Healthcare Leaders"
+      },
+      {
+        "code": "HLSC 5205G",
+        "name": "Multidisciplinary Perspectives in Health Informatics"
+      },
+      {
+        "code": "HLSC 6210G",
+        "name": "Advanced Statistics for Health Sciences"
+      },
+      {
+        "code": "HLSC 5304G",
+        "name": "Advanced Ergonomics and Human Factors"
+      },
+      {
+        "code": "HLSC 5305G",
+        "name": "Applied Topics in Sport and Exercise Psychology"
+      },
+      {
+        "code": "HLSC 5307G",
+        "name": "Applied Techniques in Neuromechanics"
+      },
+      {
+        "code": "HLSC 6314G",
+        "name": "Environmental Determinants of Health"
+      },
+      {
+        "code": "HLSC 6320G",
+        "name": "Advanced Topics in Neuromechanics"
+      },
+      {
+        "code": "HLSC 6322G",
+        "name": "Theory and Application of Biomedical Signals and Images"
+      },
+      {
+        "code": "HLSC 6323G",
+        "name": "Physical Activity and Chronic Health Conditions"
+      },
+      {
+        "code": "HLSC 5324G",
+        "name": "Critical Issues in Skilled Performance"
+      },
+      {
+        "code": "HLSC 6325G",
+        "name": "Practical Skills in Kinesiology"
+      },
+      {
+        "code": "HLSC 5326G",
+        "name": "Kinesiology Lab Skills"
+      },
+      {
+        "code": "HLSC 5390G",
+        "name": "Advanced Topics in Kinesiology"
+      },
+      {
+        "code": "HLSC 5391G",
+        "name": "Advanced Topics in Neuromuscular Physiology and Pathophysiology"
+      },
+      {
+        "code": "HLSC 5392G",
+        "name": "Selected Topics in Physical Activity and Health"
+      }
+    ]
+  },
+  "elecSanityOk": false,
+  "elecCardCount": 5,
+  "elecRestrictionSum": 0
+}

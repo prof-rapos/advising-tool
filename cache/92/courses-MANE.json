@@ -1,0 +1,62 @@
+[
+  {
+    "code": "MANE 2220U",
+    "name": "Structure and Properties of Materials"
+  },
+  {
+    "code": "MANE 3120U",
+    "name": "Thermo-mechanical Processing of Materials"
+  },
+  {
+    "code": "MANE 3190U",
+    "name": "Manufacturing and Production Processes"
+  },
+  {
+    "code": "MANE 3300U",
+    "name": "Integrated Manufacturing Systems"
+  },
+  {
+    "code": "MANE 3460U",
+    "name": "Industrial Ergonomics"
+  },
+  {
+    "code": "MANE 4000U",
+    "name": "Special Topics in Manufacturing Engineering"
+  },
+  {
+    "code": "MANE 4015U",
+    "name": "Reliability and Maintenance"
+  },
+  {
+    "code": "MANE 4045U",
+    "name": "Quality Control"
+  },
+  {
+    "code": "MANE 4110U",
+    "name": "Design for Manufacturing"
+  },
+  {
+    "code": "MANE 4160U",
+    "name": "Artificial Intelligence in Engineering"
+  },
+  {
+    "code": "MANE 4190U",
+    "name": "Principles of Material Removal Processes"
+  },
+  {
+    "code": "MANE 4380U",
+    "name": "Life Cycle Engineering"
+  },
+  {
+    "code": "MANE 4390U",
+    "name": "Modelling Manufacturing Systems"
+  },
+  {
+    "code": "MANE 4600U",
+    "name": "Additive Manufacturing"
+  },
+  {
+    "code": "MANE 4700U",
+    "name": "Introduction to Tribology: Friction, Wear and Lubrication"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "poid": 20293,
+    "name": "Applied Bioscience, MSc"
+  },
+  {
+    "poid": 20284,
+    "name": "Computer Science, MSc"
+  },
+  {
+    "poid": 20286,
+    "name": "Materials Science, MSc"
+  },
+  {
+    "poid": 20289,
+    "name": "Modelling and Computational Science, MSc"
+  },
+  {
+    "poid": 20294,
+    "name": "Applied Bioscience, PhD"
+  },
+  {
+    "poid": 20285,
+    "name": "Computer Science, PhD"
+  },
+  {
+    "poid": 20287,
+    "name": "Materials Science, PhD"
+  },
+  {
+    "poid": 20290,
+    "name": "Modelling and Computational Science, PhD"
+  }
+]

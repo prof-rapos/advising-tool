@@ -1,0 +1,118 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20367",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 5010G",
+      "name": "Fundamentals of Cybersecurity I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5100G",
+      "name": "Law &amp; Ethics of IT Security"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5010G",
+      "name": "Survey of Computer Science Research Topics and Methods"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6020G",
+      "name": "Usable Security"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6030G",
+      "name": "Information Trust"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6040G",
+      "name": "Cybersecurity in Critical Infrastructure"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6050G",
+      "name": "Advanced Topics in Cybersecurity"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6110G",
+      "name": "Global Cybersecurity Threats"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6120G",
+      "name": "Cybersecurity Leadership"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6130G",
+      "name": "CyberCrime"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5600G",
+      "name": "Security Policies and Risk Management"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 6900G",
+      "name": "Blockchain Foundations and Technologies"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 7000G",
+      "name": "PhD Cybersecurity Seminar"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 7100G",
+      "name": "PhD Cybersecurity Thesis Proposal and Candidacy Exam"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 7200G",
+      "name": "PhD Cybersecurity Dissertation"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

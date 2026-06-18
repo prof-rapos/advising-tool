@@ -1,0 +1,390 @@
+[
+  {
+    "code": "INFR 1010U",
+    "name": "Discrete Mathematics"
+  },
+  {
+    "code": "INFR 1016U",
+    "name": "Introductory Calculus"
+  },
+  {
+    "code": "INFR 1020U",
+    "name": "Essential Mathematics for Games I"
+  },
+  {
+    "code": "INFR 1030U",
+    "name": "Essential Mathematics for Games II"
+  },
+  {
+    "code": "INFR 1100U",
+    "name": "Programming for Games I"
+  },
+  {
+    "code": "INFR 1101U",
+    "name": "Introduction to Programming for IT"
+  },
+  {
+    "code": "INFR 1110U",
+    "name": "Programming for Games II"
+  },
+  {
+    "code": "INFR 1300U",
+    "name": "Introduction to Narrative Design"
+  },
+  {
+    "code": "INFR 1315U",
+    "name": "Visual Narrative Foundations"
+  },
+  {
+    "code": "INFR 1325U",
+    "name": "Introduction to 2D Animation for Games"
+  },
+  {
+    "code": "INFR 1330U",
+    "name": "Basic Introduction to Game Design"
+  },
+  {
+    "code": "INFR 1335U",
+    "name": "Digital Game Design"
+  },
+  {
+    "code": "INFR 1350U",
+    "name": "Introduction to Computer Graphics"
+  },
+  {
+    "code": "INFR 1395U",
+    "name": "Game Development Workshop I"
+  },
+  {
+    "code": "INFR 1396U",
+    "name": "Game Development Workshop II"
+  },
+  {
+    "code": "INFR 1400U",
+    "name": "Statistics and Probability for IT"
+  },
+  {
+    "code": "INFR 1411U",
+    "name": "Introduction to Networking I"
+  },
+  {
+    "code": "INFR 1421U",
+    "name": "Introduction to Networking II"
+  },
+  {
+    "code": "INFR 1550U",
+    "name": "Law and Ethics of IT"
+  },
+  {
+    "code": "INFR 2020U",
+    "name": "Essential Math for Games III"
+  },
+  {
+    "code": "INFR 2100U",
+    "name": "Programming in C/C++"
+  },
+  {
+    "code": "INFR 2141U",
+    "name": "Object Oriented Programming for IT"
+  },
+  {
+    "code": "INFR 2310U",
+    "name": "Animation and A.I. for Games"
+  },
+  {
+    "code": "INFR 2330U",
+    "name": "Intermediate Game Design"
+  },
+  {
+    "code": "INFR 2345U",
+    "name": "Modelling and Animation Systems I"
+  },
+  {
+    "code": "INFR 2350U",
+    "name": "Intermediate Computer Graphics"
+  },
+  {
+    "code": "INFR 2370U",
+    "name": "Game Sound"
+  },
+  {
+    "code": "INFR 2395U",
+    "name": "Game Development Workshop III"
+  },
+  {
+    "code": "INFR 2396U",
+    "name": "Game Development Workshop IV"
+  },
+  {
+    "code": "INFR 2411U",
+    "name": "Advanced Networking I"
+  },
+  {
+    "code": "INFR 2421U",
+    "name": "Advanced Networking II"
+  },
+  {
+    "code": "INFR 2431U",
+    "name": "Advanced Networking III"
+  },
+  {
+    "code": "INFR 2600U",
+    "name": "Introduction to Computer Security"
+  },
+  {
+    "code": "INFR 2670U",
+    "name": "Introduction to Cloud Services"
+  },
+  {
+    "code": "INFR 2810U",
+    "name": "Computer Architecture"
+  },
+  {
+    "code": "INFR 2820U",
+    "name": "Algorithms and Data Structures"
+  },
+  {
+    "code": "INFR 2830U",
+    "name": "Operating Systems"
+  },
+  {
+    "code": "INFR 3110U",
+    "name": "Game Engine Design and Implementation"
+  },
+  {
+    "code": "INFR 3120U",
+    "name": "Web and Script Programming"
+  },
+  {
+    "code": "INFR 3200U",
+    "name": "Introduction to DevOps and Infrastructure Automation"
+  },
+  {
+    "code": "INFR 3250U",
+    "name": "User Experience Research"
+  },
+  {
+    "code": "INFR 3315U",
+    "name": "Cinematic Systems Design"
+  },
+  {
+    "code": "INFR 3322U",
+    "name": "Character Design"
+  },
+  {
+    "code": "INFR 3325U",
+    "name": "Digital Painting and Composition for Games"
+  },
+  {
+    "code": "INFR 3332U",
+    "name": "Advanced Narrative Design"
+  },
+  {
+    "code": "INFR 3335U",
+    "name": "Social and Multiplayer Game Design"
+  },
+  {
+    "code": "INFR 3342U",
+    "name": "Figure Studies"
+  },
+  {
+    "code": "INFR 3345U",
+    "name": "Modelling and Animation Systems II"
+  },
+  {
+    "code": "INFR 3350U",
+    "name": "Games User Research"
+  },
+  {
+    "code": "INFR 3355U",
+    "name": "Portable Game Development"
+  },
+  {
+    "code": "INFR 3365U",
+    "name": "Designing Tabletop Games"
+  },
+  {
+    "code": "INFR 3370U",
+    "name": "Designing Games for Social and Emotional Impact"
+  },
+  {
+    "code": "INFR 3375U",
+    "name": "Retro Game Design and Development"
+  },
+  {
+    "code": "INFR 3380U",
+    "name": "Industrial Design for Game Hardware Development"
+  },
+  {
+    "code": "INFR 3385U",
+    "name": "Hard Surface and Environment Modeling"
+  },
+  {
+    "code": "INFR 3390U",
+    "name": "Intermediate Rigging"
+  },
+  {
+    "code": "INFR 3395U",
+    "name": "Game Development Workshop V"
+  },
+  {
+    "code": "INFR 3396U",
+    "name": "Game Development Workshop VI"
+  },
+  {
+    "code": "INFR 3500U",
+    "name": "Introduction to Live Streaming"
+  },
+  {
+    "code": "INFR 3600U",
+    "name": "Cryptography and Network Security"
+  },
+  {
+    "code": "INFR 3610U",
+    "name": "Operating System Security"
+  },
+  {
+    "code": "INFR 3700U",
+    "name": "Machine Learning"
+  },
+  {
+    "code": "INFR 3720U",
+    "name": "Basics of Digital Transmission"
+  },
+  {
+    "code": "INFR 3810U",
+    "name": "Database Systems"
+  },
+  {
+    "code": "INFR 3830U",
+    "name": "Game Networking Essentials"
+  },
+  {
+    "code": "INFR 3850U",
+    "name": "System and Network Administration"
+  },
+  {
+    "code": "INFR 4120U",
+    "name": "Serious Gaming and Virtual Simulation"
+  },
+  {
+    "code": "INFR 4320U",
+    "name": "Artificial Intelligence for Gaming"
+  },
+  {
+    "code": "INFR 4336U",
+    "name": "Visual Programming for Game Development"
+  },
+  {
+    "code": "INFR 4338U",
+    "name": "Asset Pipelines and Procedural Workflows"
+  },
+  {
+    "code": "INFR 4345U",
+    "name": "Game Analytics"
+  },
+  {
+    "code": "INFR 4350U",
+    "name": "Human-Computer Interaction for Games"
+  },
+  {
+    "code": "INFR 4351U",
+    "name": "Human-Computer Interaction and User Evaluation"
+  },
+  {
+    "code": "INFR 4355U",
+    "name": "Empirical Evaluation of Interactive Systems"
+  },
+  {
+    "code": "INFR 4365U",
+    "name": "Themed Entertainment Design"
+  },
+  {
+    "code": "INFR 4370U",
+    "name": "Advanced Game Sound"
+  },
+  {
+    "code": "INFR 4380U",
+    "name": "Trends in Game Development"
+  },
+  {
+    "code": "INFR 4391U",
+    "name": "Special Topics in Game Development and Entrepreneurship"
+  },
+  {
+    "code": "INFR 4395U",
+    "name": "Game Development Workshop VII"
+  },
+  {
+    "code": "INFR 4396U",
+    "name": "Game Development Workshop VIII"
+  },
+  {
+    "code": "INFR 4440U",
+    "name": "Advanced Sculpting"
+  },
+  {
+    "code": "INFR 4445U",
+    "name": "Advanced Rigging"
+  },
+  {
+    "code": "INFR 4450U",
+    "name": "Advanced Computer Graphics for Games"
+  },
+  {
+    "code": "INFR 4460U",
+    "name": "Emerging Technologies"
+  },
+  {
+    "code": "INFR 4470U",
+    "name": "Games Accessibility"
+  },
+  {
+    "code": "INFR 4560U",
+    "name": "Law and Ethics in Game Development"
+  },
+  {
+    "code": "INFR 4590U",
+    "name": "Directed Independent Studies in Information Technology"
+  },
+  {
+    "code": "INFR 4599U",
+    "name": "Special Topics in Information Technology"
+  },
+  {
+    "code": "INFR 4601U",
+    "name": "Software-Defined and Programmable Networks"
+  },
+  {
+    "code": "INFR 4611U",
+    "name": "Trust Systems"
+  },
+  {
+    "code": "INFR 4641U",
+    "name": "Advanced Network Security"
+  },
+  {
+    "code": "INFR 4661U",
+    "name": "Introduction to Penetration Testing"
+  },
+  {
+    "code": "INFR 4662U",
+    "name": "Web Penetration Testing"
+  },
+  {
+    "code": "INFR 4680U",
+    "name": "IT Security Policies and Procedures"
+  },
+  {
+    "code": "INFR 4690U",
+    "name": "IT Forensics"
+  },
+  {
+    "code": "INFR 4710U",
+    "name": "Social, Information, and Technology Networks"
+  },
+  {
+    "code": "INFR 4900U",
+    "name": "Introduction to Blockchain Technologies"
+  }
+]

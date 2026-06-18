@@ -1,0 +1,174 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20285",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5001G",
+      "name": "MSc Thesis"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5010G",
+      "name": "Survey of Computer Science Research Topics and Methods"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5020G",
+      "name": "Collaborative Design and Research"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 6001G",
+      "name": "PhD Dissertation"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 7010G",
+      "name": "PhD Thesis Proposal and Candidacy Exam"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5140G",
+      "name": "Ecology of Online Learning"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5160G",
+      "name": "Topics in Software Design"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 6100G",
+      "name": "Advanced Topics in Software Design"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5300G",
+      "name": "Computer Communication Networks"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5310G",
+      "name": "Cryptography and Secure Communications"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5360G",
+      "name": "Topics in Networks"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5370G",
+      "name": "Topics in IT Security"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 6310G",
+      "name": "Advanced Topics in Networks"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 6320G",
+      "name": "Advanced Topics in IT Security"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5520G",
+      "name": "Computer Vision"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5550G",
+      "name": "Topics in Digital Media"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 6515G",
+      "name": "3D Imaging from Local Illumination to Holography"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 6520G",
+      "name": "Advanced Topics in Digital Media"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5730G",
+      "name": "Topics in Information Science"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5760G",
+      "name": "Information and Social Networks: Theory and Application"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 5770G",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 6710G",
+      "name": "Advanced Topics in Health Informatics"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 6720G",
+      "name": "Advanced Topics in Information Science"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

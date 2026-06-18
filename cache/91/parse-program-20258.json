@@ -1,0 +1,160 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20258",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0500",
+      "name": "Engineering Project, University of Ontario Institute of Technology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0501",
+      "name": "Fuel Management"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0502",
+      "name": "Nuclear Power Plant Systems and Operations"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0503",
+      "name": "Nuclear Energy in Society: Regulation and Our Energy Future"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0504",
+      "name": "Small Modular Reactors"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0600",
+      "name": "Engineering Project, Western University"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0601",
+      "name": "Control, Instrumentation and Electrical Systems in CANDU based Nuclear Power Plants"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0602",
+      "name": "Nuclear Fuel Waste Management"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0603",
+      "name": "Project Management for Nuclear Engineers"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0700",
+      "name": "Engineering Project, University of Waterloo"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0701",
+      "name": "Engineering Risk and Reliability"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0800",
+      "name": "Engineering Project, McMaster University"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0802",
+      "name": "Nuclear Reactor Physics"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0803",
+      "name": "Nuclear Reactor Safety Design"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0804",
+      "name": "Nuclear Reactor Heat Transport System Design"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0805",
+      "name": "Introduction to Operational Health Physics"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0806",
+      "name": "Nuclear Fuel Engineering"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0807",
+      "name": "Power Plant Thermodynamics"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0808",
+      "name": "Reactor Chemistry and Corrosion"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0900",
+      "name": "Engineering Project, Queen's University"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "UN 0901",
+      "name": "Nuclear Materials"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

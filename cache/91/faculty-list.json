@@ -1,0 +1,26 @@
+[
+  {
+    "entOid": 2029,
+    "name": "Go to information for Faculty of Business and Information Technology."
+  },
+  {
+    "entOid": 2030,
+    "name": "Go to information for Frazer Faculty of Education."
+  },
+  {
+    "entOid": 2032,
+    "name": "Go to information for Faculty of Engineering and Applied Science."
+  },
+  {
+    "entOid": 2033,
+    "name": "Go to information for Faculty of Health Sciences."
+  },
+  {
+    "entOid": 2034,
+    "name": "Go to information for Faculty of Science."
+  },
+  {
+    "entOid": 2035,
+    "name": "Go to information for Faculty of Social Science and Humanities."
+  }
+]

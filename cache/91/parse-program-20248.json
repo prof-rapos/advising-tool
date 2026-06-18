@@ -1,0 +1,169 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20248",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5100G",
+      "name": "Law &amp; Ethics of IT Security"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5400G",
+      "name": "Secure Software Systems"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5500G",
+      "name": "Cryptography and Secure Communications"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5600G",
+      "name": "Security Policies and Risk Management"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 6700G",
+      "name": "Complex Networks"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 6800G",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5900G",
+      "name": "MITS Seminar"
+    },
+    {
+      "id": "r8",
+      "type": "elective",
+      "year": 0,
+      "elecType": "aiSecurity",
+      "label": "elective AI/Security courses"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 0,
+      "elecType": "aiSecurity",
+      "label": "elective AI/Security courses"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 6300G",
+      "name": "IT Security Capstone Research Project I"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 6600G",
+      "name": "IT Security Capstone Research Project II"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 7000G",
+      "name": "MITS Internship"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 5010G",
+      "name": "Fundamentals of Cybersecurity I"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5100G",
+      "name": "Law &amp; Ethics of IT Security"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5600G",
+      "name": "Security Policies and Risk Management"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6030G",
+      "name": "Information Trust"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5900G",
+      "name": "MITS Seminar"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6020G",
+      "name": "Usable Security"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6110G",
+      "name": "Global Cybersecurity Threats"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6120G",
+      "name": "Cybersecurity Leadership"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 6130G",
+      "name": "CyberCrime"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "MITS 5620G",
+      "name": "Special Topics in IT Management"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "aiSecurity": "elective AI/Security courses"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 2,
+  "elecRestrictionSum": 0
+}

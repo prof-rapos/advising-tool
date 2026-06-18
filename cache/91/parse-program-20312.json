@@ -1,0 +1,108 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20312",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "MFDA 5100G",
+      "name": "Financial Management"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MFDA 5200G",
+      "name": "Investments"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MFDA 5400G",
+      "name": "Financial Econometrics"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5100G",
+      "name": "Business Analytics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5300G",
+      "name": "Programming and Data Processing"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MBAI 5310G",
+      "name": "Artificial Intelligence Programming"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MFDA 5300G",
+      "name": "Financial Derivatives Securities"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "MFDA 5500G",
+      "name": "Financial Risk Management"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 5010G",
+      "name": "Foundations of Business"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 5100G",
+      "name": "Accounting Systems"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "MFDA 5600G",
+      "name": "Applied Financial Data Analytics Project"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MFDA 5700G",
+      "name": "Financial Data Analytics Internship"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "forNonBusinessGraduates": [
+      {
+        "code": "BUSI 5010G",
+        "name": "Foundations of Business"
+      },
+      {
+        "code": "BUSI 5100G",
+        "name": "Accounting Systems"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

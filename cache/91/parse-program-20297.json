@@ -1,0 +1,286 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20297",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5920G",
+      "name": "Professional Seminar"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 6900G",
+      "name": "PhD Research"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 6920G",
+      "name": "PhD Proposal and Candidacy Exam"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 6930G",
+      "name": "PhD Comprehensive Examination"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 6940G",
+      "name": "Professional Development"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 6910G",
+      "name": "PhD Thesis"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5020G",
+      "name": "Advanced Methods in Neuroscience"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5030G",
+      "name": "Advanced Multivariate Statistics"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5060G",
+      "name": "Advanced Methods in Qualitative Research"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5040G",
+      "name": "Advanced Research Methods"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5110G",
+      "name": "Aggression"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5120G",
+      "name": "Applied Neuroscience"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5130G",
+      "name": "Cognitive/Affective Neuroscience"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5140G",
+      "name": "Interpersonal Relations and Group Processes"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5150G",
+      "name": "Memory"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5160G",
+      "name": "Psychotherapy"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5170G",
+      "name": "Readings in Classical Psychology"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5180G",
+      "name": "Social Influence"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5190G",
+      "name": "Stereotypes &amp; Prejudice"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5200G",
+      "name": "Cognitive Development"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5210G",
+      "name": "Psychometrics"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5220G",
+      "name": "Social Cognition"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5299G",
+      "name": "Fundamental Topics in Psychology"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5510G",
+      "name": "Confessions and Interrogations"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5520G",
+      "name": "Neurobiology of Antisocial Behaviour"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5540G",
+      "name": "Personality and Crime"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5550G",
+      "name": "Psychology and Law Enforcement"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5560G",
+      "name": "Psychology and the Courtroom"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5570G",
+      "name": "Psychology and Contemporary Issues in Youth Justice"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5580G",
+      "name": "Psychopathic Behaviour"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5590G",
+      "name": "Risk Assessment"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5600G",
+      "name": "Sexual Offending"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5610G",
+      "name": "The Child Witness"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5620G",
+      "name": "Wrongful Conviction"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5630G",
+      "name": "Forensic Psychology Practicum"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5640G",
+      "name": "Forensic Mental Health"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5650G",
+      "name": "Deception Detection"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5660G",
+      "name": "Investigative Psychology"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 5699G",
+      "name": "Special Topics in Forensic Psychology"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

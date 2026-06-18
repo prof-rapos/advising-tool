@@ -1,0 +1,97 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20309",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5010G",
+      "name": "Interdisciplinary Theory and Practice: Frameworks"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5020G",
+      "name": "Interdisciplinary Theory and Practice: Community Engaged Research"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5030G",
+      "name": "Foundations for Social Practice and Innovation"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5040G",
+      "name": "Advocacy, Change and Social Practices"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5050G",
+      "name": "Communicating Law and Politics in Everyday Life"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5060G",
+      "name": "Information, Power, and Democracy"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5070G",
+      "name": "Special Topics in Interdisciplinary Studies"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5080G",
+      "name": "Directed Studies"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5001G",
+      "name": "Major Research Project I"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5101G",
+      "name": "Major Research Project 1A"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5102G",
+      "name": "Major Research Project 1B"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MSPI 5002G",
+      "name": "Major Research Project II"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

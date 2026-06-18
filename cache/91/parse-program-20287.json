@@ -1,0 +1,118 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20287",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6000G",
+      "name": "Graduate Seminar in Science Communication I (non-credit)"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6100G",
+      "name": "Graduate Seminar in Science Communication II (non-credit)"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 7000G",
+      "name": "PhD Thesis Proposal and Candidacy Exam"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 7002G",
+      "name": "PhD Dissertation"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6010G",
+      "name": "Physics and Chemistry of Materials"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6020G",
+      "name": "Advanced Topics in Materials Science"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6050G",
+      "name": "MSc Thesis"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6140G",
+      "name": "Experimental Techniques in Materials Characterization"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6270G",
+      "name": "Topics in Applied Materials Science II"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6330G",
+      "name": "Electrochemical Methods and Materials"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6510G",
+      "name": "Surface Science and Catalysis"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6520G",
+      "name": "Nanomaterials"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 6530G",
+      "name": "Carbon Based Materials"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 7420G",
+      "name": "Advanced Topics in Theoretical Materials Science"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "MTSC 7510G",
+      "name": "Advanced Topics in Biomaterials"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

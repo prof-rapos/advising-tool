@@ -1,0 +1,133 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20274",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5002G",
+      "name": "MEng/MEngM Project"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5410G",
+      "name": "Project Management for Engineers"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5415G",
+      "name": "Foundations of Engineering Management"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5420G",
+      "name": "Quality Management"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5425G",
+      "name": "Production and Operations Management"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5427G",
+      "name": "Operations Research"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 5010G",
+      "name": "Foundations of Business"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 5100G",
+      "name": "Accounting Systems"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 5200G",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5421G",
+      "name": "Entrepreneurial Opportunity Identification"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5422G",
+      "name": "Sustainable Entrepreneurship"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5423G",
+      "name": "Entrepreneurial Thinking and Innovation"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5014G",
+      "name": "Pollution Prevention and Sustainable Engineering"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5775G",
+      "name": "Knowledge Discovery and Data Mining"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5050G",
+      "name": "Applied Risk Analysis"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "groupCEngineeringManagement": [
+      {
+        "code": "ENGR 5014G",
+        "name": "Pollution Prevention and Sustainable Engineering"
+      },
+      {
+        "code": "ENGR 5775G",
+        "name": "Knowledge Discovery and Data Mining"
+      },
+      {
+        "code": "NUCL 5050G",
+        "name": "Applied Risk Analysis"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

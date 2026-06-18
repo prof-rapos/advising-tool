@@ -1,0 +1,107 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20250",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5001G",
+      "name": "Principles of Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5002G",
+      "name": "Introduction to Research in Education"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 5003G",
+      "name": "Research Proposal Seminar"
+    },
+    {
+      "id": "r4",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r5",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r6",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r7",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r8",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 0,
+      "elecType": "otherCredits",
+      "label": "other course credits"
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 0,
+      "elecType": "12CreditsFromTheThesis",
+      "label": "12 credits from the thesis"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "otherCredits": "other course credits",
+    "12CreditsFromTheThesis": "12 credits from the thesis"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 10,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,104 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20300",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 6930G",
+      "name": "PhD Proposal and Candidacy Exam"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 6950G",
+      "name": "Comprehensive Examinations"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 6910G",
+      "name": "PhD Thesis"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5015G",
+      "name": "Data Analysis 2 - Graduate"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5065G",
+      "name": "Advanced Qualitative Methods 2"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5025G",
+      "name": "Modern and Emerging Criminological Theories"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5070G",
+      "name": "Policies and Practices in the Criminal Justice System"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5080G",
+      "name": "Crime and Inequality"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5081G",
+      "name": "Crime and Social Justice"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 5082G",
+      "name": "Crime and Technology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 6900G",
+      "name": "PhD Research"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 6920G",
+      "name": "Professional Seminar"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 6940G",
+      "name": "Professional Development and Teaching in the Social Sciences"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

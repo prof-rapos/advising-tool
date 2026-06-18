@@ -1,0 +1,230 @@
+[
+  {
+    "code": "KINE 1000U",
+    "name": "Foundations in Kinesiology"
+  },
+  {
+    "code": "KINE 1010U",
+    "name": "Human Anatomy &amp; Physiology I"
+  },
+  {
+    "code": "KINE 1020U",
+    "name": "Information Literacy &amp; Written Communications"
+  },
+  {
+    "code": "KINE 1030U",
+    "name": "Quantitative Reasoning"
+  },
+  {
+    "code": "KINE 1100U",
+    "name": "Human Anatomy &amp; Physiology II"
+  },
+  {
+    "code": "KINE 1120U",
+    "name": "Human Growth and Motor Development"
+  },
+  {
+    "code": "KINE 1130U",
+    "name": "Sociocultural Perspectives"
+  },
+  {
+    "code": "KINE 1140U",
+    "name": "Exercise Biochemistry"
+  },
+  {
+    "code": "KINE 2000U",
+    "name": "Anatomy of Human Movement"
+  },
+  {
+    "code": "KINE 2002U",
+    "name": "Fitness and Health Promotion Bridge"
+  },
+  {
+    "code": "KINE 2010U",
+    "name": "Health and Indigenous People in Canada"
+  },
+  {
+    "code": "KINE 2030U",
+    "name": "Psychology of Sport and Exercise"
+  },
+  {
+    "code": "KINE 2040U",
+    "name": "Biomechanics"
+  },
+  {
+    "code": "KINE 2050U",
+    "name": "Introduction to Movement Neuroscience"
+  },
+  {
+    "code": "KINE 2100U",
+    "name": "Introduction to Injury Management"
+  },
+  {
+    "code": "KINE 2110U",
+    "name": "Motor Control and Learning"
+  },
+  {
+    "code": "KINE 2120U",
+    "name": "Ethical Behaviour"
+  },
+  {
+    "code": "KINE 2130U",
+    "name": "Exercise Physiology"
+  },
+  {
+    "code": "KINE 2140U",
+    "name": "Research Methods"
+  },
+  {
+    "code": "KINE 3000U",
+    "name": "Fitness Assessment and Exercise Prescription"
+  },
+  {
+    "code": "KINE 3010U",
+    "name": "Introduction to Statistics for Kinesiology"
+  },
+  {
+    "code": "KINE 3100U",
+    "name": "Nutrition and Health"
+  },
+  {
+    "code": "KINE 3200U",
+    "name": "Integrated Topics in Active Aging"
+  },
+  {
+    "code": "KINE 3300U",
+    "name": "Coaching Principles and Practice"
+  },
+  {
+    "code": "KINE 3476U",
+    "name": "Advanced Sport Injury Management"
+  },
+  {
+    "code": "KINE 3482U",
+    "name": "Physical Activity and Indigenous Peoples in Canada"
+  },
+  {
+    "code": "KINE 4100U",
+    "name": "Kinesiology Capstone"
+  },
+  {
+    "code": "KINE 4150U",
+    "name": "Foundational Skills and Techniques for Massage Therapy"
+  },
+  {
+    "code": "KINE 4401U",
+    "name": "Motor Behaviour and Developmental Disabilities"
+  },
+  {
+    "code": "KINE 4404U",
+    "name": "Injury Prevention for Sport and Physical Activity"
+  },
+  {
+    "code": "KINE 4405U",
+    "name": "Policy Development for Sport and Physical Activity"
+  },
+  {
+    "code": "KINE 4406U",
+    "name": "Professionalism for Kinesiology and Health Care Workers"
+  },
+  {
+    "code": "KINE 4410U",
+    "name": "Practical Skills for Kinesiology Professionals"
+  },
+  {
+    "code": "KINE 4412U",
+    "name": "Exercise Rehabilitation: Cardiac, Respiratory, and Metabolic Conditions"
+  },
+  {
+    "code": "KINE 4413U",
+    "name": "Exercise Rehabilitation: Integrated Musculoskeletal Case Studies"
+  },
+  {
+    "code": "KINE 4414U",
+    "name": "Advanced Topics in Neuromuscular Physiology and Pathophysiology"
+  },
+  {
+    "code": "KINE 4460U",
+    "name": "Selected Topics in Physical Activity and Health"
+  },
+  {
+    "code": "KINE 4461U",
+    "name": "Applied Topics in Sport and Exercise Psychology"
+  },
+  {
+    "code": "KINE 4473U",
+    "name": "Practical Human Anatomy I: Back and Lower Limbs"
+  },
+  {
+    "code": "KINE 4474U",
+    "name": "Practical Human Anatomy II: Head, Neck and Upper Limbs"
+  },
+  {
+    "code": "KINE 4475U",
+    "name": "Occupational Ergonomics"
+  },
+  {
+    "code": "KINE 4476U",
+    "name": "Clinical Biomechanics"
+  },
+  {
+    "code": "KINE 4477U",
+    "name": "Applied Techniques in Neuromechanics"
+  },
+  {
+    "code": "KINE 4478U",
+    "name": "Advanced Ergonomics and Human Factors"
+  },
+  {
+    "code": "KINE 4482U",
+    "name": "Advanced Exercise Assessment and Prescription"
+  },
+  {
+    "code": "KINE 4490U",
+    "name": "Kinesiology Internship I"
+  },
+  {
+    "code": "KINE 4491U",
+    "name": "Kinternship II"
+  },
+  {
+    "code": "KINE 4492U",
+    "name": "Athletic Therapy Internship I"
+  },
+  {
+    "code": "KINE 4493U",
+    "name": "Athletic Therapy Internship II"
+  },
+  {
+    "code": "KINE 4494U",
+    "name": "Extended Athletic Therapy Internship I"
+  },
+  {
+    "code": "KINE 4495U",
+    "name": "Extended Athletic Therapy Internship II"
+  },
+  {
+    "code": "KINE 4670U",
+    "name": "Studies in Work Disability Prevention"
+  },
+  {
+    "code": "KINE 4672U",
+    "name": "Making a Work Disability Diagnosis"
+  },
+  {
+    "code": "KINE 4823U",
+    "name": "Small Business and Entrepreneurship for Health Professionals"
+  },
+  {
+    "code": "KINE 4940U",
+    "name": "Special Topics in Kinesiology"
+  },
+  {
+    "code": "KINE 4998U",
+    "name": "Research Practicum I"
+  },
+  {
+    "code": "KINE 4999U",
+    "name": "Research Practicum II"
+  }
+]

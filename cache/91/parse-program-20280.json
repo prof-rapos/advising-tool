@@ -1,0 +1,244 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20280",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5005G",
+      "name": "Special Topics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5010G",
+      "name": "Advanced Optimization"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5012G",
+      "name": "Advanced and Smart Materials"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5013G",
+      "name": "Advanced Engineering Mathematics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5014G",
+      "name": "Pollution Prevention and Sustainable Engineering"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5015G",
+      "name": "Advanced Computer Aided Geometric Design"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5016G",
+      "name": "Advanced Topology Optimization"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5100G",
+      "name": "Advanced Energy Systems"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5101G",
+      "name": "Thermal Energy Storage"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5102G",
+      "name": "Fuel Cells and Hydrogen Systems"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5120G",
+      "name": "Advanced Fluid Mechanics"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5122G",
+      "name": "Computational Fluid Dynamics"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5161G",
+      "name": "HVAC and Refrigeration Systems Design and Analysis"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5162G",
+      "name": "Microfluidics"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5223G",
+      "name": "Advanced Manufacturing Processes and Methodologies"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5240G",
+      "name": "Advanced Dynamics"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5243G",
+      "name": "Mechanics and Dynamics of Machine Tools"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5244G",
+      "name": "Advanced Acoustics and Noise Control"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5245G",
+      "name": "Micro and Nano Manufacturing"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5260G",
+      "name": "Advanced Robotics and Automation"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5262G",
+      "name": "Manipulator and Mechanism Design"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5263G",
+      "name": "Advanced Control"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5271G",
+      "name": "Innovative Design Engineering"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5273G",
+      "name": "Design by Failure"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5320G",
+      "name": "Automotive Aerodynamics"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5945G",
+      "name": "Mobile Robotic Systems"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5946G",
+      "name": "Advanced Fluid Power Control and Simulation"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6001G",
+      "name": "PhD Candidacy Exam"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6002G",
+      "name": "Dissertation"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6003G",
+      "name": "PhD Seminar for Mechanical Engineering"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6004G",
+      "name": "PhD Directed Studies"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6006G",
+      "name": "Workshops"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6013G",
+      "name": "PhD Seminar II"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

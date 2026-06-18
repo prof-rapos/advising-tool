@@ -1,0 +1,142 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20276",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5002G",
+      "name": "MEng/MEngM Project"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5410G",
+      "name": "Project Management for Engineers"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5415G",
+      "name": "Foundations of Engineering Management"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5420G",
+      "name": "Quality Management"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5425G",
+      "name": "Production and Operations Management"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 5010G",
+      "name": "Foundations of Business"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 5100G",
+      "name": "Accounting Systems"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 5200G",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5010G",
+      "name": "Advanced Optimization"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5014G",
+      "name": "Pollution Prevention and Sustainable Engineering"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5050G",
+      "name": "Applied Risk Analysis"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5090G",
+      "name": "Occupational Health and Safety"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5275G",
+      "name": "Safety Instrumented Systems (SIS)"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 5350G",
+      "name": "Regulatory Affairs and Licensing Concepts"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "groupCEngineeringManagement": [
+      {
+        "code": "ENGR 5002G",
+        "name": "MEng/MEngM Project"
+      },
+      {
+        "code": "ENGR 5010G",
+        "name": "Advanced Optimization"
+      },
+      {
+        "code": "ENGR 5014G",
+        "name": "Pollution Prevention and Sustainable Engineering"
+      },
+      {
+        "code": "NUCL 5050G",
+        "name": "Applied Risk Analysis"
+      },
+      {
+        "code": "NUCL 5090G",
+        "name": "Occupational Health and Safety"
+      },
+      {
+        "code": "NUCL 5275G",
+        "name": "Safety Instrumented Systems (SIS)"
+      },
+      {
+        "code": "NUCL 5350G",
+        "name": "Regulatory Affairs and Licensing Concepts"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

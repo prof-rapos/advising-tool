@@ -1,0 +1,272 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=91&poid=20273",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5005G",
+      "name": "Special Topics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5007G",
+      "name": "MASc Seminar for ECSE"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5013G",
+      "name": "Advanced Engineering Mathematics"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5010G",
+      "name": "Advanced Optimization"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5263G",
+      "name": "Advanced Control"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5605G",
+      "name": "Convex Optimization"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5630G",
+      "name": "Statistical Signal Processing"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5631G",
+      "name": "Advanced Estimation Theory"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5640G",
+      "name": "Advanced Wireless Communications"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5660G",
+      "name": "Next Generation Computing and Communication Networks"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5670G",
+      "name": "Secure Communications and Networking"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5675G",
+      "name": "AI-Enabled Smart Grid Systems Engineering"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5690G",
+      "name": "RF and Microwave Engineering for Wireless Systems"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5695G",
+      "name": "Antenna Theory and Design"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5710G",
+      "name": "Network Computing"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5720G",
+      "name": "Pervasive and Mobile Computing"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5775G",
+      "name": "Knowledge Discovery and Data Mining"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5785G",
+      "name": "Real-Time Data Analytics for Internet of Things"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5790G",
+      "name": "Safety-Critical Software Systems"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5910G",
+      "name": "Embedded Real-Time Control Systems"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5915G",
+      "name": "Discrete Time Control Systems"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5925G",
+      "name": "Control and Operation of AC Drives"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5930G",
+      "name": "Adaptive Control"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5940G",
+      "name": "Intelligent Control Systems"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5945G",
+      "name": "Mobile Robotic Systems"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5960G",
+      "name": "Power System Operations, Analysis and Planning"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5965G",
+      "name": "Digital Devices and Techniques for Smart Grid Automation and Protection"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5970G",
+      "name": "Advanced Power Electronics"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5975G",
+      "name": "Electrical Power Distribution Systems"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5995G",
+      "name": "Grid Integration of Renewable Energy Systems"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5996G",
+      "name": "Transportation Electrification"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 5997G",
+      "name": "Modeling and Control of Power Converters"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6001G",
+      "name": "PhD Candidacy Exam"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6002G",
+      "name": "Dissertation"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6004G",
+      "name": "PhD Directed Studies"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6006G",
+      "name": "Workshops"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 6007G",
+      "name": "PhD Seminar for ECE"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}
