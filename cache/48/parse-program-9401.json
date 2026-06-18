@@ -1,0 +1,462 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=9401",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "POSC 2200U",
+      "name": "Fundamentals of Policy Theory"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "POSC 3800U",
+      "name": "Capitalism and Socialism"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2900U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 3,
+      "code": "POSC 3000U",
+      "name": "Policy, Democracy and Governance"
+    },
+    {
+      "id": "r5",
+      "type": "option",
+      "year": 3,
+      "label": "One of (1/3)",
+      "options": [
+        {
+          "code": "POSC 3100U",
+          "name": "Political Economy of Global Development"
+        },
+        {
+          "code": "POSC 3101U",
+          "name": "Inequality, Environment and Development"
+        },
+        {
+          "code": "POSC 3102U",
+          "name": "Race and Racism in Political Culture"
+        },
+        {
+          "code": "POSC 3600U",
+          "name": "Politics of Education in Canada"
+        },
+        {
+          "code": "POSC 3300U",
+          "name": "Building Sustainable Communities"
+        },
+        {
+          "code": "POSC 3301U",
+          "name": "Eco-Justice"
+        },
+        {
+          "code": "POSC 3302U",
+          "name": "Environment and Globalization"
+        },
+        {
+          "code": "POSC 3700U",
+          "name": "Technology, Politics and Social Theory"
+        },
+        {
+          "code": "POSC 3750U",
+          "name": "American Politics and Political Culture"
+        },
+        {
+          "code": "POSC 3751U",
+          "name": "Media, War and Conflict"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "type": "option",
+      "year": 3,
+      "label": "One of (2/3)",
+      "options": [
+        {
+          "code": "POSC 3100U",
+          "name": "Political Economy of Global Development"
+        },
+        {
+          "code": "POSC 3101U",
+          "name": "Inequality, Environment and Development"
+        },
+        {
+          "code": "POSC 3102U",
+          "name": "Race and Racism in Political Culture"
+        },
+        {
+          "code": "POSC 3600U",
+          "name": "Politics of Education in Canada"
+        },
+        {
+          "code": "POSC 3300U",
+          "name": "Building Sustainable Communities"
+        },
+        {
+          "code": "POSC 3301U",
+          "name": "Eco-Justice"
+        },
+        {
+          "code": "POSC 3302U",
+          "name": "Environment and Globalization"
+        },
+        {
+          "code": "POSC 3700U",
+          "name": "Technology, Politics and Social Theory"
+        },
+        {
+          "code": "POSC 3750U",
+          "name": "American Politics and Political Culture"
+        },
+        {
+          "code": "POSC 3751U",
+          "name": "Media, War and Conflict"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "type": "option",
+      "year": 3,
+      "label": "One of (3/3)",
+      "options": [
+        {
+          "code": "POSC 3100U",
+          "name": "Political Economy of Global Development"
+        },
+        {
+          "code": "POSC 3101U",
+          "name": "Inequality, Environment and Development"
+        },
+        {
+          "code": "POSC 3102U",
+          "name": "Race and Racism in Political Culture"
+        },
+        {
+          "code": "POSC 3600U",
+          "name": "Politics of Education in Canada"
+        },
+        {
+          "code": "POSC 3300U",
+          "name": "Building Sustainable Communities"
+        },
+        {
+          "code": "POSC 3301U",
+          "name": "Eco-Justice"
+        },
+        {
+          "code": "POSC 3302U",
+          "name": "Environment and Globalization"
+        },
+        {
+          "code": "POSC 3700U",
+          "name": "Technology, Politics and Social Theory"
+        },
+        {
+          "code": "POSC 3750U",
+          "name": "American Politics and Political Culture"
+        },
+        {
+          "code": "POSC 3751U",
+          "name": "Media, War and Conflict"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "type": "option",
+      "year": 3,
+      "label": "One of (1/2)",
+      "options": [
+        {
+          "code": "POSC 3201U",
+          "name": "Rural Communities"
+        },
+        {
+          "code": "POSC 3203U",
+          "name": "Urban Development"
+        },
+        {
+          "code": "POSC 3500U",
+          "name": "Equity Policy"
+        },
+        {
+          "code": "POSC 3501U",
+          "name": "Politics and Poverty"
+        },
+        {
+          "code": "POSC 3601U",
+          "name": "The Politics of Health"
+        },
+        {
+          "code": "POSC 3602U",
+          "name": "Labour in the Global Economy"
+        },
+        {
+          "code": "POSC 3603U",
+          "name": "The Politics of Housing"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 3,
+      "label": "One of (2/2)",
+      "options": [
+        {
+          "code": "POSC 3201U",
+          "name": "Rural Communities"
+        },
+        {
+          "code": "POSC 3203U",
+          "name": "Urban Development"
+        },
+        {
+          "code": "POSC 3500U",
+          "name": "Equity Policy"
+        },
+        {
+          "code": "POSC 3501U",
+          "name": "Politics and Poverty"
+        },
+        {
+          "code": "POSC 3601U",
+          "name": "The Politics of Health"
+        },
+        {
+          "code": "POSC 3602U",
+          "name": "Labour in the Global Economy"
+        },
+        {
+          "code": "POSC 3603U",
+          "name": "The Politics of Housing"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "POSC 2000U",
+          "name": "Canadian Politics"
+        },
+        {
+          "code": "POSC 2100U",
+          "name": "Global Politics"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 4,
+      "elecType": "posc",
+      "label": "POSC elective",
+      "filterRule": {
+        "prefixes": [
+          "POSC"
+        ]
+      }
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 4,
+      "code": "POSC 4000U",
+      "name": "International Politics and Policy"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 4,
+      "code": "POSC 4010U",
+      "name": "Policy Development"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 4,
+      "code": "POSC 4300U",
+      "name": "Special Topics in Political Science"
+    },
+    {
+      "id": "r15",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "text": "POSC approved elective or"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 4098U",
+          "name": "Practicum"
+        },
+        {
+          "code": "SSCI 4103U",
+          "name": "Internship"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "POSC 4005U",
+          "name": "Independent Study"
+        },
+        {
+          "text": "POSC approved elective or"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 4101U",
+      "name": "Honours Thesis I"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 4,
+      "code": "POSC 4104U",
+      "name": "Directed Research"
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 4,
+      "elecType": "posc4005uIndependentStudyOr",
+      "label": "POSC 4005U – Independent Study or",
+      "filterRule": {
+        "prefixes": [
+          "POSC"
+        ]
+      }
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 4,
+      "elecType": "poscApprovedOr",
+      "label": "POSC approved elective or",
+      "filterRule": {
+        "prefixes": [
+          "POSC"
+        ]
+      }
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 4102U",
+      "name": "Honours Thesis II"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 4,
+      "elecType": "fssh",
+      "label": "FSSH electives (at least one must be 2000 level or above)",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 2999
+      }
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 4,
+      "elecType": "fssh",
+      "label": "FSSH electives (at least one must be 2000 level or above)",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 2999
+      }
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 4,
+      "elecType": "fssh",
+      "label": "FSSH electives (at least one must be 2000 level or above)",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 2999
+      }
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "posc": "POSC elective",
+    "posc4005uIndependentStudyOr": "POSC 4005U – Independent Study or",
+    "poscApprovedOr": "POSC approved elective or",
+    "fssh": "FSSH electives (at least one must be 2000 level or above)"
+  },
+  "elecFilterRules": {
+    "posc": {
+      "prefixes": [
+        "POSC"
+      ]
+    },
+    "posc4005uIndependentStudyOr": {
+      "prefixes": [
+        "POSC"
+      ]
+    },
+    "poscApprovedOr": {
+      "prefixes": [
+        "POSC"
+      ]
+    },
+    "fssh": {
+      "minLevel": 2000,
+      "maxLevel": 2999
+    }
+  },
+  "restrictedElectives": {
+    "recommended": [
+      {
+        "code": "SSCI 2910U",
+        "name": "Data Analysis"
+      },
+      {
+        "code": "SSCI 2920U",
+        "name": "Qualitative Research Methods"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 6,
+  "elecRestrictionSum": 0
+}

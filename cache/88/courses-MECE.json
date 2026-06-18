@@ -1,0 +1,102 @@
+[
+  {
+    "code": "MECE 2230U",
+    "name": "Statics"
+  },
+  {
+    "code": "MECE 2310U",
+    "name": "Concurrent Engineering and Design"
+  },
+  {
+    "code": "MECE 2320U",
+    "name": "Thermodynamics"
+  },
+  {
+    "code": "MECE 2420U",
+    "name": "Solid Mechanics I"
+  },
+  {
+    "code": "MECE 2430U",
+    "name": "Dynamics"
+  },
+  {
+    "code": "MECE 2640U",
+    "name": "Thermodynamic and Heat Transfer"
+  },
+  {
+    "code": "MECE 2860U",
+    "name": "Fluid Mechanics"
+  },
+  {
+    "code": "MECE 3030U",
+    "name": "Computer-Aided Design"
+  },
+  {
+    "code": "MECE 3210U",
+    "name": "Mechanical Vibrations"
+  },
+  {
+    "code": "MECE 3220U",
+    "name": "Machine Design"
+  },
+  {
+    "code": "MECE 3230U",
+    "name": "Thermodynamic Applications"
+  },
+  {
+    "code": "MECE 3260U",
+    "name": "Introduction to Energy Systems"
+  },
+  {
+    "code": "MECE 3270U",
+    "name": "Kinematics and Dynamics of Machines"
+  },
+  {
+    "code": "MECE 3350U",
+    "name": "Control Systems"
+  },
+  {
+    "code": "MECE 3390U",
+    "name": "Mechatronics"
+  },
+  {
+    "code": "MECE 3410U",
+    "name": "Electro-Mechanical Energy Conversion"
+  },
+  {
+    "code": "MECE 3420U",
+    "name": "Solid Mechanics II"
+  },
+  {
+    "code": "MECE 3930U",
+    "name": "Heat Transfer"
+  },
+  {
+    "code": "MECE 4000U",
+    "name": "Special Topics in Mechanical Engineering"
+  },
+  {
+    "code": "MECE 4151U",
+    "name": "Solar Energy"
+  },
+  {
+    "code": "MECE 4153U",
+    "name": "Wind and Hydro Energy"
+  },
+  {
+    "code": "MECE 4210U",
+    "name": "Advanced Solid Mechanics and Stress Analysis"
+  },
+  {
+    "code": "MECE 4250U",
+    "name": "Advanced Materials Engineering"
+  },
+  {
+    "code": "MECE 4290U",
+    "name": "Finite Element Methods"
+  },
+  {
+    "code": "MECE 4450U",
+    "name": "Thermal Environmental Engineering"
+  }
+]

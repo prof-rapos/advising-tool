@@ -1,0 +1,173 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10845",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2311U",
+      "name": "Organizational Behaviour"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2312U",
+      "name": "Human Resources Management"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3305U",
+      "name": "Recruitment and Selection"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3312U",
+      "name": "Industrial and Labour Relations"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3315U",
+      "name": "Negotiation Theory and Behaviour"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3330U",
+      "name": "The Management of Change"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3340U",
+      "name": "Human Resource Planning"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3350U",
+      "name": "Developing Management Skills"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3360U",
+      "name": "Occupational Health and Safety"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3370U",
+      "name": "Employment and Labour Laws"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3380U",
+      "name": "Compensation and Benefits"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3390U",
+      "name": "Training and Development"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4390U",
+      "name": "Special Topics in Organizational Behaviour and Human Resources Management"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4399U",
+      "name": "Directed Independent Study in Organizational Behaviour and Human Resources Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4330U",
+      "name": "Managing Team Dynamics"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "organizationalBehaviourAndHumanResourcesManagementMinor": [
+      {
+        "code": "BUSI 3305U",
+        "name": "Recruitment and Selection"
+      },
+      {
+        "code": "BUSI 3312U",
+        "name": "Industrial and Labour Relations"
+      },
+      {
+        "code": "BUSI 3315U",
+        "name": "Negotiation Theory and Behaviour"
+      },
+      {
+        "code": "BUSI 3330U",
+        "name": "The Management of Change"
+      },
+      {
+        "code": "BUSI 3340U",
+        "name": "Human Resource Planning"
+      },
+      {
+        "code": "BUSI 3350U",
+        "name": "Developing Management Skills"
+      },
+      {
+        "code": "BUSI 3360U",
+        "name": "Occupational Health and Safety"
+      },
+      {
+        "code": "BUSI 3370U",
+        "name": "Employment and Labour Laws"
+      },
+      {
+        "code": "BUSI 3380U",
+        "name": "Compensation and Benefits"
+      },
+      {
+        "code": "BUSI 3390U",
+        "name": "Training and Development"
+      },
+      {
+        "code": "BUSI 4390U",
+        "name": "Special Topics in Organizational Behaviour and Human Resources Management"
+      },
+      {
+        "code": "BUSI 4399U",
+        "name": "Directed Independent Study in Organizational Behaviour and Human Resources Management"
+      },
+      {
+        "code": "BUSI 4330U",
+        "name": "Managing Team Dynamics"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

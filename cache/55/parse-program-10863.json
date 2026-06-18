@@ -1,0 +1,356 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10863",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "COMM 1050U",
+      "name": "Technical Communications"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1010U",
+      "name": "Calculus I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1011U",
+      "name": "Introductory Cell and Molecular Biology"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1020U",
+      "name": "Chemistry II"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1200U",
+      "name": "Introduction to Programming for Engineers"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "NUCL 1530U",
+      "name": "Radiation and Nuclear Technologies"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2020U",
+      "name": "Introduction to Organic Chemistry"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "ELEE 2790U",
+      "name": "Electric Circuits"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2860U",
+      "name": "Differential Equations for Engineers"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "NUCL 2500U",
+      "name": "Introduction to Nuclear Physics"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "ESNS 2140U",
+      "name": "Problem Solving, Modelling and Simulation"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "ENVS 1000U",
+      "name": "Environmental Science"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "NUCL 2950U",
+      "name": "Radiation Protection"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "SSCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2800U",
+      "name": "Statistics and Probability for Engineers"
+    },
+    {
+      "id": "r21",
+      "type": "option",
+      "year": 2,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 2810U",
+          "name": "Advanced Engineering Mathematics"
+        },
+        {
+          "code": "MATH 2070U",
+          "name": "Numerical Methods"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 3,
+      "code": "NUCL 3860U",
+      "name": "Introduction to Nuclear Reactor Technology"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 1200U",
+      "name": "Human Anatomy &amp; Physiology I"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "NUCL 3740U",
+      "name": "Scientific Instrumentation"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "RADI 3200U",
+      "name": "Medical Imaging"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "RADI 4550U",
+      "name": "Radiation Detection and Measurement"
+    },
+    {
+      "id": "r27",
+      "type": "elective",
+      "year": 3,
+      "elecType": "complementaryStudies",
+      "label": "Complementary Studies elective"
+    },
+    {
+      "id": "r28",
+      "type": "elective",
+      "year": 3,
+      "elecType": "engineeringScienceOrScience",
+      "label": "Engineering Science or Science elective",
+      "filterRule": {
+        "prefixes": [
+          "BIOL",
+          "CHEM",
+          "CSCI",
+          "ENVS",
+          "FSCI",
+          "IMCS",
+          "MATH",
+          "NSCI",
+          "PHY",
+          "SCCO",
+          "SCIE",
+          "STAT",
+          "SUST"
+        ]
+      }
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "ENGR 3360U",
+      "name": "Engineering Economics"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "RADI 4220U",
+      "name": "Radiation Biophysics and Dosimetry"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 3,
+      "code": "RADI 4440U",
+      "name": "Radioisotopes and Radiation Machines"
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 4,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 4,
+      "code": "RADI 3570U",
+      "name": "Environmental Effects of Radiation"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 4,
+      "code": "RADI 4430U",
+      "name": "Industrial Applications of Radiation Techniques"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 4,
+      "code": "RADI 4995U",
+      "name": "Thesis Project I"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "ESNS 4660U",
+      "name": "Risk Analysis Methods"
+    },
+    {
+      "id": "r37",
+      "type": "elective",
+      "year": 4,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "RADI 4320U",
+      "name": "Therapeutic Applications of Radiation Techniques"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 4,
+      "code": "RADI 4999U",
+      "name": "Thesis Project II"
+    },
+    {
+      "id": "r40",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "text": "Senior Engineering Science or"
+        }
+      ]
+    },
+    {
+      "id": "r41",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "text": "Senior Engineering Science or"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "complementaryStudies": "Complementary Studies elective",
+    "engineeringScienceOrScience": "Engineering Science or Science elective",
+    "liberalStudies": "Liberal Studies elective"
+  },
+  "elecFilterRules": {
+    "engineeringScienceOrScience": {
+      "prefixes": [
+        "BIOL",
+        "CHEM",
+        "CSCI",
+        "ENVS",
+        "FSCI",
+        "IMCS",
+        "MATH",
+        "NSCI",
+        "PHY",
+        "SCCO",
+        "SCIE",
+        "STAT",
+        "SUST"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 4,
+  "elecRestrictionSum": 0
+}

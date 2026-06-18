@@ -1,0 +1,239 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=13130",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 1200U",
+      "name": "Human Anatomy &amp; Physiology I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 1701U",
+      "name": "Information Literacy and Written Communication for the Health Sciences"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "NURS 1003U",
+      "name": "Foundations for Nursing Practicum I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "NURS 1100U",
+      "name": "Introduction to Health and Healing"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "NURS 1420U",
+      "name": "Development of Self as a Nurse I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 1201U",
+      "name": "Human Anatomy &amp; Physiology II"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "NURS 1503U",
+      "name": "Foundations for Nursing Practicum II"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "NURS 1700U",
+      "name": "Health and Healing: Older Adult Nursing Theory and Practicum"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "NURS 2320U",
+      "name": "Health Assessment"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2460U",
+      "name": "Pathophysiology I"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "NURS 2420U",
+      "name": "Knowing Through Inquiry"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "NURS 2810U",
+      "name": "Pharmacology for Nurses"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2830U",
+      "name": "Microbiology for Health Science"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2461U",
+      "name": "Pathophysiology II"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2820U",
+      "name": "Nutrition for Nursing Practice"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "NURS 2700U",
+      "name": "Health and Healing: Child and Family Nursing Theory and Practicum"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "NURS 2701U",
+      "name": "Health and Healing: Adult Health Challenges Nursing Theory and Practicum"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3712U",
+      "name": "Professional Ethics in Nursing"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3601U",
+      "name": "Interprofessional Health Care Teams"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Health Care Professionals: Theory and Application"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "NURS 3700U",
+      "name": "Health and Healing: Healthy Communities Nursing Theory and Practicum"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "NURS 3701U",
+      "name": "Health and Healing: Mental Health Nursing Theory and Practicum"
+    },
+    {
+      "id": "r26",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r27",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 4,
+      "code": "NURS 4100U",
+      "name": "Nursing Leadership and Innovation"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 4,
+      "code": "NURS 4700U",
+      "name": "Health and Healing: Synthesis Professional Practice"
+    },
+    {
+      "id": "r30",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r31",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 4,
+      "code": "NURS 4701U",
+      "name": "Professional Nursing Integrated Practicum"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "open": "open electives"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 4,
+  "elecRestrictionSum": 0
+}

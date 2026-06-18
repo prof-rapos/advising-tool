@@ -1,0 +1,41 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14567",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication Studies"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2311U",
+      "name": "Writing and Publishing in the Digital Age"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2620U",
+      "name": "Interpersonal Communication"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2220U",
+      "name": "The Media in Canada"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

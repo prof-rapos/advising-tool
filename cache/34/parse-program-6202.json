@@ -1,0 +1,187 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6202",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2401U",
+      "name": "Finance I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2402U",
+      "name": "Finance II"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3410U",
+      "name": "Financial Institutions"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3430U",
+      "name": "Personal Finance"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3150U",
+      "name": "Financial Statement Analysis"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3405U",
+      "name": "Equity Asset Analysis"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3420U",
+      "name": "Derivative Securities"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3440U",
+      "name": "Financial Modelling"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3460U",
+      "name": "Fixed Income Strategies"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3480U",
+      "name": "International Finance"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4400U",
+      "name": "Electronic Trading and Exchange"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4405U",
+      "name": "Portfolio and Investment Strategies"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4410U",
+      "name": "Advanced Corporate Finance Applications"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4430U",
+      "name": "Mergers and Acquisitions"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4440U",
+      "name": "Financial Econometrics"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4450U",
+      "name": "Business Applications of Blockchain and Cryptocurrencies"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4490U",
+      "name": "Special Topics in Finance"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "financeMinor": [
+      {
+        "code": "BUSI 3150U",
+        "name": "Financial Statement Analysis"
+      },
+      {
+        "code": "BUSI 3405U",
+        "name": "Equity Asset Analysis"
+      },
+      {
+        "code": "BUSI 3420U",
+        "name": "Derivative Securities"
+      },
+      {
+        "code": "BUSI 3440U",
+        "name": "Financial Modelling"
+      },
+      {
+        "code": "BUSI 3460U",
+        "name": "Fixed Income Strategies"
+      },
+      {
+        "code": "BUSI 3480U",
+        "name": "International Finance"
+      },
+      {
+        "code": "BUSI 4400U",
+        "name": "Electronic Trading and Exchange"
+      },
+      {
+        "code": "BUSI 4405U",
+        "name": "Portfolio and Investment Strategies"
+      },
+      {
+        "code": "BUSI 4410U",
+        "name": "Advanced Corporate Finance Applications"
+      },
+      {
+        "code": "BUSI 4430U",
+        "name": "Mergers and Acquisitions"
+      },
+      {
+        "code": "BUSI 4440U",
+        "name": "Financial Econometrics"
+      },
+      {
+        "code": "BUSI 4450U",
+        "name": "Business Applications of Blockchain and Cryptocurrencies"
+      },
+      {
+        "code": "BUSI 4490U",
+        "name": "Special Topics in Finance"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

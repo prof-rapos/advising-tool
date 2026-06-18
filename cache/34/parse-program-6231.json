@@ -1,0 +1,125 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6231",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1701U",
+      "name": "Information Literacy and Written Communication for the Health Sciences"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1811U",
+      "name": "Social Determinants of Health"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2601U",
+      "name": "Introduction to Health Services Management"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2700U",
+      "name": "Mathematical Reasoning in Health Sciences"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2802U",
+      "name": "Introduction to the Canadian Healthcare System"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3631U",
+      "name": "Health Policy and Process"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3710U",
+      "name": "Ethics"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3800U",
+      "name": "Critical Appraisal of Statistics in Health Science"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3805U",
+      "name": "Introduction to Epidemiology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3820U",
+      "name": "Public Health I"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Health Care Professionals: Theory and Application"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4807U",
+      "name": "Perspectives in Aging"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4820U",
+      "name": "Interdisciplinary Collaboration"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4851U",
+      "name": "Critical Perspectives on Health, Illness, and Healthcare"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4996U",
+      "name": "Research Applications I"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4998U",
+      "name": "Research Practicum I"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

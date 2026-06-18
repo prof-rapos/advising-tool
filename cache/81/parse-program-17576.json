@@ -1,0 +1,41 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=81&poid=17576",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1010U",
+      "name": "Biology I: Molecular and Cellular Systems"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2010U",
+      "name": "Human Physiology"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2030U",
+      "name": "Cell Biology"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

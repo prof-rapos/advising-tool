@@ -1,0 +1,281 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6271",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "General elective"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "CRMN 2850U",
+      "name": "Classical Theories of Crime"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 3,
+      "code": "CRMN 3850U",
+      "name": "Contemporary Theories of Crime"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2900U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2910U",
+      "name": "Data Analysis"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2920U",
+      "name": "Qualitative Research Methods"
+    },
+    {
+      "id": "r7",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CRMN 3050U",
+          "name": "Police and Society"
+        },
+        {
+          "code": "LGLS 3053U",
+          "name": "Prosecution and Sentencing"
+        },
+        {
+          "code": "CRMN 3060U",
+          "name": "Punishment and Society"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CRMN 3023U",
+          "name": "Family Violence"
+        },
+        {
+          "code": "CRMN 3025U",
+          "name": "Victimology"
+        },
+        {
+          "code": "CRMN 4022U",
+          "name": "Hate Crime"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CRMN 3010U",
+          "name": "Social Justice/Criminal Justice"
+        },
+        {
+          "code": "CRMN 3028U",
+          "name": "Women in the Criminal Justice System"
+        },
+        {
+          "code": "CRMN 3056U",
+          "name": "Race-ing Justice"
+        },
+        {
+          "code": "CRMN 4052U",
+          "name": "Policing Diverse Communities"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "General elective (2000 level or above)",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 2999
+      }
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "General elective (2000 level or above)",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 2999
+      }
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 4010U",
+      "name": "Policy Development"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 4020U",
+      "name": "Leadership and Administration"
+    },
+    {
+      "id": "r14",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CRMN 3024U",
+          "name": "Criminal Gangs"
+        },
+        {
+          "code": "CRMN 3026U",
+          "name": "Organized Crime"
+        },
+        {
+          "code": "CRMN 3045U",
+          "name": "Terrorism"
+        },
+        {
+          "code": "CRMN 4020U",
+          "name": "Corporate Crime"
+        },
+        {
+          "code": "CRMN 4021U",
+          "name": "Cybercrime"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 3910U",
+          "name": "Advanced Data Analysis"
+        },
+        {
+          "code": "SSCI 3920U",
+          "name": "Advanced Qualitative Methods"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CRMN 4000U",
+          "name": "Advanced Justice Studies"
+        },
+        {
+          "code": "SSCI 4005U",
+          "name": "Independent Study"
+        },
+        {
+          "code": "SSCI 4101U",
+          "name": "Honours Thesis I"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CRMN 4001U",
+          "name": "Special Topics in Criminology and Justice"
+        },
+        {
+          "code": "CRMN 4099U",
+          "name": "Criminology and Justice Integrating Project"
+        },
+        {
+          "code": "SSCI 4102U",
+          "name": "Honours Thesis II"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 4098U",
+          "name": "Practicum"
+        },
+        {
+          "code": "SSCI 4103U",
+          "name": "Internship"
+        },
+        {
+          "text": "One CRMN elective at the 3000- or 4000-level"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CRMN 3040U",
+          "name": "Restorative Justice"
+        },
+        {
+          "code": "CRMN 4032U",
+          "name": "Mediation and Conflict Resolution"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "general": "General elective"
+  },
+  "elecFilterRules": {
+    "general": {
+      "minLevel": 2000,
+      "maxLevel": 2999
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 3,
+  "elecRestrictionSum": 0
+}

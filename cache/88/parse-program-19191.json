@@ -1,0 +1,293 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19191",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1000U",
+      "name": "Foundations in Kinesiology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1010U",
+      "name": "Human Anatomy &amp; Physiology I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1020U",
+      "name": "Information Literacy &amp; Written Communications"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1030U",
+      "name": "Quantitative Reasoning"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1100U",
+      "name": "Human Anatomy &amp; Physiology II"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1120U",
+      "name": "Human Growth and Motor Development"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1130U",
+      "name": "Sociocultural Perspectives"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2000U",
+      "name": "Anatomy of Human Movement"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2010U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1140U",
+      "name": "Exercise Biochemistry"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2030U",
+      "name": "Psychology of Sport and Exercise"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2040U",
+      "name": "Biomechanics"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2050U",
+      "name": "Introduction to Movement Neuroscience"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2100U",
+      "name": "Introduction to Injury Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2110U",
+      "name": "Motor Control and Learning"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2120U",
+      "name": "Ethical Behaviour"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2130U",
+      "name": "Exercise Physiology"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2140U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3000U",
+      "name": "Fitness Assessment and Exercise Prescription"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3010U",
+      "name": "Introduction to Statistics for Kinesiology"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3100U",
+      "name": "Nutrition and Health"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4100U",
+      "name": "Kinesiology Capstone"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4473U",
+      "name": "Practical Human Anatomy I: Back and Lower Limbs"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4474U",
+      "name": "Practical Human Anatomy II: Head, Neck and Upper Limbs"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4413U",
+      "name": "Exercise Rehabilitation: Integrated Musculoskeletal Case Studies"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3476U",
+      "name": "Advanced Sport Injury Management"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4150U",
+      "name": "Foundational Skills and Techniques for Massage Therapy"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4401U",
+      "name": "Motor Behaviour and Developmental Disabilities"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4410U",
+      "name": "Practical Skills for Kinesiology Professionals"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4412U",
+      "name": "Exercise Rehabilitation: Cardiac, Respiratory, and Metabolic Conditions"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4414U",
+      "name": "Advanced Topics in Neuromuscular Physiology and Pathophysiology"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4482U",
+      "name": "Advanced Exercise Assessment and Prescription"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4483U",
+      "name": "Advanced Exercise Physiology"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4475U",
+      "name": "Occupational Ergonomics"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4476U",
+      "name": "Clinical Biomechanics"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4478U",
+      "name": "Advanced Ergonomics and Human Factors"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4404U",
+      "name": "Injury Prevention for Sport and Physical Activity"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4477U",
+      "name": "Applied Techniques in Neuromechanics"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4670U",
+      "name": "Studies in Work Disability Prevention"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4672U",
+      "name": "Making a Work Disability Diagnosis"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "code": "CSCI 1030U",
+    "name": "Introduction to Computer Science"
+  },
+  {
+    "code": "CSCI 1040U",
+    "name": "Introduction to Programming for Scientists"
+  },
+  {
+    "code": "CSCI 1060U",
+    "name": "Programming Workshop I"
+  },
+  {
+    "code": "CSCI 1061U",
+    "name": "Programming Workshop II"
+  },
+  {
+    "code": "CSCI 1200U",
+    "name": "Computers and Media"
+  },
+  {
+    "code": "CSCI 2000U",
+    "name": "Scientific Data Analysis"
+  },
+  {
+    "code": "CSCI 2010U",
+    "name": "Data Structures"
+  },
+  {
+    "code": "CSCI 2020U",
+    "name": "Software Systems Development and Integration"
+  },
+  {
+    "code": "CSCI 2040U",
+    "name": "Software Design and Analysis"
+  },
+  {
+    "code": "CSCI 2050U",
+    "name": "Computer Architecture I"
+  },
+  {
+    "code": "CSCI 2072U",
+    "name": "Computational Science I"
+  },
+  {
+    "code": "CSCI 2110U",
+    "name": "Discrete Mathematics for Computer Scientists"
+  },
+  {
+    "code": "CSCI 2160U",
+    "name": "Digital Media"
+  },
+  {
+    "code": "CSCI 3010U",
+    "name": "Simulation and Modelling"
+  },
+  {
+    "code": "CSCI 3020U",
+    "name": "Operating Systems"
+  },
+  {
+    "code": "CSCI 3030U",
+    "name": "Database Systems and Concepts"
+  },
+  {
+    "code": "CSCI 3031U",
+    "name": "Databases for Scientists"
+  },
+  {
+    "code": "CSCI 3055U",
+    "name": "Programming Languages"
+  },
+  {
+    "code": "CSCI 3060U",
+    "name": "Software Quality Assurance"
+  },
+  {
+    "code": "CSCI 3070U",
+    "name": "Analysis and Design of Algorithms"
+  },
+  {
+    "code": "CSCI 3090U",
+    "name": "Computer Graphics and Visualization"
+  },
+  {
+    "code": "CSCI 3150U",
+    "name": "Computer Networks"
+  },
+  {
+    "code": "CSCI 3230U",
+    "name": "Web Application Development"
+  },
+  {
+    "code": "CSCI 3310U",
+    "name": "Systems Programming"
+  },
+  {
+    "code": "CSCI 4020U",
+    "name": "Compilers"
+  },
+  {
+    "code": "CSCI 4030U",
+    "name": "Big Data Analytics"
+  },
+  {
+    "code": "CSCI 4040U",
+    "name": "Ethics, Law and the Social Impacts of Computing"
+  },
+  {
+    "code": "CSCI 4050U",
+    "name": "Machine Learning, Theory and Application"
+  },
+  {
+    "code": "CSCI 4060U",
+    "name": "Massively Parallel Programming"
+  },
+  {
+    "code": "CSCI 4100U",
+    "name": "Mobile Devices"
+  },
+  {
+    "code": "CSCI 4110U",
+    "name": "Advanced Computer Graphics"
+  },
+  {
+    "code": "CSCI 4120U",
+    "name": "Digital Evidence"
+  },
+  {
+    "code": "CSCI 4140U",
+    "name": "Quantum Computing Software and Applications"
+  },
+  {
+    "code": "CSCI 4150U",
+    "name": "Data Mining"
+  },
+  {
+    "code": "CSCI 4160U",
+    "name": "Interactive Media"
+  },
+  {
+    "code": "CSCI 4210U",
+    "name": "Information Visualization"
+  },
+  {
+    "code": "CSCI 4220U",
+    "name": "Computer Vision"
+  },
+  {
+    "code": "CSCI 4310U",
+    "name": "Advanced Operating Systems Project"
+  },
+  {
+    "code": "CSCI 4410U",
+    "name": "Computer Science Thesis Project I"
+  },
+  {
+    "code": "CSCI 4420U",
+    "name": "Computer Science Thesis Project II"
+  },
+  {
+    "code": "CSCI 4430U",
+    "name": "Directed Studies in Computer Science"
+  },
+  {
+    "code": "CSCI 4610U",
+    "name": "Artificial Intelligence"
+  },
+  {
+    "code": "CSCI 4620U",
+    "name": "Human-Computer Interaction"
+  },
+  {
+    "code": "CSCI 4630U",
+    "name": "High Performance Computing"
+  },
+  {
+    "code": "CSCI 4640U",
+    "name": "Distributed Computing"
+  },
+  {
+    "code": "CSCI 4650U",
+    "name": "Elements of Theory of Computation"
+  }
+]

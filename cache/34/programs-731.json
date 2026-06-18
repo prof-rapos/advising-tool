@@ -1,0 +1,30 @@
+[
+  {
+    "poid": 6298,
+    "name": "Education (Concurrent) – Intermediate/Senior"
+  },
+  {
+    "poid": 6297,
+    "name": "Education (Concurrent) – Primary/Junior"
+  },
+  {
+    "poid": 6219,
+    "name": "Education (Consecutive) – Intermediate/Senior"
+  },
+  {
+    "poid": 6218,
+    "name": "Education (Consecutive) – Primary/Junior"
+  },
+  {
+    "poid": 6290,
+    "name": "Education – Connected program"
+  },
+  {
+    "poid": 6217,
+    "name": "Educational Studies and Digital Technology – Advanced Entry"
+  },
+  {
+    "poid": 6327,
+    "name": "Designing Adult Education for the Digital Age diploma"
+  }
+]

@@ -1,0 +1,606 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19211",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 1000U",
+      "name": "Introduction to Criminology and Justice"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1910U",
+      "name": "Writing for the Social Sciences"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication and Digital Media Studies"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2300U",
+      "name": "Social Problems"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2040U",
+      "name": "Decolonizing Criminology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2850U",
+      "name": "Classical Theories of Crime"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2900U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2910U",
+      "name": "Data Analysis"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2920U",
+      "name": "Qualitative Research Methods"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3850U",
+      "name": "Contemporary Theories of Crime"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 3910U",
+      "name": "Advanced Data Analysis"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 3920U",
+      "name": "Advanced Qualitative Methods"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4100U",
+      "name": "Doing Criminology"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4010U",
+      "name": "Policy Development"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4098U",
+      "name": "Practicum"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4103W",
+      "name": "Internship"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4005U",
+      "name": "Independent Study"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4101U",
+      "name": "Honours Thesis I"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4001U",
+      "name": "Special Topics in Criminology and Justice"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4099U",
+      "name": "Criminology and Justice Integrating Project"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4102U",
+      "name": "Honours Thesis II"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2020U",
+      "name": "Issues in Diversity"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2021U",
+      "name": "Families and the Justice System"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2831U",
+      "name": "Critical Race Theory"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2840U",
+      "name": "Gender, Sex, and (In)Justice"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2010U",
+      "name": "Criminal Law"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2030U",
+      "name": "Social Control"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2050U",
+      "name": "Rights and Wrongs in the Justice System"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2830U",
+      "name": "Theories of Justice"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3040U",
+      "name": "Restorative Justice"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3050U",
+      "name": "Police and Society"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3060U",
+      "name": "Punishment and Society"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3010U",
+      "name": "Social Justice/Criminal Justice"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3028U",
+      "name": "Women in the Criminal Justice System"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3056U",
+      "name": "Race-ing Justice"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4052U",
+      "name": "Policing Diverse Communities"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3024U",
+      "name": "Criminal Gangs"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3026U",
+      "name": "Organized Crime"
+    },
+    {
+      "id": "r43",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3045U",
+      "name": "Terrorism"
+    },
+    {
+      "id": "r44",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4020U",
+      "name": "Corporate Crime"
+    },
+    {
+      "id": "r45",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4021U",
+      "name": "Cybercrime"
+    },
+    {
+      "id": "r46",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3023U",
+      "name": "Family Violence"
+    },
+    {
+      "id": "r47",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3025U",
+      "name": "Victimology"
+    },
+    {
+      "id": "r48",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3027U",
+      "name": "Delinquency, Deviance, and Youth Crime"
+    },
+    {
+      "id": "r49",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3029U",
+      "name": "Crime and the Elderly"
+    },
+    {
+      "id": "r50",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3301U",
+      "name": "Green Criminology and Eco-Justice"
+    },
+    {
+      "id": "r51",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3401U",
+      "name": "Indigenous Peoples and Justice"
+    },
+    {
+      "id": "r52",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4062U",
+      "name": "The Prison Experience"
+    },
+    {
+      "id": "r53",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4079U",
+      "name": "Alternative Sanctions"
+    },
+    {
+      "id": "r54",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4085U",
+      "name": "Emerging Patterns of Policing"
+    },
+    {
+      "id": "r55",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4065U",
+      "name": "Criminal Justice Ethics and Misconduct"
+    },
+    {
+      "id": "r56",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4075U",
+      "name": "International Perspectives on Criminal Justice"
+    },
+    {
+      "id": "r57",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4020U",
+      "name": "Leadership and Administration"
+    },
+    {
+      "id": "r58",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r59",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2100U",
+      "name": "Global Politics"
+    },
+    {
+      "id": "r60",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4037U",
+      "name": "Youth Justice Policy"
+    },
+    {
+      "id": "r61",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3053U",
+      "name": "Prosecution and Sentencing"
+    },
+    {
+      "id": "r62",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 4020U",
+      "name": "Topics in Comparative Law"
+    },
+    {
+      "id": "r63",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3301U",
+      "name": "Eco-Justice"
+    },
+    {
+      "id": "r64",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 3400U",
+      "name": "Modern Espionage"
+    },
+    {
+      "id": "r65",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 3500U",
+      "name": "Canada at War"
+    },
+    {
+      "id": "r66",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2011U",
+      "name": "Immigration and Refugee Law"
+    },
+    {
+      "id": "r67",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3230U",
+      "name": "Law and Globalization"
+    },
+    {
+      "id": "r68",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3430U",
+      "name": "International Human Rights"
+    },
+    {
+      "id": "r69",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 4060U",
+      "name": "Security and the Nation-State"
+    },
+    {
+      "id": "r70",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3100U",
+      "name": "Political Economy of Global Development"
+    },
+    {
+      "id": "r71",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3302U",
+      "name": "Environment and Globalization"
+    },
+    {
+      "id": "r72",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3304U",
+      "name": "Planetary Health and Global Environmental Justice"
+    },
+    {
+      "id": "r73",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3310U",
+      "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+    },
+    {
+      "id": "r74",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3602U",
+      "name": "Labour in the Global Economy"
+    },
+    {
+      "id": "r75",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 4000U",
+      "name": "International Politics and Policy"
+    },
+    {
+      "id": "r76",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4022U",
+      "name": "Hate Crime"
+    },
+    {
+      "id": "r77",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4032U",
+      "name": "Mediation and Conflict Resolution"
+    },
+    {
+      "id": "r78",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r79",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2025U",
+      "name": "Youth Cultures"
+    },
+    {
+      "id": "r80",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3130U",
+      "name": "Family Law"
+    },
+    {
+      "id": "r81",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3600U",
+      "name": "Family Mediation"
+    },
+    {
+      "id": "r82",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3039U",
+      "name": "Children, Psychology and the Law"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "youthCrimeAndJustice": [
+      {
+        "code": "CRMN 3024U",
+        "name": "Criminal Gangs"
+      },
+      {
+        "code": "LGLS 3130U",
+        "name": "Family Law"
+      },
+      {
+        "code": "LGLS 3600U",
+        "name": "Family Mediation"
+      },
+      {
+        "code": "FPSY 3039U",
+        "name": "Children, Psychology and the Law"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

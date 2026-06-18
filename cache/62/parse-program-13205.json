@@ -1,0 +1,125 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=13205",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1020U",
+      "name": "Information Literacy &amp; Written Communications"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1030U",
+      "name": "Quantitative Reasoning"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1110U",
+      "name": "Introduction to Movement Neuroscience"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2010U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2020U",
+      "name": "Exercise Biochemistry"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2030U",
+      "name": "Psychology of Sport and Exercise"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2040U",
+      "name": "Biomechanics"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2100U",
+      "name": "Introduction to Injury Management"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2110U",
+      "name": "Motor Control and Learning"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2120U",
+      "name": "Ethical Behaviour"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2130U",
+      "name": "Exercise Physiology"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2140U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3000U",
+      "name": "Fitness Assessment and Exercise Prescription"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3010U",
+      "name": "Critical Appraisal of Statistics"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3100U",
+      "name": "Nutrition and Health"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4100U",
+      "name": "Kinesiology Capstone"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

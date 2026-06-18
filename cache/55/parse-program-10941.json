@@ -1,0 +1,146 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10941",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2850U",
+      "name": "Classical Theories of Crime"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2900U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3850U",
+      "name": "Contemporary Theories of Crime"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3050U",
+      "name": "Police and Society"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3053U",
+      "name": "Prosecution and Sentencing"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3060U",
+      "name": "Punishment and Society"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3010U",
+      "name": "Social Justice/Criminal Justice"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3028U",
+      "name": "Women in the Criminal Justice System"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4052U",
+      "name": "Policing Diverse Communities"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3056U",
+      "name": "Race-ing Justice"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4020U",
+      "name": "Corporate Crime"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4021U",
+      "name": "Cybercrime"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4022U",
+      "name": "Hate Crime"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3023U",
+      "name": "Family Violence"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3024U",
+      "name": "Criminal Gangs"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3025U",
+      "name": "Victimology"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3026U",
+      "name": "Organized Crime"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3027U",
+      "name": "Delinquency, Deviance, and Youth Crime"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3045U",
+      "name": "Terrorism"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

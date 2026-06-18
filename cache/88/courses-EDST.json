@@ -1,0 +1,250 @@
+[
+  {
+    "code": "EDST 1000U",
+    "name": "Foundations of Learning"
+  },
+  {
+    "code": "EDST 1010U",
+    "name": "Teaching, Learning and Educational Contexts"
+  },
+  {
+    "code": "EDST 1020U",
+    "name": "Academic Success Strategies for Educational Studies"
+  },
+  {
+    "code": "EDST 1100U",
+    "name": "Problem and Inquiry Based Learning"
+  },
+  {
+    "code": "EDST 1130U",
+    "name": "Writing and Information Literacy in the Digital Age"
+  },
+  {
+    "code": "EDST 1230U",
+    "name": "Design Thinking and Visual Design for Educational Contexts"
+  },
+  {
+    "code": "EDST 2110U",
+    "name": "Assessment and Evaluation"
+  },
+  {
+    "code": "EDST 2120U",
+    "name": "Culture and Digital Technologies"
+  },
+  {
+    "code": "EDST 2140U",
+    "name": "Creating Digital Tools"
+  },
+  {
+    "code": "EDST 2150U",
+    "name": "Teaching to Facilitate Learning"
+  },
+  {
+    "code": "EDST 2160U",
+    "name": "Online Learning"
+  },
+  {
+    "code": "EDST 2170U",
+    "name": "Designing Inclusive Learning Environments"
+  },
+  {
+    "code": "EDST 2180U",
+    "name": "AI in Education"
+  },
+  {
+    "code": "EDST 2200U",
+    "name": "Literature and Pedagogy: Exploring Human Experience"
+  },
+  {
+    "code": "EDST 2250U",
+    "name": "(Re)Thinking Canadian History for Educational Contexts"
+  },
+  {
+    "code": "EDST 2310C",
+    "name": "Foundations for Success in Co-op"
+  },
+  {
+    "code": "EDST 2410U",
+    "name": "Foundations of Adult Learning"
+  },
+  {
+    "code": "EDST 2420U",
+    "name": "Workplace Learning"
+  },
+  {
+    "code": "EDST 2500U",
+    "name": "Foundations of Equity, Diversity and Inclusion in Education"
+  },
+  {
+    "code": "EDST 2700U",
+    "name": "Foundations of Special Education"
+  },
+  {
+    "code": "EDST 3000U",
+    "name": "Instructional Design"
+  },
+  {
+    "code": "EDST 3050U",
+    "name": "Foundations of Teaching English"
+  },
+  {
+    "code": "EDST 3110U",
+    "name": "Critical Digital Literacies"
+  },
+  {
+    "code": "EDST 3140U",
+    "name": "Digital Communication Technologies"
+  },
+  {
+    "code": "EDST 3160U",
+    "name": "Developing Literacy"
+  },
+  {
+    "code": "EDST 3170U",
+    "name": "Developing Numeracy"
+  },
+  {
+    "code": "EDST 3200U",
+    "name": "Youth Literature in Educational Contexts"
+  },
+  {
+    "code": "EDST 3250U",
+    "name": "Pedagogical Approaches to Canadian History through Literature"
+  },
+  {
+    "code": "EDST 3310W",
+    "name": "EDST Co-op Work Term I"
+  },
+  {
+    "code": "EDST 3440U",
+    "name": "Managing and Developing eLearning Projects"
+  },
+  {
+    "code": "EDST 3460U",
+    "name": "Working with Clients and Partners"
+  },
+  {
+    "code": "EDST 3500U",
+    "name": "Unlearning and The Inclusive Curriculum"
+  },
+  {
+    "code": "EDST 3520U",
+    "name": "The Power of Art: Advancing Equity through the Creative Process"
+  },
+  {
+    "code": "EDST 3610U",
+    "name": "Child Development and Health"
+  },
+  {
+    "code": "EDST 3700U",
+    "name": "Models of Inclusion"
+  },
+  {
+    "code": "EDST 3710U",
+    "name": "Understanding the Diversity of Educational Needs"
+  },
+  {
+    "code": "EDST 3999U",
+    "name": "Special Topics in Educational Studies"
+  },
+  {
+    "code": "EDST 4000U",
+    "name": "Inquiry and Professional Practice"
+  },
+  {
+    "code": "EDST 4120U",
+    "name": "Games and Simulations for Learning"
+  },
+  {
+    "code": "EDST 4130U",
+    "name": "Pop Culture and Education"
+  },
+  {
+    "code": "EDST 4150U",
+    "name": "Holistic Learning in Early Childhood Education"
+  },
+  {
+    "code": "EDST 4190U",
+    "name": "Developing your Educational Technology Portfolio"
+  },
+  {
+    "code": "EDST 4300U",
+    "name": "Engaged Educator Project I"
+  },
+  {
+    "code": "EDST 4301U",
+    "name": "Engaged Educator Project II"
+  },
+  {
+    "code": "EDST 4310W",
+    "name": "EDST Co-op Work Term II"
+  },
+  {
+    "code": "EDST 4320W",
+    "name": "EDST Co-op Work Term III"
+  },
+  {
+    "code": "EDST 4330W",
+    "name": "EDST Co-op Work Term IV"
+  },
+  {
+    "code": "EDST 4340W",
+    "name": "EDST Co-op Work Term V"
+  },
+  {
+    "code": "EDST 4470U",
+    "name": "Trends and Issues in Educational Technology"
+  },
+  {
+    "code": "EDST 4500U",
+    "name": "Enabling Learning through Technology"
+  },
+  {
+    "code": "EDST 4530U",
+    "name": "Social Justice Issues in Education"
+  },
+  {
+    "code": "EDST 4540U",
+    "name": "Learning in Community"
+  },
+  {
+    "code": "EDST 4560U",
+    "name": "Supporting Multilanguage Learners in Elementary Schools"
+  },
+  {
+    "code": "EDST 4610U",
+    "name": "Coding and Maker Pedagogies for Young Children"
+  },
+  {
+    "code": "EDST 4620U",
+    "name": "Ecology of Learning: Play, Nature, and Community in Education"
+  },
+  {
+    "code": "EDST 4670U",
+    "name": "Developing Space and Spatial Reasoning"
+  },
+  {
+    "code": "EDST 4700U",
+    "name": "Technology and Assistive Tools for Special Education"
+  },
+  {
+    "code": "EDST 4900U",
+    "name": "Research Literacy for Education"
+  },
+  {
+    "code": "EDST 4901U",
+    "name": "Research Project"
+  },
+  {
+    "code": "EDST 4980U",
+    "name": "Work Integrated Learning I"
+  },
+  {
+    "code": "EDST 4981U",
+    "name": "Work Integrated Learning II"
+  },
+  {
+    "code": "EDST 4999U",
+    "name": "Directed Studies in Educational Studies"
+  }
+]

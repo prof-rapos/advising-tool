@@ -1,0 +1,167 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=16312",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1300U",
+      "name": "Social Problems"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2101U",
+      "name": "Making a Difference: An Introduction to Social Entrepreneurship"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4020U",
+      "name": "Leadership and Administration"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4261U",
+      "name": "Online Creator-Entrepreneurs: YouTubers, Influencers, and Streamers"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4510U",
+      "name": "Public Relations: Social Power, Social Media Platforms, and Social Responsibility"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3410U",
+      "name": "Designing Hits: Storytelling in the Digital Age"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1320U",
+      "name": "Public Speaking and Multimedia Presentation for Web 3.0"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2030U",
+      "name": "Social Control"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2031U",
+      "name": "Rethinking Justice: Alternative Approaches"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 2000U",
+      "name": "Introduction to Liberal Studies"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2500U",
+      "name": "Information and Privacy Law"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3602U",
+      "name": "Labour in the Global Economy"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3800U",
+      "name": "Capitalism and Socialism"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1100U",
+      "name": "What is Community?"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2502U",
+      "name": "Community Development and Social Change"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2020U",
+      "name": "Social Psychology"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2020U",
+      "name": "Issues in Diversity"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 3300U",
+      "name": "Community Connections"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4010U",
+      "name": "Policy Development"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "code": "ENGR 0998U",
+    "name": "Engineering Internship Program"
+  },
+  {
+    "code": "ENGR 0999U",
+    "name": "Engineering Co-op Program"
+  },
+  {
+    "code": "ENGR 1000W",
+    "name": "Professional Competencies for Engineers"
+  },
+  {
+    "code": "ENGR 1015U",
+    "name": "Introduction to Engineering"
+  },
+  {
+    "code": "ENGR 1025U",
+    "name": "Engineering Design"
+  },
+  {
+    "code": "ENGR 1200U",
+    "name": "Introduction to Programming for Engineers"
+  },
+  {
+    "code": "ENGR 2000W",
+    "name": "Engineering Co-op Work Term I"
+  },
+  {
+    "code": "ENGR 2100U",
+    "name": "Computational Engineering Applications"
+  },
+  {
+    "code": "ENGR 3000W",
+    "name": "Engineering Co-op Work Term II"
+  },
+  {
+    "code": "ENGR 3011U",
+    "name": "Introduction to Railway Systems"
+  },
+  {
+    "code": "ENGR 3150U",
+    "name": "Artificial Intelligence and Machine Learning"
+  },
+  {
+    "code": "ENGR 3160U",
+    "name": "Engineering Operations and Project Management"
+  },
+  {
+    "code": "ENGR 3215U",
+    "name": "Engineering Project Management"
+  },
+  {
+    "code": "ENGR 3360U",
+    "name": "Engineering Economics"
+  },
+  {
+    "code": "ENGR 3730U",
+    "name": "Solar Energy Technologies"
+  },
+  {
+    "code": "ENGR 3840U",
+    "name": "Fuel Cell Design"
+  },
+  {
+    "code": "ENGR 4000W",
+    "name": "Engineering Co-op Work Term III"
+  },
+  {
+    "code": "ENGR 4001W",
+    "name": "Engineering Co-op Work Term IV"
+  },
+  {
+    "code": "ENGR 4002W",
+    "name": "Engineering Co-op Work Term V"
+  },
+  {
+    "code": "ENGR 4022U",
+    "name": "Railway Safety and Signalling"
+  },
+  {
+    "code": "ENGR 4033U",
+    "name": "Railway Rolling Stock"
+  },
+  {
+    "code": "ENGR 4044U",
+    "name": "Railway Systems Operation and Maintenance"
+  },
+  {
+    "code": "ENGR 4170U",
+    "name": "Deep Learning"
+  },
+  {
+    "code": "ENGR 4270U",
+    "name": "Machine Learning Applications"
+  },
+  {
+    "code": "ENGR 4470U",
+    "name": "Hydrogen Power Systems"
+  },
+  {
+    "code": "ENGR 4530U",
+    "name": "Hydroelectric Power Systems"
+  },
+  {
+    "code": "ENGR 4570U",
+    "name": "Indigenous Design and Technology"
+  },
+  {
+    "code": "ENGR 4760U",
+    "name": "Ethics, Law and Professionalism for Engineers"
+  },
+  {
+    "code": "ENGR 4940U",
+    "name": "Capstone Systems Design for Electrical, Computer and Software Engineering I"
+  },
+  {
+    "code": "ENGR 4941U",
+    "name": "Capstone Systems Design for Electrical, Computer and Software Engineering II"
+  },
+  {
+    "code": "ENGR 4950U",
+    "name": "Capstone Systems Design for Mechanical, Automotive, Mechatronics and Manufacturing Engineering I"
+  },
+  {
+    "code": "ENGR 4951U",
+    "name": "Capstone Systems Design for Mechanical, Automotive, Mechatronics and Manufacturing Engineering II"
+  },
+  {
+    "code": "ENGR 4960U",
+    "name": "Capstone Systems Design for Energy Engineering I"
+  },
+  {
+    "code": "ENGR 4961U",
+    "name": "Capstone Systems Design for Energy Engineering II"
+  },
+  {
+    "code": "ENGR 4970U",
+    "name": "Capstone System Design for Industrial Engineering I"
+  },
+  {
+    "code": "ENGR 4971U",
+    "name": "Capstone System Design for Industrial Engineering II"
+  }
+]

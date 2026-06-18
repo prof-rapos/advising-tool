@@ -1,0 +1,267 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6285",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "LGLS 2100U",
+      "name": "Public Law"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 3,
+      "code": "LGLS 2110U",
+      "name": "Private Law"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 3,
+      "code": "LGLS 2200U",
+      "name": "Legal Theory"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 3,
+      "code": "LGLS 2940U",
+      "name": "Legal Research Methods"
+    },
+    {
+      "id": "r6",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "LGLS 2120U",
+          "name": "International Law"
+        },
+        {
+          "code": "LGLS 2420U",
+          "name": "Canadian Human Rights Law"
+        },
+        {
+          "code": "LGLS 2500U",
+          "name": "Information and Privacy Law"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "LGLS 3200U",
+          "name": "Sociology of Law"
+        },
+        {
+          "code": "LGLS 3220U",
+          "name": "Philosophy of Law"
+        },
+        {
+          "code": "LGLS 3230U",
+          "name": "Law and Globalization"
+        },
+        {
+          "code": "LGLS 3240U",
+          "name": "Cultural Studies of Law"
+        },
+        {
+          "code": "LGLS 3520U",
+          "name": "Law and Technology"
+        },
+        {
+          "code": "LGLS 3700U",
+          "name": "Law and Power"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 4,
+      "code": "LGLS 4200U",
+      "name": "Law and Social Change"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 4,
+      "elecType": "lgls30004000Level",
+      "label": "LGLS 3000/4000-level electives",
+      "filterRule": {
+        "prefixes": [
+          "LGLS"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 4,
+      "elecType": "lgls30004000Level",
+      "label": "LGLS 3000/4000-level electives",
+      "filterRule": {
+        "prefixes": [
+          "LGLS"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 4,
+      "elecType": "lgls30004000Level",
+      "label": "LGLS 3000/4000-level electives",
+      "filterRule": {
+        "prefixes": [
+          "LGLS"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 4,
+      "elecType": "fssh30004000Level",
+      "label": "FSSH 3000/4000-level elective",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 4,
+      "elecType": "lgls",
+      "label": "LGLS elective",
+      "filterRule": {
+        "prefixes": [
+          "LGLS"
+        ]
+      }
+    },
+    {
+      "id": "r14",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 4101U",
+          "name": "Honours Thesis I"
+        },
+        {
+          "text": "LGLS 4000-level elective"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "LGLS 4099U",
+          "name": "Legal Studies Integrating Project"
+        },
+        {
+          "code": "SSCI 4102U",
+          "name": "Honours Thesis II"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "LGLS 3300U",
+          "name": "Disability and the Law"
+        },
+        {
+          "code": "LGLS 3310U",
+          "name": "Indigenous Peoples, Law and the State in Canada"
+        },
+        {
+          "code": "LGLS 3320U",
+          "name": "Race, Ethnicity and the Law"
+        },
+        {
+          "code": "LGLS 3330U",
+          "name": "Gender, Sexuality and the Law"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 4098U",
+          "name": "Practicum"
+        },
+        {
+          "code": "SSCI 4103U",
+          "name": "Internship"
+        },
+        {
+          "text": "LGLS 4000-level elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "lgls30004000Level": "LGLS 3000/4000-level electives",
+    "fssh30004000Level": "FSSH 3000/4000-level elective",
+    "lgls": "LGLS elective"
+  },
+  "elecFilterRules": {
+    "lgls30004000Level": {
+      "prefixes": [
+        "LGLS"
+      ],
+      "minLevel": 3000,
+      "maxLevel": 4999
+    },
+    "fssh30004000Level": {
+      "minLevel": 3000,
+      "maxLevel": 4999
+    },
+    "lgls": {
+      "prefixes": [
+        "LGLS"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 5,
+  "elecRestrictionSum": 0
+}

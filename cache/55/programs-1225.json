@@ -1,0 +1,46 @@
+[
+  {
+    "poid": 10943,
+    "name": "First-year Engineering Success Program"
+  },
+  {
+    "poid": 10864,
+    "name": "Automotive Engineering"
+  },
+  {
+    "poid": 10865,
+    "name": "Electrical Engineering"
+  },
+  {
+    "poid": 10944,
+    "name": "Electrical Engineering – Smart Grid specialization"
+  },
+  {
+    "poid": 10866,
+    "name": "Manufacturing Engineering"
+  },
+  {
+    "poid": 10867,
+    "name": "Mechanical Engineering"
+  },
+  {
+    "poid": 10868,
+    "name": "Mechanical Engineering – Energy Engineering specialization"
+  },
+  {
+    "poid": 10945,
+    "name": "Mechatronics Engineering"
+  },
+  {
+    "poid": 10869,
+    "name": "Software Engineering"
+  },
+  {
+    "poid": 10955,
+    "name": "Software Engineering – Internet of Things specialization"
+  },
+  {
+    "poid": 10967,
+    "name": "Engineering and Management in the Faculty of Engineering and Applied Science"
+  }
+]

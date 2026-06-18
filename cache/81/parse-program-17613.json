@@ -1,0 +1,214 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=81&poid=17613",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "Elective (recommend ENVS 1000U )",
+      "filterRule": {
+        "prefixes": [
+          "ENVS"
+        ]
+      }
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 2110U",
+      "name": "Discrete Mathematics for Computer Scientists"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 3060U",
+      "name": "Software Quality Assurance"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 3090U",
+      "name": "Computer Graphics and Visualization"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r8",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 1000U",
+          "name": "Introductory Calculus"
+        },
+        {
+          "code": "MATH 1010U",
+          "name": "Calculus I"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 1010U",
+          "name": "Physics I"
+        },
+        {
+          "code": "PHY 1030U",
+          "name": "Introductory Physics"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 2,
+      "elecType": "seniorComputerScience",
+      "label": "Senior Computer Science electives",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": "seniorComputerScience",
+      "label": "Senior Computer Science electives",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "Elective (recommend PHY 2900U )",
+      "filterRule": {
+        "prefixes": [
+          "PHY"
+        ]
+      }
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2000U",
+      "name": "Scientific Data Analysis"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2072U",
+      "name": "Computational Science I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 3055U",
+      "name": "Programming Languages"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 3070U",
+      "name": "Analysis and Design of Algorithms"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 4020U",
+      "name": "Compilers"
+    },
+    {
+      "id": "r18",
+      "type": "option",
+      "year": 2,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 4410U",
+          "name": "Computer Science Thesis Project I"
+        },
+        {
+          "text": "Senior CSCI elective"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "type": "option",
+      "year": 2,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 4420U",
+          "name": "Computer Science Thesis Project II"
+        },
+        {
+          "text": "Senior CSCI elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {
+    "science": 4
+  },
+  "elecSubsets": {},
+  "elecLabels": {
+    "science": "Science",
+    "seniorComputerScience": "Senior Computer Science electives"
+  },
+  "elecFilterRules": {
+    "seniorComputerScience": {
+      "prefixes": [
+        "CSCI"
+      ],
+      "minLevel": 3000
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 4,
+  "elecRestrictionSum": 4
+}

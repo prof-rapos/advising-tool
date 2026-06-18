@@ -1,0 +1,140 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=13218",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 1130U",
+      "name": "Introduction to Financial Accounting"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 2050U",
+      "name": "Managerial Economics"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 2180U",
+      "name": "Introduction to Managerial Accounting"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 2200U",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 2311U",
+      "name": "Organizational Behaviour"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 2410U",
+      "name": "Managerial Finance"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 2550U",
+      "name": "Introduction to Project Management"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 2603U",
+      "name": "Introduction to Operations Management"
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 5,
+      "label": "One of",
+      "options": [
+        {
+          "code": "BUSI 3700U",
+          "name": "Strategic Management for Professionals"
+        },
+        {
+          "code": "BUSI 3710U",
+          "name": "Small Business Management"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 5,
+      "elecType": "additionalBusinessSelectedFrom",
+      "label": "additional Business elective selected from:",
+      "filterRule": {
+        "prefixes": [
+          "BUSI"
+        ]
+      }
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 1700U",
+      "name": "Introduction to Entrepreneurship"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 2040U",
+      "name": "Information Systems"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 3330U",
+      "name": "The Management of Change"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 3650U",
+      "name": "Innovation Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 5,
+      "code": "BUSI 3930U",
+      "name": "Leadership, Negotiation and Teamwork"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "additionalBusinessSelectedFrom": "additional Business elective selected from:"
+  },
+  "elecFilterRules": {
+    "additionalBusinessSelectedFrom": {
+      "prefixes": [
+        "BUSI"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 1,
+  "elecRestrictionSum": 0
+}

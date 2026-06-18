@@ -1,0 +1,147 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19186",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2000U",
+      "name": "Collaborative Leadership"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3710U",
+      "name": "Entrepreneurial Growth"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3750U",
+      "name": "Lean Start-up"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2700U",
+      "name": "Entrepreneurial Finance"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3330U",
+      "name": "The Management of Change"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2350U",
+      "name": "Developing Management Skills"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3430U",
+      "name": "Personal Finance"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3590U",
+      "name": "Design Thinking"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3650U",
+      "name": "Innovation Management"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3720U",
+      "name": "Family Business"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3730U",
+      "name": "Creative Problem Solving, Entrepreneurship and Imagination"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3800U",
+      "name": "International Business"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4280U",
+      "name": "Social Media Marketing"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "entrepreneurshipMinor": [
+      {
+        "code": "BUSI 2700U",
+        "name": "Entrepreneurial Finance"
+      },
+      {
+        "code": "BUSI 3330U",
+        "name": "The Management of Change"
+      },
+      {
+        "code": "BUSI 2350U",
+        "name": "Developing Management Skills"
+      },
+      {
+        "code": "BUSI 3430U",
+        "name": "Personal Finance"
+      },
+      {
+        "code": "BUSI 3590U",
+        "name": "Design Thinking"
+      },
+      {
+        "code": "BUSI 3650U",
+        "name": "Innovation Management"
+      },
+      {
+        "code": "BUSI 3720U",
+        "name": "Family Business"
+      },
+      {
+        "code": "BUSI 3730U",
+        "name": "Creative Problem Solving, Entrepreneurship and Imagination"
+      },
+      {
+        "code": "BUSI 3800U",
+        "name": "International Business"
+      },
+      {
+        "code": "BUSI 4280U",
+        "name": "Social Media Marketing"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

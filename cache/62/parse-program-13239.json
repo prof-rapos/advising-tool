@@ -1,0 +1,146 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=13239",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1000U",
+      "name": "Foundations of Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1100U",
+      "name": "Problem and Inquiry Based Learning"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2110U",
+      "name": "Assessment and Evaluation"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2150U",
+      "name": "Teaching to Facilitate Learning"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2500U",
+      "name": "Foundations of Equity, Diversity and Inclusion in Education"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2410U",
+      "name": "Foundations of Adult Learning"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3140U",
+      "name": "Digital Communication Technologies"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1230U",
+      "name": "Design Thinking and Visual Design for Educational Contexts"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2120U",
+      "name": "Culture and Digital Technologies"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2140U",
+      "name": "Creating Digital Tools"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2170U",
+      "name": "Designing Inclusive Learning Environments"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3110U",
+      "name": "Critical Digital Literacies"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3120U",
+      "name": "Workplace Learning"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3160U",
+      "name": "Developing Literacy"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3170U",
+      "name": "Developing Numeracy"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4120U",
+      "name": "Serious Gaming and Simulations"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4530U",
+      "name": "Social Justice Issues in Education"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4140U",
+      "name": "Instructional Design"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4150U",
+      "name": "Holistic Learning in Early Childhood Education"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,132 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19190",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1020U",
+      "name": "Information Literacy &amp; Written Communications"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1030U",
+      "name": "Quantitative Reasoning"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1100U",
+      "name": "Human Anatomy &amp; Physiology II"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2050U",
+      "name": "Introduction to Movement Neuroscience"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1120U",
+      "name": "Human Growth and Motor Development"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1130U",
+      "name": "Sociocultural Perspectives"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2010U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1140U",
+      "name": "Exercise Biochemistry"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2030U",
+      "name": "Psychology of Sport and Exercise"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2040U",
+      "name": "Biomechanics"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2100U",
+      "name": "Introduction to Injury Management"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2110U",
+      "name": "Motor Control and Learning"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2120U",
+      "name": "Ethical Behaviour"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2130U",
+      "name": "Exercise Physiology"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2140U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3010U",
+      "name": "Introduction to Statistics for Kinesiology"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4100U",
+      "name": "Kinesiology Capstone"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

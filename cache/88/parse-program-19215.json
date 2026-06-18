@@ -1,0 +1,223 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19215",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication and Digital Media Studies"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 1000U",
+      "name": "Introduction to Criminology and Justice"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1910U",
+      "name": "Writing for the Social Sciences"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 2000U",
+      "name": "Introduction to Liberal Studies"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 4000U",
+      "name": "Liberal Studies Capstone"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 1000U",
+      "name": "Environmental Science"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1210U",
+      "name": "History of Science and Technology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2410U",
+      "name": "Social History of Communication and Media Technologies"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 2414U",
+      "name": "Science Fiction and Society"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 1000U",
+      "name": "Introduction to Indigenous Studies: Colonial History and its Impacts on Indigenous Peoples"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1200U",
+      "name": "Introduction to Democracy in Theory &amp; Practice"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2300U",
+      "name": "Social Problems"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2200U",
+      "name": "Indigenous Digital and Visual Media"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2500U",
+      "name": "Two-Eyed Seeing in the Natural Sciences"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 3310U",
+      "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 2413U",
+      "name": "Science Communication: Media for creative, fun, and effective STEM communication"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3350U",
+      "name": "Environmental Communication: Media and Tech for Sustainability"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2500U",
+      "name": "Information and Privacy Law"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3510U",
+      "name": "Censorship and Freedom of Expression"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3520U",
+      "name": "Law and Technology"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4120U",
+      "name": "AI, Ethics and Communication"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4420U",
+      "name": "Political Communication, Digital Media and Democracy"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4710U",
+      "name": "Global Media, the Internet and International Relations"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3700U",
+      "name": "Technology, Politics and Social Theory"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3751U",
+      "name": "Media, War and Conflict"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

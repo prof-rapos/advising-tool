@@ -1,0 +1,58 @@
+[
+  {
+    "poid": 19234,
+    "name": "Health Administration"
+  },
+  {
+    "poid": 19108,
+    "name": "Health Sciences – Human Health Science specialization"
+  },
+  {
+    "poid": 19109,
+    "name": "Health Sciences – Public Health specialization"
+  },
+  {
+    "poid": 19191,
+    "name": "Kinesiology"
+  },
+  {
+    "poid": 19113,
+    "name": "Medical Laboratory Science"
+  },
+  {
+    "poid": 19114,
+    "name": "Nursing"
+  },
+  {
+    "poid": 19107,
+    "name": "Allied Health Sciences – Bridge"
+  },
+  {
+    "poid": 19190,
+    "name": "Kinesiology – Advanced Entry for Fitness and Health Promotion graduates"
+  },
+  {
+    "poid": 19238,
+    "name": "Kinesiology – Advanced Entry for Massage Therapy graduates"
+  },
+  {
+    "poid": 19189,
+    "name": "Kinesiology – Advanced Entry for OTA/PTA graduates"
+  },
+  {
+    "poid": 19167,
+    "name": "Medical Laboratory Science – Bridge – Advanced Diploma in Biotechnology"
+  },
+  {
+    "poid": 19327,
+    "name": "RPN to BScN – Advanced Entry"
+  },
+  {
+    "poid": 19314,
+    "name": "Health Studies minor"
+  },
+  {
+    "poid": 19321,
+    "name": "Physical Education minor"
+  }
+]

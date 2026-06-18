@@ -1,0 +1,349 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6205",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 1,
+      "elecType": "general",
+      "label": "General elective"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1010U",
+      "name": "Critical Thinking and Ethics"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1020U",
+      "name": "Business Communications"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1130U",
+      "name": "Introduction to Financial Accounting"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1520U",
+      "name": "Business Computer Applications"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1600U",
+      "name": "Management of the Enterprise"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1915U",
+      "name": "Fundamentals of Business Mathematics"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1916U",
+      "name": "Mathematical Analysis for Business"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "ECON 2010U",
+      "name": "Microeconomics"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "ECON 2020U",
+      "name": "Macroeconomics"
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": "business",
+      "label": "Business elective",
+      "filterRule": {
+        "prefixes": [
+          "BUSI"
+        ]
+      }
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 2,
+      "elecType": "general",
+      "label": "General elective"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 1450U",
+      "name": "Statistics"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2180U",
+      "name": "Introduction to Managerial Accounting"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2200U",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2311U",
+      "name": "Organizational Behaviour"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2312U",
+      "name": "Human Resources Management"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2401U",
+      "name": "Finance I"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2402U",
+      "name": "Finance II"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2603U",
+      "name": "Introduction to Operations Management"
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 3,
+      "elecType": "major",
+      "label": "major courses"
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 3,
+      "elecType": "major",
+      "label": "major courses"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": "major",
+      "label": "major courses"
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 3,
+      "elecType": "major",
+      "label": "major courses"
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 3,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r26",
+      "type": "elective",
+      "year": 3,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r27",
+      "type": "elective",
+      "year": 3,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r28",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "General elective"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 3040U",
+      "name": "Information Systems"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 3705U",
+      "name": "Legal Environment of Business"
+    },
+    {
+      "id": "r31",
+      "type": "elective",
+      "year": 4,
+      "elecType": "major",
+      "label": "major courses"
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 4,
+      "elecType": "major",
+      "label": "major courses"
+    },
+    {
+      "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": "major",
+      "label": "major courses"
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": "major",
+      "label": "major courses"
+    },
+    {
+      "id": "r35",
+      "type": "elective",
+      "year": 4,
+      "elecType": "business",
+      "label": "business electives",
+      "filterRule": {
+        "prefixes": [
+          "BUSI"
+        ]
+      }
+    },
+    {
+      "id": "r36",
+      "type": "elective",
+      "year": 4,
+      "elecType": "business",
+      "label": "business electives",
+      "filterRule": {
+        "prefixes": [
+          "BUSI"
+        ]
+      }
+    },
+    {
+      "id": "r37",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r38",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 4,
+      "code": "BUSI 4701U",
+      "name": "Strategic Management"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 4,
+      "code": "BUSI 4995U",
+      "name": "Capstone Study Project"
+    }
+  ],
+  "elecRestrictions": {
+    "general": 3,
+    "business": 2
+  },
+  "elecSubsets": {},
+  "elecLabels": {
+    "general": "General",
+    "business": "Business",
+    "major": "major courses",
+    "open": "open electives"
+  },
+  "elecFilterRules": {
+    "business": {
+      "prefixes": [
+        "BUSI"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "organizationalBehaviourAndHumanResourcesManagement": [
+      {
+        "code": "BUSI 3315U",
+        "name": "Negotiation Theory and Behaviour"
+      },
+      {
+        "code": "BUSI 3330U",
+        "name": "The Management of Change"
+      },
+      {
+        "code": "BUSI 3350U",
+        "name": "Developing Management Skills"
+      },
+      {
+        "code": "BUSI 3370U",
+        "name": "Employment and Labour Laws"
+      },
+      {
+        "code": "BUSI 4330U",
+        "name": "Managing Team Dynamics"
+      },
+      {
+        "code": "BUSI 4399U",
+        "name": "Directed Independent Study in Organizational Behaviour and Human Resources Management"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 19,
+  "elecRestrictionSum": 5
+}

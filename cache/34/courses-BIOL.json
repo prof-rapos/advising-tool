@@ -1,0 +1,186 @@
+[
+  {
+    "code": "BIOL 1000U",
+    "name": "Foundations in Bioscience"
+  },
+  {
+    "code": "BIOL 1010U",
+    "name": "Biology I: Molecular and Cellular Systems"
+  },
+  {
+    "code": "BIOL 1011U",
+    "name": "Introductory Cell and Molecular Biology"
+  },
+  {
+    "code": "BIOL 1020U",
+    "name": "Biology II: Diversity of Life and Principles of Ecology"
+  },
+  {
+    "code": "BIOL 1021U",
+    "name": "Introduction to Organismal Biology and Ecology"
+  },
+  {
+    "code": "BIOL 1841U",
+    "name": "Essentials of Biology"
+  },
+  {
+    "code": "BIOL 2010U",
+    "name": "Human Physiology"
+  },
+  {
+    "code": "BIOL 2020U",
+    "name": "Genetics and Molecular Biology"
+  },
+  {
+    "code": "BIOL 2030U",
+    "name": "Cell Biology"
+  },
+  {
+    "code": "BIOL 2050U",
+    "name": "Human Anatomy"
+  },
+  {
+    "code": "BIOL 2060U",
+    "name": "Fundamentals of Microbiology"
+  },
+  {
+    "code": "BIOL 2080U",
+    "name": "Biochemistry I"
+  },
+  {
+    "code": "BIOL 2090U",
+    "name": "Research in Biological Science I"
+  },
+  {
+    "code": "BIOL 2830U",
+    "name": "Microbiology for Health Science"
+  },
+  {
+    "code": "BIOL 3010U",
+    "name": "Laboratory Methods in Molecular Biology"
+  },
+  {
+    "code": "BIOL 3020U",
+    "name": "Principles of Pharmacology and Toxicology"
+  },
+  {
+    "code": "BIOL 3032U",
+    "name": "Advanced Microbiology"
+  },
+  {
+    "code": "BIOL 3040U",
+    "name": "Animal Physiology"
+  },
+  {
+    "code": "BIOL 3051U",
+    "name": "Developmental Biology"
+  },
+  {
+    "code": "BIOL 3060U",
+    "name": "Fundamentals of Neuroscience"
+  },
+  {
+    "code": "BIOL 3080U",
+    "name": "Biochemistry II"
+  },
+  {
+    "code": "BIOL 3090U",
+    "name": "Research in Biological Science II"
+  },
+  {
+    "code": "BIOL 3091U",
+    "name": "Research in Biological Science III"
+  },
+  {
+    "code": "BIOL 3110U",
+    "name": "Population Genetics"
+  },
+  {
+    "code": "BIOL 3610U",
+    "name": "Comparative Zoology"
+  },
+  {
+    "code": "BIOL 3620U",
+    "name": "Conservation Biology"
+  },
+  {
+    "code": "BIOL 3640U",
+    "name": "Plant Biology"
+  },
+  {
+    "code": "BIOL 3650U",
+    "name": "Fundamentals of Nutrition"
+  },
+  {
+    "code": "BIOL 3660U",
+    "name": "Ecology"
+  },
+  {
+    "code": "BIOL 4010U",
+    "name": "Introduction to Environmental Research Methods"
+  },
+  {
+    "code": "BIOL 4020U",
+    "name": "Introduction to Environmental Toxicology"
+  },
+  {
+    "code": "BIOL 4030U",
+    "name": "Advanced Topics in Environmental Toxicology"
+  },
+  {
+    "code": "BIOL 4031U",
+    "name": "Infection and Immunity"
+  },
+  {
+    "code": "BIOL 4040U",
+    "name": "Applied Molecular Biology"
+  },
+  {
+    "code": "BIOL 4050U",
+    "name": "Advanced Topics in Pharmaceutical Biotechnology"
+  },
+  {
+    "code": "BIOL 4052U",
+    "name": "Advanced Developmental Biology Laboratory"
+  },
+  {
+    "code": "BIOL 4060U",
+    "name": "Functional Genomic and Proteomics"
+  },
+  {
+    "code": "BIOL 4070U",
+    "name": "Advanced Biochemistry"
+  },
+  {
+    "code": "BIOL 4080U",
+    "name": "Bioethics"
+  },
+  {
+    "code": "BIOL 4410U",
+    "name": "Biology Thesis Project I"
+  },
+  {
+    "code": "BIOL 4420U",
+    "name": "Biology Thesis Project II"
+  },
+  {
+    "code": "BIOL 4430U",
+    "name": "Directed Studies in Biology"
+  },
+  {
+    "code": "BIOL 4620U",
+    "name": "Animal Behaviour"
+  },
+  {
+    "code": "BIOL 4630U",
+    "name": "Plant Development"
+  },
+  {
+    "code": "BIOL 4660U",
+    "name": "Aquatic Ecology: Concepts and Environmental Applications"
+  },
+  {
+    "code": "BIOL 4820U",
+    "name": "Neuropharmacology"
+  }
+]

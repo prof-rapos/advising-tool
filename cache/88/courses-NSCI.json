@@ -1,0 +1,34 @@
+[
+  {
+    "code": "NSCI 2400U",
+    "name": "Introduction to Movement Neuroscience"
+  },
+  {
+    "code": "NSCI 3410U",
+    "name": "Motor Control and Learning"
+  },
+  {
+    "code": "NSCI 3470U",
+    "name": "Anatomy of Human Movement"
+  },
+  {
+    "code": "NSCI 4410U",
+    "name": "Neuroscience Thesis Project I"
+  },
+  {
+    "code": "NSCI 4414U",
+    "name": "Advanced Topics in Neuromuscular Physiology and Pathophysiology"
+  },
+  {
+    "code": "NSCI 4420U",
+    "name": "Neuroscience Thesis Project II"
+  },
+  {
+    "code": "NSCI 4808U",
+    "name": "Exploring Mental Health and Developmental Disabilities"
+  },
+  {
+    "code": "NSCI 4999U",
+    "name": "Advanced Topics in Integrative Neuroscience"
+  }
+]

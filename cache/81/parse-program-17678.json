@@ -1,0 +1,279 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=81&poid=17678",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1200U",
+      "name": "Introduction to Democracy in Theory &amp; Practice"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2200U",
+      "name": "Fundamentals of Policy Theory"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2420U",
+      "name": "Canadian Human Rights Law"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3430U",
+      "name": "International Human Rights"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3520U",
+      "name": "Law and Technology"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2000U",
+      "name": "Canadian Politics"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2100U",
+      "name": "Global Politics"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2502U",
+      "name": "Community Development and Social Change"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3000U",
+      "name": "Policy, Democracy and Governance"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3300U",
+      "name": "Building Sustainable Communities"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3301U",
+      "name": "Eco-Justice"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3302U",
+      "name": "Environment and Globalization"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 4010U",
+      "name": "Policy Development"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2900U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3310U",
+      "name": "Indigenous Peoples, Law and the State in Canada"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3530U",
+      "name": "Intellectual Property"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 4040U",
+      "name": "Law and the Environment"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 4070U",
+      "name": "Public Governance through Law"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3100U",
+      "name": "Political Economy of Global Development"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3101U",
+      "name": "Inequality, Environment and Development"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3201U",
+      "name": "Rural Communities"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3203U",
+      "name": "Urban Development"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3303U",
+      "name": "Policies for Sustainability"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3501U",
+      "name": "Politics and Poverty"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3600U",
+      "name": "Politics of Education in Canada"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3601U",
+      "name": "The Politics of Health"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3603U",
+      "name": "The Politics of Housing"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3700U",
+      "name": "Technology, Politics and Social Theory"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3751U",
+      "name": "Media, War and Conflict"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3800U",
+      "name": "Business, Politics and the Macroeconomy"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 4000U",
+      "name": "International Politics and Policy"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 4005U",
+      "name": "Independent Study"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 4104U",
+      "name": "Directed Research"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4098U",
+      "name": "Practicum"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2200U",
+      "name": "Legal Theory"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4101U",
+      "name": "Honours Thesis I"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

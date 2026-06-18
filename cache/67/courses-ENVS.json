@@ -1,0 +1,22 @@
+[
+  {
+    "code": "ENVS 1000U",
+    "name": "Environmental Science"
+  },
+  {
+    "code": "ENVS 2010U",
+    "name": "Introductory Environment Science"
+  },
+  {
+    "code": "ENVS 3020U",
+    "name": "Introductory Energy Science"
+  },
+  {
+    "code": "ENVS 3110U",
+    "name": "Economics and Politics of the Environment"
+  },
+  {
+    "code": "ENVS 4010U",
+    "name": "Geographic Information Systems (GIS) &amp; Spatial Analysis"
+  }
+]

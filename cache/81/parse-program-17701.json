@@ -1,0 +1,97 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=81&poid=17701",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2411U",
+      "name": "Governing Communication and Digital Creativity: Policy for an era of Digital Disruption"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3610U",
+      "name": "Strategic Communications for Influence: Rhetoric, Persuasion and Propaganda"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4420U",
+      "name": "Political Communication, Digital Media and Democracy"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3310U",
+      "name": "Communication for Social Change, Community and Development"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3350U",
+      "name": "Environmental Communication: Media and Tech for Sustainability"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3710U",
+      "name": "Media, Identity and Intercultural Communication"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4120U",
+      "name": "AI, Ethics and Communication"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4510U",
+      "name": "Public Relations: Social Power, Social Media Platforms, and Social Responsibility"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4610U",
+      "name": "The Struggle is Real: Transformation for Communication, Conflict, and Peace"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4710U",
+      "name": "Global Media, the Internet and International Relations"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3751U",
+      "name": "Media, War and Conflict"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

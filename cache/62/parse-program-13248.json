@@ -1,0 +1,313 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=13248",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1030U",
+      "name": "Writing and Critical Thinking"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1130U",
+      "name": "Introduction to Financial Accounting"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1450U",
+      "name": "Statistics for Business"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1520U",
+      "name": "Introduction to Business Analytics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1600U",
+      "name": "Management of the Enterprise"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1915U",
+      "name": "Fundamentals of Business Mathematics"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2040U",
+      "name": "Information Systems"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2180U",
+      "name": "Introduction to Managerial Accounting"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2200U",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2311U",
+      "name": "Organizational Behaviour"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2401U",
+      "name": "Principles of Finance"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2603U",
+      "name": "Introduction to Operations Management"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3000U",
+      "name": "Business and Sustainability"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4701U",
+      "name": "Strategic Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "ECON 2010U",
+      "name": "Microeconomics"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "ECON 2020U",
+      "name": "Macroeconomics"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 1500U",
+      "name": "FBIT Student Success Workshop"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 2500U",
+      "name": "FBIT Experience Workshop"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 3500U",
+      "name": "FBIT Career Readiness Workshop"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4500U",
+      "name": "Capstone Study Project"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4600U",
+      "name": "Internship"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4700U",
+      "name": "Venture Creation"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2312U",
+      "name": "Human Resources Management"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3305U",
+      "name": "Recruitment and Selection"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3312U",
+      "name": "Industrial and Labour Relations"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3340U",
+      "name": "Human Resource Planning"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3360U",
+      "name": "Occupational Health and Safety"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3380U",
+      "name": "Compensation and Benefits"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3390U",
+      "name": "Training and Development"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2000U",
+      "name": "Collaborative Leadership"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3315U",
+      "name": "Negotiation Theory and Behaviour"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3330U",
+      "name": "The Management of Change"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2350U",
+      "name": "Developing Management Skills"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3370U",
+      "name": "Employment and Labour Laws"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2330u",
+      "name": "Managing Team Dynamics"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4390U",
+      "name": "Special Topics in Organizational Behaviour and Human Resources Management"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4399U",
+      "name": "Directed Independent Study in Organizational Behaviour and Human Resources Management"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {
+    "threeOpenOneOf": {
+      "prefixes": [
+        "XBIT"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "organizationalBehaviourAndHumanResourcesManagement": [
+      {
+        "code": "BUSI 2000U",
+        "name": "Collaborative Leadership"
+      },
+      {
+        "code": "BUSI 3315U",
+        "name": "Negotiation Theory and Behaviour"
+      },
+      {
+        "code": "BUSI 3330U",
+        "name": "The Management of Change"
+      },
+      {
+        "code": "BUSI 2350U",
+        "name": "Developing Management Skills"
+      },
+      {
+        "code": "BUSI 3370U",
+        "name": "Employment and Labour Laws"
+      },
+      {
+        "code": "BUSI 2330u",
+        "name": "Managing Team Dynamics"
+      },
+      {
+        "code": "BUSI 4390U",
+        "name": "Special Topics in Organizational Behaviour and Human Resources Management"
+      },
+      {
+        "code": "BUSI 4399U",
+        "name": "Directed Independent Study in Organizational Behaviour and Human Resources Management"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

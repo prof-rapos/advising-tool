@@ -1,0 +1,126 @@
+[
+  {
+    "code": "MATH 1000U",
+    "name": "Introductory Calculus"
+  },
+  {
+    "code": "MATH 1005U",
+    "name": "Pre-calculus plus"
+  },
+  {
+    "code": "MATH 1010U",
+    "name": "Calculus I"
+  },
+  {
+    "code": "MATH 1015U",
+    "name": "Mathematics for Bioscience"
+  },
+  {
+    "code": "MATH 1020U",
+    "name": "Calculus II"
+  },
+  {
+    "code": "MATH 1850U",
+    "name": "Linear Algebra for Engineers"
+  },
+  {
+    "code": "MATH 1880U",
+    "name": "Mathematical Modelling for Health Science"
+  },
+  {
+    "code": "MATH 2015U",
+    "name": "Calculus III"
+  },
+  {
+    "code": "MATH 2050U",
+    "name": "Linear Algebra"
+  },
+  {
+    "code": "MATH 2055U",
+    "name": "Advanced Linear Algebra and Applications"
+  },
+  {
+    "code": "MATH 2060U",
+    "name": "Differential Equations"
+  },
+  {
+    "code": "MATH 2070U",
+    "name": "Numerical Methods"
+  },
+  {
+    "code": "MATH 2072U",
+    "name": "Computational Science I"
+  },
+  {
+    "code": "MATH 2080U",
+    "name": "Discrete Mathematics"
+  },
+  {
+    "code": "MATH 2810U",
+    "name": "Advanced Engineering Mathematics"
+  },
+  {
+    "code": "MATH 2860U",
+    "name": "Differential Equations for Engineers"
+  },
+  {
+    "code": "MATH 3020U",
+    "name": "Real Analysis"
+  },
+  {
+    "code": "MATH 3030U",
+    "name": "Introduction to Probability Theory"
+  },
+  {
+    "code": "MATH 3040U",
+    "name": "Optimization"
+  },
+  {
+    "code": "MATH 3050U",
+    "name": "Mathematical Modelling"
+  },
+  {
+    "code": "MATH 3060U",
+    "name": "Complex Analysis"
+  },
+  {
+    "code": "MATH 3070U",
+    "name": "Algebraic Structures"
+  },
+  {
+    "code": "MATH 4010U",
+    "name": "Dynamical Systems and Chaos"
+  },
+  {
+    "code": "MATH 4020U",
+    "name": "Computational Science II"
+  },
+  {
+    "code": "MATH 4041U",
+    "name": "Topics in Applied Mathematics I"
+  },
+  {
+    "code": "MATH 4042U",
+    "name": "Topics in Applied Mathematics II"
+  },
+  {
+    "code": "MATH 4050U",
+    "name": "Partial Differential Equations"
+  },
+  {
+    "code": "MATH 4060U",
+    "name": "Industrial Mathematics"
+  },
+  {
+    "code": "MATH 4410U",
+    "name": "Mathematics Thesis Project I"
+  },
+  {
+    "code": "MATH 4420U",
+    "name": "Mathematics Thesis Project II"
+  },
+  {
+    "code": "MATH 4430U",
+    "name": "Directed Studies in Mathematics"
+  }
+]

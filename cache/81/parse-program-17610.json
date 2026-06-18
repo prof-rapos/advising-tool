@@ -1,0 +1,253 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=81&poid=17610",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 2,
+      "elecType": "open",
+      "label": "Open elective"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2460U",
+      "name": "Pathophysiology I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 1010U",
+      "name": "Introduction to Medical Laboratory Practice"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 2140U",
+      "name": "Medical Laboratory Science (MLS) Bridge Course – Biotechnology to MLS"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2461U",
+      "name": "Pathophysiology II"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Public Health and Health Care Professionals"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 2111U",
+      "name": "Clinical Biochemistry I"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 2121U",
+      "name": "Clinical Hematology I"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 2131U",
+      "name": "Clinical Microbiology I"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3111U",
+      "name": "Clinical Biochemistry II"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3121U",
+      "name": "Clinical Hematology II"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3131U",
+      "name": "Clinical Microbiology II"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3200U",
+      "name": "Transfusion Science I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3230U",
+      "name": "Microanatomy and Histotechnology"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3210U",
+      "name": "Effective Leadership and Quality Management in the Clinical Laboratory"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3220U",
+      "name": "Transfusion Science II"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3231U",
+      "name": "Advanced Histotechnology"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3300U",
+      "name": "Simulated Clinical Practicum"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 4820U",
+      "name": "Interdisciplinary Collaboration"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4111U",
+      "name": "Clinical Biochemistry III"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4121U",
+      "name": "Clinical Hematology III"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4131U",
+      "name": "Clinical Microbiology III"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4210U",
+      "name": "Professional Practice in the Clinical Laboratory I"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4220U",
+      "name": "Transfusion Science III"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4231U",
+      "name": "Histopathology I"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4400U",
+      "name": "Clinical Project I"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4112U",
+      "name": "Clinical Biochemistry IV"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4122U",
+      "name": "Clinical Hematology IV"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4132U",
+      "name": "Clinical Microbiology IV"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4211U",
+      "name": "Professional Practice in the Clinical Laboratory II"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4221U",
+      "name": "Transfusion Science IV"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4232U",
+      "name": "Histopathology II"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4401U",
+      "name": "Clinical Project II"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "open": "Open elective"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 1,
+  "elecRestrictionSum": 0
+}

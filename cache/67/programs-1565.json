@@ -1,0 +1,62 @@
+[
+  {
+    "poid": 14669,
+    "name": "Engineering Co-op"
+  },
+  {
+    "poid": 14529,
+    "name": "Automotive Engineering"
+  },
+  {
+    "poid": 14530,
+    "name": "Electrical Engineering"
+  },
+  {
+    "poid": 14609,
+    "name": "Electrical Engineering – Smart Grid specialization"
+  },
+  {
+    "poid": 14531,
+    "name": "Manufacturing Engineering"
+  },
+  {
+    "poid": 14532,
+    "name": "Mechanical Engineering"
+  },
+  {
+    "poid": 14533,
+    "name": "Mechanical Engineering – Energy Engineering specialization"
+  },
+  {
+    "poid": 14610,
+    "name": "Mechatronics Engineering"
+  },
+  {
+    "poid": 14527,
+    "name": "Nuclear Engineering"
+  },
+  {
+    "poid": 14534,
+    "name": "Software Engineering"
+  },
+  {
+    "poid": 14620,
+    "name": "Software Engineering – Internet of Things specialization"
+  },
+  {
+    "poid": 14632,
+    "name": "Engineering and Management in the Faculty of Engineering and Applied Science"
+  },
+  {
+    "poid": 14633,
+    "name": "Nuclear Engineering and Management"
+  },
+  {
+    "poid": 14528,
+    "name": "Health Physics and Radiation Science"
+  },
+  {
+    "poid": 14634,
+    "name": "Health Physics minor"
+  }
+]

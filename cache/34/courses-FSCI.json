@@ -1,0 +1,78 @@
+[
+  {
+    "code": "FSCI 1010U",
+    "name": "Introductory Forensic Science"
+  },
+  {
+    "code": "FSCI 2010U",
+    "name": "Crime Scene Science"
+  },
+  {
+    "code": "FSCI 2020U",
+    "name": "Essentials of Crime Scene Science"
+  },
+  {
+    "code": "FSCI 3010U",
+    "name": "Criminalistics I"
+  },
+  {
+    "code": "FSCI 3030U",
+    "name": "Criminalistics II"
+  },
+  {
+    "code": "FSCI 3040U",
+    "name": "Forensic Chemistry"
+  },
+  {
+    "code": "FSCI 3050U",
+    "name": "Assassinations, International Crimes and Disasters"
+  },
+  {
+    "code": "FSCI 3110U",
+    "name": "Population Genetics"
+  },
+  {
+    "code": "FSCI 3120U",
+    "name": "Forensic Biology"
+  },
+  {
+    "code": "FSCI 3210U",
+    "name": "Forensic Psychology"
+  },
+  {
+    "code": "FSCI 4020U",
+    "name": "Interdisciplinary Topics in Forensic Science"
+  },
+  {
+    "code": "FSCI 4030U",
+    "name": "Forensic Drug Chemistry and Toxicology"
+  },
+  {
+    "code": "FSCI 4040U",
+    "name": "Fire Investigation"
+  },
+  {
+    "code": "FSCI 4050U",
+    "name": "Law for Forensic Scientists"
+  },
+  {
+    "code": "FSCI 4120U",
+    "name": "Advanced Forensic Biology"
+  },
+  {
+    "code": "FSCI 4410U",
+    "name": "Forensic Science Thesis Project I"
+  },
+  {
+    "code": "FSCI 4420U",
+    "name": "Forensic Science Thesis Project II"
+  },
+  {
+    "code": "FSCI 4430U",
+    "name": "Directed Studies in Forensic Science"
+  },
+  {
+    "code": "FSCI 4460U",
+    "name": "Mock Crime Scene Practicum"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19237",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2020U",
+      "name": "Social Psychology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2030U",
+      "name": "Psychopathology"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

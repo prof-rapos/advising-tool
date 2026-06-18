@@ -1,0 +1,202 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19320",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3023U",
+      "name": "Family Violence"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3025U",
+      "name": "Victimology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2050U",
+      "name": "Rights and Wrongs in the Justice System"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3040U",
+      "name": "Restorative Justice"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3056U",
+      "name": "Race-ing Justice"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3401U",
+      "name": "Indigenous Peoples and Justice"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4022U",
+      "name": "Hate Crime"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4032U",
+      "name": "Mediation and Conflict Resolution"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3039U",
+      "name": "Children, Psychology and the Law"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3210U",
+      "name": "Forensic Psychology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 1000U",
+      "name": "Introduction to Indigenous Studies: Colonial History and its Impacts on Indigenous Peoples"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2011U",
+      "name": "Immigration and Refugee Law"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2420U",
+      "name": "Canadian Human Rights Law"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3300U",
+      "name": "Disability and the Law"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3310U",
+      "name": "Indigenous Peoples, Law and the State in Canada"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3320U",
+      "name": "Race, Ethnicity and the Law"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3330U",
+      "name": "Gender, Sexuality and the Law"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3430U",
+      "name": "International Human Rights"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2030U",
+      "name": "Psychopathology"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3045U",
+      "name": "Child Maltreatment"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3065U",
+      "name": "Emotion"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3070U",
+      "name": "Stress and Coping"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3500U",
+      "name": "Stereotypes and Prejudice"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3620U",
+      "name": "Motivation and Emotion"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

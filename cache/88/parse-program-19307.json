@@ -1,0 +1,649 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19307",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 1001U",
+      "name": "Fundamentals of Sustainability I: Science &amp; Technology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 1002U",
+      "name": "Fundamentals of Sustainability II: Health &amp; Social Sciences"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 4001U",
+      "name": "Sustainability Group Capstone I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 4002U",
+      "name": "Sustainability Group Capstone II"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1010U",
+      "name": "Biology I: Molecular and Cellular Systems"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3660U",
+      "name": "Ecology"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 1020U",
+      "name": "Chemistry II"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 1800U",
+      "name": "Chemistry for Engineers"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 1000U",
+      "name": "Environmental Science"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2500U",
+      "name": "Two-Eyed Seeing in the Natural Sciences"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1000U",
+      "name": "Introductory Calculus"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "ENSY 0101U",
+      "name": "Calculus and Algebra for Energy Systems"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1010U",
+      "name": "Calculus I"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1015U",
+      "name": "Mathematics for Bioscience"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1880U",
+      "name": "Mathematical Modelling for Health Science"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3303U",
+      "name": "Policies for Sustainability"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 3110U",
+      "name": "Economics and Politics of the Environment"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1701U",
+      "name": "Information Literacy and Written Communication for the Health Sciences"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1811U",
+      "name": "Social Determinants of Health"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3820U",
+      "name": "Public Health I"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "STAT 2020U",
+      "name": "Statistics and Probability for Biological Science"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1450U",
+      "name": "Statistics for Business"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "STAT 2010U",
+      "name": "Statistics and Probability for Physical Science"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "STAT 2800U",
+      "name": "Statistics and Probability for Engineers"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2920U",
+      "name": "Qualitative Research Methods"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Public Health and Health Care Professionals"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4010U",
+      "name": "Introduction to Environmental Research Methods"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2010U",
+      "name": "Human Physiology"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2020U",
+      "name": "Genetics and Molecular Biology"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2030U",
+      "name": "Cell Biology"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2060U",
+      "name": "Fundamentals of Microbiology"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2080U",
+      "name": "Biochemistry I"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3020U",
+      "name": "Principles of Pharmacology and Toxicology"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3620U",
+      "name": "Conservation Biology"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4020U",
+      "name": "Introduction to Environmental Toxicology"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4660U",
+      "name": "Aquatic Ecology: Concepts and Environmental Applications"
+    },
+    {
+      "id": "r43",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 2020U",
+      "name": "Introduction to Organic Chemistry"
+    },
+    {
+      "id": "r44",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 2130U",
+      "name": "Analytical Chemistry for Biosciences"
+    },
+    {
+      "id": "r45",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 2010U",
+      "name": "Introductory Environment Science"
+    },
+    {
+      "id": "r46",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 4010U",
+      "name": "Geographic Information Systems (GIS) &amp; Spatial Analysis"
+    },
+    {
+      "id": "r47",
+      "type": "course",
+      "year": 0,
+      "code": "MECE 3260U",
+      "name": "Introduction to Energy Systems"
+    },
+    {
+      "id": "r48",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r49",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r50",
+      "type": "course",
+      "year": 0,
+      "code": "RADI 3570U",
+      "name": "Environmental Effects of Radiation"
+    },
+    {
+      "id": "r51",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2050U",
+      "name": "Managerial Economics"
+    },
+    {
+      "id": "r52",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication and Digital Media Studies"
+    },
+    {
+      "id": "r53",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3350U",
+      "name": "Environmental Communication: Media and Tech for Sustainability"
+    },
+    {
+      "id": "r54",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4530U",
+      "name": "Media Activism and Protest Cultures"
+    },
+    {
+      "id": "r55",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4610U",
+      "name": "The Struggle is Real: Transformation for Communication, Conflict, and Peace"
+    },
+    {
+      "id": "r56",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2100U",
+      "name": "Endaayaang - Storying Home in Michi Saagiig Territory"
+    },
+    {
+      "id": "r57",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2200U",
+      "name": "Indigenous Digital and Visual Media"
+    },
+    {
+      "id": "r58",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 3310U",
+      "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+    },
+    {
+      "id": "r59",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4300U",
+      "name": "Special Topics in Indigenous Studies"
+    },
+    {
+      "id": "r60",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4310U",
+      "name": "The Politics of Indigenous Rights"
+    },
+    {
+      "id": "r61",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4570U",
+      "name": "Indigenous Design and Technology"
+    },
+    {
+      "id": "r62",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 1550U",
+      "name": "Law and Ethics of IT"
+    },
+    {
+      "id": "r63",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r64",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r65",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2200U",
+      "name": "Legal Theory"
+    },
+    {
+      "id": "r66",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2940U",
+      "name": "Legal Research Methods"
+    },
+    {
+      "id": "r67",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3230U",
+      "name": "Law and Globalization"
+    },
+    {
+      "id": "r68",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3310U",
+      "name": "Indigenous Peoples, Law and the State in Canada"
+    },
+    {
+      "id": "r69",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 4040U",
+      "name": "Law and the Environment"
+    },
+    {
+      "id": "r70",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2100U",
+      "name": "Global Politics"
+    },
+    {
+      "id": "r71",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2200U",
+      "name": "Fundamentals of Policy Theory"
+    },
+    {
+      "id": "r72",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2502U",
+      "name": "Community Development and Social Change"
+    },
+    {
+      "id": "r73",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3100U",
+      "name": "Political Economy of Global Development"
+    },
+    {
+      "id": "r74",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3101U",
+      "name": "Inequality, Environment and Development"
+    },
+    {
+      "id": "r75",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3203U",
+      "name": "Urban Development"
+    },
+    {
+      "id": "r76",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3300U",
+      "name": "Building Sustainable Communities"
+    },
+    {
+      "id": "r77",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3301U",
+      "name": "Eco-Justice"
+    },
+    {
+      "id": "r78",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3302U",
+      "name": "Environment and Globalization"
+    },
+    {
+      "id": "r79",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3700U",
+      "name": "Technology, Politics and Social Theory"
+    },
+    {
+      "id": "r80",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1210U",
+      "name": "History of Science and Technology"
+    },
+    {
+      "id": "r81",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r82",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4010U",
+      "name": "Policy Development"
+    },
+    {
+      "id": "r83",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2802U",
+      "name": "Introduction to the Canadian Healthcare System"
+    },
+    {
+      "id": "r84",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3631U",
+      "name": "Health Policy and Process"
+    },
+    {
+      "id": "r85",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3823U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r86",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4809U",
+      "name": "Environmental and Occupational Health"
+    }
+  ],
+  "elecRestrictions": {
+    "biology": 3,
+    "chemistry": 1,
+    "mathematics": 1
+  },
+  "elecSubsets": {
+    "biology": "science",
+    "chemistry": "science",
+    "mathematics": "science"
+  },
+  "elecLabels": {
+    "biology": "Biology",
+    "chemistry": "Chemistry",
+    "mathematics": "Mathematics"
+  },
+  "elecFilterRules": {
+    "biol4660uAquaticEcology": {
+      "prefixes": [
+        "CHEM",
+        "ENVS"
+      ]
+    },
+    "biology": {
+      "prefixes": [
+        "BIOL"
+      ]
+    },
+    "chemistry": {
+      "prefixes": [
+        "CHEM"
+      ]
+    },
+    "mathematics": {
+      "prefixes": [
+        "MATH"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 5
+}

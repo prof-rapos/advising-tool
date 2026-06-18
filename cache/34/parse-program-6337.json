@@ -1,0 +1,373 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6337",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication Studies"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 1000U",
+      "name": "Introduction to Criminal Justice"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1910U",
+      "name": "Writing for the Social Sciences"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1200U",
+      "name": "Introduction to Democracy in Theory &amp; Practice"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1300U",
+      "name": "Social Problems"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3040U",
+      "name": "Restorative Justice"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2100U",
+      "name": "Public Law"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2110U",
+      "name": "Private Law"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2200U",
+      "name": "Legal Theory"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2940U",
+      "name": "Legal Research Methods"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 4200U",
+      "name": "Law and Social Change"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4098U",
+      "name": "Practicum"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4103U",
+      "name": "Internship"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 4099U",
+      "name": "Legal Studies Integrating Project"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4101U",
+      "name": "Honours Thesis I"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4102U",
+      "name": "Honours Thesis II"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2420U",
+      "name": "Canadian Human Rights Law"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2500U",
+      "name": "Information and Privacy Law"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3300U",
+      "name": "Disability and the Law"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3310U",
+      "name": "Indigenous Peoples, Law and the State in Canada"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3320U",
+      "name": "Race, Ethnicity and the Law"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3330U",
+      "name": "Gender, Sexuality and the Law"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3200U",
+      "name": "Sociology of Law"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3220U",
+      "name": "Philosophy of Law"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3230U",
+      "name": "Law and Globalization"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3240U",
+      "name": "Cultural Studies of Law"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3520U",
+      "name": "Law and Technology"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3700U",
+      "name": "Law and Power"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3410U",
+      "name": "Labour and Employment Law"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3610U",
+      "name": "Employment and Mediation"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3130U",
+      "name": "Family Law"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3600U",
+      "name": "Family Mediation"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3620U",
+      "name": "Human Rights Mediation"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2010U",
+      "name": "Criminal Law"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4032U",
+      "name": "Mediation and Conflict Resolution"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3710U",
+      "name": "Intercultural Communication"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2050U",
+      "name": "Rights and Wrongs in the Justice System"
+    },
+    {
+      "id": "r43",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3430U",
+      "name": "International Human Rights"
+    },
+    {
+      "id": "r44",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2011U",
+      "name": "Immigration and Refugee Law"
+    },
+    {
+      "id": "r45",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3100U",
+      "name": "Administrative Law"
+    },
+    {
+      "id": "r46",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2411U",
+      "name": "Digital Media Policy"
+    },
+    {
+      "id": "r47",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4021U",
+      "name": "Cybercrime"
+    },
+    {
+      "id": "r48",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3510U",
+      "name": "Censorship and Freedom of Expression"
+    },
+    {
+      "id": "r49",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3530U",
+      "name": "Intellectual Property"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {
+    "twoOf": {
+      "prefixes": [
+        "LGLS"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "legalStudies": [
+      {
+        "code": "CRMN 2010U",
+        "name": "Criminal Law"
+      },
+      {
+        "code": "CRMN 4032U",
+        "name": "Mediation and Conflict Resolution"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

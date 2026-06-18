@@ -1,0 +1,26 @@
+[
+  {
+    "code": "SCCO 0999U",
+    "name": "Science Co-op Success Program"
+  },
+  {
+    "code": "SCCO 1000W",
+    "name": "Science Co-op Work Term I"
+  },
+  {
+    "code": "SCCO 2000W",
+    "name": "Science Co-op Work Term II"
+  },
+  {
+    "code": "SCCO 3000W",
+    "name": "Science Co-op Work Term III"
+  },
+  {
+    "code": "SCCO 4000W",
+    "name": "Science Co-op Work Term IV"
+  },
+  {
+    "code": "SCCO 5000W",
+    "name": "Science Co-op Work Term V"
+  }
+]

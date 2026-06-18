@@ -1,0 +1,34 @@
+[
+  {
+    "code": "ENEE 2160U",
+    "name": "Energy and Environmental Impacts"
+  },
+  {
+    "code": "ENEE 2210U",
+    "name": "Introduction to Alternative Fuels"
+  },
+  {
+    "code": "ENEE 3030U",
+    "name": "Computer-Aided Design"
+  },
+  {
+    "code": "ENEE 3265U",
+    "name": "Hydrogen and Fuel Cells"
+  },
+  {
+    "code": "ENEE 4161U",
+    "name": "Solar Energy"
+  },
+  {
+    "code": "ENEE 4163U",
+    "name": "Wind and Hydro Energy"
+  },
+  {
+    "code": "ENEE 4260U",
+    "name": "Integrated Energy Systems"
+  },
+  {
+    "code": "ENEE 4460U",
+    "name": "Sustainable Community Energy Systems"
+  }
+]

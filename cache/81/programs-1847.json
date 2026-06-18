@@ -1,0 +1,134 @@
+[
+  {
+    "poid": 17560,
+    "name": "Biological Science"
+  },
+  {
+    "poid": 17565,
+    "name": "Chemistry"
+  },
+  {
+    "poid": 17568,
+    "name": "Computer Science"
+  },
+  {
+    "poid": 17667,
+    "name": "Integrated Mathematics and Computer Science"
+  },
+  {
+    "poid": 17559,
+    "name": "Mathematics for Science and Industry"
+  },
+  {
+    "poid": 17662,
+    "name": "Neuroscience"
+  },
+  {
+    "poid": 17573,
+    "name": "Physics"
+  },
+  {
+    "poid": 17638,
+    "name": "minor in Finance"
+  },
+  {
+    "poid": 17563,
+    "name": "Biological Science – Applied Biotechnology specialization"
+  },
+  {
+    "poid": 17562,
+    "name": "Biological Science – Biomedical Science specialization"
+  },
+  {
+    "poid": 17650,
+    "name": "Biological Science – Environmental Biology specialization"
+  },
+  {
+    "poid": 17668,
+    "name": "Biological Science – Marine Biology specialization"
+  },
+  {
+    "poid": 17566,
+    "name": "Chemistry – Chemical Biology specialization"
+  },
+  {
+    "poid": 17567,
+    "name": "Chemistry – Pharmaceutical Chemistry specialization"
+  },
+  {
+    "poid": 17644,
+    "name": "Computer Science – Data Science specialization"
+  },
+  {
+    "poid": 17569,
+    "name": "Computer Science – Digital Media specialization"
+  },
+  {
+    "poid": 17570,
+    "name": "Forensic Science – Biology specialization"
+  },
+  {
+    "poid": 17571,
+    "name": "Forensic Science – Chemistry specialization"
+  },
+  {
+    "poid": 17572,
+    "name": "Forensic Science – Physics specialization"
+  },
+  {
+    "poid": 17574,
+    "name": "Physics – Astrophysics specialization"
+  },
+  {
+    "poid": 17575,
+    "name": "Physics – Nanophysics specialization"
+  },
+  {
+    "poid": 17645,
+    "name": "Science and Management in the Faculty of Science"
+  },
+  {
+    "poid": 17564,
+    "name": "Biological Science – Advanced Entry"
+  },
+  {
+    "poid": 17618,
+    "name": "Computer Science – Advanced Entry for Computer Engineering Technology graduates"
+  },
+  {
+    "poid": 17613,
+    "name": "Computer Science – Advanced Entry for Computer Programmer Analyst graduates"
+  },
+  {
+    "poid": 17631,
+    "name": "Co-operative Education in the Faculty of Science"
+  },
+  {
+    "poid": 17643,
+    "name": "Astronomy minor"
+  },
+  {
+    "poid": 17576,
+    "name": "Biology minor"
+  },
+  {
+    "poid": 17577,
+    "name": "Chemistry minor"
+  },
+  {
+    "poid": 17580,
+    "name": "Computational Science minor"
+  },
+  {
+    "poid": 17642,
+    "name": "Data Science minor"
+  },
+  {
+    "poid": 17578,
+    "name": "Mathematics minor"
+  },
+  {
+    "poid": 17579,
+    "name": "Physics minor"
+  }
+]

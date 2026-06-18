@@ -1,0 +1,122 @@
+[
+  {
+    "code": "ELEE 2110U",
+    "name": "Discrete Mathematics for Engineers"
+  },
+  {
+    "code": "ELEE 2200U",
+    "name": "Electrical Engineering Fundamentals"
+  },
+  {
+    "code": "ELEE 2210U",
+    "name": "Circuit Analysis"
+  },
+  {
+    "code": "ELEE 2250U",
+    "name": "Introductory Electronics"
+  },
+  {
+    "code": "ELEE 2450U",
+    "name": "Digital Systems"
+  },
+  {
+    "code": "ELEE 2520U",
+    "name": "Fundamentals of Electromagnetics"
+  },
+  {
+    "code": "ELEE 2530U",
+    "name": "Complex Analysis for Engineers"
+  },
+  {
+    "code": "ELEE 2790U",
+    "name": "Electric Circuits"
+  },
+  {
+    "code": "ELEE 3070U",
+    "name": "Probability and Random Signals"
+  },
+  {
+    "code": "ELEE 3100U",
+    "name": "Introduction to Control Systems"
+  },
+  {
+    "code": "ELEE 3110U",
+    "name": "Signals and Systems"
+  },
+  {
+    "code": "ELEE 3130U",
+    "name": "Communication Systems"
+  },
+  {
+    "code": "ELEE 3180U",
+    "name": "Design Principles and Project Management in Electrical Engineering"
+  },
+  {
+    "code": "ELEE 3230U",
+    "name": "Electronic Circuit Design"
+  },
+  {
+    "code": "ELEE 3240U",
+    "name": "Applications for Electromagnetics"
+  },
+  {
+    "code": "ELEE 3250U",
+    "name": "Electric Machines"
+  },
+  {
+    "code": "ELEE 3260U",
+    "name": "Power Systems"
+  },
+  {
+    "code": "ELEE 3450U",
+    "name": "Microprocessors and Computer Architecture"
+  },
+  {
+    "code": "ELEE 4115U",
+    "name": "Fundamentals of Smart Grid"
+  },
+  {
+    "code": "ELEE 4120U",
+    "name": "Introduction to Power Electronics"
+  },
+  {
+    "code": "ELEE 4125U",
+    "name": "Smart Grid Networking and Security"
+  },
+  {
+    "code": "ELEE 4130U",
+    "name": "Digital Communications"
+  },
+  {
+    "code": "ELEE 4140U",
+    "name": "Power System Protection Relaying"
+  },
+  {
+    "code": "ELEE 4150U",
+    "name": "Advanced Control Systems"
+  },
+  {
+    "code": "ELEE 4180U",
+    "name": "Special Topics in Electrical Engineering"
+  },
+  {
+    "code": "ELEE 4310U",
+    "name": "Electronics"
+  },
+  {
+    "code": "ELEE 4350U",
+    "name": "Microprocessors"
+  },
+  {
+    "code": "ELEE 4420U",
+    "name": "Digital Signal Processing"
+  },
+  {
+    "code": "ELEE 4500U",
+    "name": "Wireless Communications"
+  },
+  {
+    "code": "ELEE 4750U",
+    "name": "Microwave and RF Circuits"
+  }
+]

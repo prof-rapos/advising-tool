@@ -1,0 +1,46 @@
+[
+  {
+    "code": "RADI 3200U",
+    "name": "Medical Imaging"
+  },
+  {
+    "code": "RADI 3570U",
+    "name": "Environmental Effects of Radiation"
+  },
+  {
+    "code": "RADI 3690U",
+    "name": "Radiation Chemistry and Processing"
+  },
+  {
+    "code": "RADI 4040U",
+    "name": "Material Analysis using Nuclear Techniques"
+  },
+  {
+    "code": "RADI 4220U",
+    "name": "Radiation Biophysics and Dosimetry"
+  },
+  {
+    "code": "RADI 4320U",
+    "name": "Therapeutic Applications of Radiation Techniques"
+  },
+  {
+    "code": "RADI 4430U",
+    "name": "Industrial Applications of Radiation Techniques"
+  },
+  {
+    "code": "RADI 4440U",
+    "name": "Radioisotopes and Radiation Machines"
+  },
+  {
+    "code": "RADI 4550U",
+    "name": "Radiation Detection and Measurement"
+  },
+  {
+    "code": "RADI 4995U",
+    "name": "Thesis Project I"
+  },
+  {
+    "code": "RADI 4999U",
+    "name": "Thesis Project II"
+  }
+]

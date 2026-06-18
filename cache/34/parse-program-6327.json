@@ -1,0 +1,55 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6327",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "AEDT 1110U",
+      "name": "Foundations of Adult Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "AEDT 1120U",
+      "name": "Foundations of Digital Teaching and Learning Technologies"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "AEDT 3140U",
+      "name": "Creating Digital Tools"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "AEDT 4110U",
+      "name": "Assessment for Learning"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "AEDT 4120U",
+      "name": "Serious Gaming and Simulations"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 4703U",
+      "name": "Problem and Inquiry Based Learning"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

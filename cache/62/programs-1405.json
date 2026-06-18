@@ -1,0 +1,106 @@
+[
+  {
+    "poid": 13242,
+    "name": "Accounting"
+  },
+  {
+    "poid": 13243,
+    "name": "Commerce"
+  },
+  {
+    "poid": 13244,
+    "name": "Entrepreneurship"
+  },
+  {
+    "poid": 13093,
+    "name": "Finance"
+  },
+  {
+    "poid": 13246,
+    "name": "Marketing"
+  },
+  {
+    "poid": 13248,
+    "name": "Organizational Behaviour and Human Resources Management"
+  },
+  {
+    "poid": 13249,
+    "name": "Technology Management (Commerce)"
+  },
+  {
+    "poid": 13100,
+    "name": "Game Development and Interactive Media"
+  },
+  {
+    "poid": 13101,
+    "name": "Networking and Information Technology Security"
+  },
+  {
+    "poid": 13212,
+    "name": "Technology Management (IT)"
+  },
+  {
+    "poid": 13199,
+    "name": "Commerce – Advanced Entry"
+  },
+  {
+    "poid": 13099,
+    "name": "Commerce – Bridge"
+  },
+  {
+    "poid": 13108,
+    "name": "Information Technology Security – Bridge"
+  },
+  {
+    "poid": 13200,
+    "name": "Networking and IT Security – Advanced Entry"
+  },
+  {
+    "poid": 13247,
+    "name": "Bachelor of Commerce Co-operative Education"
+  },
+  {
+    "poid": 13092,
+    "name": "Accounting minor"
+  },
+  {
+    "poid": 13106,
+    "name": "Business minor (Networking and IT Security)"
+  },
+  {
+    "poid": 13203,
+    "name": "Entrepreneurship minor"
+  },
+  {
+    "poid": 13201,
+    "name": "Entrepreneurship minor for FBIT students"
+  },
+  {
+    "poid": 13202,
+    "name": "Entrepreneurship minor for students outside FBIT"
+  },
+  {
+    "poid": 13094,
+    "name": "Finance minor"
+  },
+  {
+    "poid": 13211,
+    "name": "Finance minor (Applied and Industrial Mathematics, and Physics)"
+  },
+  {
+    "poid": 13096,
+    "name": "Marketing minor (Commerce)"
+  },
+  {
+    "poid": 13102,
+    "name": "Marketing minor (IT)"
+  },
+  {
+    "poid": 13098,
+    "name": "Organizational Behaviour and Human Resources Management minor"
+  },
+  {
+    "poid": 13214,
+    "name": "Technology Management minor"
+  }
+]

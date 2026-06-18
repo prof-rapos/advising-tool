@@ -1,0 +1,41 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=81&poid=17631",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SCCO 0999U",
+      "name": "Science Co-op Success Program"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SCCO 1000W",
+      "name": "Science Co-op Work Term I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SCCO 2000W",
+      "name": "Science Co-op Work Term II"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "SCCO 3000W",
+      "name": "Science Co-op Work Term III"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

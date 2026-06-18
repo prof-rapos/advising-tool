@@ -1,0 +1,167 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=9625",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1100U",
+      "name": "Problem and Inquiry Based Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2150U",
+      "name": "Teaching Methods"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2160U",
+      "name": "Online Learning: Theory and Research"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1110U",
+      "name": "Foundations of Adult Learning"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1120U",
+      "name": "Foundations of Digital Teaching and Learning Technologies"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1160U",
+      "name": "Digital Communication Technologies"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1170U",
+      "name": "Psychological Foundations and Digital Technologies"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2120U",
+      "name": "Culture and Digital Technologies"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1230U",
+      "name": "Design Thinking and Visual Design for Educational Contexts"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2170U",
+      "name": "Designing Inclusive Learning Environments"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3110U",
+      "name": "Information Literacy"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3120U",
+      "name": "Workplace Learning"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3130U",
+      "name": "Financial Management of Online Learning"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2140U",
+      "name": "Creating Digital Tools"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3160U",
+      "name": "Developing Literacy"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3170U",
+      "name": "Developing Numeracy"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2110U",
+      "name": "Assessment for Learning"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4120U",
+      "name": "Serious Gaming and Simulations"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4530U",
+      "name": "Social Justice Issues in Education"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4140U",
+      "name": "Instructional Design"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4150U",
+      "name": "Holistic Learning in Early Childhood"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1312U",
+      "name": "Fundamentals of Professional Writing"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

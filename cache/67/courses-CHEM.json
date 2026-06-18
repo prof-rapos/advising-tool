@@ -1,0 +1,134 @@
+[
+  {
+    "code": "CHEM 1010U",
+    "name": "Chemistry I"
+  },
+  {
+    "code": "CHEM 1020U",
+    "name": "Chemistry II"
+  },
+  {
+    "code": "CHEM 1110U",
+    "name": "Chemical Fundamentals"
+  },
+  {
+    "code": "CHEM 1800U",
+    "name": "Chemistry for Engineers"
+  },
+  {
+    "code": "CHEM 2010U",
+    "name": "Structure and Bonding"
+  },
+  {
+    "code": "CHEM 2020U",
+    "name": "Introduction to Organic Chemistry"
+  },
+  {
+    "code": "CHEM 2030U",
+    "name": "Analytical Chemistry"
+  },
+  {
+    "code": "CHEM 2040U",
+    "name": "Thermodynamics and Kinetics"
+  },
+  {
+    "code": "CHEM 2120U",
+    "name": "Organic Chemistry"
+  },
+  {
+    "code": "CHEM 2130U",
+    "name": "Analytical Chemistry for Biosciences"
+  },
+  {
+    "code": "CHEM 2220U",
+    "name": "Molecular Structure Determination from Spectroscopic Data"
+  },
+  {
+    "code": "CHEM 3040U",
+    "name": "Fundamentals of Physical Chemistry"
+  },
+  {
+    "code": "CHEM 3050U",
+    "name": "Environmental Chemistry"
+  },
+  {
+    "code": "CHEM 3120U",
+    "name": "Advanced Organic Chemistry"
+  },
+  {
+    "code": "CHEM 3140U",
+    "name": "Physical Chemistry for Biosciences"
+  },
+  {
+    "code": "CHEM 3250U",
+    "name": "Introductory Medicinal Chemistry"
+  },
+  {
+    "code": "CHEM 3410U",
+    "name": "Chemistry Laboratory Techniques"
+  },
+  {
+    "code": "CHEM 3510U",
+    "name": "Inorganic Chemistry I: Transition Metals and Main Group Elements"
+  },
+  {
+    "code": "CHEM 3520U",
+    "name": "Inorganic Chemistry II: Organometallics"
+  },
+  {
+    "code": "CHEM 3530U",
+    "name": "Instrumental Analytical Chemistry I"
+  },
+  {
+    "code": "CHEM 3540U",
+    "name": "Instrumental Analytical Chemistry II"
+  },
+  {
+    "code": "CHEM 3830U",
+    "name": "Instrumental Analytical Chemistry"
+  },
+  {
+    "code": "CHEM 4040U",
+    "name": "Physical Chemistry: Surfaces and Colloids"
+  },
+  {
+    "code": "CHEM 4041U",
+    "name": "Advanced Topics in Chemistry I"
+  },
+  {
+    "code": "CHEM 4042U",
+    "name": "Advanced Topics in Chemistry II"
+  },
+  {
+    "code": "CHEM 4060U",
+    "name": "Quantum Chemistry and Spectroscopy"
+  },
+  {
+    "code": "CHEM 4110U",
+    "name": "Bio-Organic Chemistry and Chemical Biology"
+  },
+  {
+    "code": "CHEM 4120U",
+    "name": "Advanced Topics in Chemical Biology"
+  },
+  {
+    "code": "CHEM 4410U",
+    "name": "Chemistry Thesis Project I"
+  },
+  {
+    "code": "CHEM 4420U",
+    "name": "Chemistry Thesis Project II"
+  },
+  {
+    "code": "CHEM 4510U",
+    "name": "Pharmaceutical Discovery"
+  },
+  {
+    "code": "CHEM 4520U",
+    "name": "Advanced Topics in Pharmaceutical Chemistry"
+  },
+  {
+    "code": "CHEM 4610U",
+    "name": "Advances in Inorganic Chemistry"
+  }
+]

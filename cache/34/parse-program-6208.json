@@ -1,0 +1,339 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6208",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1130U",
+      "name": "Introduction to Financial Accounting"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1700U",
+      "name": "Introduction to Entrepreneurship"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1020U",
+      "name": "Essential Mathematics for Games I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1030U",
+      "name": "Essential Mathematics for Games II"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1100U",
+      "name": "Introduction to Programming"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1315U",
+      "name": "Concept and Graphic Design"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1325U",
+      "name": "Introduction to 2D Animation for Games"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1330U",
+      "name": "Basic Introduction to Game Design"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1335U",
+      "name": "Digital Game Design"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1395U",
+      "name": "Game Development Workshop I"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1396U",
+      "name": "Game Development Workshop II"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 2140U",
+      "name": "Object Oriented Programming"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2200U",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2550U",
+      "name": "Introduction to Project Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 1350U",
+      "name": "Introduction to Computer Graphics"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2310U",
+      "name": "Computer Animation: Algorithms and Techniques"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2330U",
+      "name": "Intermediate Game Design"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2345U",
+      "name": "Modelling and Animation Systems I"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2395U",
+      "name": "Game Development Workshop I"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2350U",
+      "name": "Intermediate Computer Graphics"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2370U",
+      "name": "Game Sound"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2396U",
+      "name": "Game Development Workshop II"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2810U",
+      "name": "Computer Architecture"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2820U",
+      "name": "Algorithms and Data Structures"
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 3,
+      "elecType": "open",
+      "label": "Open elective"
+    },
+    {
+      "id": "r26",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "General elective"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 2700U",
+      "name": "Entrepreneurial Finance"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 3730U",
+      "name": "Creative Problem Solving, Entrepreneurship and Imagination"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3110U",
+      "name": "Game Engine Design and Implementation"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3315U",
+      "name": "Cinematic Systems Design"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3335U",
+      "name": "Social and Multiplayer Game Design"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3345U",
+      "name": "Modelling and Animation Systems II"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3350U",
+      "name": "Games User Research"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3395U",
+      "name": "Game Development Workshop I"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3396U",
+      "name": "Game Development Workshop II"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3830U",
+      "name": "Distributed Systems and Networking"
+    },
+    {
+      "id": "r37",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    },
+    {
+      "id": "r38",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    },
+    {
+      "id": "r39",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    },
+    {
+      "id": "r40",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    },
+    {
+      "id": "r41",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "Open elective"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 4,
+      "code": "BUSI 4340U",
+      "name": "Business of Gaming"
+    },
+    {
+      "id": "r43",
+      "type": "course",
+      "year": 4,
+      "code": "BUSI 4995U",
+      "name": "Capstone Study Project"
+    },
+    {
+      "id": "r44",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4320U",
+      "name": "Artificial Intelligence for Gaming"
+    },
+    {
+      "id": "r45",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4350U",
+      "name": "Human-Computer Interaction for Games"
+    },
+    {
+      "id": "r46",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4560U",
+      "name": "Law and Ethics in Game Development"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "open": "Open elective",
+    "general": "General elective",
+    "technical": "technical electives"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 7,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,507 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19322",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "CRMN 2010U",
+      "name": "Criminal Law"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "LGLS 2200U",
+      "name": "Legal Theory"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "LGLS 2940U",
+      "name": "Legal Research Methods"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "POSC 1200U",
+      "name": "Introduction to Democracy in Theory &amp; Practice"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "SOCI 2300U",
+      "name": "Social Problems"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "SSCI 1910U",
+      "name": "Writing for the Social Sciences"
+    },
+    {
+      "id": "r10",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "COMM 1100U",
+          "name": "Introduction to Communication and Digital Media Studies"
+        },
+        {
+          "code": "CRMN 1000U",
+          "name": "Introduction to Criminology and Justice"
+        },
+        {
+          "code": "PSYC 1000U",
+          "name": "Introductory Psychology"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "CRMN 3040U",
+      "name": "Restorative Justice"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "LGLS 2100U",
+      "name": "Public Law"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "LGLS 2110U",
+      "name": "Private Law"
+    },
+    {
+      "id": "r14",
+      "type": "option",
+      "year": 2,
+      "label": "One of (1/2)",
+      "options": [
+        {
+          "code": "LGLS 2011U",
+          "name": "Immigration and Refugee Law"
+        },
+        {
+          "code": "LGLS 2420U",
+          "name": "Canadian Human Rights Law"
+        },
+        {
+          "code": "LGLS 2500U",
+          "name": "Information and Privacy Law"
+        },
+        {
+          "code": "LGLS 3430U",
+          "name": "International Human Rights"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "type": "option",
+      "year": 2,
+      "label": "One of (2/2)",
+      "options": [
+        {
+          "code": "LGLS 2011U",
+          "name": "Immigration and Refugee Law"
+        },
+        {
+          "code": "LGLS 2420U",
+          "name": "Canadian Human Rights Law"
+        },
+        {
+          "code": "LGLS 2500U",
+          "name": "Information and Privacy Law"
+        },
+        {
+          "code": "LGLS 3430U",
+          "name": "International Human Rights"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "type": "option",
+      "year": 2,
+      "label": "One of (1/2)",
+      "options": [
+        {
+          "code": "LGLS 3200U",
+          "name": "Sociology of Law"
+        },
+        {
+          "code": "LGLS 3220U",
+          "name": "Philosophy of Law"
+        },
+        {
+          "code": "LGLS 3230U",
+          "name": "Law and Globalization"
+        },
+        {
+          "code": "LGLS 3240U",
+          "name": "Cultural Studies of Law"
+        },
+        {
+          "code": "LGLS 3700U",
+          "name": "Law and Power"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "type": "option",
+      "year": 2,
+      "label": "One of (2/2)",
+      "options": [
+        {
+          "code": "LGLS 3200U",
+          "name": "Sociology of Law"
+        },
+        {
+          "code": "LGLS 3220U",
+          "name": "Philosophy of Law"
+        },
+        {
+          "code": "LGLS 3230U",
+          "name": "Law and Globalization"
+        },
+        {
+          "code": "LGLS 3240U",
+          "name": "Cultural Studies of Law"
+        },
+        {
+          "code": "LGLS 3700U",
+          "name": "Law and Power"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "type": "option",
+      "year": 2,
+      "label": "One of (1/2)",
+      "options": [
+        {
+          "code": "LGLS 3053U",
+          "name": "Prosecution and Sentencing"
+        },
+        {
+          "code": "LGLS 3510U",
+          "name": "Censorship and Freedom of Expression"
+        },
+        {
+          "code": "LGLS 3520U",
+          "name": "Law and Technology"
+        },
+        {
+          "code": "LGLS 3530U",
+          "name": "Intellectual Property"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "type": "option",
+      "year": 2,
+      "label": "One of (2/2)",
+      "options": [
+        {
+          "code": "LGLS 3053U",
+          "name": "Prosecution and Sentencing"
+        },
+        {
+          "code": "LGLS 3510U",
+          "name": "Censorship and Freedom of Expression"
+        },
+        {
+          "code": "LGLS 3520U",
+          "name": "Law and Technology"
+        },
+        {
+          "code": "LGLS 3530U",
+          "name": "Intellectual Property"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 2,
+      "elecType": "3000Or4000LevelLglsCommPoscPsycOrSsci",
+      "label": "3000- or 4000-level LGLS, COMM, POSC, PSYC or SSCI course",
+      "filterRule": {
+        "prefixes": [
+          "LGLS",
+          "COMM",
+          "POSC",
+          "PSYC",
+          "SSCI"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 3,
+      "code": "LGLS 4020U",
+      "name": "Topics in Comparative Law"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 3,
+      "code": "LGLS 4200U",
+      "name": "Law and Social Change"
+    },
+    {
+      "id": "r23",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "LGLS 3100U",
+          "name": "Administrative Law"
+        },
+        {
+          "code": "LGLS 3130U",
+          "name": "Family Law"
+        },
+        {
+          "code": "LGLS 3410U",
+          "name": "Labour and Employment Law"
+        },
+        {
+          "code": "LGLS 3800U",
+          "name": "Issues in Health Law and Biomedical Ethics"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "type": "option",
+      "year": 3,
+      "label": "One of (1/2)",
+      "options": [
+        {
+          "code": "LGLS 3300U",
+          "name": "Disability and the Law"
+        },
+        {
+          "code": "LGLS 3310U",
+          "name": "Indigenous Peoples, Law and the State in Canada"
+        },
+        {
+          "code": "LGLS 3320U",
+          "name": "Race, Ethnicity and the Law"
+        },
+        {
+          "code": "LGLS 3330U",
+          "name": "Gender, Sexuality and the Law"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "type": "option",
+      "year": 3,
+      "label": "One of (2/2)",
+      "options": [
+        {
+          "code": "LGLS 3300U",
+          "name": "Disability and the Law"
+        },
+        {
+          "code": "LGLS 3310U",
+          "name": "Indigenous Peoples, Law and the State in Canada"
+        },
+        {
+          "code": "LGLS 3320U",
+          "name": "Race, Ethnicity and the Law"
+        },
+        {
+          "code": "LGLS 3330U",
+          "name": "Gender, Sexuality and the Law"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "LGLS 3600U",
+          "name": "Family Mediation"
+        },
+        {
+          "code": "LGLS 3610U",
+          "name": "Employment and Mediation"
+        },
+        {
+          "code": "LGLS 3620U",
+          "name": "Human Rights Mediation"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "LGLS 4099U",
+          "name": "Legal Studies Integrating Project"
+        },
+        {
+          "code": "SSCI 4101U",
+          "name": "Honours Thesis I"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 4102U",
+          "name": "Honours Thesis II"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "type": "elective",
+      "year": 3,
+      "elecType": "4000LevelLgls",
+      "label": "4000-level LGLS course",
+      "filterRule": {
+        "prefixes": [
+          "LGLS"
+        ],
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r30",
+      "type": "elective",
+      "year": 3,
+      "elecType": "3000Or4000LevelLgls",
+      "label": "3000- or 4000-level LGLS course",
+      "filterRule": {
+        "prefixes": [
+          "LGLS"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 4098U",
+      "name": "Practicum"
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 3,
+      "elecType": "3000Or4000LevelLgls",
+      "label": "3000- or 4000-level LGLS course",
+      "filterRule": {
+        "prefixes": [
+          "LGLS"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 4103W",
+      "name": "Internship"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "3000Or4000LevelLglsCommPoscPsycOrSsci": "3000- or 4000-level LGLS, COMM, POSC, PSYC or SSCI course",
+    "4000LevelLgls": "4000-level LGLS course",
+    "3000Or4000LevelLgls": "3000- or 4000-level LGLS course"
+  },
+  "elecFilterRules": {
+    "3000Or4000LevelLglsCommPoscPsycOrSsci": {
+      "prefixes": [
+        "LGLS",
+        "COMM",
+        "POSC",
+        "PSYC",
+        "SSCI"
+      ],
+      "minLevel": 3000,
+      "maxLevel": 4999
+    },
+    "4000LevelLgls": {
+      "prefixes": [
+        "LGLS"
+      ],
+      "minLevel": 4000,
+      "maxLevel": 4999
+    },
+    "3000Or4000LevelLgls": {
+      "prefixes": [
+        "LGLS"
+      ],
+      "minLevel": 3000,
+      "maxLevel": 4999
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 4,
+  "elecRestrictionSum": 0
+}

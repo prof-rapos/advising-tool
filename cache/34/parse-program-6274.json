@@ -1,0 +1,125 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6274",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "FSCI 3210U",
+      "name": "Forensic Psychology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3210U",
+      "name": "Forensic Psychology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2020U",
+      "name": "Social Psychology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2030U",
+      "name": "Abnormal Psychology"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3055U",
+      "name": "Treatment in Forensic Settings"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3060U",
+      "name": "Personality Psychology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3100U",
+      "name": "Directed Laboratory Research"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3310U",
+      "name": "Confessions and Interrogations"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3320U",
+      "name": "Eyewitness Psychology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3400U",
+      "name": "Investigative Psychology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3500U",
+      "name": "Stereotypes and Prejudice"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3999U",
+      "name": "Special Topics in Forensic Psychology I"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3039U",
+      "name": "Children, Psychology and the Law"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

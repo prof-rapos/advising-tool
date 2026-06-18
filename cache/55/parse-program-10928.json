@@ -1,0 +1,99 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10928",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2550U",
+      "name": "Introduction to Project Management"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2603U",
+      "name": "Introduction to Operations Management"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3630U",
+      "name": "Logistics in the Supply Chain"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4650U",
+      "name": "Global Operations and Supply Chain Management"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2610U",
+      "name": "Quality Frameworks"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3450U",
+      "name": "Business Forecasting Techniques"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3601U",
+      "name": "Operations Analysis using Spreadsheets"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3670U",
+      "name": "Risk Management Frameworks and Processes"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4610U",
+      "name": "Business Simulation Modelling"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "operationsAndSupplyChainManagementMinor": [
+      {
+        "code": "BUSI 2610U",
+        "name": "Quality Frameworks"
+      },
+      {
+        "code": "BUSI 3450U",
+        "name": "Business Forecasting Techniques"
+      },
+      {
+        "code": "BUSI 3601U",
+        "name": "Operations Analysis using Spreadsheets"
+      },
+      {
+        "code": "BUSI 3670U",
+        "name": "Risk Management Frameworks and Processes"
+      },
+      {
+        "code": "BUSI 4610U",
+        "name": "Business Simulation Modelling"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

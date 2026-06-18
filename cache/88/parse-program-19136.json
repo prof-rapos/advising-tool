@@ -1,0 +1,55 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19136",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 2010U",
+      "name": "Electricity and Magnetism I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 2030U",
+      "name": "Mechanics I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1030U",
+      "name": "Introductory Physics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1040U",
+      "name": "Physics for Biosciences"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

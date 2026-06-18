@@ -1,0 +1,110 @@
+[
+  {
+    "code": "PSYC 1000U",
+    "name": "Introductory Psychology"
+  },
+  {
+    "code": "PSYC 2010U",
+    "name": "Developmental Psychology"
+  },
+  {
+    "code": "PSYC 2020U",
+    "name": "Social Psychology"
+  },
+  {
+    "code": "PSYC 2030U",
+    "name": "Abnormal Psychology"
+  },
+  {
+    "code": "PSYC 2050U",
+    "name": "Brain and Behaviour"
+  },
+  {
+    "code": "PSYC 2060U",
+    "name": "Cognitive Psychology"
+  },
+  {
+    "code": "PSYC 3035U",
+    "name": "Adolescence"
+  },
+  {
+    "code": "PSYC 3039U",
+    "name": "Children, Psychology and the Law"
+  },
+  {
+    "code": "PSYC 3045U",
+    "name": "Child Maltreatment"
+  },
+  {
+    "code": "PSYC 3055U",
+    "name": "Treatment in Forensic Settings"
+  },
+  {
+    "code": "PSYC 3060U",
+    "name": "Personality Psychology"
+  },
+  {
+    "code": "PSYC 3065U",
+    "name": "Emotion"
+  },
+  {
+    "code": "PSYC 3075U",
+    "name": "Biopsychology of Sex"
+  },
+  {
+    "code": "PSYC 3085U",
+    "name": "Drugs and Behaviour"
+  },
+  {
+    "code": "PSYC 3090U",
+    "name": "Social Affective Neuroscience"
+  },
+  {
+    "code": "PSYC 3100U",
+    "name": "Directed Laboratory Research"
+  },
+  {
+    "code": "PSYC 3210U",
+    "name": "Forensic Psychology"
+  },
+  {
+    "code": "PSYC 3310U",
+    "name": "Confessions and Interrogations"
+  },
+  {
+    "code": "PSYC 3320U",
+    "name": "Eyewitness Psychology"
+  },
+  {
+    "code": "PSYC 3400U",
+    "name": "Investigative Psychology"
+  },
+  {
+    "code": "PSYC 3500U",
+    "name": "Stereotypes and Prejudice"
+  },
+  {
+    "code": "PSYC 3999U",
+    "name": "Special Topics in Forensic Psychology I"
+  },
+  {
+    "code": "PSYC 4050U",
+    "name": "Forensic Assessment"
+  },
+  {
+    "code": "PSYC 4101U",
+    "name": "Forensic Psychology Honours Thesis I"
+  },
+  {
+    "code": "PSYC 4102U",
+    "name": "Forensic Psychology Honours Thesis II"
+  },
+  {
+    "code": "PSYC 4820U",
+    "name": "Selected Topics in Antisociality"
+  },
+  {
+    "code": "PSYC 4999U",
+    "name": "Special Topics in Forensic Psychology II"
+  }
+]

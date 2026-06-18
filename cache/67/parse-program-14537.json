@@ -1,0 +1,251 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14537",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1010U",
+      "name": "Biology I: Molecular and Cellular Systems"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1200U",
+      "name": "Human Anatomy &amp; Physiology I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1201U",
+      "name": "Human Anatomy &amp; Physiology II"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1701U",
+      "name": "Information Literacy and Written Communication for the Health Sciences"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1810U",
+      "name": "Health Promotion and Healthy Active Living"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1811U",
+      "name": "Social Determinants of Health"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2030U",
+      "name": "Interpersonal and Inter-professional Communication"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2130U",
+      "name": "Public Health Microbiology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2462U",
+      "name": "Altered Physiology: Mechanisms of Disease I"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2463U",
+      "name": "Altered Physiology: Mechanisms of Disease II"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2802U",
+      "name": "Introduction to the Canadian Healthcare System"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3473U",
+      "name": "Prevention and Rehabilitation of Complex Chronic Conditions"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3710U",
+      "name": "Ethics"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3820U",
+      "name": "Public Health I"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Health Care Professionals: Theory and Application"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4805U",
+      "name": "Non-communicable Diseases: Current Issues and Emerging Trends"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4807U",
+      "name": "Perspectives in Aging"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4808U",
+      "name": "Exploring Mental Health and Developmental Disabilities"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4996U",
+      "name": "Research Applications I"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4997U",
+      "name": "Research Applications II"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4998U",
+      "name": "Research Practicum I"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4999U",
+      "name": "Research Practicum II"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2201U",
+      "name": "Introduction to Health Information Management"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2601U",
+      "name": "Introduction to Health Services Management"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2825U",
+      "name": "Nutrition and Health"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3631U",
+      "name": "Health Policy and Process"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3805U",
+      "name": "Introduction to Epidemiology"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3821U",
+      "name": "Public Health II"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4621U",
+      "name": "Program Planning, Implementation and Evaluation in Public Health"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4803U",
+      "name": "Global Health"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4851U",
+      "name": "Critical Perspectives on Health, Illness, and Healthcare"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,55 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19231",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 1000C",
+      "name": "Foundations for Success in Co-op"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 2000W",
+      "name": "FBIT Co-op Work Term I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 3000W",
+      "name": "FBIT Co-op Work Term II"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4000W",
+      "name": "FBIT Co-op Work Term III"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4100W",
+      "name": "FBIT Co-op Work Term IV"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4200W",
+      "name": "FBIT Co-op Work Term V"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

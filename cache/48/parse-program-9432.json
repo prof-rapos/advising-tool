@@ -1,0 +1,76 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=9432",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 2030U",
+      "name": "Mechanics I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 2900U",
+      "name": "Astronomy I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 3900U",
+      "name": "Astronomy II"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1030U",
+      "name": "Introductory Physics"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1040U",
+      "name": "Physics for Biosciences"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 4910U",
+      "name": "Techniques of Modern Astrophysics"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 4920U",
+      "name": "Cosmology"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,72 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10898",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1000U",
+      "name": "Introductory Calculus"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1010U",
+      "name": "Calculus I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1015U",
+      "name": "Mathematics for Bioscience"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 2050U",
+      "name": "Linear Algebra"
+    }
+  ],
+  "elecRestrictions": {
+    "mathematics": 6
+  },
+  "elecSubsets": {
+    "mathematics": "science"
+  },
+  "elecLabels": {
+    "mathematics": "Mathematics"
+  },
+  "elecFilterRules": {
+    "oneOf": {
+      "prefixes": [
+        "MATH"
+      ]
+    },
+    "mathematics": {
+      "prefixes": [
+        "MATH"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 6
+}

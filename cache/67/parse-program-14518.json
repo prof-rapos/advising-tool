@@ -1,0 +1,72 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14518",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2000U",
+      "name": "Collaborative Leadership"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2050U",
+      "name": "Managerial Economics"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2200U",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2410U",
+      "name": "Managerial Finance"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2550U",
+      "name": "Introduction to Project Management"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2603U",
+      "name": "Introduction to Operations Management"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3700U",
+      "name": "Strategic Management for Professionals"
+    }
+  ],
+  "elecRestrictions": {
+    "business": 8
+  },
+  "elecSubsets": {},
+  "elecLabels": {
+    "business": "Business"
+  },
+  "elecFilterRules": {
+    "business": {
+      "prefixes": [
+        "BUSI"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 8
+}

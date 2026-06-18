@@ -1,0 +1,83 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=16318",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication and Digital Media Studies"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1320U",
+      "name": "Public Speaking and Multimedia Presentation for Web 3.0"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2620U",
+      "name": "Professional Communication"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3110U",
+      "name": "Communication Ethics: Making Media for the Social Good"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3710U",
+      "name": "Media, Identity and Intercultural Communication"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2530U",
+      "name": "Advertising as Social Communication"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 2413U",
+      "name": "Science Communication: Media for creative, fun, and effective STEM communication"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3610U",
+      "name": "Strategic Communications for Influence: Rhetoric, Persuasion and Propaganda"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3720U",
+      "name": "Knowing Your Audience: Audience Studies for Media Professionals and Creators"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4510U",
+      "name": "Public Relations: Social Power, Social Media Platforms, and Social Responsibility"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,76 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10943",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 1015U",
+      "name": "Introduction to Engineering"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1010U",
+      "name": "Calculus I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 1800U",
+      "name": "Chemistry for Engineers"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 1025U",
+      "name": "Engineering Design"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 1200U",
+      "name": "Introduction to Programming for Engineers"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

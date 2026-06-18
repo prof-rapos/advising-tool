@@ -1,0 +1,378 @@
+[
+  {
+    "code": "HLSC 0880U",
+    "name": "Science Bridge"
+  },
+  {
+    "code": "HLSC 1200U",
+    "name": "Human Anatomy &amp; Physiology I"
+  },
+  {
+    "code": "HLSC 1201U",
+    "name": "Human Anatomy &amp; Physiology II"
+  },
+  {
+    "code": "HLSC 1701U",
+    "name": "Information Literacy and Written Communication for the Health Sciences"
+  },
+  {
+    "code": "HLSC 1810U",
+    "name": "Health Promotion and Healthy Active Living"
+  },
+  {
+    "code": "HLSC 1811U",
+    "name": "Social Determinants of Health"
+  },
+  {
+    "code": "HLSC 2030U",
+    "name": "Interpersonal and Inter-professional Communication"
+  },
+  {
+    "code": "HLSC 2110U",
+    "name": "Foundations in Clinical Biochemistry"
+  },
+  {
+    "code": "HLSC 2130U",
+    "name": "Public Health Microbiology"
+  },
+  {
+    "code": "HLSC 2201U",
+    "name": "Introduction to Health Information Management"
+  },
+  {
+    "code": "HLSC 2202U",
+    "name": "Comprehensive Anatomy and Physiology"
+  },
+  {
+    "code": "HLSC 2460U",
+    "name": "Pathophysiology I"
+  },
+  {
+    "code": "HLSC 2461U",
+    "name": "Pathophysiology II"
+  },
+  {
+    "code": "HLSC 2462U",
+    "name": "Altered Physiology: Mechanisms of Disease I"
+  },
+  {
+    "code": "HLSC 2463U",
+    "name": "Altered Physiology: Mechanisms of Disease II"
+  },
+  {
+    "code": "HLSC 2465U",
+    "name": "Anatomy and Physiology III: Cells and Tissues"
+  },
+  {
+    "code": "HLSC 2601U",
+    "name": "Introduction to Health Services Management"
+  },
+  {
+    "code": "HLSC 2700U",
+    "name": "Mathematical Reasoning in Health Sciences"
+  },
+  {
+    "code": "HLSC 2802U",
+    "name": "Introduction to the Canadian Healthcare System"
+  },
+  {
+    "code": "HLSC 2810U",
+    "name": "Child and Adolescent Health"
+  },
+  {
+    "code": "HLSC 2820U",
+    "name": "Nutrition for Nursing Practice"
+  },
+  {
+    "code": "HLSC 2825U",
+    "name": "Nutrition and Health"
+  },
+  {
+    "code": "HLSC 3000U",
+    "name": "Disability, Rehabilitation and Society"
+  },
+  {
+    "code": "HLSC 3230U",
+    "name": "Organizational Behaviour in Health Care"
+  },
+  {
+    "code": "HLSC 3421U",
+    "name": "Issues in Women's Health"
+  },
+  {
+    "code": "HLSC 3462U",
+    "name": "Advanced Pathophysiology"
+  },
+  {
+    "code": "HLSC 3463U",
+    "name": "Human Genetics in Society"
+  },
+  {
+    "code": "HLSC 3464U",
+    "name": "Altered Physiology III: Cancer Biology"
+  },
+  {
+    "code": "HLSC 3472U",
+    "name": "Sports Injury Management"
+  },
+  {
+    "code": "HLSC 3473U",
+    "name": "Prevention and Rehabilitation of Complex Chronic Conditions"
+  },
+  {
+    "code": "HLSC 3476U",
+    "name": "Advanced Sport Injury Management"
+  },
+  {
+    "code": "HLSC 3501U",
+    "name": "Health Law"
+  },
+  {
+    "code": "HLSC 3601U",
+    "name": "Interprofessional Health Care Teams"
+  },
+  {
+    "code": "HLSC 3630U",
+    "name": "Health Finance"
+  },
+  {
+    "code": "HLSC 3631U",
+    "name": "Health Policy and Process"
+  },
+  {
+    "code": "HLSC 3632U",
+    "name": "Health Economics"
+  },
+  {
+    "code": "HLSC 3710U",
+    "name": "Ethics"
+  },
+  {
+    "code": "HLSC 3712U",
+    "name": "Professional Ethics in Nursing"
+  },
+  {
+    "code": "HLSC 3800U",
+    "name": "Introduction to Statistics for Health Sciences"
+  },
+  {
+    "code": "HLSC 3805U",
+    "name": "Introduction to Epidemiology"
+  },
+  {
+    "code": "HLSC 3820U",
+    "name": "Public Health I"
+  },
+  {
+    "code": "HLSC 3821U",
+    "name": "Public Health II"
+  },
+  {
+    "code": "HLSC 3823U",
+    "name": "Health and Indigenous People in Canada"
+  },
+  {
+    "code": "HLSC 3824U",
+    "name": "Plagues, Pandemics, and People"
+  },
+  {
+    "code": "HLSC 3910U",
+    "name": "Research Methods for Health Care Professionals: Theory and Application"
+  },
+  {
+    "code": "HLSC 4310U",
+    "name": "Altered Physiology IV: Pharmacological Interactions"
+  },
+  {
+    "code": "HLSC 4401U",
+    "name": "Motor Behaviour and Developmental Disabilities"
+  },
+  {
+    "code": "HLSC 4412U",
+    "name": "Exercise Rehabilitation I: Cardiac, Respiratory and Metabolic Conditions"
+  },
+  {
+    "code": "HLSC 4413U",
+    "name": "Exercise Rehabilitation II: Integrated Case Studies"
+  },
+  {
+    "code": "HLSC 4414U",
+    "name": "Advanced Topics in Neuromuscular Physiology and Pathophysiology"
+  },
+  {
+    "code": "HLSC 4460U",
+    "name": "Selected Topics in Physical Activity and Health"
+  },
+  {
+    "code": "HLSC 4473U",
+    "name": "Practical Human Anatomy I: Back and Lower Limbs"
+  },
+  {
+    "code": "HLSC 4474U",
+    "name": "Practical Human Anatomy II: Head, Neck and Upper Limbs"
+  },
+  {
+    "code": "HLSC 4475U",
+    "name": "Occupational Ergonomics"
+  },
+  {
+    "code": "HLSC 4476U",
+    "name": "Clinical Biomechanics"
+  },
+  {
+    "code": "HLSC 4477U",
+    "name": "Applied Techniques in Neuromechanics"
+  },
+  {
+    "code": "HLSC 4482U",
+    "name": "Advanced Exercise Assessment and Prescription"
+  },
+  {
+    "code": "HLSC 4490U",
+    "name": "Kinesiology Internship I"
+  },
+  {
+    "code": "HLSC 4491U",
+    "name": "Kinesiology Internship II"
+  },
+  {
+    "code": "HLSC 4492U",
+    "name": "Athletic Therapy Internship I"
+  },
+  {
+    "code": "HLSC 4493U",
+    "name": "Athletic Therapy Internship II"
+  },
+  {
+    "code": "HLSC 4494U",
+    "name": "Extended Athletic Therapy Internship I"
+  },
+  {
+    "code": "HLSC 4495U",
+    "name": "Extended Athletic Therapy Internship II"
+  },
+  {
+    "code": "HLSC 4620U",
+    "name": "Quality and Performance Management in Health Care"
+  },
+  {
+    "code": "HLSC 4621U",
+    "name": "Program Planning, Implementation and Evaluation in Public Health"
+  },
+  {
+    "code": "HLSC 4670U",
+    "name": "Studies in Work Disability Prevention"
+  },
+  {
+    "code": "HLSC 4672U",
+    "name": "Making A Work Disability Diagnosis"
+  },
+  {
+    "code": "HLSC 4674U",
+    "name": "Coordinating Return to Work"
+  },
+  {
+    "code": "HLSC 4676U",
+    "name": "Occupational Ergonomics and Work Disability"
+  },
+  {
+    "code": "HLSC 4678U",
+    "name": "Practicum in Return to Work Management"
+  },
+  {
+    "code": "HLSC 4700U",
+    "name": "Intermediate Statistics for Health Sciences"
+  },
+  {
+    "code": "HLSC 4803U",
+    "name": "Global Health"
+  },
+  {
+    "code": "HLSC 4804U",
+    "name": "Global Dimensions of Communicable Diseases"
+  },
+  {
+    "code": "HLSC 4805U",
+    "name": "Non-communicable Diseases: Current Issues and Emerging Trends"
+  },
+  {
+    "code": "HLSC 4807U",
+    "name": "Perspectives in Aging"
+  },
+  {
+    "code": "HLSC 4808U",
+    "name": "Exploring Mental Health and Developmental Disabilities"
+  },
+  {
+    "code": "HLSC 4809U",
+    "name": "Environmental and Occupational Health"
+  },
+  {
+    "code": "HLSC 4810U",
+    "name": "Human Sexuality and Health Across the Lifespan"
+  },
+  {
+    "code": "HLSC 4820U",
+    "name": "Interdisciplinary Collaboration"
+  },
+  {
+    "code": "HLSC 4821U",
+    "name": "Exploring the Mind Body Connection: Wellness Promotion Strategies for Life"
+  },
+  {
+    "code": "HLSC 4822U",
+    "name": "Social Marketing for Public Health"
+  },
+  {
+    "code": "HLSC 4823U",
+    "name": "Small Business Practice and Entrepreneurship for Health Professionals"
+  },
+  {
+    "code": "HLSC 4824U",
+    "name": "Physical Activity and Public Health"
+  },
+  {
+    "code": "HLSC 4825U",
+    "name": "Population Health Risk and Needs Assessment"
+  },
+  {
+    "code": "HLSC 4850U",
+    "name": "Current Issues in Health Care"
+  },
+  {
+    "code": "HLSC 4851U",
+    "name": "Critical Perspectives on Health, Illness, and Healthcare"
+  },
+  {
+    "code": "HLSC 4990U",
+    "name": "Practicum Placement"
+  },
+  {
+    "code": "HLSC 4991U",
+    "name": "Case Study Analysis and Application for Bachelor of Health Administration Students"
+  },
+  {
+    "code": "HLSC 4994U",
+    "name": "Research Applications for Kinesiology"
+  },
+  {
+    "code": "HLSC 4995U",
+    "name": "Kinesiology Research to Practice"
+  },
+  {
+    "code": "HLSC 4996U",
+    "name": "Research Applications I"
+  },
+  {
+    "code": "HLSC 4997U",
+    "name": "Research Applications II"
+  },
+  {
+    "code": "HLSC 4998U",
+    "name": "Research Practicum I"
+  },
+  {
+    "code": "HLSC 4999U",
+    "name": "Research Practicum II"
+  }
+]

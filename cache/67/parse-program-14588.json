@@ -1,0 +1,62 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14588",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2411U",
+      "name": "Digital Media Policy"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2500U",
+      "name": "Information and Privacy Law"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2940U",
+      "name": "Legal Research Methods"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3520U",
+      "name": "Law and Technology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4021U",
+      "name": "Cybercrime"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3510U",
+      "name": "Censorship and Freedom of Expression"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3530U",
+      "name": "Intellectual Property"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

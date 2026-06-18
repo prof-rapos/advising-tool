@@ -1,0 +1,497 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14544",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "Elective"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 1040U",
+      "name": "Introduction to Programming for Scientists"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 2050U",
+      "name": "Linear Algebra"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r7",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "BIOL 1010U",
+          "name": "Biology I: Molecular and Cellular Systems"
+        },
+        {
+          "code": "BIOL 1011U",
+          "name": "Introductory Cell and Molecular Biology"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "BIOL 1020U",
+          "name": "Biology II: Diversity of Life and Principles of Ecology"
+        },
+        {
+          "code": "BIOL 1021U",
+          "name": "Introduction to Organismal Biology and Ecology"
+        },
+        {
+          "code": "CHEM 1020U",
+          "name": "Chemistry II"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 1000U",
+          "name": "Introductory Calculus"
+        },
+        {
+          "code": "MATH 1010U",
+          "name": "Calculus I"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 1010U",
+          "name": "Physics I"
+        },
+        {
+          "code": "PHY 1030U",
+          "name": "Introductory Physics"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2000U",
+      "name": "Scientific Data Analysis"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2015U",
+      "name": "Calculus III"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2055U",
+      "name": "Advanced Linear Algebra and Applications"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2060U",
+      "name": "Differential Equations"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2072U",
+      "name": "Computational Science I"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2080U",
+      "name": "Discrete Mathematics"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2010U",
+      "name": "Statistics and Probability for Physical Science"
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 3,
+      "elecType": "appliedAndIndustrialMathematics",
+      "label": "Applied and Industrial Mathematics electives",
+      "filterRule": {
+        "prefixes": [
+          "MATH"
+        ]
+      }
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 3,
+      "elecType": "appliedAndIndustrialMathematics",
+      "label": "Applied and Industrial Mathematics electives",
+      "filterRule": {
+        "prefixes": [
+          "MATH"
+        ]
+      }
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "MATH 3020U",
+      "name": "Real Analysis"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "MATH 3050U",
+      "name": "Mathematical Modelling"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "MATH 3060U",
+      "name": "Complex Analysis"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "MATH 4020U",
+      "name": "Computational Science II"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "PHY 3040U",
+      "name": "Mathematical Physics"
+    },
+    {
+      "id": "r31",
+      "type": "elective",
+      "year": 4,
+      "elecType": "appliedAndIndustrialMathematics",
+      "label": "Applied and Industrial Mathematics electives",
+      "filterRule": {
+        "prefixes": [
+          "MATH"
+        ]
+      }
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 4,
+      "elecType": "appliedAndIndustrialMathematics",
+      "label": "Applied and Industrial Mathematics electives",
+      "filterRule": {
+        "prefixes": [
+          "MATH"
+        ]
+      }
+    },
+    {
+      "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r35",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "MATH 4010U",
+      "name": "Dynamical Systems and Chaos"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "MATH 4050U",
+      "name": "Partial Differential Equations"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "MATH 4060U",
+      "name": "Industrial Mathematics"
+    },
+    {
+      "id": "r39",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 4410U",
+          "name": "Mathematics Thesis Project I"
+        },
+        {
+          "text": "Senior Science elective"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 4420U",
+          "name": "Mathematics Thesis Project II"
+        },
+        {
+          "text": "Senior Science elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {
+    "mathematics": 30,
+    "nonscience": 4,
+    "general": 2
+  },
+  "elecSubsets": {
+    "mathematics": "science"
+  },
+  "elecLabels": {
+    "mathematics": "Mathematics",
+    "nonscience": "Non-Science",
+    "general": "General",
+    "appliedAndIndustrialMathematics": "Applied and Industrial Mathematics electives"
+  },
+  "elecFilterRules": {
+    "appliedAndIndustrialMathematics": {
+      "prefixes": [
+        "MATH"
+      ]
+    },
+    "mathematics": {
+      "prefixes": [
+        "MATH"
+      ]
+    },
+    "nonscience": {
+      "prefixes": [
+        "ALSU",
+        "ARTE",
+        "AUTE",
+        "BUSI",
+        "COMM",
+        "CRMN",
+        "CURS",
+        "ECON",
+        "EDST",
+        "EDUC",
+        "ELEE",
+        "ENEE",
+        "ENGR",
+        "ENSY",
+        "ESNS",
+        "FPSY",
+        "HLSC",
+        "INDG",
+        "INFR",
+        "INSE",
+        "KINE",
+        "LEAP",
+        "LGLS",
+        "MANE",
+        "MECE",
+        "METE",
+        "MLSC",
+        "NUCL",
+        "NURS",
+        "POSC",
+        "PSYC",
+        "RADI",
+        "SIMU",
+        "SOCI",
+        "SOFE",
+        "SSCI",
+        "XBIT"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "andBreadthRequirements": [
+      {
+        "code": "MATH 3030U",
+        "name": "Introduction to Probability Theory"
+      },
+      {
+        "code": "MATH 3040U",
+        "name": "Optimization"
+      },
+      {
+        "code": "MATH 3070U",
+        "name": "Algebraic Structures"
+      },
+      {
+        "code": "MATH 4041U",
+        "name": "Topics in Applied Mathematics I"
+      },
+      {
+        "code": "MATH 4042U",
+        "name": "Topics in Applied Mathematics II"
+      }
+    ],
+    "thesisProjectOrSeniorScience": [
+      {
+        "code": "MATH 4410U",
+        "name": "Mathematics Thesis Project I"
+      },
+      {
+        "code": "MATH 4420U",
+        "name": "Mathematics Thesis Project II"
+      },
+      {
+        "code": "MATH 4430U",
+        "name": "Directed Studies in Mathematics"
+      },
+      {
+        "code": "CSCI 3010U",
+        "name": "Simulation and Modelling"
+      },
+      {
+        "code": "CSCI 3070U",
+        "name": "Analysis and Design of Algorithms"
+      },
+      {
+        "code": "CSCI 3090U",
+        "name": "Computer Graphics and Visualization"
+      },
+      {
+        "code": "PHY 3020U",
+        "name": "Quantum Mechanics I"
+      },
+      {
+        "code": "PHY 3050U",
+        "name": "Experimental Methods in Physics II"
+      },
+      {
+        "code": "PHY 3060U",
+        "name": "Fluid Dynamics"
+      },
+      {
+        "code": "STAT 3010U",
+        "name": "Biostatistics"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 14,
+  "elecRestrictionSum": 36
+}

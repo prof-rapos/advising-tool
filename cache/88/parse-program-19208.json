@@ -1,0 +1,637 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19208",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 1001U",
+      "name": "Fundamentals of Sustainability I: Science &amp; Technology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 1002U",
+      "name": "Fundamentals of Sustainability II: Health &amp; Social Sciences"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 1000U",
+      "name": "Environmental Science"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3300U",
+      "name": "Building Sustainable Communities"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3303U",
+      "name": "Policies for Sustainability"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3350U",
+      "name": "Environmental Communication: Media and Tech for Sustainability"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3101U",
+      "name": "Inequality, Environment and Development"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4150U",
+      "name": "Holistic Learning in Early Childhood Education"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1841U",
+      "name": "Essentials of Biology"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3620U",
+      "name": "Conservation Biology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3660U",
+      "name": "Ecology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4010U",
+      "name": "Introduction to Environmental Research Methods"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4080U",
+      "name": "Bioethics"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4660U",
+      "name": "Aquatic Ecology: Concepts and Environmental Applications"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1600U",
+      "name": "Management of the Enterprise"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1700U",
+      "name": "Introduction to Entrepreneurship"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2000U",
+      "name": "Collaborative Leadership"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2050U",
+      "name": "Managerial Economics"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2620U",
+      "name": "Business Ethics"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3330U",
+      "name": "The Management of Change"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 3050U",
+      "name": "Environmental Chemistry"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3310U",
+      "name": "Communication for Social Change, Community and Development"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3710U",
+      "name": "Media, Identity and Intercultural Communication"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3201U",
+      "name": "Environmental Education"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 3730U",
+      "name": "Solar Energy Technologies"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 2010U",
+      "name": "Introductory Environment Science"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 3110U",
+      "name": "Economics and Politics of the Environment"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1811U",
+      "name": "Social Determinants of Health"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3710U",
+      "name": "Ethics"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3823U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4803U",
+      "name": "Global Health"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4809U",
+      "name": "Environmental and Occupational Health"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4823U",
+      "name": "Small Business Practice and Entrepreneurship for Health Professionals"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2500U",
+      "name": "Two-Eyed Seeing in the Natural Sciences"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 3310U",
+      "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 2413U",
+      "name": "Science Communication: Media for creative, fun, and effective STEM communication"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 2414U",
+      "name": "Science Fiction and Society"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3230U",
+      "name": "Law and Globalization"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3310U",
+      "name": "Indigenous Peoples, Law and the State in Canada"
+    },
+    {
+      "id": "r43",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 4040U",
+      "name": "Law and the Environment"
+    },
+    {
+      "id": "r44",
+      "type": "course",
+      "year": 0,
+      "code": "MANE 4380U",
+      "name": "Life Cycle Engineering"
+    },
+    {
+      "id": "r45",
+      "type": "course",
+      "year": 0,
+      "code": "MECE 3260U",
+      "name": "Introduction to Energy Systems"
+    },
+    {
+      "id": "r46",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 4040U",
+      "name": "Solar Energy and Photovoltaics"
+    },
+    {
+      "id": "r47",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2300U",
+      "name": "Mobilizing for Change"
+    },
+    {
+      "id": "r48",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3100U",
+      "name": "Political Economy of Global Development"
+    },
+    {
+      "id": "r49",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3201U",
+      "name": "Rural Communities"
+    },
+    {
+      "id": "r50",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3203U",
+      "name": "Urban Development"
+    },
+    {
+      "id": "r51",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3301U",
+      "name": "Eco-Justice"
+    },
+    {
+      "id": "r52",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3302U",
+      "name": "Environment and Globalization"
+    },
+    {
+      "id": "r53",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3304U",
+      "name": "Planetary Health and Global Environmental Justice"
+    },
+    {
+      "id": "r54",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3305U",
+      "name": "Energy Policy: Canada in a Transitioning World"
+    },
+    {
+      "id": "r55",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3310U",
+      "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+    },
+    {
+      "id": "r56",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3500U",
+      "name": "Equity Policy"
+    },
+    {
+      "id": "r57",
+      "type": "course",
+      "year": 0,
+      "code": "SCIE 2500U",
+      "name": "Two-Eyed Seeing in the Natural Sciences"
+    },
+    {
+      "id": "r58",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r59",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2020U",
+      "name": "Issues in Diversity"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "selectedFromTheFollowing": [
+      {
+        "code": "EDST 4150U",
+        "name": "Holistic Learning in Early Childhood Education"
+      },
+      {
+        "code": "BIOL 1020U",
+        "name": "Biology II: Diversity of Life and Principles of Ecology"
+      },
+      {
+        "code": "BIOL 1841U",
+        "name": "Essentials of Biology"
+      },
+      {
+        "code": "BIOL 3620U",
+        "name": "Conservation Biology"
+      },
+      {
+        "code": "BIOL 3660U",
+        "name": "Ecology"
+      },
+      {
+        "code": "BIOL 4010U",
+        "name": "Introduction to Environmental Research Methods"
+      },
+      {
+        "code": "BIOL 4080U",
+        "name": "Bioethics"
+      },
+      {
+        "code": "BIOL 4660U",
+        "name": "Aquatic Ecology: Concepts and Environmental Applications"
+      },
+      {
+        "code": "BUSI 1600U",
+        "name": "Management of the Enterprise"
+      },
+      {
+        "code": "BUSI 1700U",
+        "name": "Introduction to Entrepreneurship"
+      },
+      {
+        "code": "BUSI 2000U",
+        "name": "Collaborative Leadership"
+      },
+      {
+        "code": "BUSI 2050U",
+        "name": "Managerial Economics"
+      },
+      {
+        "code": "BUSI 2620U",
+        "name": "Business Ethics"
+      },
+      {
+        "code": "BUSI 3330U",
+        "name": "The Management of Change"
+      },
+      {
+        "code": "CHEM 3050U",
+        "name": "Environmental Chemistry"
+      },
+      {
+        "code": "COMM 3310U",
+        "name": "Communication for Social Change, Community and Development"
+      },
+      {
+        "code": "COMM 3350U",
+        "name": "Environmental Communication: Media and Tech for Sustainability"
+      },
+      {
+        "code": "COMM 3710U",
+        "name": "Media, Identity and Intercultural Communication"
+      },
+      {
+        "code": "EDUC 3201U",
+        "name": "Environmental Education"
+      },
+      {
+        "code": "ENGR 3730U",
+        "name": "Solar Energy Technologies"
+      },
+      {
+        "code": "ENVS 2010U",
+        "name": "Introductory Environment Science"
+      },
+      {
+        "code": "ENVS 3110U",
+        "name": "Economics and Politics of the Environment"
+      },
+      {
+        "code": "HLSC 1811U",
+        "name": "Social Determinants of Health"
+      },
+      {
+        "code": "HLSC 3710U",
+        "name": "Ethics"
+      },
+      {
+        "code": "HLSC 3823U",
+        "name": "Health and Indigenous People in Canada"
+      },
+      {
+        "code": "HLSC 4803U",
+        "name": "Global Health"
+      },
+      {
+        "code": "HLSC 4809U",
+        "name": "Environmental and Occupational Health"
+      },
+      {
+        "code": "HLSC 4823U",
+        "name": "Small Business Practice and Entrepreneurship for Health Professionals"
+      },
+      {
+        "code": "INDG 2500U",
+        "name": "Two-Eyed Seeing in the Natural Sciences"
+      },
+      {
+        "code": "INDG 3310U",
+        "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+      },
+      {
+        "code": "LBAT 2413U",
+        "name": "Science Communication: Media for creative, fun, and effective STEM communication"
+      },
+      {
+        "code": "LBAT 2414U",
+        "name": "Science Fiction and Society"
+      },
+      {
+        "code": "LGLS 2120U",
+        "name": "International Law"
+      },
+      {
+        "code": "LGLS 3230U",
+        "name": "Law and Globalization"
+      },
+      {
+        "code": "LGLS 3310U",
+        "name": "Indigenous Peoples, Law and the State in Canada"
+      },
+      {
+        "code": "LGLS 4040U",
+        "name": "Law and the Environment"
+      },
+      {
+        "code": "MANE 4380U",
+        "name": "Life Cycle Engineering"
+      },
+      {
+        "code": "MECE 3260U",
+        "name": "Introduction to Energy Systems"
+      },
+      {
+        "code": "PHY 4040U",
+        "name": "Solar Energy and Photovoltaics"
+      },
+      {
+        "code": "POSC 2300U",
+        "name": "Mobilizing for Change"
+      },
+      {
+        "code": "POSC 3100U",
+        "name": "Political Economy of Global Development"
+      },
+      {
+        "code": "POSC 3201U",
+        "name": "Rural Communities"
+      },
+      {
+        "code": "POSC 3203U",
+        "name": "Urban Development"
+      },
+      {
+        "code": "POSC 3301U",
+        "name": "Eco-Justice"
+      },
+      {
+        "code": "POSC 3302U",
+        "name": "Environment and Globalization"
+      },
+      {
+        "code": "POSC 3304U",
+        "name": "Planetary Health and Global Environmental Justice"
+      },
+      {
+        "code": "POSC 3305U",
+        "name": "Energy Policy: Canada in a Transitioning World"
+      },
+      {
+        "code": "POSC 3310U",
+        "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+      },
+      {
+        "code": "POSC 3500U",
+        "name": "Equity Policy"
+      },
+      {
+        "code": "SCIE 2500U",
+        "name": "Two-Eyed Seeing in the Natural Sciences"
+      },
+      {
+        "code": "SSCI 1470U",
+        "name": "Impact of Science and Technology on Society"
+      },
+      {
+        "code": "SOCI 2020U",
+        "name": "Issues in Diversity"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

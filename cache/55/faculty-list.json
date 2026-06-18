@@ -1,0 +1,30 @@
+[
+  {
+    "entOid": 1222,
+    "name": "Faculty of Business and Information Technology"
+  },
+  {
+    "entOid": 1223,
+    "name": "Faculty of Education"
+  },
+  {
+    "entOid": 1224,
+    "name": "Faculty of Energy Systems and Nuclear Science"
+  },
+  {
+    "entOid": 1225,
+    "name": "Faculty of Engineering and Applied Science"
+  },
+  {
+    "entOid": 1226,
+    "name": "Faculty of Health Sciences"
+  },
+  {
+    "entOid": 1227,
+    "name": "Faculty of Science"
+  },
+  {
+    "entOid": 1228,
+    "name": "Faculty of Social Science and Humanities"
+  }
+]

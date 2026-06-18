@@ -1,0 +1,173 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10903",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication Studies"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 1420U",
+      "name": "Living Digitally"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 2110U",
+      "name": "Communication Theory: Keyworks"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 2210U",
+      "name": "Researching Communication and Digital Culture"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 2220U",
+      "name": "The Media in Canada"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 3250U",
+      "name": "Pop Culture"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 3510U",
+      "name": "Work in the Digital Age"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 3610U",
+      "name": "Persuasion"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 3,
+      "code": "COMM 3710U",
+      "name": "Intercultural Communication"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 3,
+      "elecType": "fssh",
+      "label": "FSSH elective"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 4,
+      "code": "COMM 3110U",
+      "name": "Communication Ethics"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 4,
+      "code": "COMM 3410U",
+      "name": "Digital Media Storytelling"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 4,
+      "code": "COMM 4261U",
+      "name": "Tweet, Friend and Follow Me: Understanding Social Media"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 4,
+      "code": "COMM 4420U",
+      "name": "Digital Media, Politics and Democracy"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 4,
+      "code": "COMM 4510U",
+      "name": "Public Relations"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 4,
+      "code": "COMM 4610U",
+      "name": "Communication and Conflict Resolution"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 4,
+      "code": "COMM 4710U",
+      "name": "International Communication"
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 4,
+      "elecType": "fssh",
+      "label": "FSSH elective"
+    },
+    {
+      "id": "r19",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "COMM 4120U",
+          "name": "Contemporary Issues in Communication"
+        },
+        {
+          "code": "SSCI 4101U",
+          "name": "Honours Thesis I"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "COMM 4130U",
+          "name": "Capstone Project"
+        },
+        {
+          "code": "SSCI 4102U",
+          "name": "Honours Thesis II"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "fssh": "FSSH elective"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 2,
+  "elecRestrictionSum": 0
+}

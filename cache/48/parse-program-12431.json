@@ -1,0 +1,255 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=12431",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1000U",
+      "name": "Foundations in Bioscience"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1010U",
+      "name": "Biology I: Molecular and Cellular Systems"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 1020U",
+      "name": "Chemistry II"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 1040U",
+      "name": "Introduction to Programming for Scientists"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 1015U",
+      "name": "Mathematics for Bioscience"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1030U",
+      "name": "Introductory Physics"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "PHY 1040U",
+      "name": "Physics for Biosciences"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2010U",
+      "name": "Human Physiology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2020U",
+      "name": "Genetics and Molecular Biology"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2030U",
+      "name": "Cell Biology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2060U",
+      "name": "Fundamentals of Microbiology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2080U",
+      "name": "Biochemistry I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4410U",
+      "name": "Biology Thesis Project I"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4420U",
+      "name": "Biology Thesis Project II"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3810U",
+      "name": "Introduction to the World Ocean"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3820U",
+      "name": "Marine Ecology"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3830U",
+      "name": "Coral Reef Ecology"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3840U",
+      "name": "Marine Invertebrate Zoology"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4080U",
+      "name": "Bioethics"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 2020U",
+      "name": "Introduction to Organic Chemistry"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "STAT 2020U",
+      "name": "Statistics and Probability for Biological Science"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "ENVS 1000U",
+      "name": "Environmental Science"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 2130U",
+      "name": "Analytical Chemistry for Biosciences"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 3050U",
+      "name": "Environmental Chemistry"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 4010U",
+      "name": "Introduction to Environmental Research Methods"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3610U",
+      "name": "Comparative Zoology"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 3660U",
+      "name": "Ecology"
+    }
+  ],
+  "elecRestrictions": {
+    "biology": 5,
+    "science": 12,
+    "general": 4
+  },
+  "elecSubsets": {
+    "biology": "science"
+  },
+  "elecLabels": {
+    "biology": "Biology",
+    "science": "Science",
+    "general": "General"
+  },
+  "elecFilterRules": {
+    "additionalScienceRecommendations": {
+      "prefixes": [
+        "ENVS",
+        "CHEM",
+        "BIOL"
+      ]
+    },
+    "upperYearSpecializationRecommendations": {
+      "prefixes": [
+        "BIOL"
+      ]
+    },
+    "biology": {
+      "prefixes": [
+        "BIOL"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "thesisProjectOrSeniorBiology": [
+      {
+        "code": "BIOL 4410U",
+        "name": "Biology Thesis Project I"
+      },
+      {
+        "code": "BIOL 4420U",
+        "name": "Biology Thesis Project II"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 21
+}

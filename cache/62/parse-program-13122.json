@@ -1,0 +1,383 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=13122",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "COMM 1050U",
+      "name": "Technical Communications"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1015U",
+      "name": "Introduction to Engineering"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1010U",
+      "name": "Calculus I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1800U",
+      "name": "Chemistry for Engineers"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1025U",
+      "name": "Engineering Design"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1200U",
+      "name": "Introduction to Programming for Engineers"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 1,
+      "code": "SSCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 2,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "ELEE 2110U",
+      "name": "Discrete Mathematics for Engineers"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "ELEE 2790U",
+      "name": "Electric Circuits"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "SOFE 2710U",
+      "name": "Object Oriented Programming and Design"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "SOFE 2800U",
+      "name": "Web Programming"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "SOFE 2850U",
+      "name": "Natural Foundations for Information Technology"
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 2,
+      "elecType": "science",
+      "label": "Science elective",
+      "filterRule": {
+        "prefixes": [
+          "BIOL",
+          "CHEM",
+          "CSCI",
+          "ENVS",
+          "FSCI",
+          "IMCS",
+          "MATH",
+          "NSCI",
+          "PHY",
+          "SCCO",
+          "SCIE",
+          "STAT",
+          "SUST"
+        ]
+      }
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "ELEE 2450U",
+      "name": "Digital Systems"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "SOFE 2715U",
+      "name": "Data Structures"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 2,
+      "code": "SOFE 2720U",
+      "name": "Principles of Software and Requirements Engineering"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2800U",
+      "name": "Statistics and Probability for Engineers"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "ELEE 3450U",
+      "name": "Microprocessors and Computer Architecture"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3200U",
+      "name": "Systems Programming"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3650U",
+      "name": "Software Design and Architectures"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3700U",
+      "name": "Data Management Systems"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3770U",
+      "name": "Design and Analysis of Algorithms"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "ENGR 3360U",
+      "name": "Engineering Economics"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3490U",
+      "name": "Software Project Management"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3720U",
+      "name": "Introduction to Artificial Intelligence"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3850U",
+      "name": "Computer Networks"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3950U",
+      "name": "Operating Systems"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 3,
+      "code": "SOFE 3980U",
+      "name": "Software Quality"
+    },
+    {
+      "id": "r35",
+      "type": "elective",
+      "year": 4,
+      "elecType": "engineering",
+      "label": "Engineering elective"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4940U",
+      "name": "Capstone Systems Design for Electrical, Computer and Software Engineering I"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "SOFE 4590U",
+      "name": "Embedded Systems"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "SOFE 4790U",
+      "name": "Distributed Systems"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 4,
+      "code": "SOFE 4850U",
+      "name": "User Interfaces"
+    },
+    {
+      "id": "r40",
+      "type": "elective",
+      "year": 4,
+      "elecType": "engineering",
+      "label": "Engineering electives"
+    },
+    {
+      "id": "r41",
+      "type": "elective",
+      "year": 4,
+      "elecType": "engineering",
+      "label": "Engineering electives"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4760U",
+      "name": "Ethics, Law and Professionalism for Engineers"
+    },
+    {
+      "id": "r43",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4941U",
+      "name": "Capstone Systems Design for Electrical, Computer and Software Engineering II"
+    },
+    {
+      "id": "r44",
+      "type": "course",
+      "year": 4,
+      "code": "SOFE 4840U",
+      "name": "Software and Computer Security"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "liberalStudies": "Liberal Studies elective",
+    "science": "Science elective",
+    "engineering": "Engineering elective"
+  },
+  "elecFilterRules": {
+    "science": {
+      "prefixes": [
+        "BIOL",
+        "CHEM",
+        "CSCI",
+        "ENVS",
+        "FSCI",
+        "IMCS",
+        "MATH",
+        "NSCI",
+        "PHY",
+        "SCCO",
+        "SCIE",
+        "STAT",
+        "SUST"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "science": [
+      {
+        "code": "BIOL 1841U",
+        "name": "Essentials of Biology"
+      },
+      {
+        "code": "ENVS 1000U",
+        "name": "Environmental Science"
+      },
+      {
+        "code": "ENVS 2010U",
+        "name": "Introductory Environment Science"
+      },
+      {
+        "code": "HLSC 1200U",
+        "name": "Human Anatomy &amp; Physiology I"
+      },
+      {
+        "code": "PHY 2900U",
+        "name": "Astronomy I"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 6,
+  "elecRestrictionSum": 0
+}

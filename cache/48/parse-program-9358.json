@@ -1,0 +1,591 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=9358",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r2",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 1030U",
+      "name": "Introduction to Computer Science"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 1060U",
+      "name": "Programming Workshop I"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 1061U",
+      "name": "Programming Workshop II"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 2050U",
+      "name": "Computer Architecture I"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 1000U",
+          "name": "Introductory Calculus"
+        },
+        {
+          "code": "MATH 1010U",
+          "name": "Calculus I"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 1010U",
+          "name": "Physics I"
+        },
+        {
+          "code": "PHY 1030U",
+          "name": "Introductory Physics"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "Elective"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2000U",
+      "name": "Scientific Data Analysis"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2010U",
+      "name": "Data Structures"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2020U",
+      "name": "Software Systems Development and Integration"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2040U",
+      "name": "Software Design and Analysis"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2072U",
+      "name": "Computational Science I"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2110U",
+      "name": "Discrete Mathematics for Computer Scientists"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2160U",
+      "name": "Digital Media"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2050U",
+      "name": "Linear Algebra"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2010U",
+      "name": "Statistics and Probability for Physical Science"
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r26",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r27",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "CSCI 3070U",
+      "name": "Analysis and Design of Algorithms"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "CSCI 3090U",
+      "name": "Computer Graphics and Visualization"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "CSCI 4040U",
+      "name": "Ethics, Law and the Social Impacts of Computing"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 3,
+      "code": "CSCI 4110U",
+      "name": "Advanced Computer Graphics"
+    },
+    {
+      "id": "r32",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 4160U",
+          "name": "Interactive Media"
+        },
+        {
+          "code": "CSCI 4620U",
+          "name": "Human-Computer Interaction"
+        }
+      ]
+    },
+    {
+      "id": "r33",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 3230U",
+          "name": "Web Application Development"
+        },
+        {
+          "code": "CSCI 4100U",
+          "name": "Mobile Devices"
+        },
+        {
+          "code": "CSCI 4210U",
+          "name": "Information Visualization"
+        },
+        {
+          "code": "CSCI 4220U",
+          "name": "Computer Vision"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 3010U",
+          "name": "Simulation and Modelling"
+        },
+        {
+          "code": "CSCI 3030U",
+          "name": "Database Systems and Concepts"
+        },
+        {
+          "code": "CSCI 4030U",
+          "name": "Big Data Analytics"
+        },
+        {
+          "code": "CSCI 4050U",
+          "name": "Machine Learning, Theory and Application"
+        },
+        {
+          "code": "CSCI 4610U",
+          "name": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "id": "r35",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "text": "CSCI 4210U – Information Visualization or"
+        }
+      ]
+    },
+    {
+      "id": "r36",
+      "type": "elective",
+      "year": 3,
+      "elecType": "csci4220uComputerVision",
+      "label": "CSCI 4220U – Computer Vision",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ]
+      }
+    },
+    {
+      "id": "r37",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "text": "CSCI 3230U – Web Application Development or"
+        }
+      ]
+    },
+    {
+      "id": "r38",
+      "type": "elective",
+      "year": 3,
+      "elecType": "csci4100uMobileDevicesOr",
+      "label": "CSCI 4100U – Mobile Devices or",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ]
+      }
+    },
+    {
+      "id": "r39",
+      "type": "elective",
+      "year": 3,
+      "elecType": "csci4160uInteractiveMediaOr",
+      "label": "CSCI 4160U – Interactive Media or",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ]
+      }
+    },
+    {
+      "id": "r40",
+      "type": "elective",
+      "year": 3,
+      "elecType": "csci4620uHumanComputerInteraction",
+      "label": "CSCI 4620U – Human-Computer Interaction",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ]
+      }
+    },
+    {
+      "id": "r41",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 3055U",
+          "name": "Programming Languages"
+        },
+        {
+          "code": "CSCI 3060U",
+          "name": "Software Quality Assurance"
+        },
+        {
+          "code": "CSCI 4020U",
+          "name": "Compilers"
+        },
+        {
+          "code": "CSCI 4060U",
+          "name": "Massively Parallel Programming"
+        }
+      ]
+    },
+    {
+      "id": "r42",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 3020U",
+          "name": "Operating Systems"
+        },
+        {
+          "code": "CSCI 3150U",
+          "name": "Computer Networks"
+        },
+        {
+          "code": "CSCI 3310U",
+          "name": "Systems Programming"
+        },
+        {
+          "code": "CSCI 4310U",
+          "name": "Advanced Operating Systems Project"
+        },
+        {
+          "code": "CSCI 4410U",
+          "name": "Computer Science Thesis Project I"
+        },
+        {
+          "text": "Senior Computer Science elective"
+        }
+      ]
+    },
+    {
+      "id": "r43",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 4420U",
+          "name": "Computer Science Thesis Project II"
+        },
+        {
+          "text": "Senior Computer Science elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {
+    "science": 6,
+    "nonscience": 2,
+    "business": 1,
+    "comm": 1
+  },
+  "elecSubsets": {
+    "business": "nonscience",
+    "comm": "nonscience"
+  },
+  "elecLabels": {
+    "science": "Science",
+    "nonscience": "Non-Science",
+    "business": "Business",
+    "comm": "Communications",
+    "csci4220uComputerVision": "CSCI 4220U – Computer Vision",
+    "csci4100uMobileDevicesOr": "CSCI 4100U – Mobile Devices or",
+    "csci4160uInteractiveMediaOr": "CSCI 4160U – Interactive Media or",
+    "csci4620uHumanComputerInteraction": "CSCI 4620U – Human-Computer Interaction"
+  },
+  "elecFilterRules": {
+    "business": {
+      "prefixes": [
+        "BUSI"
+      ]
+    },
+    "communication": {
+      "prefixes": [
+        "COMM"
+      ]
+    },
+    "csci4220uComputerVision": {
+      "prefixes": [
+        "CSCI"
+      ]
+    },
+    "csci4100uMobileDevicesOr": {
+      "prefixes": [
+        "CSCI"
+      ]
+    },
+    "csci4160uInteractiveMediaOr": {
+      "prefixes": [
+        "CSCI"
+      ]
+    },
+    "csci4620uHumanComputerInteraction": {
+      "prefixes": [
+        "CSCI"
+      ]
+    },
+    "nonscience": {
+      "prefixes": [
+        "ALSU",
+        "ARTE",
+        "AUTE",
+        "BUSI",
+        "COMM",
+        "CRMN",
+        "CURS",
+        "ECON",
+        "EDST",
+        "EDUC",
+        "ELEE",
+        "ENEE",
+        "ENGR",
+        "ENSY",
+        "ESNS",
+        "FPSY",
+        "HLSC",
+        "INDG",
+        "INFR",
+        "INSE",
+        "KINE",
+        "LEAP",
+        "LGLS",
+        "MANE",
+        "MECE",
+        "METE",
+        "MLSC",
+        "NUCL",
+        "NURS",
+        "POSC",
+        "PSYC",
+        "RADI",
+        "SIMU",
+        "SOCI",
+        "SOFE",
+        "SSCI",
+        "XBIT"
+      ]
+    },
+    "comm": {
+      "prefixes": [
+        "COMM"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "business": [
+      {
+        "code": "BUSI 1020U",
+        "name": "Business Communications"
+      },
+      {
+        "code": "BUSI 1600U",
+        "name": "Management of the Enterprise"
+      },
+      {
+        "code": "BUSI 1700U",
+        "name": "Introduction to Entrepreneurship"
+      },
+      {
+        "code": "BUSI 2000U",
+        "name": "Collaborative Leadership"
+      }
+    ],
+    "comm": [
+      {
+        "code": "COMM 1050U",
+        "name": "Technical Communications"
+      },
+      {
+        "code": "COMM 1100U",
+        "name": "Introduction to Communication Studies"
+      },
+      {
+        "code": "COMM 1320U",
+        "name": "Public Speaking"
+      },
+      {
+        "code": "COMM 2311U",
+        "name": "Writing and Publishing in the Digital Age"
+      },
+      {
+        "code": "COMM 2620U",
+        "name": "Interpersonal Communication"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 14,
+  "elecRestrictionSum": 10
+}

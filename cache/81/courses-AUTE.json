@@ -1,0 +1,54 @@
+[
+  {
+    "code": "AUTE 2010U",
+    "name": "Fundamentals of Automotive Engineering"
+  },
+  {
+    "code": "AUTE 3170U",
+    "name": "Automotive Component Design"
+  },
+  {
+    "code": "AUTE 3210U",
+    "name": "Automotive Vibrations"
+  },
+  {
+    "code": "AUTE 3290U",
+    "name": "Powertrain Design"
+  },
+  {
+    "code": "AUTE 3450U",
+    "name": "Combustion and Engines"
+  },
+  {
+    "code": "AUTE 3500U",
+    "name": "Automotive Instrumentation and Controls"
+  },
+  {
+    "code": "AUTE 4000U",
+    "name": "Special Topics in Automotive Engineering"
+  },
+  {
+    "code": "AUTE 4010U",
+    "name": "Vehicle Dynamics and Control"
+  },
+  {
+    "code": "AUTE 4060U",
+    "name": "Automotive Structural Design"
+  },
+  {
+    "code": "AUTE 4070U",
+    "name": "Chassis Systems Design"
+  },
+  {
+    "code": "AUTE 4080U",
+    "name": "Electric and Hybrid Vehicles"
+  },
+  {
+    "code": "AUTE 4090U",
+    "name": "Autonomous Vehicles"
+  },
+  {
+    "code": "AUTE 4100U",
+    "name": "Road Vehicle Aerodynamics"
+  }
+]

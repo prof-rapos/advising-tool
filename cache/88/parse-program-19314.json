@@ -1,0 +1,90 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19314",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3800U",
+      "name": "Issues in Health Law and Biomedical Ethics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1810U",
+      "name": "Health Promotion and Healthy Active Living"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1811U",
+      "name": "Social Determinants of Health"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2802U",
+      "name": "Introduction to the Canadian Healthcare System"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3631U",
+      "name": "Health Policy and Process"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3820U",
+      "name": "Public Health I"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4805U",
+      "name": "Non-communicable Diseases: Current Issues and Emerging Trends"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4807U",
+      "name": "Perspectives in Aging"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4808U",
+      "name": "Exploring Mental Health and Developmental Disabilities"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4809U",
+      "name": "Environmental and Occupational Health"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4851U",
+      "name": "Critical Perspectives on Health, Illness, and Healthcare"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

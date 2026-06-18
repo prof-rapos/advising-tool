@@ -1,0 +1,90 @@
+[
+  {
+    "code": "ENSY 0101U",
+    "name": "Calculus and Algebra for Energy Systems"
+  },
+  {
+    "code": "ENSY 0102U",
+    "name": "Applied Heat Transfer"
+  },
+  {
+    "code": "ENSY 0103U",
+    "name": "Materials for Energy Systems"
+  },
+  {
+    "code": "ENSY 1000U",
+    "name": "Introduction to Energy Systems"
+  },
+  {
+    "code": "ENSY 1110U",
+    "name": "Chemical Fundamentals"
+  },
+  {
+    "code": "ENSY 2210U",
+    "name": "Principles of Electrical Systems"
+  },
+  {
+    "code": "ENSY 2220U",
+    "name": "Fluid Mechanics for Energy Systems"
+  },
+  {
+    "code": "ENSY 2330U",
+    "name": "Mechanical Equipment and Systems"
+  },
+  {
+    "code": "ENSY 2410U",
+    "name": "Low Carbon Technologies"
+  },
+  {
+    "code": "ENSY 3600U",
+    "name": "Sustainable Energy Thesis I"
+  },
+  {
+    "code": "ENSY 3730U",
+    "name": "Solar Energy Technologies"
+  },
+  {
+    "code": "ENSY 3830U",
+    "name": "Wind Energy Systems"
+  },
+  {
+    "code": "ENSY 3840U",
+    "name": "Fuel Cell and Hydrogen Systems"
+  },
+  {
+    "code": "ENSY 4300U",
+    "name": "Environmental Protection Systems"
+  },
+  {
+    "code": "ENSY 4400U",
+    "name": "Electric Power Systems"
+  },
+  {
+    "code": "ENSY 4500U",
+    "name": "Geo-Engineered Systems"
+  },
+  {
+    "code": "ENSY 4530U",
+    "name": "Hydroelectric Power Systems"
+  },
+  {
+    "code": "ENSY 4600U",
+    "name": "Sustainable Energy Thesis II"
+  },
+  {
+    "code": "ENSY 4610U",
+    "name": "Community and Urban Design"
+  },
+  {
+    "code": "ENSY 4620U",
+    "name": "Smart Grids"
+  },
+  {
+    "code": "ENSY 4700U",
+    "name": "Energy Policy, Standards and Safety"
+  },
+  {
+    "code": "ENSY 4800U",
+    "name": "Energy Systems Analysis"
+  }
+]

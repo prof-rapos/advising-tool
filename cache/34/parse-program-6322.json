@@ -1,0 +1,41 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6322",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2500U",
+      "name": "Business Simulation and Analytics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3504U",
+      "name": "Database and Business Intelligence"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3550U",
+      "name": "Systems Analysis and Design"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 1100U",
+      "name": "Introduction to Programming"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

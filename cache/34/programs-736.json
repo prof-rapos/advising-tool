@@ -1,0 +1,110 @@
+[
+  {
+    "poid": 6334,
+    "name": "Communication and Digital Media Studies"
+  },
+  {
+    "poid": 6335,
+    "name": "Criminology and Justice"
+  },
+  {
+    "poid": 6336,
+    "name": "Forensic Psychology"
+  },
+  {
+    "poid": 6337,
+    "name": "Legal Studies"
+  },
+  {
+    "poid": 6339,
+    "name": "Liberal Studies"
+  },
+  {
+    "poid": 6338,
+    "name": "Political Science"
+  },
+  {
+    "poid": 7093,
+    "name": "Psychology (BA)"
+  },
+  {
+    "poid": 7094,
+    "name": "Psychology (BSc)"
+  },
+  {
+    "poid": 6264,
+    "name": "Communication and Digital Media Studies – Advanced Entry"
+  },
+  {
+    "poid": 6292,
+    "name": "Communication and Digital Media Studies – GAS Transfer"
+  },
+  {
+    "poid": 6271,
+    "name": "Criminology and Justice – Advanced Entry"
+  },
+  {
+    "poid": 6272,
+    "name": "Criminology and Justice – GAS Transfer"
+  },
+  {
+    "poid": 6275,
+    "name": "Forensic Psychology – Advanced Entry"
+  },
+  {
+    "poid": 6276,
+    "name": "Forensic Psychology – GAS Transfer"
+  },
+  {
+    "poid": 6285,
+    "name": "Legal Studies – Advanced Entry"
+  },
+  {
+    "poid": 6286,
+    "name": "Legal Studies – GAS Transfer"
+  },
+  {
+    "poid": 6293,
+    "name": "Political Science – Advanced Entry"
+  },
+  {
+    "poid": 6267,
+    "name": "Political Science – GAS Transfer"
+  },
+  {
+    "poid": 6263,
+    "name": "Communication minor"
+  },
+  {
+    "poid": 6302,
+    "name": "Criminology and Justice minor"
+  },
+  {
+    "poid": 6274,
+    "name": "Forensic Psychology minor"
+  },
+  {
+    "poid": 6281,
+    "name": "Legal Studies minor"
+  },
+  {
+    "poid": 6282,
+    "name": "Legal Studies – Alternative Dispute Resolution minor"
+  },
+  {
+    "poid": 6283,
+    "name": "Legal Studies – Human Rights Law minor"
+  },
+  {
+    "poid": 6284,
+    "name": "Legal Studies – Information Law minor"
+  },
+  {
+    "poid": 6266,
+    "name": "Political Science minor"
+  },
+  {
+    "poid": 6332,
+    "name": "Sustainability Studies minor"
+  }
+]

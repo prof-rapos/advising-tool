@@ -1,0 +1,122 @@
+[
+  {
+    "code": "ENGR 2100U",
+    "name": "Computational Engineering Applications"
+  },
+  {
+    "code": "ENGR 0998U",
+    "name": "Engineering Internship Program"
+  },
+  {
+    "code": "ENGR 0999U",
+    "name": "Engineering Co-op Program"
+  },
+  {
+    "code": "ENGR 1015U",
+    "name": "Introduction to Engineering"
+  },
+  {
+    "code": "ENGR 1025U",
+    "name": "Engineering Design"
+  },
+  {
+    "code": "ENGR 1200U",
+    "name": "Introduction to Programming for Engineers"
+  },
+  {
+    "code": "ENGR 1250U",
+    "name": "Engineering Graphics"
+  },
+  {
+    "code": "ENGR 2070U",
+    "name": "Numerical Methods for Engineers"
+  },
+  {
+    "code": "ENGR 2330U",
+    "name": "Mechanical Equipment and Systems"
+  },
+  {
+    "code": "ENGR 2340U",
+    "name": "Engineering Operations and Project Management I"
+  },
+  {
+    "code": "ENGR 2350U",
+    "name": "Engineering Operations and Project Management II"
+  },
+  {
+    "code": "ENGR 3160U",
+    "name": "Engineering Operations and Project Management"
+  },
+  {
+    "code": "ENGR 3170U",
+    "name": "Engineering Production Management"
+  },
+  {
+    "code": "ENGR 3260U",
+    "name": "Introduction to Energy Systems"
+  },
+  {
+    "code": "ENGR 3360U",
+    "name": "Engineering Economics"
+  },
+  {
+    "code": "ENGR 3420U",
+    "name": "Energy and Environmental Impact"
+  },
+  {
+    "code": "ENGR 3730U",
+    "name": "Solar Energy Technologies"
+  },
+  {
+    "code": "ENGR 3830U",
+    "name": "Wind Energy Systems"
+  },
+  {
+    "code": "ENGR 3840U",
+    "name": "Fuel Cell Design"
+  },
+  {
+    "code": "ENGR 4075U",
+    "name": "Special Topics in Automotive Engineering"
+  },
+  {
+    "code": "ENGR 4410U",
+    "name": "Fossil Fuel Energy Conversion"
+  },
+  {
+    "code": "ENGR 4440U",
+    "name": "Advanced Power Generation"
+  },
+  {
+    "code": "ENGR 4470U",
+    "name": "Hydrogen Power Systems"
+  },
+  {
+    "code": "ENGR 4480U",
+    "name": "Emerging Energy Systems"
+  },
+  {
+    "code": "ENGR 4530U",
+    "name": "Hydroelectric Power Systems"
+  },
+  {
+    "code": "ENGR 4760U",
+    "name": "Ethics, Law and Professionalism for Engineers"
+  },
+  {
+    "code": "ENGR 4940U",
+    "name": "Capstone Systems Design for Electrical, Computer and Software Engineering I"
+  },
+  {
+    "code": "ENGR 4941U",
+    "name": "Capstone Systems Design for Electrical, Computer and Software Engineering II"
+  },
+  {
+    "code": "ENGR 4950U",
+    "name": "Capstone Systems Design for Mechanical, Automotive, Mechatronics and Manufacturing Engineering I"
+  },
+  {
+    "code": "ENGR 4951U",
+    "name": "Capstone Systems Design for Mechanical, Automotive, Mechatronics and Manufacturing Engineering II"
+  }
+]

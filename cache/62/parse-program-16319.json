@@ -1,0 +1,97 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=16319",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1420U",
+      "name": "Living Digitally: Social Media, Culture &amp; Society"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3610U",
+      "name": "Strategic Communications for Influence: Rhetoric, Persuasion and Propaganda"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "LBAT 2413U",
+      "name": "Science Communication: Media for creative, fun, and effective STEM communication"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3310U",
+      "name": "Communication for Social Change, Community and Development"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3350U",
+      "name": "Environmental Communication: Media and Tech for Sustainability"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3710U",
+      "name": "Media, Identity and Intercultural Communication"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4120U",
+      "name": "AI, Ethics and Communication"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4420U",
+      "name": "Political Communication, Digital Media and Democracy"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4510U",
+      "name": "Public Relations: Social Power, Social Media Platforms, and Social Responsibility"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4530U",
+      "name": "Media Activism and Protest Cultures"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4610U",
+      "name": "The Struggle is Real: Transformation for Communication, Conflict, and Peace"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4710U",
+      "name": "Global Media, the Internet and International Relations"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

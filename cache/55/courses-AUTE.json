@@ -1,0 +1,34 @@
+[
+  {
+    "code": "AUTE 3010U",
+    "name": "Introduction to Automotive Engineering"
+  },
+  {
+    "code": "AUTE 3290U",
+    "name": "Powertrain Design"
+  },
+  {
+    "code": "AUTE 3450U",
+    "name": "Combustion and Engines"
+  },
+  {
+    "code": "AUTE 4000U",
+    "name": "Special Topics in Automotive Engineering"
+  },
+  {
+    "code": "AUTE 4010U",
+    "name": "Vehicle Dynamics and Control"
+  },
+  {
+    "code": "AUTE 4060U",
+    "name": "Automotive Structural Design"
+  },
+  {
+    "code": "AUTE 4070U",
+    "name": "Chassis Systems Design"
+  },
+  {
+    "code": "AUTE 4080U",
+    "name": "Electric and Hybrid Vehicles"
+  }
+]

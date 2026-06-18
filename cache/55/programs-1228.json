@@ -1,0 +1,110 @@
+[
+  {
+    "poid": 10973,
+    "name": "Communication and Digital Media Studies"
+  },
+  {
+    "poid": 10974,
+    "name": "Criminology and Justice"
+  },
+  {
+    "poid": 10975,
+    "name": "Forensic Psychology"
+  },
+  {
+    "poid": 10976,
+    "name": "Legal Studies"
+  },
+  {
+    "poid": 10978,
+    "name": "Liberal Studies"
+  },
+  {
+    "poid": 10977,
+    "name": "Political Science"
+  },
+  {
+    "poid": 10983,
+    "name": "Psychology (BA)"
+  },
+  {
+    "poid": 10984,
+    "name": "Psychology (BSc)"
+  },
+  {
+    "poid": 10903,
+    "name": "Communication and Digital Media Studies – Advanced Entry"
+  },
+  {
+    "poid": 10931,
+    "name": "Communication and Digital Media Studies – GAS Transfer"
+  },
+  {
+    "poid": 10910,
+    "name": "Criminology and Justice – Advanced Entry"
+  },
+  {
+    "poid": 10911,
+    "name": "Criminology and Justice – GAS Transfer"
+  },
+  {
+    "poid": 10914,
+    "name": "Forensic Psychology – Advanced Entry"
+  },
+  {
+    "poid": 10915,
+    "name": "Forensic Psychology – GAS Transfer"
+  },
+  {
+    "poid": 10924,
+    "name": "Legal Studies – Advanced Entry"
+  },
+  {
+    "poid": 10925,
+    "name": "Legal Studies – GAS Transfer"
+  },
+  {
+    "poid": 10932,
+    "name": "Political Science – Advanced Entry"
+  },
+  {
+    "poid": 10906,
+    "name": "Political Science – GAS Transfer"
+  },
+  {
+    "poid": 10902,
+    "name": "Communication minor"
+  },
+  {
+    "poid": 10941,
+    "name": "Criminology and Justice minor"
+  },
+  {
+    "poid": 10913,
+    "name": "Forensic Psychology minor"
+  },
+  {
+    "poid": 10920,
+    "name": "Legal Studies minor"
+  },
+  {
+    "poid": 10921,
+    "name": "Legal Studies – Alternative Dispute Resolution minor"
+  },
+  {
+    "poid": 10922,
+    "name": "Legal Studies – Human Rights Law minor"
+  },
+  {
+    "poid": 10923,
+    "name": "Legal Studies – Information Law minor"
+  },
+  {
+    "poid": 10905,
+    "name": "Political Science minor"
+  },
+  {
+    "poid": 10971,
+    "name": "Sustainability Studies minor"
+  }
+]

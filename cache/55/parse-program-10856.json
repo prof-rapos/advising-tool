@@ -1,0 +1,143 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10856",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 1170U",
+      "name": "Psychological Foundations and Digital Technologies"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 2120U",
+      "name": "Culture and Digital Technologies"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 2150U",
+      "name": "Digital Technologies and Advanced Teaching Methods"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 2160U",
+      "name": "Online Learning: Theory and Research"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 3140U",
+      "name": "Creating Digital Tools"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 4120U",
+      "name": "Serious Gaming and Simulations"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "EDUC 1312U",
+      "name": "Fundamentals of Professional Writing"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "EDUC 4703U",
+      "name": "Problem and Inquiry Based Learning"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 1160U",
+      "name": "Digital Communication Technologies"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 2130U",
+      "name": "Graphic Design, Digital Technologies and Learning"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 3110U",
+      "name": "Information Literacy"
+    },
+    {
+      "id": "r12",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "AEDT 4200U",
+          "name": "Thesis I"
+        },
+        {
+          "code": "AEDT 4300U",
+          "name": "Engaged Educator Project I"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 4110U",
+      "name": "Assessment for Learning"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 4130U",
+      "name": "Social Justice Issues in Education"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 1,
+      "code": "AEDT 4140U",
+      "name": "Instructional Design"
+    },
+    {
+      "id": "r16",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "AEDT 4201U",
+          "name": "Thesis II"
+        },
+        {
+          "code": "AEDT 4301U",
+          "name": "Engaged Educator Project II"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

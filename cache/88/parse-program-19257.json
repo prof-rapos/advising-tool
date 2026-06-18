@@ -1,0 +1,90 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19257",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1420U",
+      "name": "Living Digitally: Social Media, Culture &amp; Society"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2220U",
+      "name": "The Media, Creativity and Culture in Canada"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2311U",
+      "name": "The Creative Industries: Ideas, Art, Tech, Money, Power"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3250U",
+      "name": "Pop Culture and Entertainment"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2240U",
+      "name": "Television"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2270U",
+      "name": "Entertainment Goes Global: from Hollywood to the World"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2411U",
+      "name": "Governing Communication and Digital Creativity: Policy for an era of Digital Disruption"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3510U",
+      "name": "Work in the Creative and Tech Industries"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3720U",
+      "name": "Knowing Your Audience: Audience Studies for Media Professionals and Creators"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3740U",
+      "name": "Video Games, Media and Culture"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4140U",
+      "name": "Ways of Seeing: Immersive Communication and AI"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

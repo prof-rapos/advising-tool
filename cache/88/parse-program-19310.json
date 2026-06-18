@@ -1,0 +1,377 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19310",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "SOCI 2000U",
+      "name": "Classical Sociological Theory"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2900U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2910U",
+      "name": "Data Analysis"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2920U",
+      "name": "Qualitative Research Methods"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 3,
+      "code": "SOCI 3000U",
+      "name": "Contemporary Sociological Theory"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 3,
+      "code": "SOCI 3001U",
+      "name": "Economy and Society"
+    },
+    {
+      "id": "r7",
+      "type": "option",
+      "year": 3,
+      "label": "One of (1/2)",
+      "options": [
+        {
+          "code": "CRMN 2030U",
+          "name": "Social Control"
+        },
+        {
+          "code": "POSC 2100U",
+          "name": "Global Politics"
+        },
+        {
+          "code": "SOCI 2010U",
+          "name": "Deviance and Social Control"
+        },
+        {
+          "code": "SOCI 2020U",
+          "name": "Issues in Diversity"
+        },
+        {
+          "code": "SOCI 2025U",
+          "name": "Youth Cultures"
+        },
+        {
+          "code": "SOCI 2300U",
+          "name": "Social Problems"
+        },
+        {
+          "code": "SOCI 2700U",
+          "name": "Human Sexuality"
+        },
+        {
+          "code": "SOCI 2720U",
+          "name": "Sports and Society"
+        },
+        {
+          "code": "SSCI 2101U",
+          "name": "Making a Difference: An Introduction to Social Entrepreneurship"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "type": "option",
+      "year": 3,
+      "label": "One of (2/2)",
+      "options": [
+        {
+          "code": "CRMN 2030U",
+          "name": "Social Control"
+        },
+        {
+          "code": "POSC 2100U",
+          "name": "Global Politics"
+        },
+        {
+          "code": "SOCI 2010U",
+          "name": "Deviance and Social Control"
+        },
+        {
+          "code": "SOCI 2020U",
+          "name": "Issues in Diversity"
+        },
+        {
+          "code": "SOCI 2025U",
+          "name": "Youth Cultures"
+        },
+        {
+          "code": "SOCI 2300U",
+          "name": "Social Problems"
+        },
+        {
+          "code": "SOCI 2700U",
+          "name": "Human Sexuality"
+        },
+        {
+          "code": "SOCI 2720U",
+          "name": "Sports and Society"
+        },
+        {
+          "code": "SSCI 2101U",
+          "name": "Making a Difference: An Introduction to Social Entrepreneurship"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 4,
+      "code": "SOCI 4020U",
+      "name": "Social Movements"
+    },
+    {
+      "id": "r12",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 3910U",
+          "name": "Advanced Data Analysis"
+        },
+        {
+          "code": "SSCI 3920U",
+          "name": "Advanced Qualitative Methods"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SOCI 4030U",
+          "name": "Doing Sociology"
+        },
+        {
+          "code": "SSCI 4010U",
+          "name": "Policy Development"
+        },
+        {
+          "code": "SSCI 4098U",
+          "name": "Practicum"
+        },
+        {
+          "code": "SSCI 4103W",
+          "name": "Internship"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "type": "option",
+      "year": 4,
+      "label": "One of (1/2)",
+      "options": [
+        {
+          "code": "CRMN 3023U",
+          "name": "Family Violence"
+        },
+        {
+          "code": "CRMN 3010U",
+          "name": "Social Justice/Criminal Justice"
+        },
+        {
+          "code": "INDG 3310U",
+          "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+        },
+        {
+          "code": "LGLS 3200U",
+          "name": "Sociology of Law"
+        },
+        {
+          "code": "LGLS 3520U",
+          "name": "Law and Technology"
+        },
+        {
+          "code": "LGLS 3700U",
+          "name": "Law and Power"
+        },
+        {
+          "code": "POSC 3101U",
+          "name": "Inequality, Environment and Development"
+        },
+        {
+          "code": "POSC 3800U",
+          "name": "Business, Politics and the Macroeconomy"
+        },
+        {
+          "code": "SSCI 3000U",
+          "name": "Disability, Rehabilitation and Society"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "type": "option",
+      "year": 4,
+      "label": "One of (2/2)",
+      "options": [
+        {
+          "code": "CRMN 3023U",
+          "name": "Family Violence"
+        },
+        {
+          "code": "CRMN 3010U",
+          "name": "Social Justice/Criminal Justice"
+        },
+        {
+          "code": "INDG 3310U",
+          "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+        },
+        {
+          "code": "LGLS 3200U",
+          "name": "Sociology of Law"
+        },
+        {
+          "code": "LGLS 3520U",
+          "name": "Law and Technology"
+        },
+        {
+          "code": "LGLS 3700U",
+          "name": "Law and Power"
+        },
+        {
+          "code": "POSC 3101U",
+          "name": "Inequality, Environment and Development"
+        },
+        {
+          "code": "POSC 3800U",
+          "name": "Business, Politics and the Macroeconomy"
+        },
+        {
+          "code": "SSCI 3000U",
+          "name": "Disability, Rehabilitation and Society"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "COMM 4420U",
+          "name": "Political Communication, Digital Media and Democracy"
+        },
+        {
+          "code": "INDG 4310U",
+          "name": "The Politics of Indigenous Rights"
+        },
+        {
+          "code": "SOCI 4999U",
+          "name": "Special Topics in Sociology"
+        },
+        {
+          "code": "SSCI 4020U",
+          "name": "Leadership and Administration"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelSoci",
+      "label": "3000- or 4000-level SOCI course",
+      "filterRule": {
+        "prefixes": [
+          "SOCI"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 4,
+      "elecType": "4000LevelSoci",
+      "label": "4000-level SOCI course",
+      "filterRule": {
+        "prefixes": [
+          "SOCI"
+        ],
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "general electives"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "general": "general electives",
+    "3000Or4000LevelSoci": "3000- or 4000-level SOCI course",
+    "4000LevelSoci": "4000-level SOCI course"
+  },
+  "elecFilterRules": {
+    "3000Or4000LevelSoci": {
+      "prefixes": [
+        "SOCI"
+      ],
+      "minLevel": 3000,
+      "maxLevel": 4999
+    },
+    "4000LevelSoci": {
+      "prefixes": [
+        "SOCI"
+      ],
+      "minLevel": 4000,
+      "maxLevel": 4999
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 6,
+  "elecRestrictionSum": 0
+}

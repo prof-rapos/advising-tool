@@ -1,0 +1,41 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=81&poid=17535",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 1010U",
+      "name": "Discrete Mathematics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 1016U",
+      "name": "Introductory Calculus"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 2810U",
+      "name": "Computer Architecture"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 2820U",
+      "name": "Algorithms and Data Structures"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

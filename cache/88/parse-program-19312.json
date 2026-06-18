@@ -1,0 +1,288 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19312",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "LBAT 2000U",
+      "name": "Introduction to Liberal Studies"
+    },
+    {
+      "id": "r2",
+      "type": "option",
+      "year": 3,
+      "label": "One of (1/3)",
+      "options": [
+        {
+          "code": "COMM 1100U",
+          "name": "Introduction to Communication and Digital Media Studies"
+        },
+        {
+          "code": "CRMN 1000U",
+          "name": "Introduction to Criminology and Justice"
+        },
+        {
+          "code": "LGLS 1000U",
+          "name": "Foundations of Legal Studies"
+        },
+        {
+          "code": "POSC 1000U",
+          "name": "Introduction to Political Science"
+        },
+        {
+          "code": "PSYC 1000U",
+          "name": "Introductory Psychology"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "type": "option",
+      "year": 3,
+      "label": "One of (2/3)",
+      "options": [
+        {
+          "code": "COMM 1100U",
+          "name": "Introduction to Communication and Digital Media Studies"
+        },
+        {
+          "code": "CRMN 1000U",
+          "name": "Introduction to Criminology and Justice"
+        },
+        {
+          "code": "LGLS 1000U",
+          "name": "Foundations of Legal Studies"
+        },
+        {
+          "code": "POSC 1000U",
+          "name": "Introduction to Political Science"
+        },
+        {
+          "code": "PSYC 1000U",
+          "name": "Introductory Psychology"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "option",
+      "year": 3,
+      "label": "One of (3/3)",
+      "options": [
+        {
+          "code": "COMM 1100U",
+          "name": "Introduction to Communication and Digital Media Studies"
+        },
+        {
+          "code": "CRMN 1000U",
+          "name": "Introduction to Criminology and Justice"
+        },
+        {
+          "code": "LGLS 1000U",
+          "name": "Foundations of Legal Studies"
+        },
+        {
+          "code": "POSC 1000U",
+          "name": "Introduction to Political Science"
+        },
+        {
+          "code": "PSYC 1000U",
+          "name": "Introductory Psychology"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "COMM 2210U",
+          "name": "Researching Communication and Digital Culture"
+        },
+        {
+          "code": "LGLS 2940U",
+          "name": "Legal Research Methods"
+        },
+        {
+          "code": "PSYC 2900U",
+          "name": "Research Methods in Psychology"
+        },
+        {
+          "code": "SSCI 2900U",
+          "name": "Research Methods"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "type": "elective",
+      "year": 3,
+      "elecType": "fssh",
+      "label": "FSSH electives"
+    },
+    {
+      "id": "r7",
+      "type": "elective",
+      "year": 3,
+      "elecType": "fssh",
+      "label": "FSSH electives"
+    },
+    {
+      "id": "r8",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 4,
+      "code": "LBAT 4000U",
+      "name": "Liberal Studies Capstone"
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelFssh",
+      "label": "3000- or 4000-level FSSH electives",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelFssh",
+      "label": "3000- or 4000-level FSSH electives",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r14",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelFssh",
+      "label": "3000- or 4000-level FSSH electives",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r15",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelFssh",
+      "label": "3000- or 4000-level FSSH electives",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r16",
+      "type": "elective",
+      "year": 4,
+      "elecType": "2000Or3000Or4000LevelGeneral",
+      "label": "2000- or 3000- or 4000-level general electives",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r17",
+      "type": "elective",
+      "year": 4,
+      "elecType": "2000Or3000Or4000LevelGeneral",
+      "label": "2000- or 3000- or 4000-level general electives",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 4,
+      "elecType": "2000Or3000Or4000LevelGeneral",
+      "label": "2000- or 3000- or 4000-level general electives",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 4,
+      "elecType": "2000Or3000Or4000LevelGeneral",
+      "label": "2000- or 3000- or 4000-level general electives",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 4,
+      "elecType": "4000LevelGeneral",
+      "label": "4000-level general elective",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "fssh": "FSSH electives",
+    "general": "general electives",
+    "3000Or4000LevelFssh": "3000- or 4000-level FSSH electives",
+    "2000Or3000Or4000LevelGeneral": "2000- or 3000- or 4000-level general electives",
+    "4000LevelGeneral": "4000-level general elective"
+  },
+  "elecFilterRules": {
+    "3000Or4000LevelFssh": {
+      "minLevel": 3000,
+      "maxLevel": 4999
+    },
+    "2000Or3000Or4000LevelGeneral": {
+      "minLevel": 2000,
+      "maxLevel": 4999
+    },
+    "4000LevelGeneral": {
+      "minLevel": 4000,
+      "maxLevel": 4999
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 14,
+  "elecRestrictionSum": 0
+}

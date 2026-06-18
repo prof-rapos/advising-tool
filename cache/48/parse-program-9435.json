@@ -1,0 +1,55 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=9435",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1110U",
+      "name": "Foundations of Adult Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1120U",
+      "name": "Foundations of Digital Teaching and Learning Technologies"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2140U",
+      "name": "Creating Digital Tools"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2110U",
+      "name": "Assessment for Learning"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4120U",
+      "name": "Serious Gaming and Simulations"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1100U",
+      "name": "Problem and Inquiry Based Learning"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,104 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10962",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 1040U",
+      "name": "Introduction to Programming for Scientists"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 2000U",
+      "name": "Scientific Data Analysis"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 2010U",
+      "name": "Data Structures"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 3030U",
+      "name": "Database Systems and Concepts"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 3031U",
+      "name": "Databases for Scientists"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4030U",
+      "name": "Big Data Analytics"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4050U",
+      "name": "Machine Learning, Theory and Application"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4150U",
+      "name": "Data Mining"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4210U",
+      "name": "Information Visualization"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 3010U",
+      "name": "Simulation and Modelling"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4060U",
+      "name": "Massively Parallel Programming"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4220U",
+      "name": "Computer Vision"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4610U",
+      "name": "Artificial Intelligence"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

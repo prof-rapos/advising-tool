@@ -1,0 +1,172 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=62&poid=13214",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2500U",
+      "name": "Business Simulation and Analytics"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3504U",
+      "name": "Databases, Data Warehouses and Business Intelligence"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3550U",
+      "name": "Systems Analysis and Design"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 1100U",
+      "name": "Programming for Games I"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 1101U",
+      "name": "Introduction to Programming for IT"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2570U",
+      "name": "Cybercrime"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3330U",
+      "name": "The Management of Change"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3580U",
+      "name": "Network Systems"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3590U",
+      "name": "Design Thinking: A Human Centric Approach to Project Management"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4040U",
+      "name": "Emerging Trends in Technology Management"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4450U",
+      "name": "Business Applications of Blockchain and Cryptocurrencies"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4504U",
+      "name": "Advanced Business Intelligence"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4570U",
+      "name": "Strategic Information Technology Management"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4590U",
+      "name": "Special Topics in Technology Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 4611U",
+      "name": "Trust Systems"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 4680U",
+      "name": "IT Security Policies and Procedures"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "technologyManagementMinor": [
+      {
+        "code": "BUSI 2570U",
+        "name": "Cybercrime"
+      },
+      {
+        "code": "BUSI 3330U",
+        "name": "The Management of Change"
+      },
+      {
+        "code": "BUSI 3580U",
+        "name": "Network Systems"
+      },
+      {
+        "code": "BUSI 3590U",
+        "name": "Design Thinking: A Human Centric Approach to Project Management"
+      },
+      {
+        "code": "BUSI 4040U",
+        "name": "Emerging Trends in Technology Management"
+      },
+      {
+        "code": "BUSI 4450U",
+        "name": "Business Applications of Blockchain and Cryptocurrencies"
+      },
+      {
+        "code": "BUSI 4504U",
+        "name": "Advanced Business Intelligence"
+      },
+      {
+        "code": "BUSI 4570U",
+        "name": "Strategic Information Technology Management"
+      },
+      {
+        "code": "BUSI 4590U",
+        "name": "Special Topics in Technology Management"
+      },
+      {
+        "code": "INFR 4611U",
+        "name": "Trust Systems"
+      },
+      {
+        "code": "INFR 4680U",
+        "name": "IT Security Policies and Procedures"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

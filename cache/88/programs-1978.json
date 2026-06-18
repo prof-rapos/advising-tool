@@ -1,0 +1,94 @@
+[
+  {
+    "poid": 19241,
+    "name": "Engineering Co-op"
+  },
+  {
+    "poid": 19204,
+    "name": "Engineering and Management programs"
+  },
+  {
+    "poid": 19101,
+    "name": "Automotive Engineering"
+  },
+  {
+    "poid": 19317,
+    "name": "Automotive Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 19102,
+    "name": "Electrical Engineering"
+  },
+  {
+    "poid": 19181,
+    "name": "Electrical Engineering – Smart Grid specialization"
+  },
+  {
+    "poid": 19252,
+    "name": "Energy Engineering"
+  },
+  {
+    "poid": 19253,
+    "name": "Industrial Engineering"
+  },
+  {
+    "poid": 19103,
+    "name": "Manufacturing Engineering"
+  },
+  {
+    "poid": 19319,
+    "name": "Manufacturing Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 19104,
+    "name": "Mechanical Engineering"
+  },
+  {
+    "poid": 19305,
+    "name": "Mechanical Engineering – Artificial Intelligence specialization"
+  },
+  {
+    "poid": 19105,
+    "name": "Mechanical Engineering – Energy Engineering specialization"
+  },
+  {
+    "poid": 19318,
+    "name": "Mechanical Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 19182,
+    "name": "Mechatronics Engineering"
+  },
+  {
+    "poid": 19304,
+    "name": "Mechatronics Engineering – Artificial Intelligence specialization"
+  },
+  {
+    "poid": 19316,
+    "name": "Mechatronics Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 19099,
+    "name": "Nuclear Engineering"
+  },
+  {
+    "poid": 19106,
+    "name": "Software Engineering"
+  },
+  {
+    "poid": 19192,
+    "name": "Software Engineering – Internet of Things specialization"
+  },
+  {
+    "poid": 19100,
+    "name": "Health Physics and Radiation Science"
+  },
+  {
+    "poid": 19206,
+    "name": "Health Physics minor"
+  },
+  {
+    "poid": 19323,
+    "name": "Nuclear Technology minor"
+  }
+]

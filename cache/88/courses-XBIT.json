@@ -1,0 +1,50 @@
+[
+  {
+    "code": "XBIT 1000C",
+    "name": "Foundations for Success in Co-op"
+  },
+  {
+    "code": "XBIT 1500U",
+    "name": "FBIT Student Success Workshop"
+  },
+  {
+    "code": "XBIT 2000W",
+    "name": "FBIT Co-op Work Term I"
+  },
+  {
+    "code": "XBIT 2500U",
+    "name": "FBIT Experience Workshop"
+  },
+  {
+    "code": "XBIT 3000W",
+    "name": "FBIT Co-op Work Term II"
+  },
+  {
+    "code": "XBIT 3500U",
+    "name": "FBIT Career Readiness Workshop"
+  },
+  {
+    "code": "XBIT 4000W",
+    "name": "FBIT Co-op Work Term III"
+  },
+  {
+    "code": "XBIT 4100W",
+    "name": "FBIT Co-op Work Term IV"
+  },
+  {
+    "code": "XBIT 4200W",
+    "name": "FBIT Co-op Work Term V"
+  },
+  {
+    "code": "XBIT 4500U",
+    "name": "Capstone Study Project"
+  },
+  {
+    "code": "XBIT 4600W",
+    "name": "Internship"
+  },
+  {
+    "code": "XBIT 4700U",
+    "name": "Venture Creation"
+  }
+]

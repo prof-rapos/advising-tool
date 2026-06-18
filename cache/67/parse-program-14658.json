@@ -1,0 +1,325 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14658",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1030U",
+      "name": "Writing and Critical Thinking"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1130U",
+      "name": "Introduction to Financial Accounting"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1450U",
+      "name": "Statistics for Business"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1520U",
+      "name": "Introduction to Business Analytics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1600U",
+      "name": "Management of the Enterprise"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1915U",
+      "name": "Fundamentals of Business Mathematics"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2040U",
+      "name": "Information Systems"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2180U",
+      "name": "Introduction to Managerial Accounting"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2200U",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2311U",
+      "name": "Organizational Behaviour"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2401U",
+      "name": "Finance I"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2603U",
+      "name": "Introduction to Operations Management"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3000U",
+      "name": "Business and Sustainability"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4701U",
+      "name": "Strategic Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "ECON 2010U",
+      "name": "Microeconomics"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "ECON 2020U",
+      "name": "Macroeconomics"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 1500U",
+      "name": "FBIT Student Success Workshop"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 2500U",
+      "name": "FBIT Experience Workshop"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 3500U",
+      "name": "FBIT Career Readiness Workshop"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4500U",
+      "name": "Capstone Study Project"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4600U",
+      "name": "Internship"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4700U",
+      "name": "Venture Creation"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3210U",
+      "name": "Consumer Behaviour"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3260U",
+      "name": "Marketing Research"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3503U",
+      "name": "E-Marketing"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4220U",
+      "name": "Marketing Strategy"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3200U",
+      "name": "Marketing Communications"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3230U",
+      "name": "Marketing Channels"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3250U",
+      "name": "Service Marketing"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3290U",
+      "name": "Marketing Management in Asia Pacific"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4210U",
+      "name": "High-Tech Marketing"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4230U",
+      "name": "Marketing Analytics"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4250U",
+      "name": "International Marketing"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4270U",
+      "name": "Business to Business Marketing"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4280U",
+      "name": "Social Media Marketing"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4290U",
+      "name": "Special Topics in Marketing"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4299U",
+      "name": "Directed Independent Studies in Marketing"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {
+    "threeOpenOneOf": {
+      "prefixes": [
+        "XBIT"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "marketing": [
+      {
+        "code": "BUSI 3200U",
+        "name": "Marketing Communications"
+      },
+      {
+        "code": "BUSI 3230U",
+        "name": "Marketing Channels"
+      },
+      {
+        "code": "BUSI 3250U",
+        "name": "Service Marketing"
+      },
+      {
+        "code": "BUSI 3290U",
+        "name": "Marketing Management in Asia Pacific"
+      },
+      {
+        "code": "BUSI 4210U",
+        "name": "High-Tech Marketing"
+      },
+      {
+        "code": "BUSI 4230U",
+        "name": "Marketing Analytics"
+      },
+      {
+        "code": "BUSI 4250U",
+        "name": "International Marketing"
+      },
+      {
+        "code": "BUSI 4270U",
+        "name": "Business to Business Marketing"
+      },
+      {
+        "code": "BUSI 4280U",
+        "name": "Social Media Marketing"
+      },
+      {
+        "code": "BUSI 4290U",
+        "name": "Special Topics in Marketing"
+      },
+      {
+        "code": "BUSI 4299U",
+        "name": "Directed Independent Studies in Marketing"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

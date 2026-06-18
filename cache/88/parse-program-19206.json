@@ -1,0 +1,110 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19206",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 2950U",
+      "name": "Radiation Protection"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4670U",
+      "name": "Shielding Design"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "RADI 4220U",
+      "name": "Radiation Biophysics and Dosimetry"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "RADI 4550U",
+      "name": "Radiation Detection and Measurement"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 2500U",
+      "name": "Interaction of Radiation with Matter"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "RADI 3200U",
+      "name": "Medical Imaging"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "RADI 3570U",
+      "name": "Environmental Effects of Radiation"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "RADI 4320U",
+      "name": "Therapeutic Applications of Radiation Techniques"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "RADI 4430U",
+      "name": "Industrial Applications of Radiation Techniques"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "RADI 4440U",
+      "name": "Radioisotopes and Radiation Machines"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "healthPhysicsMinor": [
+      {
+        "code": "NUCL 2500U",
+        "name": "Interaction of Radiation with Matter"
+      },
+      {
+        "code": "RADI 3200U",
+        "name": "Medical Imaging"
+      },
+      {
+        "code": "RADI 3570U",
+        "name": "Environmental Effects of Radiation"
+      },
+      {
+        "code": "RADI 4320U",
+        "name": "Therapeutic Applications of Radiation Techniques"
+      },
+      {
+        "code": "RADI 4430U",
+        "name": "Industrial Applications of Radiation Techniques"
+      },
+      {
+        "code": "RADI 4440U",
+        "name": "Radioisotopes and Radiation Machines"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

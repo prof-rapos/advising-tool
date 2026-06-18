@@ -1,0 +1,34 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6266",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2000U",
+      "name": "Canadian Politics"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2100U",
+      "name": "Global Politics"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

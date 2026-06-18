@@ -1,0 +1,58 @@
+[
+  {
+    "code": "CURS 4100U",
+    "name": "Curriculum Studies I: I/S Biology"
+  },
+  {
+    "code": "CURS 4101U",
+    "name": "Curriculum Studies II: I/S Biology"
+  },
+  {
+    "code": "CURS 4110U",
+    "name": "Curriculum Studies I: I/S English"
+  },
+  {
+    "code": "CURS 4111U",
+    "name": "Curriculum Studies II: I/S English"
+  },
+  {
+    "code": "CURS 4140U",
+    "name": "Curriculum Studies I: I/S Mathematics"
+  },
+  {
+    "code": "CURS 4141U",
+    "name": "Curriculum Studies II: I/S Mathematics"
+  },
+  {
+    "code": "CURS 4180U",
+    "name": "Curriculum Studies I: I/S General Science"
+  },
+  {
+    "code": "CURS 4181U",
+    "name": "Curriculum Studies II: I/S General Science"
+  },
+  {
+    "code": "CURS 4501U",
+    "name": "Curriculum Studies I: I/S History"
+  },
+  {
+    "code": "CURS 4502U",
+    "name": "Curriculum Studies II: I/S History"
+  },
+  {
+    "code": "CURS 4503U",
+    "name": "Curriculum Studies I: I/S Health and Physical Education"
+  },
+  {
+    "code": "CURS 4504U",
+    "name": "Curriculum Studies II: I/S Health and Physical Education"
+  },
+  {
+    "code": "CURS 4301U",
+    "name": "Curriculum Studies I: I/S Chemistry/Physics"
+  },
+  {
+    "code": "CURS 4302U",
+    "name": "Curriculum Studies II: I/S Chemistry/Physics"
+  }
+]

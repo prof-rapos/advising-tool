@@ -1,0 +1,110 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6212",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 2020U",
+      "name": "Software Systems Development and Integration"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 2040U",
+      "name": "Software Design and Analysis"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 2140U",
+      "name": "Object Oriented Programming"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 2810U",
+      "name": "Computer Architecture"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4060U",
+      "name": "Massively Parallel Programming"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4100U",
+      "name": "Mobile Devices"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4160U",
+      "name": "Interactive Media"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 4640U",
+      "name": "Distributed Computing"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 4450U",
+      "name": "Advanced Computer Graphics for Games"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 4800U",
+      "name": "Debugging Techniques"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "gameProgrammingMinor": [
+      {
+        "code": "CSCI 4060U",
+        "name": "Massively Parallel Programming"
+      },
+      {
+        "code": "CSCI 4100U",
+        "name": "Mobile Devices"
+      },
+      {
+        "code": "CSCI 4160U",
+        "name": "Interactive Media"
+      },
+      {
+        "code": "CSCI 4640U",
+        "name": "Distributed Computing"
+      },
+      {
+        "code": "INFR 4450U",
+        "name": "Advanced Computer Graphics for Games"
+      },
+      {
+        "code": "INFR 4800U",
+        "name": "Debugging Techniques"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

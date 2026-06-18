@@ -1,0 +1,283 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19234",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1130U",
+      "name": "Introduction to Financial Accounting"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1701U",
+      "name": "Information Literacy and Written Communication for the Health Sciences"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1810U",
+      "name": "Health Promotion and Healthy Active Living"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1811U",
+      "name": "Social Determinants of Health"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2030U",
+      "name": "Interpersonal and Interprofessional Communication"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2201U",
+      "name": "Introduction to Health Information Management"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2601U",
+      "name": "Introduction to Health Services Management"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2802U",
+      "name": "Introduction to the Canadian Healthcare System"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3230U",
+      "name": "Organizational Behaviour in Health Care"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3501U",
+      "name": "Health Law"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3630U",
+      "name": "Health Finance"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3631U",
+      "name": "Health Policy and Process"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3805U",
+      "name": "Introduction to Epidemiology"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3820U",
+      "name": "Public Health I"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3821U",
+      "name": "Public Health II"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3824U",
+      "name": "Plagues, Pandemics, and People"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Public Health and Health Care Professionals"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4803U",
+      "name": "Global Health"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4851U",
+      "name": "Critical Perspectives on Health, Illness, and Healthcare"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4820U",
+      "name": "Interdisciplinary Collaboration"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3710U",
+      "name": "Ethics"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3823U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3632U",
+      "name": "Health Economics"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3203U",
+      "name": "Health Data Analytics in Canadian Health Care"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4621U",
+      "name": "Program Planning, Implementation and Evaluation in Public Health"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4620U",
+      "name": "Quality and Performance Management in Health Care"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4805U",
+      "name": "Non-communicable Diseases: Current Issues and Emerging Trends"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4822U",
+      "name": "Social Marketing for Public Health"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4823U",
+      "name": "Small Business Practice and Entrepreneurship for Health Professionals"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4850U",
+      "name": "Current Issues in Health Care"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4991U",
+      "name": "Case Study Analysis and Application for Bachelor of Health Administration Students"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4990U",
+      "name": "Practicum Placement"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4855U",
+      "name": "Human Resources Management in Healthcare"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3421U",
+      "name": "Gender, Sex and Women's Health"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 1002U",
+      "name": "Fundamentals of Sustainability II: Health &amp; Social Sciences"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "recommended": [
+      {
+        "code": "HLSC 3421U",
+        "name": "Gender, Sex and Women's Health"
+      },
+      {
+        "code": "SUST 1002U",
+        "name": "Fundamentals of Sustainability II: Health &amp; Social Sciences"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,272 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14522",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1300U",
+      "name": "Foundations I: Planning and Preparation + 22 days Field Experience"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1301U",
+      "name": "Learning and Development"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1302U",
+      "name": "P/J Digital Literacies I (Language Arts and Digital Technology)"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1315U",
+      "name": "The Arts Primary/Junior"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1330U",
+      "name": "P/J Mathematics Methods I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1370U",
+      "name": "P/J Science &amp; Technology Methods I"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1305U",
+      "name": "Foundations II: Curriculum Theory and Practice + 32 days Field Experience"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1306U",
+      "name": "P/J Digital Literacies/Social Studies II (Language Arts and Social Studies)"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1308U",
+      "name": "P/J Mathematical Thinking and Doing"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1314U",
+      "name": "P/J Health &amp; Physical Education"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1340U",
+      "name": "P/J Mathematics Methods II"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1380U",
+      "name": "P/J Science &amp; Technology Methods II"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2400U",
+      "name": "Equity and Diversity"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2401U",
+      "name": "Learning in Digital Contexts"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2402U",
+      "name": "Teaching for Inclusion: Special Needs and Individualized Education"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2404U",
+      "name": "Education Law, Policy and Ethics"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2406U",
+      "name": "Reflective Practice/Action Research"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2405U",
+      "name": "Foundations III: Long Range Planning and Assessment + 31 days Field Experience"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2407U",
+      "name": "Mental Health Issues in Schools"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2408U",
+      "name": "P/J Coding and Communication"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3201U",
+      "name": "Environmental Education"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3206U",
+      "name": "Teaching the Catholic Religion in Schools"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3208U",
+      "name": "Teaching Kindergarten"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3210U",
+      "name": "Teaching French in Schools"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3207U",
+      "name": "Teacher as Coach"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3205U",
+      "name": "Visual Arts: An Introduction to Indigenous Art"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3209U",
+      "name": "Outdoor Education"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3216U",
+      "name": "Teaching English Language Learners"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3200U",
+      "name": "Introduction to Indigenous Pedagogy"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3299U",
+      "name": "Special Topics in Education"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {
+    "educ2405uFoundationsIii": {
+      "prefixes": [
+        "EDUC"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "fall": [
+      {
+        "code": "EDUC 3201U",
+        "name": "Environmental Education"
+      },
+      {
+        "code": "EDUC 3206U",
+        "name": "Teaching the Catholic Religion in Schools"
+      },
+      {
+        "code": "EDUC 3208U",
+        "name": "Teaching Kindergarten"
+      },
+      {
+        "code": "EDUC 3210U",
+        "name": "Teaching French in Schools"
+      },
+      {
+        "code": "EDUC 3207U",
+        "name": "Teacher as Coach"
+      },
+      {
+        "code": "EDUC 3205U",
+        "name": "Visual Arts: An Introduction to Indigenous Art"
+      },
+      {
+        "code": "EDUC 3209U",
+        "name": "Outdoor Education"
+      },
+      {
+        "code": "EDUC 3216U",
+        "name": "Teaching English Language Learners"
+      },
+      {
+        "code": "EDUC 3200U",
+        "name": "Introduction to Indigenous Pedagogy"
+      },
+      {
+        "code": "EDUC 3299U",
+        "name": "Special Topics in Education"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

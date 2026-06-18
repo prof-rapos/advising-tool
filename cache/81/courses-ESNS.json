@@ -1,0 +1,38 @@
+[
+  {
+    "code": "ESNS 1200U",
+    "name": "Engineering Graphics and Design"
+  },
+  {
+    "code": "ESNS 2140U",
+    "name": "Problem Solving, Modelling and Simulation"
+  },
+  {
+    "code": "ESNS 2200U",
+    "name": "Technical System Visualization"
+  },
+  {
+    "code": "ESNS 3200U",
+    "name": "Technical Graphics and Design"
+  },
+  {
+    "code": "ESNS 3380U",
+    "name": "Strength of Materials"
+  },
+  {
+    "code": "ESNS 3385U",
+    "name": "Strength of Materials for Energy Systems"
+  },
+  {
+    "code": "ESNS 3740U",
+    "name": "Scientific Instrumentation"
+  },
+  {
+    "code": "ESNS 3750U",
+    "name": "Integrated Engineering Laboratory"
+  },
+  {
+    "code": "ESNS 4660U",
+    "name": "Risk Analysis Methods"
+  }
+]

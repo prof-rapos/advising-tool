@@ -1,0 +1,118 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14578",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3210U",
+      "name": "Forensic Psychology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2020U",
+      "name": "Social Psychology"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2030U",
+      "name": "Abnormal Psychology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3055U",
+      "name": "Treatment in Forensic Settings"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3060U",
+      "name": "Personality Psychology"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3110U",
+      "name": "Directed Laboratory Research in Forensic Psychology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3310U",
+      "name": "Confessions and Interrogations"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3320U",
+      "name": "Eyewitness Psychology"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3400U",
+      "name": "Investigative Psychology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3500U",
+      "name": "Stereotypes and Prejudice"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3900U",
+      "name": "Special Topics in Forensic Psychology I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3039U",
+      "name": "Children, Psychology and the Law"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

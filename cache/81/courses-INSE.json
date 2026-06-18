@@ -1,0 +1,38 @@
+[
+  {
+    "code": "INSE 2110U",
+    "name": "Health, Safety and Sustainability for Engineers"
+  },
+  {
+    "code": "INSE 2210U",
+    "name": "Operations Research I (Deterministic)"
+  },
+  {
+    "code": "INSE 3110U",
+    "name": "Operations Research II (Stochastic)"
+  },
+  {
+    "code": "INSE 3115U",
+    "name": "Workplace and Facilities Design"
+  },
+  {
+    "code": "INSE 3140U",
+    "name": "Lean Production Systems Engineering"
+  },
+  {
+    "code": "INSE 3142U",
+    "name": "Industrial Internet of Things"
+  },
+  {
+    "code": "INSE 3245U",
+    "name": "Industrial Data Analytics"
+  },
+  {
+    "code": "INSE 4170U",
+    "name": "Human‐System Integration (Human Machine Interface)"
+  },
+  {
+    "code": "INSE 4248U",
+    "name": "Industrial Cyber‐Physical Systems"
+  }
+]

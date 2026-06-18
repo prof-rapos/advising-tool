@@ -1,0 +1,377 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19221",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1010U",
+      "name": "Biology I: Molecular and Cellular Systems"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1020U",
+      "name": "Chemistry II"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1030U",
+      "name": "Introductory Physics"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1040U",
+      "name": "Physics for Biosciences"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1015U",
+      "name": "Mathematics for Bioscience"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 1,
+      "elecType": "general",
+      "label": "general elective"
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 2,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2020U",
+      "name": "Social Psychology"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2030U",
+      "name": "Psychopathology"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2900U",
+      "name": "Research Methods in Psychology"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2910U",
+      "name": "Data Analysis in Psychology"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 3060U",
+      "name": "Personality Psychology"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 3910U",
+      "name": "Advanced Data Analysis in Psychology"
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 3,
+      "elecType": "psychology",
+      "label": "Psychology electives"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": "psychology",
+      "label": "Psychology electives"
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 3,
+      "elecType": "psychology",
+      "label": "Psychology electives"
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 3,
+      "elecType": "psychology",
+      "label": "Psychology electives"
+    },
+    {
+      "id": "r26",
+      "type": "elective",
+      "year": 3,
+      "elecType": "science",
+      "label": "Science electives",
+      "filterRule": {
+        "prefixes": [
+          "BIOL",
+          "CHEM",
+          "CSCI",
+          "ENVS",
+          "FSCI",
+          "IMCS",
+          "MATH",
+          "NSCI",
+          "PHY",
+          "SCCO",
+          "SCIE",
+          "STAT",
+          "SUST"
+        ]
+      }
+    },
+    {
+      "id": "r27",
+      "type": "elective",
+      "year": 3,
+      "elecType": "science",
+      "label": "Science electives",
+      "filterRule": {
+        "prefixes": [
+          "BIOL",
+          "CHEM",
+          "CSCI",
+          "ENVS",
+          "FSCI",
+          "IMCS",
+          "MATH",
+          "NSCI",
+          "PHY",
+          "SCCO",
+          "SCIE",
+          "STAT",
+          "SUST"
+        ]
+      }
+    },
+    {
+      "id": "r28",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r29",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r30",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r31",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PSYC 4110U",
+          "name": "Honours Thesis in Psychology I"
+        },
+        {
+          "text": "Psychology elective"
+        }
+      ]
+    },
+    {
+      "id": "r32",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PSYC 4120U",
+          "name": "Honours Thesis in Psychology II"
+        },
+        {
+          "text": "Psychology elective"
+        }
+      ]
+    },
+    {
+      "id": "r33",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 4098U",
+          "name": "Practicum"
+        },
+        {
+          "code": "SSCI 4103W",
+          "name": "Internship"
+        },
+        {
+          "text": "Psychology elective"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology electives"
+    },
+    {
+      "id": "r35",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology electives"
+    },
+    {
+      "id": "r36",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology electives"
+    },
+    {
+      "id": "r37",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r38",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r39",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r40",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "general electives"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "general": "general elective",
+    "psychology": "Psychology electives",
+    "science": "Science electives"
+  },
+  "elecFilterRules": {
+    "science": {
+      "prefixes": [
+        "BIOL",
+        "CHEM",
+        "CSCI",
+        "ENVS",
+        "FSCI",
+        "IMCS",
+        "MATH",
+        "NSCI",
+        "PHY",
+        "SCCO",
+        "SCIE",
+        "STAT",
+        "SUST"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 19,
+  "elecRestrictionSum": 0
+}

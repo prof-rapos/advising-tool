@@ -1,0 +1,386 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10882",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "Elective ( CSCI 1040U recommended)",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ]
+      }
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1000U",
+      "name": "Foundations in Bioscience"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1010U",
+      "name": "Biology I: Molecular and Cellular Systems"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1020U",
+      "name": "Chemistry II"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1015U",
+      "name": "Mathematics for Bioscience"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1030U",
+      "name": "Introductory Physics"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1040U",
+      "name": "Physics for Biosciences"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "Elective"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2010U",
+      "name": "Human Physiology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2020U",
+      "name": "Genetics and Molecular Biology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2030U",
+      "name": "Cell Biology"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2050U",
+      "name": "Human Anatomy"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2060U",
+      "name": "Fundamentals of Microbiology"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2080U",
+      "name": "Biochemistry I"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2020U",
+      "name": "Introduction to Organic Chemistry"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2120U",
+      "name": "Organic Chemistry"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2020U",
+      "name": "Statistics and Probability for Biological Science"
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 3020U",
+      "name": "Principles of Pharmacology and Toxicology"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 3040U",
+      "name": "Animal Physiology"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 3060U",
+      "name": "Fundamentals of Neuroscience"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 3080U",
+      "name": "Biochemistry II"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 3650U",
+      "name": "Fundamentals of Nutrition"
+    },
+    {
+      "id": "r31",
+      "type": "elective",
+      "year": 4,
+      "elecType": "seniorBiology",
+      "label": "Senior Biology elective",
+      "filterRule": {
+        "prefixes": [
+          "BIOL"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r35",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r36",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "BIOL 4080U",
+      "name": "Bioethics"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "BIOL 4820U",
+      "name": "Neuropharmacology"
+    },
+    {
+      "id": "r39",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "BIOL 4410U",
+          "name": "Biology Thesis Project I"
+        },
+        {
+          "text": "Senior Biology elective"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "BIOL 4420U",
+          "name": "Biology Thesis Project II"
+        },
+        {
+          "text": "Senior Biology elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {
+    "science": 1,
+    "biology": 4,
+    "nonscience": 4,
+    "general": 4
+  },
+  "elecSubsets": {
+    "biology": "science"
+  },
+  "elecLabels": {
+    "science": "Science",
+    "biology": "Biology",
+    "nonscience": "Non-Science",
+    "general": "General",
+    "seniorBiology": "Senior Biology elective"
+  },
+  "elecFilterRules": {
+    "seniorBiology": {
+      "prefixes": [
+        "BIOL"
+      ],
+      "minLevel": 3000
+    },
+    "biology": {
+      "prefixes": [
+        "BIOL"
+      ]
+    },
+    "nonscience": {
+      "prefixes": [
+        "ALSU",
+        "ARTE",
+        "AUTE",
+        "BUSI",
+        "COMM",
+        "CRMN",
+        "CURS",
+        "ECON",
+        "EDST",
+        "EDUC",
+        "ELEE",
+        "ENEE",
+        "ENGR",
+        "ENSY",
+        "ESNS",
+        "FPSY",
+        "HLSC",
+        "INDG",
+        "INFR",
+        "INSE",
+        "KINE",
+        "LEAP",
+        "LGLS",
+        "MANE",
+        "MECE",
+        "METE",
+        "MLSC",
+        "NUCL",
+        "NURS",
+        "POSC",
+        "PSYC",
+        "RADI",
+        "SIMU",
+        "SOCI",
+        "SOFE",
+        "SSCI",
+        "XBIT"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 13,
+  "elecRestrictionSum": 13
+}

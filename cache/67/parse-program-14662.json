@@ -1,0 +1,302 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14662",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1130U",
+      "name": "Introduction to Financial Accounting"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1600U",
+      "name": "Management of the Enterprise"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 1200U",
+      "name": "Human Anatomy &amp; Physiology I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 1701U",
+      "name": "Information Literacy and Written Communication for the Health Sciences"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 1810U",
+      "name": "Health Promotion and Healthy Active Living"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 1811U",
+      "name": "Social Determinants of Health"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "HLSC 2030U",
+      "name": "Interpersonal and Inter-professional Communication"
+    },
+    {
+      "id": "r8",
+      "type": "elective",
+      "year": 1,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 1,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 1,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2000U",
+      "name": "Collaborative Leadership"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2180U",
+      "name": "Introduction to Managerial Accounting"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2200U",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 2603U",
+      "name": "Introduction to Operations Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2201U",
+      "name": "Introduction to Health Information Management"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2601U",
+      "name": "Introduction to Health Services Management"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2802U",
+      "name": "Introduction to the Canadian Healthcare System"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 3820U",
+      "name": "Public Health I"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 3821U",
+      "name": "Public Health II"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 2040U",
+      "name": "Information Systems"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 3700U",
+      "name": "Strategic Management for Professionals"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3501U",
+      "name": "Health Law"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3630U",
+      "name": "Health Finance"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3631U",
+      "name": "Health Policy and Process"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3632U",
+      "name": "Health Economics"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3710U",
+      "name": "Ethics"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3805U",
+      "name": "Introduction to Epidemiology"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3823U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Health Care Professionals: Theory and Application"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 3230U",
+      "name": "Organizational Behaviour in Health Care"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 4620U",
+      "name": "Quality and Performance Management in Health Care"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 4621U",
+      "name": "Program Planning, Implementation and Evaluation in Public Health"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 4823U",
+      "name": "Small Business Practice and Entrepreneurship for Health Professionals"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 4850U",
+      "name": "Current Issues in Health Care"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 4990U",
+      "name": "Practicum Placement"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 4991U",
+      "name": "Case Study Analysis and Application for Bachelor of Health Administration Students"
+    },
+    {
+      "id": "r38",
+      "type": "elective",
+      "year": 4,
+      "elecType": "30004000LevelHealthScienceOptions",
+      "label": "3000/4000 level Health Science options",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r39",
+      "type": "elective",
+      "year": 4,
+      "elecType": "30004000LevelHealthScienceOptions",
+      "label": "3000/4000 level Health Science options",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "open": "open electives",
+    "30004000LevelHealthScienceOptions": "3000/4000 level Health Science options"
+  },
+  "elecFilterRules": {
+    "30004000LevelHealthScienceOptions": {
+      "minLevel": 3000,
+      "maxLevel": 4999
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 5,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "code": "METE 3100U",
+    "name": "Actuators and Power Electronics"
+  },
+  {
+    "code": "METE 3200U",
+    "name": "Sensors and Instrumentation"
+  },
+  {
+    "code": "METE 3350U",
+    "name": "Microprocessors and Digital Systems"
+  },
+  {
+    "code": "METE 4100U",
+    "name": "Mechatronics Design"
+  },
+  {
+    "code": "METE 4200U",
+    "name": "Industrial Automation"
+  },
+  {
+    "code": "METE 4300U",
+    "name": "Introduction to Mobile Robotics"
+  },
+  {
+    "code": "METE 4400U",
+    "name": "Introduction to Real-Time Embedded Systems"
+  }
+]

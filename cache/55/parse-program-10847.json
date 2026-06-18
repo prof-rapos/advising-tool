@@ -1,0 +1,146 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10847",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1020U",
+      "name": "Essential Mathematics for Games I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1030U",
+      "name": "Essential Mathematics for Games II"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1100U",
+      "name": "Programming for Games I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1110U",
+      "name": "Programming for Games II"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1315U",
+      "name": "Visual Narrative Foundations"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1325U",
+      "name": "Introduction to 2D Animation for Games"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1330U",
+      "name": "Basic Introduction to Game Design"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1335U",
+      "name": "Digital Game Design"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1395U",
+      "name": "Game Development Workshop I"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1396U",
+      "name": "Game Development Workshop II"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "BUSI 1600U",
+      "name": "Management of the Enterprise"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2395U",
+      "name": "Game Development Workshop III"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2396U",
+      "name": "Game Development Workshop IV"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 2550U",
+      "name": "Introduction to Project Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3395U",
+      "name": "Game Development Workshop V"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3396U",
+      "name": "Game Development Workshop VI"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4560U",
+      "name": "Law and Ethics in Game Development"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4395U",
+      "name": "Game Development Workshop VII"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4396U",
+      "name": "Game Development Workshop VIII"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

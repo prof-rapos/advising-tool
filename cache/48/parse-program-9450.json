@@ -1,0 +1,84 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=9450",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3800U",
+      "name": "International Business"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3810U",
+      "name": "International Management"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3290U",
+      "name": "Marketing Management in Asia Pacific"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3480U",
+      "name": "International Finance"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4250U",
+      "name": "International Marketing"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4650U",
+      "name": "Global Operations and Supply Chain Management"
+    }
+  ],
+  "elecRestrictions": {
+    "business": 6
+  },
+  "elecSubsets": {},
+  "elecLabels": {
+    "business": "Business"
+  },
+  "elecFilterRules": {
+    "business": {
+      "prefixes": [
+        "BUSI"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "internationalBusinessMinor": [
+      {
+        "code": "BUSI 3290U",
+        "name": "Marketing Management in Asia Pacific"
+      },
+      {
+        "code": "BUSI 3480U",
+        "name": "International Finance"
+      },
+      {
+        "code": "BUSI 4250U",
+        "name": "International Marketing"
+      },
+      {
+        "code": "BUSI 4650U",
+        "name": "Global Operations and Supply Chain Management"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 6
+}

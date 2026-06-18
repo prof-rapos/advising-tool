@@ -1,0 +1,507 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19131",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 1040U",
+      "name": "Introduction to Programming for Scientists"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 2050U",
+      "name": "Linear Algebra"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 2060U",
+      "name": "Modern Physics"
+    },
+    {
+      "id": "r7",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "BIOL 1010U",
+          "name": "Biology I: Molecular and Cellular Systems"
+        },
+        {
+          "code": "BIOL 1011U",
+          "name": "Introductory Cell and Molecular Biology"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "BIOL 1020U",
+          "name": "Biology II: Diversity of Life and Principles of Ecology"
+        },
+        {
+          "code": "BIOL 1021U",
+          "name": "Introduction to Organismal Biology and Ecology"
+        },
+        {
+          "code": "CHEM 1020U",
+          "name": "Chemistry II"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 1000U",
+          "name": "Introductory Calculus"
+        },
+        {
+          "code": "MATH 1010U",
+          "name": "Calculus I"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 1010U",
+          "name": "Physics I"
+        },
+        {
+          "code": "PHY 1030U",
+          "name": "Introductory Physics"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2000U",
+      "name": "Scientific Data Analysis"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2015U",
+      "name": "Calculus III"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2060U",
+      "name": "Differential Equations"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "PHY 2010U",
+      "name": "Electricity and Magnetism I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "PHY 2030U",
+      "name": "Mechanics I"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "PHY 2050U",
+      "name": "Thermodynamics and Heat Transfer"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "PHY 2040U",
+      "name": "Mechanics II"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "PHY 2900U",
+      "name": "Astronomy I"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "PHY 3900U",
+      "name": "Astronomy II"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2010U",
+      "name": "Statistics and Probability for Physical Science"
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 3,
+      "elecType": "seniorAstrophysics",
+      "label": "Senior Astrophysics elective",
+      "filterRule": {
+        "prefixes": [
+          "PHY"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 3,
+      "elecType": "seniorPhysics",
+      "label": "Senior Physics elective",
+      "filterRule": {
+        "prefixes": [
+          "PHY"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "PHY 3010U",
+      "name": "Statistical Mechanics"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "PHY 3020U",
+      "name": "Quantum Mechanics I"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "PHY 3030U",
+      "name": "Experimental Methods in Physics I"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "PHY 3040U",
+      "name": "Applied Partial Differential Equations"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "PHY 3050U",
+      "name": "Experimental Methods in Physics II"
+    },
+    {
+      "id": "r31",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": "seniorAstrophysics",
+      "label": "Senior Astrophysics elective",
+      "filterRule": {
+        "prefixes": [
+          "PHY"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r35",
+      "type": "elective",
+      "year": 4,
+      "elecType": "seniorPhysics",
+      "label": "Senior Physics elective",
+      "filterRule": {
+        "prefixes": [
+          "PHY"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "PHY 3080U",
+      "name": "Electricity and Magnetism II"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "PHY 4010U",
+      "name": "Condensed Matter"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "PHY 4020U",
+      "name": "Quantum Mechanics II"
+    },
+    {
+      "id": "r39",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 4410U",
+          "name": "Physics Thesis Project I"
+        },
+        {
+          "text": "Senior Science elective"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 4420U",
+          "name": "Physics Thesis Project II"
+        },
+        {
+          "text": "Senior Science elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {
+    "physics": 10,
+    "nonscience": 4
+  },
+  "elecSubsets": {
+    "physics": "science"
+  },
+  "elecLabels": {
+    "physics": "Physics",
+    "nonscience": "Non-Science",
+    "seniorAstrophysics": "Senior Astrophysics elective",
+    "seniorPhysics": "Senior Physics elective"
+  },
+  "elecFilterRules": {
+    "seniorAstrophysics": {
+      "prefixes": [
+        "PHY"
+      ],
+      "minLevel": 3000
+    },
+    "seniorPhysics": {
+      "prefixes": [
+        "PHY"
+      ],
+      "minLevel": 3000
+    },
+    "physics": {
+      "prefixes": [
+        "PHY"
+      ]
+    },
+    "nonscience": {
+      "prefixes": [
+        "ALSU",
+        "ARTE",
+        "AUTE",
+        "BUSI",
+        "COMM",
+        "CRMN",
+        "CURS",
+        "ECON",
+        "EDST",
+        "EDUC",
+        "ELEE",
+        "ENEE",
+        "ENGR",
+        "ENSY",
+        "ESNS",
+        "FPSY",
+        "HLSC",
+        "INDG",
+        "INFR",
+        "INSE",
+        "KINE",
+        "LEAP",
+        "LGLS",
+        "MANE",
+        "MECE",
+        "METE",
+        "MLSC",
+        "NUCL",
+        "NURS",
+        "POSC",
+        "PSYC",
+        "RADI",
+        "SIMU",
+        "SOCI",
+        "SOFE",
+        "SSCI",
+        "XBIT"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "recommendedSeniorAstrophysicsThatStudentsMayChooseToTakeInclude": [
+      {
+        "code": "PHY 4910U",
+        "name": "Techniques of Modern Astrophysics"
+      },
+      {
+        "code": "PHY 4920U",
+        "name": "Cosmology"
+      }
+    ],
+    "recommendedSeniorScienceThatStudentsMayChooseToTakeInclude": [
+      {
+        "code": "CSCI 3010U",
+        "name": "Simulation and Modelling"
+      },
+      {
+        "code": "CSCI 3070U",
+        "name": "Analysis and Design of Algorithms"
+      },
+      {
+        "code": "CSCI 3090U",
+        "name": "Computer Graphics and Visualization"
+      },
+      {
+        "code": "MATH 3040U",
+        "name": "Optimization"
+      },
+      {
+        "code": "MATH 3050U",
+        "name": "Mathematical Modelling"
+      },
+      {
+        "code": "STAT 3010U",
+        "name": "Biostatistics"
+      },
+      {
+        "code": "PHY 3060U",
+        "name": "Fluid Dynamics"
+      },
+      {
+        "code": "PHY 3510U",
+        "name": "Biophysics"
+      },
+      {
+        "code": "PHY 4030U",
+        "name": "Topics in Contemporary Physics I"
+      },
+      {
+        "code": "PHY 4040U",
+        "name": "Solar Energy and Photovoltaics"
+      },
+      {
+        "code": "PHY 4060U",
+        "name": "Topics in Contemporary Physics II"
+      },
+      {
+        "code": "PHY 4130U",
+        "name": "Particle Physics"
+      },
+      {
+        "code": "PHY 4510U",
+        "name": "Physics of Nanotechnology"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 10,
+  "elecRestrictionSum": 14
+}

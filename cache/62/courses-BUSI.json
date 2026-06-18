@@ -1,0 +1,494 @@
+[
+  {
+    "code": "BUSI 1010U",
+    "name": "Critical Thinking and Ethics"
+  },
+  {
+    "code": "BUSI 1020U",
+    "name": "Business Communications"
+  },
+  {
+    "code": "BUSI 1030U",
+    "name": "Writing and Critical Thinking"
+  },
+  {
+    "code": "BUSI 1130U",
+    "name": "Introduction to Financial Accounting"
+  },
+  {
+    "code": "BUSI 1450U",
+    "name": "Statistics for Business"
+  },
+  {
+    "code": "BUSI 1520U",
+    "name": "Introduction to Business Analytics"
+  },
+  {
+    "code": "BUSI 1600U",
+    "name": "Management of the Enterprise"
+  },
+  {
+    "code": "BUSI 1700U",
+    "name": "Introduction to Entrepreneurship"
+  },
+  {
+    "code": "BUSI 1915U",
+    "name": "Fundamentals of Business Mathematics"
+  },
+  {
+    "code": "BUSI 1916U",
+    "name": "Mathematical Analysis for Business"
+  },
+  {
+    "code": "BUSI 1917U",
+    "name": "Mathematics of Dependent Relationships in Business"
+  },
+  {
+    "code": "BUSI 2000U",
+    "name": "Collaborative Leadership"
+  },
+  {
+    "code": "BUSI 2020U",
+    "name": "New Topics in Business"
+  },
+  {
+    "code": "BUSI 2040U",
+    "name": "Information Systems"
+  },
+  {
+    "code": "BUSI 2050U",
+    "name": "Managerial Economics"
+  },
+  {
+    "code": "BUSI 2120U",
+    "name": "Accounting for IT"
+  },
+  {
+    "code": "BUSI 2130U",
+    "name": "Intermediate Financial Accounting I"
+  },
+  {
+    "code": "BUSI 2160U",
+    "name": "Financial Accounting II"
+  },
+  {
+    "code": "BUSI 2180U",
+    "name": "Introduction to Managerial Accounting"
+  },
+  {
+    "code": "BUSI 2200U",
+    "name": "Marketing Management"
+  },
+  {
+    "code": "BUSI 2205U",
+    "name": "Principles of Marketing"
+  },
+  {
+    "code": "BUSI 2210U",
+    "name": "Marketing in the Information Technology Sector"
+  },
+  {
+    "code": "BUSI 2311U",
+    "name": "Organizational Behaviour"
+  },
+  {
+    "code": "BUSI 2312U",
+    "name": "Human Resources Management"
+  },
+  {
+    "code": "BUSI 2330u",
+    "name": "Managing Team Dynamics"
+  },
+  {
+    "code": "BUSI 2350U",
+    "name": "Developing Management Skills"
+  },
+  {
+    "code": "BUSI 2401U",
+    "name": "Principles of Finance"
+  },
+  {
+    "code": "BUSI 2402U",
+    "name": "Corporate Finance"
+  },
+  {
+    "code": "BUSI 2410U",
+    "name": "Managerial Finance"
+  },
+  {
+    "code": "BUSI 2500U",
+    "name": "Business Simulation and Analytics"
+  },
+  {
+    "code": "BUSI 2550U",
+    "name": "Introduction to Project Management"
+  },
+  {
+    "code": "BUSI 2560U",
+    "name": "Buyer Beware: The Psychology of Buying and Selling"
+  },
+  {
+    "code": "BUSI 2570U",
+    "name": "Cybercrime"
+  },
+  {
+    "code": "BUSI 2603U",
+    "name": "Introduction to Operations Management"
+  },
+  {
+    "code": "BUSI 2620U",
+    "name": "Business Ethics"
+  },
+  {
+    "code": "BUSI 2700U",
+    "name": "Entrepreneurial Finance"
+  },
+  {
+    "code": "BUSI 3000U",
+    "name": "Business and Sustainability"
+  },
+  {
+    "code": "BUSI 3101U",
+    "name": "Intermediate Financial Accounting I"
+  },
+  {
+    "code": "BUSI 3102U",
+    "name": "Intermediate Financial Accounting II"
+  },
+  {
+    "code": "BUSI 3110U",
+    "name": "Introduction to Taxation"
+  },
+  {
+    "code": "BUSI 3120U",
+    "name": "Advanced Taxation"
+  },
+  {
+    "code": "BUSI 3130U",
+    "name": "Intermediate Financial Accounting II"
+  },
+  {
+    "code": "BUSI 3131U",
+    "name": "Intermediate Financial Accounting III"
+  },
+  {
+    "code": "BUSI 3142U",
+    "name": "Accounting Skills Workshop I"
+  },
+  {
+    "code": "BUSI 3150U",
+    "name": "Financial Statement Analysis"
+  },
+  {
+    "code": "BUSI 3160U",
+    "name": "Advanced Managerial Accounting"
+  },
+  {
+    "code": "BUSI 3170U",
+    "name": "Auditing Standards and Applications"
+  },
+  {
+    "code": "BUSI 3171U",
+    "name": "Advanced Auditing"
+  },
+  {
+    "code": "BUSI 3180U",
+    "name": "Intermediate Managerial Accounting"
+  },
+  {
+    "code": "BUSI 3200U",
+    "name": "Marketing Communications"
+  },
+  {
+    "code": "BUSI 3210U",
+    "name": "Consumer Behaviour"
+  },
+  {
+    "code": "BUSI 3211U",
+    "name": "Essentials of Consumer Behaviour"
+  },
+  {
+    "code": "BUSI 3230U",
+    "name": "Marketing Channels"
+  },
+  {
+    "code": "BUSI 3250U",
+    "name": "Service Marketing"
+  },
+  {
+    "code": "BUSI 3260U",
+    "name": "Marketing Research"
+  },
+  {
+    "code": "BUSI 3290U",
+    "name": "Marketing Management in Asia Pacific"
+  },
+  {
+    "code": "BUSI 3305U",
+    "name": "Recruitment and Selection"
+  },
+  {
+    "code": "BUSI 3312U",
+    "name": "Industrial and Labour Relations"
+  },
+  {
+    "code": "BUSI 3315U",
+    "name": "Negotiation Theory and Behaviour"
+  },
+  {
+    "code": "BUSI 3330U",
+    "name": "The Management of Change"
+  },
+  {
+    "code": "BUSI 3340U",
+    "name": "Human Resource Planning"
+  },
+  {
+    "code": "BUSI 3360U",
+    "name": "Occupational Health and Safety"
+  },
+  {
+    "code": "BUSI 3370U",
+    "name": "Employment and Labour Laws"
+  },
+  {
+    "code": "BUSI 3380U",
+    "name": "Compensation and Benefits"
+  },
+  {
+    "code": "BUSI 3390U",
+    "name": "Training and Development"
+  },
+  {
+    "code": "BUSI 3405U",
+    "name": "Equity Asset Analysis"
+  },
+  {
+    "code": "BUSI 3410U",
+    "name": "Financial Institutions"
+  },
+  {
+    "code": "BUSI 3420U",
+    "name": "Derivative Securities"
+  },
+  {
+    "code": "BUSI 3430U",
+    "name": "Personal Finance"
+  },
+  {
+    "code": "BUSI 3440U",
+    "name": "Financial Modelling"
+  },
+  {
+    "code": "BUSI 3450U",
+    "name": "Business Forecasting Techniques"
+  },
+  {
+    "code": "BUSI 3460U",
+    "name": "Fixed Income Strategies"
+  },
+  {
+    "code": "BUSI 3480U",
+    "name": "International Finance"
+  },
+  {
+    "code": "BUSI 3503U",
+    "name": "E-Marketing"
+  },
+  {
+    "code": "BUSI 3504U",
+    "name": "Databases, Data Warehouses and Business Intelligence"
+  },
+  {
+    "code": "BUSI 3550U",
+    "name": "Systems Analysis and Design"
+  },
+  {
+    "code": "BUSI 3580U",
+    "name": "Network Systems"
+  },
+  {
+    "code": "BUSI 3590U",
+    "name": "Design Thinking: A Human Centric Approach to Project Management"
+  },
+  {
+    "code": "BUSI 3601U",
+    "name": "Operations Analysis using Spreadsheets"
+  },
+  {
+    "code": "BUSI 3630U",
+    "name": "Logistics in the Supply Chain"
+  },
+  {
+    "code": "BUSI 3650U",
+    "name": "Innovation Management"
+  },
+  {
+    "code": "BUSI 3670U",
+    "name": "Risk Management Frameworks and Processes"
+  },
+  {
+    "code": "BUSI 3700U",
+    "name": "Strategic Management for Professionals"
+  },
+  {
+    "code": "BUSI 3705U",
+    "name": "Legal Environment of Business"
+  },
+  {
+    "code": "BUSI 3710U",
+    "name": "Small Business Management"
+  },
+  {
+    "code": "BUSI 3720U",
+    "name": "Family Business"
+  },
+  {
+    "code": "BUSI 3730U",
+    "name": "Creative Problem Solving, Entrepreneurship and Imagination"
+  },
+  {
+    "code": "BUSI 3750U",
+    "name": "Lean Start-up"
+  },
+  {
+    "code": "BUSI 3800U",
+    "name": "International Business"
+  },
+  {
+    "code": "BUSI 3810U",
+    "name": "International Management"
+  },
+  {
+    "code": "BUSI 3930U",
+    "name": "Leadership, Negotiation and Teamwork"
+  },
+  {
+    "code": "BUSI 4040U",
+    "name": "Emerging Trends in Technology Management"
+  },
+  {
+    "code": "BUSI 4101U",
+    "name": "Advanced Financial Accounting"
+  },
+  {
+    "code": "BUSI 4130U",
+    "name": "Advanced Financial Accounting"
+  },
+  {
+    "code": "BUSI 4142U",
+    "name": "Accounting Skills Workshop II"
+  },
+  {
+    "code": "BUSI 4180U",
+    "name": "Advanced Managerial Accounting"
+  },
+  {
+    "code": "BUSI 4190U",
+    "name": "Special Topics in Accounting"
+  },
+  {
+    "code": "BUSI 4210U",
+    "name": "High-Tech Marketing"
+  },
+  {
+    "code": "BUSI 4220U",
+    "name": "Marketing Strategy"
+  },
+  {
+    "code": "BUSI 4230U",
+    "name": "Marketing Analytics"
+  },
+  {
+    "code": "BUSI 4250U",
+    "name": "International Marketing"
+  },
+  {
+    "code": "BUSI 4270U",
+    "name": "Business to Business Marketing"
+  },
+  {
+    "code": "BUSI 4280U",
+    "name": "Social Media Marketing"
+  },
+  {
+    "code": "BUSI 4290U",
+    "name": "Special Topics in Marketing"
+  },
+  {
+    "code": "BUSI 4299U",
+    "name": "Directed Independent Studies in Marketing"
+  },
+  {
+    "code": "BUSI 4340U",
+    "name": "Business of Gaming"
+  },
+  {
+    "code": "BUSI 4390U",
+    "name": "Special Topics in Organizational Behaviour and Human Resources Management"
+  },
+  {
+    "code": "BUSI 4399U",
+    "name": "Directed Independent Study in Organizational Behaviour and Human Resources Management"
+  },
+  {
+    "code": "BUSI 4400U",
+    "name": "Electronic Trading and Exchange"
+  },
+  {
+    "code": "BUSI 4405U",
+    "name": "Portfolio and Investment Strategies"
+  },
+  {
+    "code": "BUSI 4410U",
+    "name": "Advanced Corporate Finance Applications"
+  },
+  {
+    "code": "BUSI 4440U",
+    "name": "Financial Econometrics"
+  },
+  {
+    "code": "BUSI 4450U",
+    "name": "Business Applications of Blockchain and Cryptocurrencies"
+  },
+  {
+    "code": "BUSI 4455U",
+    "name": "Student Managed Investment Fund I"
+  },
+  {
+    "code": "BUSI 4456U",
+    "name": "Student Managed Investment Fund II"
+  },
+  {
+    "code": "BUSI 4490U",
+    "name": "Special Topics in Finance"
+  },
+  {
+    "code": "BUSI 4504U",
+    "name": "Advanced Business Intelligence"
+  },
+  {
+    "code": "BUSI 4570U",
+    "name": "Strategic Information Technology Management"
+  },
+  {
+    "code": "BUSI 4590U",
+    "name": "Special Topics in Technology Management"
+  },
+  {
+    "code": "BUSI 4599U",
+    "name": "Directed Independent Studies in E-Business and E-Commerce"
+  },
+  {
+    "code": "BUSI 4650U",
+    "name": "Global Operations and Supply Chain Management"
+  },
+  {
+    "code": "BUSI 4701U",
+    "name": "Strategic Management"
+  },
+  {
+    "code": "BUSI 4710U",
+    "name": "Information Privacy Law and New Technologies"
+  }
+]

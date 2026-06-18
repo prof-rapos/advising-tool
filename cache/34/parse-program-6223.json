@@ -1,0 +1,398 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6223",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 1,
+      "elecType": "liberalStudies",
+      "label": "​Liberal Studies elective"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "COMM 1050U",
+      "name": "Technical Communications"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1010U",
+      "name": "Calculus I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 3200U",
+      "name": "Engineering Graphics and Design"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1800U",
+      "name": "Chemistry for Engineers"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1200U",
+      "name": "Introduction to Programming for Engineers"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "ENVS 1000U",
+      "name": "Environmental Science"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 1,
+      "code": "NUCL 1530U",
+      "name": "Radiation and Nuclear Technologies"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "ELEE 2790U",
+      "name": "Electric Circuits"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "MANE 2220U",
+      "name": "Structure and Properties of Materials"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2860U",
+      "name": "Differential Equations for Engineers"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "NUCL 2500U",
+      "name": "Introduction to Nuclear Physics"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "NUCL 2860U",
+      "name": "Fluid Mechanics"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "ESNS 2140U",
+      "name": "Problem Solving, Modelling and Simulation"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "NUCL 2010U",
+      "name": "Thermodynamic Cycles"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "NUCL 2950U",
+      "name": "Radiation Protection"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 2,
+      "code": "NUCL 3820U",
+      "name": "Nuclear Reactor Kinetics"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 2,
+      "code": "SSCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2800U",
+      "name": "Statistics and Probability for Engineers"
+    },
+    {
+      "id": "r24",
+      "type": "option",
+      "year": 2,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 2070U",
+          "name": "Numerical Methods"
+        },
+        {
+          "code": "MATH 2810U",
+          "name": "Advanced Engineering Mathematics"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "type": "elective",
+      "year": 3,
+      "elecType": "complementaryStudies",
+      "label": "Complementary Studies elective"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "NUCL 3740U",
+      "name": "Scientific Instrumentation"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "NUCL 3930U",
+      "name": "Heat Transfer"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "NUCL 4640U",
+      "name": "Nuclear Plant Operation"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "RADI 3570U",
+      "name": "Environmental Effects of Radiation"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "ESNS 3380U",
+      "name": "Strength of Materials"
+    },
+    {
+      "id": "r31",
+      "type": "elective",
+      "year": 3,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 3,
+      "code": "ENGR 3360U",
+      "name": "Engineering Economics"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 3,
+      "code": "NUCL 4730U",
+      "name": "Reactor Control"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 3,
+      "code": "NUCL 4610U",
+      "name": "Corrosion for Engineers"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 3,
+      "code": "NUCL 4780U",
+      "name": "Nuclear Reactor Design"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 3,
+      "code": "ESNS 3750U",
+      "name": "Integrated Engineering Laboratory"
+    },
+    {
+      "id": "r37",
+      "type": "elective",
+      "year": 4,
+      "elecType": "engineeringScience",
+      "label": "Engineering Science elective",
+      "filterRule": {
+        "prefixes": [
+          "BIOL",
+          "CHEM",
+          "CSCI",
+          "ENVS",
+          "FSCI",
+          "IMCS",
+          "MATH",
+          "NSCI",
+          "PHY",
+          "SCCO",
+          "SCIE",
+          "STAT",
+          "SUST"
+        ]
+      }
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "BUSI 3700U",
+      "name": "Strategic Management for Professionals"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 4,
+      "code": "NUCL 4625U",
+      "name": "Radioactive Waste Management Design"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 4,
+      "code": "NUCL 4700U",
+      "name": "Nuclear Plant Design and Simulation"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 4,
+      "code": "NUCL 4994U",
+      "name": "Capstone Design I"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 4,
+      "code": "ESNS 4660U",
+      "name": "Risk Analysis Methods"
+    },
+    {
+      "id": "r43",
+      "type": "elective",
+      "year": 4,
+      "elecType": "engineeringDesign",
+      "label": "Engineering Design elective"
+    },
+    {
+      "id": "r44",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4760U",
+      "name": "Ethics, Law and Professionalism for Engineers"
+    },
+    {
+      "id": "r45",
+      "type": "course",
+      "year": 4,
+      "code": "NUCL 4460U",
+      "name": "Nuclear Power Systems"
+    },
+    {
+      "id": "r46",
+      "type": "course",
+      "year": 4,
+      "code": "NUCL 4525U",
+      "name": "Nuclear Plant Safety Design"
+    },
+    {
+      "id": "r47",
+      "type": "course",
+      "year": 4,
+      "code": "NUCL 4810U",
+      "name": "Nuclear Fuel Cycles"
+    },
+    {
+      "id": "r48",
+      "type": "course",
+      "year": 4,
+      "code": "NUCL 4998U",
+      "name": "Capstone Design II"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "liberalStudies": "​Liberal Studies elective",
+    "complementaryStudies": "Complementary Studies elective",
+    "engineeringScience": "Engineering Science elective",
+    "engineeringDesign": "Engineering Design elective"
+  },
+  "elecFilterRules": {
+    "engineeringScience": {
+      "prefixes": [
+        "BIOL",
+        "CHEM",
+        "CSCI",
+        "ENVS",
+        "FSCI",
+        "IMCS",
+        "MATH",
+        "NSCI",
+        "PHY",
+        "SCCO",
+        "SCIE",
+        "STAT",
+        "SUST"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 5,
+  "elecRestrictionSum": 0
+}

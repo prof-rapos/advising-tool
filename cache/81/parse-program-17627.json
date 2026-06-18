@@ -1,0 +1,167 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=81&poid=17627",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 2000U",
+      "name": "Collaborative Leadership"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 2550U",
+      "name": "Introduction to Project Management"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 1016U",
+      "name": "Introductory Calculus"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 1550U",
+      "name": "Law and Ethics of IT"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 2421U",
+      "name": "Advanced Networking II"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 2670U",
+      "name": "Introduction to Cloud Services"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3600U",
+      "name": "Cryptography and Network Security"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3610U",
+      "name": "Operating System Security"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3810U",
+      "name": "Database Systems"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 3,
+      "elecType": "business",
+      "label": "Business Elective",
+      "filterRule": {
+        "prefixes": [
+          "BUSI"
+        ]
+      }
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 1400U",
+      "name": "Statistics and Probability for IT"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 2431U",
+      "name": "Advanced Networking III"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 3700U",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 3720U",
+      "name": "Basics of Digital Transmission"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4661U",
+      "name": "Introduction to Penetration Testing"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4680U",
+      "name": "IT Security Policies and Procedures"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4690U",
+      "name": "IT Forensics"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 4,
+      "code": "XBIT 4500U",
+      "name": "Capstone Study Project"
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "business": "Business Elective",
+    "technical": "technical electives"
+  },
+  "elecFilterRules": {
+    "business": {
+      "prefixes": [
+        "BUSI"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 3,
+  "elecRestrictionSum": 0
+}

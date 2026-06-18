@@ -1,0 +1,223 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=13087",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 1841U",
+      "name": "Essentials of Biology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2020U",
+      "name": "Social Psychology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2030U",
+      "name": "Abnormal Psychology"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2900U",
+      "name": "Research Methods"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2910U",
+      "name": "Data Analysis"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 3,
+      "elecType": "fssh",
+      "label": "FSSH elective (3000 level or above)",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 3999
+      }
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 3910U",
+      "name": "Advanced Data Analysis"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 4,
+      "code": "PSYC 4110U",
+      "name": "Honours Thesis in Psychology I"
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology elective"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 4,
+      "code": "PSYC 4120U",
+      "name": "Honours Thesis in Psychology II"
+    },
+    {
+      "id": "r15",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology elective"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 4098U",
+      "name": "Practicum"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 4103U",
+      "name": "Internship"
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology elective"
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology electives (PSYC or FPSY)",
+      "filterRule": {
+        "prefixes": [
+          "PSYC",
+          "FPSY"
+        ]
+      }
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology electives (PSYC or FPSY)",
+      "filterRule": {
+        "prefixes": [
+          "PSYC",
+          "FPSY"
+        ]
+      }
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology electives (PSYC or FPSY)",
+      "filterRule": {
+        "prefixes": [
+          "PSYC",
+          "FPSY"
+        ]
+      }
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology electives (PSYC or FPSY)",
+      "filterRule": {
+        "prefixes": [
+          "PSYC",
+          "FPSY"
+        ]
+      }
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 4,
+      "elecType": "fssh",
+      "label": "FSSH electives"
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 4,
+      "elecType": "fssh",
+      "label": "FSSH electives"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "fssh": "FSSH elective (3000 level or above)",
+    "psychology": "Psychology elective"
+  },
+  "elecFilterRules": {
+    "fssh": {
+      "minLevel": 3000,
+      "maxLevel": 3999
+    },
+    "psychology": {
+      "prefixes": [
+        "PSYC",
+        "FPSY"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 10,
+  "elecRestrictionSum": 0
+}

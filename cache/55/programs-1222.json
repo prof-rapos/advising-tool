@@ -1,0 +1,114 @@
+[
+  {
+    "poid": 10838,
+    "name": "Accounting"
+  },
+  {
+    "poid": 10927,
+    "name": "Commerce"
+  },
+  {
+    "poid": 10934,
+    "name": "Entrepreneurship"
+  },
+  {
+    "poid": 10840,
+    "name": "Finance"
+  },
+  {
+    "poid": 10842,
+    "name": "Marketing"
+  },
+  {
+    "poid": 10844,
+    "name": "Organizational Behaviour and Human Resources Management"
+  },
+  {
+    "poid": 10960,
+    "name": "Technology Management (Commerce)"
+  },
+  {
+    "poid": 10847,
+    "name": "Game Development and Interactive Media"
+  },
+  {
+    "poid": 10848,
+    "name": "Networking and Information Technology Security"
+  },
+  {
+    "poid": 10959,
+    "name": "Technology Management (IT)"
+  },
+  {
+    "poid": 10946,
+    "name": "Commerce – Advanced Entry"
+  },
+  {
+    "poid": 10846,
+    "name": "Commerce – Bridge"
+  },
+  {
+    "poid": 10855,
+    "name": "Information Technology Security – Bridge"
+  },
+  {
+    "poid": 10947,
+    "name": "Networking and IT Security – Advanced Entry"
+  },
+  {
+    "poid": 10839,
+    "name": "Accounting minor"
+  },
+  {
+    "poid": 10853,
+    "name": "Business minor (Networking and IT Security)"
+  },
+  {
+    "poid": 10950,
+    "name": "Entrepreneurship minor"
+  },
+  {
+    "poid": 10948,
+    "name": "Entrepreneurship minor for FBIT students"
+  },
+  {
+    "poid": 10949,
+    "name": "Entrepreneurship minor for students outside FBIT"
+  },
+  {
+    "poid": 10841,
+    "name": "Finance minor"
+  },
+  {
+    "poid": 10958,
+    "name": "Finance minor (Applied and Industrial Mathematics, and Physics)"
+  },
+  {
+    "poid": 10981,
+    "name": "International Business minor"
+  },
+  {
+    "poid": 10843,
+    "name": "Marketing minor (Commerce)"
+  },
+  {
+    "poid": 10849,
+    "name": "Marketing minor (IT)"
+  },
+  {
+    "poid": 10928,
+    "name": "Operations and Supply Chain Management minor"
+  },
+  {
+    "poid": 10852,
+    "name": "Operations Management minor"
+  },
+  {
+    "poid": 10845,
+    "name": "Organizational Behaviour and Human Resources Management minor"
+  },
+  {
+    "poid": 10961,
+    "name": "Technology Management minor"
+  }
+]

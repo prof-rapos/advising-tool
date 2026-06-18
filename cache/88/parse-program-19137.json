@@ -1,0 +1,76 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19137",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 1030U",
+      "name": "Introduction to Computer Science"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 2000U",
+      "name": "Scientific Data Analysis"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 2010U",
+      "name": "Data Structures"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 3010U",
+      "name": "Simulation and Modelling"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 3090U",
+      "name": "Computer Graphics and Visualization"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 2072U",
+      "name": "Computational Science I"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 4020U",
+      "name": "Computational Science II"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CSCI 2110U",
+      "name": "Discrete Mathematics for Computer Scientists"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "MATH 2080U",
+      "name": "Discrete Mathematics"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

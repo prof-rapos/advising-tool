@@ -1,0 +1,130 @@
+[
+  {
+    "code": "NUCL 1530U",
+    "name": "Radiation and Nuclear Technologies"
+  },
+  {
+    "code": "NUCL 2010U",
+    "name": "Thermodynamic Cycles"
+  },
+  {
+    "code": "NUCL 2240U",
+    "name": "Nuclear Engineering Fundamentals"
+  },
+  {
+    "code": "NUCL 2500U",
+    "name": "Interaction of Radiation with Matter"
+  },
+  {
+    "code": "NUCL 2860U",
+    "name": "Fluid Mechanics"
+  },
+  {
+    "code": "NUCL 2950U",
+    "name": "Radiation Protection"
+  },
+  {
+    "code": "NUCL 3740U",
+    "name": "Scientific Instrumentation"
+  },
+  {
+    "code": "NUCL 3820U",
+    "name": "Nuclear Reactor Physics"
+  },
+  {
+    "code": "NUCL 3860U",
+    "name": "Introduction to Nuclear Reactor Technology"
+  },
+  {
+    "code": "NUCL 3930U",
+    "name": "Heat Transfer"
+  },
+  {
+    "code": "NUCL 4000U",
+    "name": "Special Topics in Nuclear Engineering"
+  },
+  {
+    "code": "NUCL 4360U",
+    "name": "Nuclear Plant Electric and Auxiliary Systems"
+  },
+  {
+    "code": "NUCL 4460U",
+    "name": "Nuclear Power Systems"
+  },
+  {
+    "code": "NUCL 4500U",
+    "name": "BWR Design and Construction"
+  },
+  {
+    "code": "NUCL 4510U",
+    "name": "Nuclear Plant Chemistry"
+  },
+  {
+    "code": "NUCL 4520U",
+    "name": "Nuclear Plant Safety"
+  },
+  {
+    "code": "NUCL 4525U",
+    "name": "Nuclear Plant Safety Design"
+  },
+  {
+    "code": "NUCL 4545U",
+    "name": "Nuclear Plant Steam Utilization Systems"
+  },
+  {
+    "code": "NUCL 4550U",
+    "name": "Thesis Project I"
+  },
+  {
+    "code": "NUCL 4560U",
+    "name": "Thesis Project II"
+  },
+  {
+    "code": "NUCL 4610U",
+    "name": "Corrosion for Engineers"
+  },
+  {
+    "code": "NUCL 4625U",
+    "name": "Radioactive Waste Management Design"
+  },
+  {
+    "code": "NUCL 4640U",
+    "name": "Nuclear Plant Operation"
+  },
+  {
+    "code": "NUCL 4670U",
+    "name": "Shielding Design"
+  },
+  {
+    "code": "NUCL 4680U",
+    "name": "Nuclear Materials"
+  },
+  {
+    "code": "NUCL 4700U",
+    "name": "Nuclear Power Plant Systems Design"
+  },
+  {
+    "code": "NUCL 4730U",
+    "name": "Reactor Control"
+  },
+  {
+    "code": "NUCL 4780U",
+    "name": "Nuclear Reactor Design"
+  },
+  {
+    "code": "NUCL 4810U",
+    "name": "Nuclear Fuel Cycles"
+  },
+  {
+    "code": "NUCL 4880U",
+    "name": "Principles of Fusion Energy"
+  },
+  {
+    "code": "NUCL 4994U",
+    "name": "Capstone Design I"
+  },
+  {
+    "code": "NUCL 4998U",
+    "name": "Capstone Design II"
+  }
+]

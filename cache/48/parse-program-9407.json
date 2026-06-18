@@ -1,0 +1,233 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=48&poid=9407",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 2000U",
+      "name": "Scientific Data Analysis"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 2110U",
+      "name": "Discrete Mathematics for Computer Scientists"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 3020U",
+      "name": "Operating Systems"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 3055U",
+      "name": "Programming Languages"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 3090U",
+      "name": "Computer Graphics and Visualization"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 2050U",
+      "name": "Linear Algebra"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "STAT 2010U",
+      "name": "Statistics and Probability for Physical Science"
+    },
+    {
+      "id": "r10",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 1010U",
+          "name": "Physics I"
+        },
+        {
+          "code": "PHY 1030U",
+          "name": "Introductory Physics"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": "seniorCsci",
+      "label": "Senior CSCI electives",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 2,
+      "elecType": "seniorCsci",
+      "label": "Senior CSCI electives",
+      "filterRule": {
+        "prefixes": [
+          "CSCI"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 2,
+      "elecType": "communication",
+      "label": "Communication elective",
+      "filterRule": {
+        "prefixes": [
+          "COMM"
+        ]
+      }
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 2072U",
+      "name": "Computational Science I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 3030U",
+      "name": "Database Systems and Concepts"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 3070U",
+      "name": "Analysis and Design of Algorithms"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 4020U",
+      "name": "Compilers"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "CSCI 4040U",
+      "name": "Ethics, Law and the Social Impacts of Computing"
+    },
+    {
+      "id": "r19",
+      "type": "option",
+      "year": 2,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 4410U",
+          "name": "Computer Science Thesis Project I"
+        },
+        {
+          "text": "Senior CSCI elective"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "type": "option",
+      "year": 2,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CSCI 4420U",
+          "name": "Computer Science Thesis Project II"
+        },
+        {
+          "text": "Senior CSCI elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "seniorCsci": "Senior CSCI electives",
+    "communication": "Communication elective"
+  },
+  "elecFilterRules": {
+    "communication": {
+      "prefixes": [
+        "COMM"
+      ]
+    },
+    "seniorCsci": {
+      "prefixes": [
+        "CSCI"
+      ],
+      "minLevel": 3000
+    }
+  },
+  "restrictedElectives": {
+    "communication": [
+      {
+        "code": "COMM 1050U",
+        "name": "Technical Communications"
+      },
+      {
+        "code": "COMM 1100U",
+        "name": "Introduction to Communication Studies"
+      },
+      {
+        "code": "COMM 1320U",
+        "name": "Public Speaking"
+      },
+      {
+        "code": "COMM 2311U",
+        "name": "Writing and Publishing in the Digital Age"
+      },
+      {
+        "code": "COMM 2620U",
+        "name": "Interpersonal Communication"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 3,
+  "elecRestrictionSum": 0
+}

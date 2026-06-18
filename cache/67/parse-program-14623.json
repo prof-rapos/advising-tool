@@ -1,0 +1,139 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14623",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2410U",
+      "name": "Managerial Finance"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3405U",
+      "name": "Equity Asset Analysis"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3420U",
+      "name": "Derivative Securities"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2050U",
+      "name": "Managerial Economics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "ECON 2020U",
+      "name": "Macroeconomics"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3440U",
+      "name": "Financial Modelling"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3480U",
+      "name": "International Finance"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4405U",
+      "name": "Portfolio and Investment Strategies"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4440U",
+      "name": "Financial Econometrics"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4490U",
+      "name": "Special Topics in Finance"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3460U",
+      "name": "Fixed Income Strategies"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4400U",
+      "name": "Electronic Trading and Exchange"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4450U",
+      "name": "Business Applications of Blockchain and Cryptocurrencies"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "financeMinor": [
+      {
+        "code": "BUSI 3440U",
+        "name": "Financial Modelling"
+      },
+      {
+        "code": "BUSI 3480U",
+        "name": "International Finance"
+      },
+      {
+        "code": "BUSI 4405U",
+        "name": "Portfolio and Investment Strategies"
+      },
+      {
+        "code": "BUSI 4440U",
+        "name": "Financial Econometrics"
+      },
+      {
+        "code": "BUSI 4490U",
+        "name": "Special Topics in Finance"
+      },
+      {
+        "code": "BUSI 3460U",
+        "name": "Fixed Income Strategies"
+      },
+      {
+        "code": "BUSI 4400U",
+        "name": "Electronic Trading and Exchange"
+      },
+      {
+        "code": "BUSI 4450U",
+        "name": "Business Applications of Blockchain and Cryptocurrencies"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

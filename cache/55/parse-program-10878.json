@@ -1,0 +1,153 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10878",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 2830U",
+      "name": "Microbiology for Health Science"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 0880U",
+      "name": "Science Bridge"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1701U",
+      "name": "Information Literacy and Written Communication for the Health Sciences"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2202U",
+      "name": "Comprehensive Anatomy and Physiology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2460U",
+      "name": "Pathophysiology I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2461U",
+      "name": "Pathophysiology II"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2820U",
+      "name": "Nutrition for Nursing Practice"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3601U",
+      "name": "Interprofessional Health Care Teams"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3712U",
+      "name": "Professional Ethics in Nursing"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Health Care Professionals: Theory and Application"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 0420U",
+      "name": "Professional Nursing - Bridging"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 2420U",
+      "name": "Knowing Through Inquiry"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 2705U",
+      "name": "Health &amp; Healing: Life Transitions Across the Lifespan, Nursing Theory and Practicum (RPN to BScN)"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 2820U",
+      "name": "Integrated Health Assessment and Pharmacology"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 3700U",
+      "name": "Health and Healing: Healthy Communities Nursing Theory and Practicum"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 4100U",
+      "name": "Nursing Leadership and Innovation"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 4700U",
+      "name": "Health and Healing: Synthesis Professional Practice"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "NURS 4701U",
+      "name": "Professional Nursing Integrated Practicum"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,197 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=67&poid=14521",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1000U",
+      "name": "Foundations of Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1100U",
+      "name": "Problem and Inquiry Based Learning"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1130U",
+      "name": "Writing and Digital Literacy"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1230U",
+      "name": "Design Thinking and Visual Design for Educational Contexts"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 2500U",
+      "name": "Foundations of Equity, Diversity and Inclusion in Education"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 2150U",
+      "name": "Teaching Methods"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 2140U",
+      "name": "Creating Digital Tools"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 2110U",
+      "name": "Assessment for Learning"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 1,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 1,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 4140U",
+      "name": "Instructional Design"
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 4200U",
+      "name": "Thesis I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 4201U",
+      "name": "Thesis II"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 4300U",
+      "name": "Engaged Educator Project I"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 4301U",
+      "name": "Engaged Educator Project II"
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r24",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "educationalStudies": "Educational Studies electives",
+    "educationalStudiesAtThe4000Level": "Educational Studies electives at the 4000 level"
+  },
+  "elecFilterRules": {
+    "educationalStudiesAtThe4000Level": {
+      "minLevel": 4000,
+      "maxLevel": 4999
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 11,
+  "elecRestrictionSum": 0
+}

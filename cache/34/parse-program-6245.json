@@ -1,0 +1,274 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=34&poid=6245",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "electives (recommend ENVS 1000U )",
+      "filterRule": {
+        "prefixes": [
+          "ENVS"
+        ]
+      }
+    },
+    {
+      "id": "r2",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "electives (recommend ENVS 1000U )",
+      "filterRule": {
+        "prefixes": [
+          "ENVS"
+        ]
+      }
+    },
+    {
+      "id": "r3",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "electives (recommend ENVS 1000U )",
+      "filterRule": {
+        "prefixes": [
+          "ENVS"
+        ]
+      }
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1000U",
+      "name": "Foundations in Bioscience"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 3080U",
+      "name": "Biochemistry II"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1015U",
+      "name": "Mathematics for Bioscience"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1030U",
+      "name": "Introductory Physics"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1040U",
+      "name": "Physics for Biosciences"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 1,
+      "elecType": "3000LevelBiol",
+      "label": "3000-level BIOL electives (see recommended list)",
+      "filterRule": {
+        "prefixes": [
+          "BIOL"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 3999
+      }
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 1,
+      "elecType": "3000LevelBiol",
+      "label": "3000-level BIOL electives (see recommended list)",
+      "filterRule": {
+        "prefixes": [
+          "BIOL"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 3999
+      }
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "Elective"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 3020U",
+      "name": "Principles of Pharmacology and Toxicology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 4031U",
+      "name": "Infection and Immunity"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 4080U",
+      "name": "Bioethics"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2020U",
+      "name": "Statistics and Probability for Biological Science"
+    },
+    {
+      "id": "r16",
+      "type": "elective",
+      "year": 2,
+      "elecType": "3000LevelBiol",
+      "label": "3000-level BIOL electives",
+      "filterRule": {
+        "prefixes": [
+          "BIOL"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 3999
+      }
+    },
+    {
+      "id": "r17",
+      "type": "elective",
+      "year": 2,
+      "elecType": "3000LevelBiol",
+      "label": "3000-level BIOL electives",
+      "filterRule": {
+        "prefixes": [
+          "BIOL"
+        ],
+        "minLevel": 3000,
+        "maxLevel": 3999
+      }
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 2,
+      "elecType": "4000LevelBiol",
+      "label": "4000-level BIOL electives",
+      "filterRule": {
+        "prefixes": [
+          "BIOL"
+        ],
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 2,
+      "elecType": "4000LevelBiol",
+      "label": "4000-level BIOL electives",
+      "filterRule": {
+        "prefixes": [
+          "BIOL"
+        ],
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    }
+  ],
+  "elecRestrictions": {
+    "science": 4,
+    "nonscience": 1,
+    "general": 2
+  },
+  "elecSubsets": {},
+  "elecLabels": {
+    "science": "Science",
+    "nonscience": "Non-Science",
+    "general": "General",
+    "3000LevelBiol": "3000-level BIOL electives (see recommended list)",
+    "4000LevelBiol": "4000-level BIOL electives"
+  },
+  "elecFilterRules": {
+    "thirdAndFourthYearBiology": {
+      "prefixes": [
+        "BIOL"
+      ]
+    },
+    "3000LevelBiol": {
+      "prefixes": [
+        "BIOL"
+      ],
+      "minLevel": 3000,
+      "maxLevel": 3999
+    },
+    "4000LevelBiol": {
+      "prefixes": [
+        "BIOL"
+      ],
+      "minLevel": 4000,
+      "maxLevel": 4999
+    },
+    "nonscience": {
+      "prefixes": [
+        "ALSU",
+        "ARTE",
+        "AUTE",
+        "BUSI",
+        "COMM",
+        "CRMN",
+        "CURS",
+        "ECON",
+        "EDST",
+        "EDUC",
+        "ELEE",
+        "ENEE",
+        "ENGR",
+        "ENSY",
+        "ESNS",
+        "FPSY",
+        "HLSC",
+        "INDG",
+        "INFR",
+        "INSE",
+        "KINE",
+        "LEAP",
+        "LGLS",
+        "MANE",
+        "MECE",
+        "METE",
+        "MLSC",
+        "NUCL",
+        "NURS",
+        "POSC",
+        "PSYC",
+        "RADI",
+        "SIMU",
+        "SOCI",
+        "SOFE",
+        "SSCI",
+        "XBIT"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 10,
+  "elecRestrictionSum": 7
+}

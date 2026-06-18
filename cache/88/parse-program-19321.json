@@ -1,0 +1,83 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19321",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1010U",
+      "name": "Human Anatomy &amp; Physiology I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1100U",
+      "name": "Human Anatomy &amp; Physiology II"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1120U",
+      "name": "Human Growth and Motor Development"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 1130U",
+      "name": "Sociocultural Perspectives"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2030U",
+      "name": "Psychology of Sport and Exercise"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2110U",
+      "name": "Motor Control and Learning"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3100U",
+      "name": "Nutrition and Health"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4401U",
+      "name": "Motor Behaviour and Developmental Disabilities"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4460U",
+      "name": "Selected Topics in Physical Activity and Health"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 4461U",
+      "name": "Applied Topics in Sport and Exercise Psychology"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

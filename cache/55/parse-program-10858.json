@@ -1,0 +1,333 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=55&poid=10858",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1300U",
+      "name": "Foundations I: Planning and Preparation + 22 days Field Experience"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1301U",
+      "name": "Learning and Development"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1309U",
+      "name": "I/S Digital Literacies and Information and Communication Technology"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1305U",
+      "name": "Foundations II: Curriculum Theory and Practice + 32 days Field Experience"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1310U",
+      "name": "I/S Mathematical Thinking and Doing"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 1311U",
+      "name": "I/S Coding and Communication"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2400U",
+      "name": "Equity and Diversity"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2401U",
+      "name": "Learning in Digital Contexts"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2402U",
+      "name": "Teaching for Inclusion: Special Needs and Individualized Education"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2404U",
+      "name": "Education Law, Policy and Ethics"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2406U",
+      "name": "Reflective Practice/Action Research"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2403U",
+      "name": "Independent Inquiry/Internship"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2405U",
+      "name": "Foundations III: Long Range Planning and Assessment + 31 days Field Experience"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 2407U",
+      "name": "Mental Health Issues in Schools"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4100U",
+      "name": "Curriculum Studies I: I/S Biology"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4101U",
+      "name": "Curriculum Studies II: I/S Biology"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4110U",
+      "name": "Curriculum Studies I: I/S English"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4111U",
+      "name": "Curriculum Studies II: I/S English"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4140U",
+      "name": "Curriculum Studies I: I/S Mathematics"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4141U",
+      "name": "Curriculum Studies II: I/S Mathematics"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4180U",
+      "name": "Curriculum Studies I: I/S General Science"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4181U",
+      "name": "Curriculum Studies II: I/S General Science"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4301U",
+      "name": "Curriculum Studies I: I/S Chemistry/Physics"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4302U",
+      "name": "Curriculum Studies II: I/S Chemistry/Physics"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4501U",
+      "name": "Curriculum Studies I: I/S History"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4502U",
+      "name": "Curriculum Studies II: I/S History"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4503U",
+      "name": "Curriculum Studies I: I/S Health and Physical Education"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "CURS 4504U",
+      "name": "Curriculum Studies II: I/S Health and Physical Education"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3201U",
+      "name": "Environmental Education"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3206U",
+      "name": "Teaching the Catholic Religion in Schools"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3208U",
+      "name": "Teaching Kindergarten"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3210U",
+      "name": "Teaching French in Schools"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3216U",
+      "name": "Teaching English Language Learners"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3209U",
+      "name": "Outdoor Education"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3200U",
+      "name": "Introduction to Indigenous Pedagogy"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3207U",
+      "name": "Teacher as Coach"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3205U",
+      "name": "Visual Arts: An Introduction to Indigenous Art"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "EDUC 3299U",
+      "name": "Special Topics in Education"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {
+    "cursCurriculumStudiesIEduc1300uFoundationsI": {
+      "prefixes": [
+        "EDUC"
+      ]
+    },
+    "cursCurriculumStudiesIiEduc1305uFoundationsIi": {
+      "prefixes": [
+        "EDUC"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "fall": [
+      {
+        "code": "EDUC 3201U",
+        "name": "Environmental Education"
+      },
+      {
+        "code": "EDUC 3206U",
+        "name": "Teaching the Catholic Religion in Schools"
+      },
+      {
+        "code": "EDUC 3208U",
+        "name": "Teaching Kindergarten"
+      },
+      {
+        "code": "EDUC 3210U",
+        "name": "Teaching French in Schools"
+      },
+      {
+        "code": "EDUC 3216U",
+        "name": "Teaching English Language Learners"
+      },
+      {
+        "code": "EDUC 3209U",
+        "name": "Outdoor Education"
+      },
+      {
+        "code": "EDUC 3200U",
+        "name": "Introduction to Indigenous Pedagogy"
+      },
+      {
+        "code": "EDUC 3207U",
+        "name": "Teacher as Coach"
+      },
+      {
+        "code": "EDUC 3205U",
+        "name": "Visual Arts: An Introduction to Indigenous Art"
+      },
+      {
+        "code": "EDUC 3299U",
+        "name": "Special Topics in Education"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

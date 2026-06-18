@@ -1,0 +1,309 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=88&poid=19085",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1030U",
+      "name": "Writing and Critical Thinking"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 1600U",
+      "name": "Management of the Enterprise"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "BUSI 2000U",
+      "name": "Collaborative Leadership"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1010U",
+      "name": "Discrete Mathematics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1016U",
+      "name": "Introductory Calculus"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1101U",
+      "name": "Introduction to Programming for IT"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1411U",
+      "name": "Introduction to Networking I"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 1421U",
+      "name": "Introduction to Networking II"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 2141U",
+      "name": "Object Oriented Programming for IT"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "INFR 2810U",
+      "name": "Computer Architecture"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 1400U",
+      "name": "Statistics and Probability for IT"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 1550U",
+      "name": "Law and Ethics of IT"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2411U",
+      "name": "Advanced Networking I"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2421U",
+      "name": "Advanced Networking II"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2600U",
+      "name": "Introduction to Computer Security"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2820U",
+      "name": "Algorithms and Data Structures"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 2830U",
+      "name": "Operating Systems"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "INFR 3120U",
+      "name": "Web and Script Programming"
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 2,
+      "elecType": "business",
+      "label": "business elective",
+      "filterRule": {
+        "prefixes": [
+          "BUSI"
+        ]
+      }
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 2,
+      "elecType": "general",
+      "label": "general elective"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 3,
+      "code": "BUSI 2550U",
+      "name": "Introduction to Project Management"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 2431U",
+      "name": "Advanced Networking III"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 2670U",
+      "name": "Introduction to Cloud Services"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3600U",
+      "name": "Cryptography and Network Security"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3610U",
+      "name": "Operating System Security"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3700U",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3720U",
+      "name": "Basics of Digital Transmission"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3810U",
+      "name": "Database Systems"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "INFR 3850U",
+      "name": "System and Network Administration"
+    },
+    {
+      "id": "r30",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general elective"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 4,
+      "code": "XBIT 4500U",
+      "name": "Capstone Study Project"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4661U",
+      "name": "Introduction to Penetration Testing"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4680U",
+      "name": "IT Security Policies and Procedures"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 4,
+      "code": "INFR 4690U",
+      "name": "IT Forensics"
+    },
+    {
+      "id": "r35",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    },
+    {
+      "id": "r36",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    },
+    {
+      "id": "r37",
+      "type": "elective",
+      "year": 4,
+      "elecType": "technical",
+      "label": "technical electives"
+    },
+    {
+      "id": "r38",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r39",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    },
+    {
+      "id": "r40",
+      "type": "elective",
+      "year": 4,
+      "elecType": "open",
+      "label": "open electives"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "business": "business elective",
+    "general": "general elective",
+    "technical": "technical electives",
+    "open": "open electives"
+  },
+  "elecFilterRules": {
+    "business": {
+      "prefixes": [
+        "BUSI"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 9,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "poid": 13089,
+    "name": "Engineering Co-op"
+  },
+  {
+    "poid": 9333,
+    "name": "Automotive Engineering"
+  },
+  {
+    "poid": 9334,
+    "name": "Electrical Engineering"
+  },
+  {
+    "poid": 9413,
+    "name": "Electrical Engineering – Smart Grid specialization"
+  },
+  {
+    "poid": 9335,
+    "name": "Manufacturing Engineering"
+  },
+  {
+    "poid": 9336,
+    "name": "Mechanical Engineering"
+  },
+  {
+    "poid": 9337,
+    "name": "Mechanical Engineering – Energy Engineering specialization"
+  },
+  {
+    "poid": 9414,
+    "name": "Mechatronics Engineering"
+  },
+  {
+    "poid": 9338,
+    "name": "Software Engineering"
+  },
+  {
+    "poid": 9424,
+    "name": "Software Engineering – Internet of Things specialization"
+  },
+  {
+    "poid": 9436,
+    "name": "Engineering and Management in the Faculty of Engineering and Applied Science"
+  }
+]
