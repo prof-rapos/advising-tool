@@ -7,6 +7,18 @@ const path  = require('path');
 const PORT = process.env.PORT || 3456;
 const CAL  = 'https://calendar.ontariotechu.ca';
 
+// ── Disk cache (pre-scraped JSON files committed to repo) ─────────
+const CACHE_DIR = path.join(__dirname, 'cache');
+function diskGet(rel) {
+  try { return JSON.parse(fs.readFileSync(path.join(CACHE_DIR, rel), 'utf8')); }
+  catch(e) { return null; }
+}
+function diskSet(rel, data) {
+  const fp = path.join(CACHE_DIR, rel);
+  fs.mkdirSync(path.dirname(fp), { recursive: true });
+  fs.writeFileSync(fp, JSON.stringify(data, null, 2), 'utf8');
+}
+
 // ── In-memory cache (1 hour TTL) ─────────────────────────────────
 const cache = new Map();
 const TTL   = 60 * 60 * 1000;
@@ -56,6 +68,7 @@ function decode(s) {
 
 // ── Years ─────────────────────────────────────────────────────────
 async function getYears() {
+  const disk = diskGet('years.json'); if (disk) return disk;
   const html = await fetchURL(`${CAL}/`);
   const years = [];
   const selM = html.match(/<select[^>]*name="catalog"[^>]*>([\s\S]*?)<\/select>/i);
@@ -73,6 +86,7 @@ async function getYears() {
     const label    = yearStr;
     if (catoid && yearStr) years.push({ catoid, label, type, archived });
   }
+  diskSet('years.json', years);
   return years;
 }
 
@@ -116,6 +130,7 @@ async function getNavLinks(catoid) {
 
 // ── Faculty list from "Programs by faculty" page ─────────────────
 async function getFacultyList(catoid) {
+  const disk = diskGet(`${catoid}/faculty-list.json`); if (disk) return disk;
   const indexLinks = await getNavLinks(catoid);
   const byFacLink  = indexLinks.find(l => /programs?\s+\(?\s*by\s+faculty/i.test(l.text));
   if (!byFacLink) throw new Error('Cannot find "Programs by faculty" link for catoid ' + catoid);
@@ -138,11 +153,13 @@ async function getFacultyList(catoid) {
       faculties.push({ entOid, name: text });
     }
   }
+  diskSet(`${catoid}/faculty-list.json`, faculties);
   return faculties;
 }
 
 // ── Programs for a faculty entity page ───────────────────────────
 async function getProgramsForEntity(catoid, entOid) {
+  const disk = diskGet(`${catoid}/programs-${entOid}.json`); if (disk) return disk;
   const html = await fetchURL(`${CAL}/preview_entity.php?catoid=${catoid}&ent_oid=${entOid}`);
   const programs = [];
   const seen = new Set();
@@ -153,6 +170,7 @@ async function getProgramsForEntity(catoid, entOid) {
     const name = decode(m[2]);
     if (poid && name && !seen.has(poid)) { seen.add(poid); programs.push({ poid, name }); }
   }
+  diskSet(`${catoid}/programs-${entOid}.json`, programs);
   return programs;
 }
 
@@ -664,12 +682,9 @@ function parseElectiveRestrictions(sectionHtml) {
   return { restrictions, subsets, labels };
 }
 
-async function parseProgramPage(catoid, poid) {
-  const cacheKey = `parse:${catoid}:${poid}`;
-  const cached = cacheGet(cacheKey);
-  if (cached) return cached;
-
-  const html = await fetchURL(`${CAL}/preview_program.php?catoid=${catoid}&poid=${poid}`);
+// Core parser — takes raw HTML, returns parsed result object.
+// Exported so scrape.js can call it with Playwright-fetched HTML.
+function parseProgramFromHtml(html, catoid, poid) {
   const norm = html
     .replace(/&#8211;|&ndash;/g, '–')
     .replace(/&#8212;|&mdash;/g, '—')
@@ -817,7 +832,7 @@ parseYearUl(section, yearNum, requirements, mkId);
       `typed=${JSON.stringify(typedCounts)} restrictions=${JSON.stringify(elecRestrictions)}`);
   }
 
-  const result = {
+  return {
     programUrl: `${CAL}/preview_program.php?catoid=${catoid}&poid=${poid}`,
     requirements,
     elecRestrictions,
@@ -829,8 +844,18 @@ parseYearUl(section, yearNum, requirements, mkId);
     elecCardCount,
     elecRestrictionSum,
   };
+}
 
+async function parseProgramPage(catoid, poid) {
+  const disk = diskGet(`${catoid}/parse-program-${poid}.json`); if (disk) return disk;
+  const cacheKey = `parse:${catoid}:${poid}`;
+  const cached = cacheGet(cacheKey);
+  if (cached) return cached;
+
+  const html = await fetchURL(`${CAL}/preview_program.php?catoid=${catoid}&poid=${poid}`);
+  const result = parseProgramFromHtml(html, catoid, poid);
   cacheSet(cacheKey, result);
+  diskSet(`${catoid}/parse-program-${poid}.json`, result);
   return result;
 }
 
@@ -843,6 +868,7 @@ function getTotalPages(html) {
 // Fetch all courses for a single prefix using the catalog's built-in prefix filter.
 // Each prefix has at most a handful of pages so no cap needed.
 async function getCoursesForPrefix(catoid, navoid, prefix) {
+  const disk = diskGet(`${catoid}/courses-${prefix}.json`); if (disk) return disk;
   const cacheKey = `pfx:${catoid}:${prefix}`;
   const cached = cacheGet(cacheKey);
   if (cached) return cached;
@@ -866,6 +892,7 @@ async function getCoursesForPrefix(catoid, navoid, prefix) {
     }
   }
   cacheSet(cacheKey, courses);
+  diskSet(`${catoid}/courses-${prefix}.json`, courses);
   return courses;
 }
 
@@ -1018,4 +1045,12 @@ const server = http.createServer(async (req, res) => {
   fs.createReadStream(fp).pipe(res);
 });
 
-server.listen(PORT, () => console.log(`Advising tool → http://localhost:${PORT}`));
+if (require.main === module) {
+  server.listen(PORT, () => console.log(`Advising tool → http://localhost:${PORT}`));
+}
+
+module.exports = {
+  getYears, getFacultyList, getProgramsForEntity,
+  parseProgramPage, parseProgramFromHtml,
+  getCoursesForPrefix, getNavoid, ALL_PREFIXES, diskGet, diskSet,
+};

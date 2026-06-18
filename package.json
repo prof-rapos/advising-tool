@@ -5,7 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "scrape": "node scrape.js"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.40.0"
   },
   "engines": {
     "node": ">=18"

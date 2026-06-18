@@ -1,0 +1,399 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20550",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1010U",
+      "name": "Biology I: Molecular and Cellular Systems"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1020U",
+      "name": "Chemistry II"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "CSCI 1040U",
+      "name": "Introduction to Programming for Scientists"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "FSCI 1010U",
+      "name": "Introductory Forensic Science"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1040U",
+      "name": "Physics for Biosciences"
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 1000U",
+          "name": "Introductory Calculus"
+        },
+        {
+          "code": "MATH 1010U",
+          "name": "Calculus I"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 1010U",
+          "name": "Physics I"
+        },
+        {
+          "code": "PHY 1030U",
+          "name": "Introductory Physics"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "Elective"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2010U",
+      "name": "Human Physiology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2020U",
+      "name": "Genetics and Molecular Biology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2030U",
+      "name": "Cell Biology"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2050U",
+      "name": "Human Anatomy"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2080U",
+      "name": "Biochemistry I"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2020U",
+      "name": "Introduction to Organic Chemistry"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2120U",
+      "name": "Organic Chemistry"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "FSCI 2010U",
+      "name": "Crime Scene Science"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2020U",
+      "name": "Statistics and Probability for Biological Science"
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 3020U",
+      "name": "Principles of Pharmacology and Toxicology"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "CHEM 2030U",
+      "name": "Analytical Chemistry"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "FSCI 3010U",
+      "name": "Criminalistics I"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "FSCI 3030U",
+      "name": "Criminalistics II"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "FSCI 3040U",
+      "name": "Forensic Chemistry"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "FSCI 3110U",
+      "name": "Population Genetics"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "FSCI 3120U",
+      "name": "Forensic Biology"
+    },
+    {
+      "id": "r31",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 4,
+      "code": "FSCI 4020U",
+      "name": "Interdisciplinary Topics in Forensic Science"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "FSCI 4030U",
+      "name": "Forensic Drug Chemistry and Toxicology"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "FSCI 4050U",
+      "name": "Law for Forensic Scientists"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "FSCI 4120U",
+      "name": "Advanced Forensic Biology"
+    },
+    {
+      "id": "r39",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "FSCI 4410U",
+          "name": "Forensic Science Thesis Project I"
+        },
+        {
+          "text": "Senior elective relevant to specialization"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "FSCI 4420U",
+          "name": "Forensic Science Thesis Project II"
+        },
+        {
+          "code": "FSCI 4430U",
+          "name": "Directed Studies in Forensic Science"
+        },
+        {
+          "code": "FSCI 4460U",
+          "name": "Mock Crime Scene Practicum"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "recommendedBiology": [
+      {
+        "code": "BIOL 2060U",
+        "name": "Fundamentals of Microbiology"
+      },
+      {
+        "code": "BIOL 3010U",
+        "name": "Laboratory Methods in Molecular Biology"
+      },
+      {
+        "code": "BIOL 3032U",
+        "name": "Advanced Microbiology"
+      },
+      {
+        "code": "BIOL 3040U",
+        "name": "Animal Physiology"
+      },
+      {
+        "code": "BIOL 3060U",
+        "name": "Fundamentals of Neuroscience"
+      },
+      {
+        "code": "BIOL 3080U",
+        "name": "Biochemistry II"
+      },
+      {
+        "code": "BIOL 3610U",
+        "name": "Comparative Zoology"
+      },
+      {
+        "code": "BIOL 3620U",
+        "name": "Conservation Biology"
+      },
+      {
+        "code": "BIOL 3640U",
+        "name": "Plant Biology"
+      },
+      {
+        "code": "BIOL 3650U",
+        "name": "Fundamentals of Nutrition"
+      },
+      {
+        "code": "BIOL 3660U",
+        "name": "Ecology"
+      },
+      {
+        "code": "BIOL 4030U",
+        "name": "Advanced Topics in Environmental Toxicology"
+      },
+      {
+        "code": "BIOL 4031U",
+        "name": "Infection and Immunity"
+      },
+      {
+        "code": "BIOL 4040U",
+        "name": "Applied Molecular Biology"
+      },
+      {
+        "code": "BIOL 4050U",
+        "name": "Advanced Topics in Pharmaceutical Biotechnology"
+      },
+      {
+        "code": "BIOL 4070U",
+        "name": "Advanced Biochemistry"
+      }
+    ]
+  },
+  "elecSanityOk": false,
+  "elecCardCount": 8,
+  "elecRestrictionSum": 0
+}

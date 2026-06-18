@@ -1,0 +1,316 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20739",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1015U",
+      "name": "Introduction to Engineering"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1050U",
+      "name": "Engineering Communications and Technology Impacts"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1010U",
+      "name": "Calculus I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1800U",
+      "name": "Chemistry for Engineers"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1025U",
+      "name": "Engineering Design"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1200U",
+      "name": "Introduction to Programming for Engineers"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2860U",
+      "name": "Differential Equations for Engineers"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2230U",
+      "name": "Statics"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2310U",
+      "name": "Concurrent Engineering and Design"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "METE 2010U",
+      "name": "Circuits and Electronics"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "SOFE 2710U",
+      "name": "Object Oriented Programming and Design"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "ENGR 2100U",
+      "name": "Computational Engineering Applications"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2420U",
+      "name": "Solid Mechanics I"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2430U",
+      "name": "Dynamics"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "METE 2020U",
+      "name": "Circuit Design for Mechatronics"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 2,
+      "code": "METE 2030U",
+      "name": "Electronics Applications in Mechatronics"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2800U",
+      "name": "Statistics and Probability for Engineers"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 3,
+      "code": "ENGR 3011U",
+      "name": "Introduction to Railway Systems"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "MECE 2640U",
+      "name": "Thermodynamic and Heat Transfer"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "MECE 3030U",
+      "name": "Computer-Aided Design"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "MECE 3270U",
+      "name": "Kinematics and Dynamics of Machines"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "METE 3300U",
+      "name": "Systems Modelling"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "METE 3350U",
+      "name": "Microprocessors and Digital Systems"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "ENGR 3360U",
+      "name": "Engineering Economics"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "MECE 2860U",
+      "name": "Fluid Mechanics"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 3,
+      "code": "METE 3100U",
+      "name": "Actuators and Power Electronics"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 3,
+      "code": "METE 3200U",
+      "name": "Sensors and Instrumentation"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 3,
+      "code": "METE 3400U",
+      "name": "Automatic Control Systems"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4022U",
+      "name": "Railway Safety and Signalling"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4111U",
+      "name": "Capstone Systems Design I"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "METE 4280U",
+      "name": "Robotics and Automation"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "METE 4100U",
+      "name": "Mechatronics Design"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "METE 4400U",
+      "name": "Introduction to Real-Time Embedded Systems"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4033U",
+      "name": "Railway Rolling Stock"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4044U",
+      "name": "Railway Systems Operation and Maintenance"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4222U",
+      "name": "Capstone Systems Design II"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4760U",
+      "name": "Ethics, Law and Professionalism for Engineers"
+    },
+    {
+      "id": "r43",
+      "type": "elective",
+      "year": 4,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "liberalStudies": "Liberal Studies elective"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 2,
+  "elecRestrictionSum": 0
+}

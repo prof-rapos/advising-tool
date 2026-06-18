@@ -1,0 +1,34 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20751",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1000U",
+      "name": "Foundations of Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1100U",
+      "name": "Problem and Inquiry Based Learning"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1230U",
+      "name": "Design Thinking and Visual Design for Educational Contexts"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

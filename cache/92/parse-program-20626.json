@@ -1,0 +1,70 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20626",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 1000U",
+      "name": "Foundations of Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2110U",
+      "name": "Assessment and Evaluation"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2140U",
+      "name": "Creating Digital Tools"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2150U",
+      "name": "Teaching to Facilitate Learning"
+    },
+    {
+      "id": "r5",
+      "type": "option",
+      "year": 0,
+      "label": "One of",
+      "options": [
+        {
+          "code": "EDST 3000U",
+          "name": "Instructional Design"
+        },
+        {
+          "code": "EDST 3440U",
+          "name": "Managing and Developing eLearning Projects"
+        },
+        {
+          "code": "EDST 4120U",
+          "name": "Games and Simulations for Learning"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "type": "elective",
+      "year": 0,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies elective"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "educationalStudies": "Educational Studies elective"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 1,
+  "elecRestrictionSum": 0
+}

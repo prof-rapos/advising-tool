@@ -1,0 +1,110 @@
+[
+  {
+    "poid": 20649,
+    "name": "Accounting"
+  },
+  {
+    "poid": 20650,
+    "name": "Commerce"
+  },
+  {
+    "poid": 20651,
+    "name": "Entrepreneurship"
+  },
+  {
+    "poid": 20500,
+    "name": "Finance"
+  },
+  {
+    "poid": 20653,
+    "name": "Marketing"
+  },
+  {
+    "poid": 20655,
+    "name": "Organizational Behaviour and Human Resources Management"
+  },
+  {
+    "poid": 20656,
+    "name": "Technology Management (Commerce)"
+  },
+  {
+    "poid": 20507,
+    "name": "Game Development and Interactive Media"
+  },
+  {
+    "poid": 20770,
+    "name": "Game Development and Interactive Media - Video Games, Creative Industries and Society specialization"
+  },
+  {
+    "poid": 20508,
+    "name": "Networking and Information Technology Security"
+  },
+  {
+    "poid": 20619,
+    "name": "Technology Management (IT)"
+  },
+  {
+    "poid": 20606,
+    "name": "Commerce – Advanced Entry"
+  },
+  {
+    "poid": 20506,
+    "name": "Commerce – Bridge"
+  },
+  {
+    "poid": 20515,
+    "name": "Information Technology Security – Bridge"
+  },
+  {
+    "poid": 20607,
+    "name": "Networking and IT Security – Advanced Entry"
+  },
+  {
+    "poid": 20654,
+    "name": "Bachelor of Commerce Co-operative Education"
+  },
+  {
+    "poid": 20499,
+    "name": "Accounting minor"
+  },
+  {
+    "poid": 20513,
+    "name": "Business minor (Networking and IT Security)"
+  },
+  {
+    "poid": 20610,
+    "name": "Entrepreneurship minor"
+  },
+  {
+    "poid": 20608,
+    "name": "Entrepreneurship minor for Bachelor of Commerce students"
+  },
+  {
+    "poid": 20609,
+    "name": "Entrepreneurship minor for students outside Bachelor of Commerce"
+  },
+  {
+    "poid": 20501,
+    "name": "Finance minor"
+  },
+  {
+    "poid": 20618,
+    "name": "Finance minor (Mathematics for Science and Industry, and Physics)"
+  },
+  {
+    "poid": 20503,
+    "name": "Marketing minor (Commerce)"
+  },
+  {
+    "poid": 20509,
+    "name": "Marketing minor (IT)"
+  },
+  {
+    "poid": 20505,
+    "name": "Organizational Behaviour and Human Resources Management minor"
+  },
+  {
+    "poid": 20621,
+    "name": "Technology Management minor"
+  }
+]

@@ -1,0 +1,202 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20760",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 1841U",
+      "name": "Essentials of Biology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "EDST 1000U",
+      "name": "Foundations of Learning"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 3,
+      "code": "EDST 2110U",
+      "name": "Assessment and Evaluation"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 3,
+      "code": "EDST 2500U",
+      "name": "Foundations of Equity, Diversity and Inclusion in Education"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 3,
+      "code": "EDST 2800U",
+      "name": "Mental Health and Education"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 3,
+      "code": "EDST 3610U",
+      "name": "Child Development and Health"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2030U",
+      "name": "Psychopathology"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2900U",
+      "name": "Research Methods in Psychology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2910U",
+      "name": "Data Analysis in Psychology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 4,
+      "code": "EDST 2700U",
+      "name": "Foundations of Special Education"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 4,
+      "code": "EDST 3820U",
+      "name": "Psycho-Education Assessments"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 4,
+      "code": "EDST 3830U",
+      "name": "Introduction to Guidance Counselling"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 4,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 4,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 4,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    },
+    {
+      "id": "r17",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "EDST 4000U",
+          "name": "Inquiry and Professional Practice"
+        },
+        {
+          "code": "EDST 4300U",
+          "name": "Engaged Educator Project I"
+        },
+        {
+          "code": "EDST 4800U",
+          "name": "Exploring Diverse Educational Environments"
+        },
+        {
+          "code": "EDST 4980U",
+          "name": "Work Integrated Learning I"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PSYC 3910U",
+          "name": "Advanced Data Analysis in Psychology"
+        },
+        {
+          "text": "General elective"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 4098U",
+          "name": "Practicum"
+        },
+        {
+          "code": "SSCI 4103W",
+          "name": "Internship"
+        },
+        {
+          "code": "PSYC 4110U",
+          "name": "Honours Thesis in Psychology I"
+        },
+        {
+          "text": "Psychology elective"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PSYC 4120U",
+          "name": "Honours Thesis in Psychology II"
+        },
+        {
+          "text": "General elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

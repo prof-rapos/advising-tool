@@ -1,0 +1,405 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20757",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1841U",
+      "name": "Essentials of Biology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1000U",
+      "name": "Foundations of Learning"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1010U",
+      "name": "Teaching, Learning and Educational Contexts"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1100U",
+      "name": "Problem and Inquiry Based Learning"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r6",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "COMM 1100U",
+          "name": "Introduction to Communication and Digital Media Studies"
+        },
+        {
+          "code": "CRMN 1000U",
+          "name": "Introduction to Criminology and Justice"
+        },
+        {
+          "code": "INDG 1000U",
+          "name": "Introduction to Indigenous Studies: Colonial History and its Impacts on Indigenous Peoples"
+        },
+        {
+          "code": "LGLS 1000U",
+          "name": "Foundations of Legal Studies"
+        },
+        {
+          "code": "SOCI 1000U",
+          "name": "Introductory Sociology"
+        },
+        {
+          "code": "POSC 1000U",
+          "name": "Introduction to Political Science"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "EDST 1130U",
+          "name": "Writing and Information Literacy in the Digital Age"
+        },
+        {
+          "code": "SSCI 1910U",
+          "name": "Writing for the Social Sciences"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "type": "elective",
+      "year": 1,
+      "elecType": "general",
+      "label": "General Electives (recommended elective: ALSU 1101U – Foundations for Academic Learning and Success )",
+      "filterRule": {
+        "prefixes": [
+          "ALSU"
+        ]
+      }
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 1,
+      "elecType": "general",
+      "label": "General Electives (recommended elective: ALSU 1101U – Foundations for Academic Learning and Success )",
+      "filterRule": {
+        "prefixes": [
+          "ALSU"
+        ]
+      }
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 1,
+      "elecType": "general",
+      "label": "General Electives (recommended elective: ALSU 1101U – Foundations for Academic Learning and Success )",
+      "filterRule": {
+        "prefixes": [
+          "ALSU"
+        ]
+      }
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 2110U",
+      "name": "Assessment and Evaluation"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 2500U",
+      "name": "Foundations of Equity, Diversity and Inclusion in Education"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 2800U",
+      "name": "Mental Health and Education"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 3610U",
+      "name": "Child Development and Health"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2030U",
+      "name": "Psychopathology"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "PSYC 2900U",
+      "name": "Research Methods in Psychology"
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 2,
+      "elecType": "general",
+      "label": "General Electives"
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 2,
+      "elecType": "general",
+      "label": "General Electives"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 3,
+      "code": "EDST 2700U",
+      "name": "Foundations of Special Education"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 3,
+      "code": "EDST 3820U",
+      "name": "Psycho-Education Assessments"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 3,
+      "code": "EDST 3830U",
+      "name": "Introduction to Guidance Counselling"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2020U",
+      "name": "Social Psychology"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "PSYC 2910U",
+      "name": "Data Analysis in Psychology"
+    },
+    {
+      "id": "r27",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PSYC 3910U",
+          "name": "Advanced Data Analysis in Psychology"
+        },
+        {
+          "text": "Psychology elective"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "type": "elective",
+      "year": 3,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies elective"
+    },
+    {
+      "id": "r29",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "General Electives"
+    },
+    {
+      "id": "r30",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "General Electives"
+    },
+    {
+      "id": "r31",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "EDST 4000U",
+          "name": "Inquiry and Professional Practice"
+        },
+        {
+          "code": "EDST 4300U",
+          "name": "Engaged Educator Project I"
+        },
+        {
+          "code": "EDST 4800U",
+          "name": "Exploring Diverse Educational Environments"
+        },
+        {
+          "code": "EDST 4980U",
+          "name": "Work Integrated Learning I"
+        }
+      ]
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 4,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r35",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "SSCI 4098U",
+          "name": "Practicum"
+        },
+        {
+          "code": "SSCI 4103W",
+          "name": "Internship"
+        },
+        {
+          "text": "Psychology elective"
+        }
+      ]
+    },
+    {
+      "id": "r36",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PSYC 4110U",
+          "name": "Honours Thesis in Psychology I"
+        },
+        {
+          "text": "Psychology elective"
+        }
+      ]
+    },
+    {
+      "id": "r37",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PSYC 4120U",
+          "name": "Honours Thesis in Psychology II"
+        },
+        {
+          "text": "Psychology elective"
+        }
+      ]
+    },
+    {
+      "id": "r38",
+      "type": "elective",
+      "year": 4,
+      "elecType": "psychology",
+      "label": "Psychology elective"
+    },
+    {
+      "id": "r39",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "General Electives"
+    },
+    {
+      "id": "r40",
+      "type": "elective",
+      "year": 4,
+      "elecType": "general",
+      "label": "General Electives"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "general": "General Electives (recommended elective: ALSU 1101U – Foundations for Academic Learning and Success )",
+    "educationalStudies": "Educational Studies elective",
+    "psychology": "Psychology elective"
+  },
+  "elecFilterRules": {
+    "general": {
+      "prefixes": [
+        "ALSU"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 14,
+  "elecRestrictionSum": 0
+}

@@ -1,0 +1,232 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20735",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 1910U",
+      "name": "Writing for the Social Sciences"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 3,
+      "code": "SSCI 2000U",
+      "name": "Introduction to Social Science, Humanities and Arts"
+    },
+    {
+      "id": "r3",
+      "type": "option",
+      "year": 3,
+      "label": "One of",
+      "options": [
+        {
+          "code": "COMM 2210U",
+          "name": "Researching Communication and Digital Culture"
+        },
+        {
+          "code": "LGLS 2940U",
+          "name": "Legal Research Methods"
+        },
+        {
+          "code": "PSYC 2900U",
+          "name": "Research Methods in Psychology"
+        },
+        {
+          "code": "SSCI 2900U",
+          "name": "Research Methods"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "elective",
+      "year": 3,
+      "elecType": "fssh",
+      "label": "FSSH electives"
+    },
+    {
+      "id": "r5",
+      "type": "elective",
+      "year": 3,
+      "elecType": "fssh",
+      "label": "FSSH electives"
+    },
+    {
+      "id": "r6",
+      "type": "elective",
+      "year": 3,
+      "elecType": "fssh",
+      "label": "FSSH electives"
+    },
+    {
+      "id": "r7",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r8",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 3,
+      "elecType": "general",
+      "label": "general electives"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 4001U",
+      "name": "Social Science, Humanities and Arts Capstone"
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelFssh",
+      "label": "3000- or 4000-level FSSH electives",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelFssh",
+      "label": "3000- or 4000-level FSSH electives",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r14",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelFssh",
+      "label": "3000- or 4000-level FSSH electives",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r15",
+      "type": "elective",
+      "year": 4,
+      "elecType": "3000Or4000LevelFssh",
+      "label": "3000- or 4000-level FSSH electives",
+      "filterRule": {
+        "minLevel": 3000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r16",
+      "type": "elective",
+      "year": 4,
+      "elecType": "2000Or3000Or4000LevelGeneral",
+      "label": "2000- or 3000- or 4000-level general electives",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r17",
+      "type": "elective",
+      "year": 4,
+      "elecType": "2000Or3000Or4000LevelGeneral",
+      "label": "2000- or 3000- or 4000-level general electives",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 4,
+      "elecType": "2000Or3000Or4000LevelGeneral",
+      "label": "2000- or 3000- or 4000-level general electives",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 4,
+      "elecType": "2000Or3000Or4000LevelGeneral",
+      "label": "2000- or 3000- or 4000-level general electives",
+      "filterRule": {
+        "minLevel": 2000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 4,
+      "elecType": "4000LevelGeneral",
+      "label": "4000-level general elective",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 4,
+      "code": "SSCI 4005U",
+      "name": "Independent Study"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "fssh": "FSSH electives",
+    "general": "general electives",
+    "3000Or4000LevelFssh": "3000- or 4000-level FSSH electives",
+    "2000Or3000Or4000LevelGeneral": "2000- or 3000- or 4000-level general electives",
+    "4000LevelGeneral": "4000-level general elective"
+  },
+  "elecFilterRules": {
+    "3000Or4000LevelFssh": {
+      "minLevel": 3000,
+      "maxLevel": 4999
+    },
+    "2000Or3000Or4000LevelGeneral": {
+      "minLevel": 2000,
+      "maxLevel": 4999
+    },
+    "4000LevelGeneral": {
+      "minLevel": 4000,
+      "maxLevel": 4999
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 16,
+  "elecRestrictionSum": 0
+}

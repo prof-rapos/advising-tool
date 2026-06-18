@@ -1,0 +1,146 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20678",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1200U",
+      "name": "Introduction to Democracy in Theory &amp; Practice"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2100U",
+      "name": "Introduction to Global Politics"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 4000U",
+      "name": "Special Topics in Political Economy"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2270U",
+      "name": "Entertainment Goes Global: from Hollywood to the World"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3510U",
+      "name": "Work in the Creative and Tech Industries"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 3045U",
+      "name": "Terrorism"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4803U",
+      "name": "Global Health"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3230U",
+      "name": "Law and Globalization"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3100U",
+      "name": "Political Economy of Global Development"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3101U",
+      "name": "Inequality, Environment and Development"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3102U",
+      "name": "Race and Racism in Political Culture"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3302U",
+      "name": "Environment and Globalization"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3303U",
+      "name": "Policies for Sustainability"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3602U",
+      "name": "Labour in the Global Economy"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3751U",
+      "name": "Media, War and Conflict"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4420U",
+      "name": "Political Communication, Digital Media and Democracy"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4710U",
+      "name": "Global Media, the Internet and International Relations"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

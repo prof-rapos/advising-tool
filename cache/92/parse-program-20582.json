@@ -1,0 +1,83 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20582",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2050U",
+      "name": "Rights and Wrongs in the Justice System"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2120U",
+      "name": "International Law"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2420U",
+      "name": "Canadian Human Rights Law"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2940U",
+      "name": "Legal Research Methods"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3300U",
+      "name": "Disability and the Law"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3310U",
+      "name": "Indigenous Peoples, Law and the State in Canada"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3320U",
+      "name": "Race, Ethnicity and the Law"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3330U",
+      "name": "Gender, Sexuality and the Law"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3430U",
+      "name": "International Human Rights"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2011U",
+      "name": "Immigration and Refugee Law"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

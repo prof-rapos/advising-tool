@@ -1,0 +1,55 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20748",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2200C",
+      "name": "Professional Skills"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2201W",
+      "name": "FSSH Co-op Work Term I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 3201W",
+      "name": "FSSH Co-op Work Term II"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4201W",
+      "name": "FSSH Co-op Work Term III"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4202W",
+      "name": "FSSH Co-op Work Term IV"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4203W",
+      "name": "FSSH Co-op Work Term V"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

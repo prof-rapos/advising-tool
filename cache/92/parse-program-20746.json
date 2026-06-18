@@ -1,0 +1,111 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20746",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 2240U",
+      "name": "Nuclear Engineering Fundamentals"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4640U",
+      "name": "Nuclear Plant Operation"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "ESNS 3750U",
+      "name": "Integrated Engineering Laboratory"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "ESNS 4660U",
+      "name": "Risk Analysis Methods"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4120U",
+      "name": "Instrumentation in Nuclear Power Generation"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4460U",
+      "name": "Nuclear Power Systems"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4500U",
+      "name": "BWR Design and Construction"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4510U",
+      "name": "Nuclear Plant Chemistry"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4525U",
+      "name": "Nuclear Plant Safety Design"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4610U",
+      "name": "Corrosion for Engineers"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4680U",
+      "name": "Nuclear Materials"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4700U",
+      "name": "Nuclear Power Plant Systems Design"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4730U",
+      "name": "Reactor Control"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "NUCL 4880U",
+      "name": "Principles of Fusion Energy"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

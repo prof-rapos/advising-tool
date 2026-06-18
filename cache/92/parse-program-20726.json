@@ -1,0 +1,146 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20726",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1000U",
+      "name": "Introductory Sociology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication and Digital Media Studies"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 1000U",
+      "name": "Introduction to Criminology and Justice"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1420U",
+      "name": "Living Digitally: Social Media, Culture &amp; Society"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3250U",
+      "name": "Pop Culture and Entertainment"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3710U",
+      "name": "Media, Identity and Intercultural Communication"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2030U",
+      "name": "Social Control"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2000U",
+      "name": "Introduction to Social Science, Humanities and Arts"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2300U",
+      "name": "Social Problems"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2020U",
+      "name": "Issues in Diversity"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2025U",
+      "name": "Youth Cultures"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2101U",
+      "name": "Making a Difference: An Introduction to Social Entrepreneurship"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2700U",
+      "name": "Human Sexuality"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 2720U",
+      "name": "Sports and Society"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 3000U",
+      "name": "Disability, Rehabilitation and Society"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

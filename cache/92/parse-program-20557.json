@@ -1,0 +1,27 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20557",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "CHEM 1020U",
+      "name": "Chemistry II"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

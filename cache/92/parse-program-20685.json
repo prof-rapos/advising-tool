@@ -1,0 +1,27 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20685",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2000U",
+      "name": "Introduction to Social Science, Humanities and Arts"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4001U",
+      "name": "Social Science, Humanities and Arts Capstone"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

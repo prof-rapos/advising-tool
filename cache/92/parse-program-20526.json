@@ -1,0 +1,310 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20526",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1015U",
+      "name": "Introduction to Engineering"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1050U",
+      "name": "Engineering Communications and Technology Impacts"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1010U",
+      "name": "Calculus I"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1850U",
+      "name": "Linear Algebra for Engineers"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1010U",
+      "name": "Physics I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1800U",
+      "name": "Chemistry for Engineers"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1025U",
+      "name": "Engineering Design"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "ENGR 1200U",
+      "name": "Introduction to Programming for Engineers"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "MANE 2220U",
+      "name": "Structure and Properties of Materials"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "MATH 2860U",
+      "name": "Differential Equations for Engineers"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2230U",
+      "name": "Statics"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2310U",
+      "name": "Concurrent Engineering and Design"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2640U",
+      "name": "Thermodynamic and Heat Transfer"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "ELEE 2790U",
+      "name": "Electric Circuits"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "ENGR 2100U",
+      "name": "Computational Engineering Applications"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2420U",
+      "name": "Solid Mechanics I"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2430U",
+      "name": "Dynamics"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "MECE 2860U",
+      "name": "Fluid Mechanics"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 2,
+      "code": "STAT 2800U",
+      "name": "Statistics and Probability for Engineers"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 3,
+      "code": "MANE 3120U",
+      "name": "Thermo-mechanical Processing of Materials"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 3,
+      "code": "MANE 3190U",
+      "name": "Manufacturing and Production Processes"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "MECE 3030U",
+      "name": "Computer-Aided Design"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "MECE 3270U",
+      "name": "Kinematics and Dynamics of Machines"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "MECE 3350U",
+      "name": "Control Systems"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "ENGR 3360U",
+      "name": "Engineering Economics"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "MANE 3300U",
+      "name": "Integrated Manufacturing Systems"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "MANE 4190U",
+      "name": "Principles of Material Removal Processes"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "MECE 3220U",
+      "name": "Machine Design"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 3,
+      "code": "MANE 4600U",
+      "name": "Additive Manufacturing"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 3,
+      "code": "METE 4200U",
+      "name": "Industrial Automation"
+    },
+    {
+      "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4111U",
+      "name": "Capstone Systems Design I"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 4,
+      "code": "MANE 4110U",
+      "name": "Design for Manufacturing"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "METE 4280U",
+      "name": "Robotics and Automation"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "MANE 4390U",
+      "name": "Modelling Manufacturing Systems"
+    },
+    {
+      "id": "r38",
+      "type": "elective",
+      "year": 4,
+      "elecType": "liberalStudies",
+      "label": "Liberal Studies elective"
+    },
+    {
+      "id": "r39",
+      "type": "elective",
+      "year": 4,
+      "elecType": "engineering",
+      "label": "Engineering elective"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4222U",
+      "name": "Capstone Systems Design II"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 4,
+      "code": "ENGR 4760U",
+      "name": "Ethics, Law and Professionalism for Engineers"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 4,
+      "code": "MANE 4045U",
+      "name": "Quality Control"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "liberalStudies": "Liberal Studies elective",
+    "engineering": "Engineering elective"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 3,
+  "elecRestrictionSum": 0
+}

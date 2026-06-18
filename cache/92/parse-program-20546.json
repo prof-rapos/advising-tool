@@ -1,0 +1,348 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20546",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r2",
+      "type": "elective",
+      "year": 1,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1010U",
+      "name": "Biology I: Molecular and Cellular Systems"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "BIOL 1020U",
+      "name": "Biology II: Diversity of Life and Principles of Ecology"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1010U",
+      "name": "Chemistry I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "CHEM 1020U",
+      "name": "Chemistry II"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "MATH 1020U",
+      "name": "Calculus II"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "PHY 1020U",
+      "name": "Physics II"
+    },
+    {
+      "id": "r9",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "MATH 1000U",
+          "name": "Introductory Calculus"
+        },
+        {
+          "code": "MATH 1010U",
+          "name": "Calculus I"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "option",
+      "year": 1,
+      "label": "One of",
+      "options": [
+        {
+          "code": "PHY 1010U",
+          "name": "Physics I"
+        },
+        {
+          "code": "PHY 1030U",
+          "name": "Introductory Physics"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "elective",
+      "year": 2,
+      "elecType": null,
+      "label": "Elective"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2020U",
+      "name": "Genetics and Molecular Biology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2030U",
+      "name": "Cell Biology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 2,
+      "code": "BIOL 2080U",
+      "name": "Biochemistry I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2010U",
+      "name": "Structure and Bonding"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2020U",
+      "name": "Introduction to Organic Chemistry"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2030U",
+      "name": "Analytical Chemistry"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2040U",
+      "name": "Thermodynamics and Kinetics"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2120U",
+      "name": "Organic Chemistry"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 2,
+      "code": "CHEM 2220U",
+      "name": "Molecular Structure Determination from Spectroscopic Data"
+    },
+    {
+      "id": "r21",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r22",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r23",
+      "type": "elective",
+      "year": 3,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 3,
+      "code": "BIOL 3080U",
+      "name": "Biochemistry II"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 3,
+      "code": "CHEM 3040U",
+      "name": "Fundamentals of Physical Chemistry"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 3,
+      "code": "CHEM 3120U",
+      "name": "Advanced Organic Chemistry"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 3,
+      "code": "CHEM 3510U",
+      "name": "Inorganic Chemistry I: Transition Metals and Main Group Elements"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 3,
+      "code": "CHEM 3520U",
+      "name": "Inorganic Chemistry II: Organometallics"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 3,
+      "code": "CHEM 3530U",
+      "name": "Instrumental Analytical Chemistry I"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 3,
+      "code": "CHEM 3540U",
+      "name": "Instrumental Analytical Chemistry II"
+    },
+    {
+      "id": "r31",
+      "type": "elective",
+      "year": 4,
+      "elecType": "seniorChemistry",
+      "label": "senior Chemistry electives",
+      "filterRule": {
+        "prefixes": [
+          "CHEM"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r32",
+      "type": "elective",
+      "year": 4,
+      "elecType": "seniorChemistry",
+      "label": "senior Chemistry electives",
+      "filterRule": {
+        "prefixes": [
+          "CHEM"
+        ],
+        "minLevel": 3000
+      }
+    },
+    {
+      "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r35",
+      "type": "elective",
+      "year": 4,
+      "elecType": null,
+      "label": "electives"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 4,
+      "code": "BIOL 4070U",
+      "name": "Advanced Biochemistry"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 4,
+      "code": "CHEM 4110U",
+      "name": "Bio-Organic Chemistry and Chemical Biology"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 4,
+      "code": "CHEM 4120U",
+      "name": "Advanced Topics in Chemical Biology"
+    },
+    {
+      "id": "r39",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CHEM 4410U",
+          "name": "Chemistry Thesis Project I"
+        },
+        {
+          "text": "Senior Chemistry elective"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "type": "option",
+      "year": 4,
+      "label": "One of",
+      "options": [
+        {
+          "code": "CHEM 4420U",
+          "name": "Chemistry Thesis Project II"
+        },
+        {
+          "text": "Senior Chemistry elective"
+        }
+      ]
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "seniorChemistry": "senior Chemistry electives"
+  },
+  "elecFilterRules": {
+    "seniorChemistry": {
+      "prefixes": [
+        "CHEM"
+      ],
+      "minLevel": 3000
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": false,
+  "elecCardCount": 11,
+  "elecRestrictionSum": 0
+}

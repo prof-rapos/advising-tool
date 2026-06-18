@@ -1,0 +1,146 @@
+[
+  {
+    "catoid": 92,
+    "label": "2026-2027",
+    "type": "undergraduate",
+    "archived": false
+  },
+  {
+    "catoid": 91,
+    "label": "2026-2027",
+    "type": "graduate",
+    "archived": false
+  },
+  {
+    "catoid": 88,
+    "label": "2025-2026",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 89,
+    "label": "2025-2026",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 81,
+    "label": "2024-2025",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 82,
+    "label": "2024-2025",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 62,
+    "label": "2023-2024",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 63,
+    "label": "2023-2024",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 67,
+    "label": "2022-2023",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 68,
+    "label": "2022-2023",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 55,
+    "label": "2021-2022",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 54,
+    "label": "2021-2022",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 34,
+    "label": "2020-2021",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 33,
+    "label": "2020-2021",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 22,
+    "label": "2019-2020",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 23,
+    "label": "2019-2020",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 20,
+    "label": "2018-2019",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 19,
+    "label": "2018-2019",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 12,
+    "label": "2017-2018",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 10,
+    "label": "2017-2018",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 6,
+    "label": "2016-2017",
+    "type": "undergraduate",
+    "archived": true
+  },
+  {
+    "catoid": 7,
+    "label": "2016-2017",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 49,
+    "label": "2022-2023",
+    "type": "graduate",
+    "archived": true
+  },
+  {
+    "catoid": 48,
+    "label": "2022-2023",
+    "type": "undergraduate",
+    "archived": true
+  }
+]

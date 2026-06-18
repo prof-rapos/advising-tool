@@ -1,0 +1,440 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20500",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1030U",
+      "name": "Writing and Critical Thinking"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1130U",
+      "name": "Introduction to Financial Accounting"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1450U",
+      "name": "Statistics for Business"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1520U",
+      "name": "Introduction to Business Analytics"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1600U",
+      "name": "Management of the Enterprise"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 1915U",
+      "name": "Fundamentals of Business Mathematics"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2040U",
+      "name": "Information Systems"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2180U",
+      "name": "Introduction to Managerial Accounting"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2200U",
+      "name": "Marketing Management"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2311U",
+      "name": "Organizational Behaviour"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2401U",
+      "name": "Principles of Finance"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2603U",
+      "name": "Introduction to Operations Management"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3000U",
+      "name": "Business and Sustainability"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4701U",
+      "name": "Strategic Management"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "ECON 2010U",
+      "name": "Microeconomics"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "ECON 2020U",
+      "name": "Macroeconomics"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 1500U",
+      "name": "FBIT Student Success Workshop"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 2500U",
+      "name": "FBIT Experience Workshop"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 3500U",
+      "name": "FBIT Career Readiness Workshop"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4500U",
+      "name": "Capstone Study Project"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4600W",
+      "name": "Internship"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "XBIT 4700U",
+      "name": "Venture Creation"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2402U",
+      "name": "Corporate Finance"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3405U",
+      "name": "Equity Asset Analysis"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3410U",
+      "name": "Financial Institutions"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3420U",
+      "name": "Derivative Securities"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4410U",
+      "name": "Advanced Corporate Finance Applications"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3150U",
+      "name": "Financial Statement Analysis"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3440U",
+      "name": "Financial Modelling"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3460U",
+      "name": "Fixed Income Strategies"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3470U",
+      "name": "Wealth Management Principles"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3480U",
+      "name": "International Finance"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4405U",
+      "name": "Portfolio and Investment Strategies"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4440U",
+      "name": "Financial Econometrics"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4450U",
+      "name": "Business Applications of Blockchain and Cryptocurrencies"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4456U",
+      "name": "Student Managed Investment Fund II"
+    },
+    {
+      "id": "r37",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4490U",
+      "name": "Special Topics in Finance"
+    },
+    {
+      "id": "r38",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2800U",
+      "name": "Fundamentals of Artificial Intelligence (AI) for Business"
+    },
+    {
+      "id": "r39",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4800U",
+      "name": "Business Applications of Artificial Intelligence (AI)"
+    },
+    {
+      "id": "r40",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3830U",
+      "name": "AI Beyond the Hype: Ethical, Legal, and Societal issues in Artificial Intelligence"
+    },
+    {
+      "id": "r41",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4801U",
+      "name": "Special Topics in Artificial Intelligence (AI) for Business"
+    },
+    {
+      "id": "r42",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 3700U",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "r43",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 4611U",
+      "name": "Trust Systems"
+    },
+    {
+      "id": "r44",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2900U",
+      "name": "Fundamentals of Cybersecurity for Business"
+    },
+    {
+      "id": "r45",
+      "type": "course",
+      "year": 0,
+      "code": "INFR 4680U",
+      "name": "IT Security Policies and Procedures"
+    },
+    {
+      "id": "r46",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 2570U",
+      "name": "Cybercrime"
+    },
+    {
+      "id": "r47",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4901U",
+      "name": "Special Topics in Cybersecurity for Business"
+    },
+    {
+      "id": "r48",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 4920U",
+      "name": "Cybersecurity Leadership"
+    },
+    {
+      "id": "r49",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3998U",
+      "name": "Energy Economics"
+    },
+    {
+      "id": "r50",
+      "type": "course",
+      "year": 0,
+      "code": "BUSI 3999U",
+      "name": "Environmental Economics"
+    },
+    {
+      "id": "r51",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2800U",
+      "name": "Introduction to Business, Economy and Society"
+    },
+    {
+      "id": "r52",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3000U",
+      "name": "Introduction to Political Economy"
+    },
+    {
+      "id": "r53",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3800U",
+      "name": "Special Topics in Business, Economy and Society"
+    },
+    {
+      "id": "r54",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 4000U",
+      "name": "Special Topics in Political Economy"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {
+    "threeOpenOneOf": {
+      "prefixes": [
+        "XBIT"
+      ]
+    }
+  },
+  "restrictedElectives": {
+    "finance": [
+      {
+        "code": "BUSI 3150U",
+        "name": "Financial Statement Analysis"
+      },
+      {
+        "code": "BUSI 3440U",
+        "name": "Financial Modelling"
+      },
+      {
+        "code": "BUSI 3460U",
+        "name": "Fixed Income Strategies"
+      },
+      {
+        "code": "BUSI 3470U",
+        "name": "Wealth Management Principles"
+      },
+      {
+        "code": "BUSI 3480U",
+        "name": "International Finance"
+      },
+      {
+        "code": "BUSI 4405U",
+        "name": "Portfolio and Investment Strategies"
+      },
+      {
+        "code": "BUSI 4440U",
+        "name": "Financial Econometrics"
+      },
+      {
+        "code": "BUSI 4450U",
+        "name": "Business Applications of Blockchain and Cryptocurrencies"
+      },
+      {
+        "code": "BUSI 4456U",
+        "name": "Student Managed Investment Fund II"
+      },
+      {
+        "code": "BUSI 4490U",
+        "name": "Special Topics in Finance"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

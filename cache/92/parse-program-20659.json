@@ -1,0 +1,160 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20659",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 1000U",
+      "name": "Introduction to Indigenous Studies: Colonial History and its Impacts on Indigenous Peoples"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 3100U",
+      "name": "First Nations History in Michi Saagiig and Haudenosaunee Territories in Southern Ontario"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 3200U",
+      "name": "Contemporary Indigenous Literature"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 3310U",
+      "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4000U",
+      "name": "Understanding Reconciliation and Decolonization"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4100U",
+      "name": "(Re)Membering Reciprocal Relations"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4300U",
+      "name": "Special Topics in Indigenous Studies"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4310U",
+      "name": "The Politics of Indigenous Rights"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4570U",
+      "name": "Indigenous Design and Technology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "ENGR 4570U",
+      "name": "Indigenous Design and Technology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3823U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2010U",
+      "name": "The Indian Residential School System"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2100U",
+      "name": "Endaayaang - Storying Home in Michi Saagiig Territory"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2200U",
+      "name": "Indigenous Digital and Visual Media"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2500U",
+      "name": "Two-Eyed Seeing in the Natural Sciences"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 2010U",
+      "name": "Health and Indigenous People in Canada"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "KINE 3482U",
+      "name": "Physical Activity and Indigenous Peoples in Canada"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3310U",
+      "name": "Indigenous Peoples, Law and the State in Canada"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3310U",
+      "name": "Indigenous Peoples, Sustainability and Development: A Global Perspective"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 4310U",
+      "name": "The Politics of Indigenous Rights"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "SCIE 2500U",
+      "name": "Two-Eyed Seeing in the Natural Sciences"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

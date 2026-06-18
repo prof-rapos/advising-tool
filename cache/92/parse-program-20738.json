@@ -1,0 +1,163 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20738",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2620U",
+      "name": "Professional Communication and AI"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4120U",
+      "name": "AI, Ethics and Communication"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SOCI 1470U",
+      "name": "Impact of Science and Technology on Society"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1050U",
+      "name": "Technical Communications"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2411U",
+      "name": "Governing Communication and Digital Creativity: Policy for an era of Digital Disruption"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3510U",
+      "name": "Work in the Creative and Tech Industries"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 3720U",
+      "name": "Knowing Your Audience: Audience Studies for Media Professionals and Creators"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4140U",
+      "name": "Ways of Seeing: Immersive Communication and AI"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 4510U",
+      "name": "Public Relations: Social Power, Social Media Platforms, and Social Responsibility"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2200U",
+      "name": "Indigenous Digital and Visual Media"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 2500U",
+      "name": "Two-Eyed Seeing in the Natural Sciences"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "INDG 4570U",
+      "name": "Indigenous Design and Technology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2413U",
+      "name": "Science Communication: Media for creative, fun, and effective STEM communication"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 2300U",
+      "name": "Mobilizing for Change"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3101U",
+      "name": "Inequality, Environment and Development"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3602U",
+      "name": "Labour in the Global Economy"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 3700U",
+      "name": "Technology, Politics and Social Theory"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1910U",
+      "name": "Writing for the Social Sciences"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 1001U",
+      "name": "Fundamentals of Sustainability I: Science &amp; Technology"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "SUST 1002U",
+      "name": "Fundamentals of Sustainability II: Health &amp; Social Sciences"
+    }
+  ],
+  "elecRestrictions": {
+    "comm": 6
+  },
+  "elecSubsets": {},
+  "elecLabels": {
+    "comm": "Communications"
+  },
+  "elecFilterRules": {
+    "comm": {
+      "prefixes": [
+        "COMM"
+      ]
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 6
+}

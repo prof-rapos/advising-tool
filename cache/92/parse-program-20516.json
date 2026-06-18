@@ -1,0 +1,197 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20516",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1000U",
+      "name": "Foundations of Learning"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1100U",
+      "name": "Problem and Inquiry Based Learning"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1130U",
+      "name": "Writing and Information Literacy in the Digital Age"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 1230U",
+      "name": "Design Thinking and Visual Design for Educational Contexts"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 2110U",
+      "name": "Assessment and Evaluation"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 2140U",
+      "name": "Creating Digital Tools"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 2150U",
+      "name": "Teaching to Facilitate Learning"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 1,
+      "code": "EDST 2500U",
+      "name": "Foundations of Equity, Diversity and Inclusion in Education"
+    },
+    {
+      "id": "r9",
+      "type": "elective",
+      "year": 1,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r10",
+      "type": "elective",
+      "year": 1,
+      "elecType": "educationalStudies",
+      "label": "Educational Studies electives"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "EDST 3000U",
+      "name": "Instructional Design"
+    },
+    {
+      "id": "r12",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r13",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r14",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r15",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r16",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r17",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r18",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r19",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    },
+    {
+      "id": "r20",
+      "type": "elective",
+      "year": 2,
+      "elecType": "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level",
+      "label": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level",
+      "filterRule": {
+        "minLevel": 4000,
+        "maxLevel": 4999
+      }
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {
+    "educationalStudies": "Educational Studies electives",
+    "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level": "Educational Studies electives with a minimum of two Educational Studies electives at the 4000 level"
+  },
+  "elecFilterRules": {
+    "educationalStudiesWithAMinimumOfTwoEducationalStudiesAtThe4000Level": {
+      "minLevel": 4000,
+      "maxLevel": 4999
+    }
+  },
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 11,
+  "elecRestrictionSum": 0
+}

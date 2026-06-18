@@ -1,0 +1,202 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20590",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 1,
+      "code": "MLSC 1010U",
+      "name": "Introduction to Medical Laboratory Practice"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2460U",
+      "name": "Pathophysiology I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 2461U",
+      "name": "Pathophysiology II"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 2,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 2111U",
+      "name": "Clinical Biochemistry I"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 2121U",
+      "name": "Clinical Hematology I"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 2131U",
+      "name": "Clinical Microbiology I"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 3200U",
+      "name": "Transfusion Science I"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 3220U",
+      "name": "Transfusion Science II"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 3230U",
+      "name": "Microanatomy and Histotechnology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 2,
+      "code": "MLSC 3231U",
+      "name": "Advanced Histotechnology"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 3,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Public Health and Health Care Professionals"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3111U",
+      "name": "Clinical Biochemistry II"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3121U",
+      "name": "Clinical Hematology II"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3131U",
+      "name": "Clinical Microbiology II"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3141U",
+      "name": "Molecular Techniques and Complementary Technologies"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3210U",
+      "name": "Effective Leadership and Quality Management in the Clinical Laboratory"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3300U",
+      "name": "Simulated Clinical Practicum"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3501U",
+      "name": "Simulated Clinical Practicum (Pathology)"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 3,
+      "code": "MLSC 3502U",
+      "name": "Simulated Clinical Practicum (Molecular and Microbiology)"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 4,
+      "code": "HLSC 4820U",
+      "name": "Interdisciplinary Collaboration"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4201U",
+      "name": "Professional Practice in the Pathology Laboratory"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4202U",
+      "name": "Professional Practice in the Microbiology Laboratory"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4203U",
+      "name": "Professional Practice in the Core Laboratory"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4405U",
+      "name": "Case Studies in Medical Laboratory Science"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4400U",
+      "name": "Clinical Project I"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 4,
+      "code": "MLSC 4401U",
+      "name": "Clinical Project II"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

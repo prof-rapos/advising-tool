@@ -1,0 +1,76 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20581",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2940U",
+      "name": "Legal Research Methods"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3410U",
+      "name": "Labour and Employment Law"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3610U",
+      "name": "Employment and Mediation"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3130U",
+      "name": "Family Law"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3600U",
+      "name": "Family Mediation"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2420U",
+      "name": "Canadian Human Rights Law"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 3620U",
+      "name": "Human Rights Mediation"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 2010U",
+      "name": "Criminal Law"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 4032U",
+      "name": "Mediation and Conflict Resolution"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

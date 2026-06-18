@@ -1,0 +1,153 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20530",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4670U",
+      "name": "Studies in Work Disability Prevention"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4672U",
+      "name": "Making A Work Disability Diagnosis"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4674U",
+      "name": "Coordinating Return to Work"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4676U",
+      "name": "Occupational Ergonomics and Work Disability"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1701U",
+      "name": "Information Literacy and Written Communication for the Health Sciences"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 1811U",
+      "name": "Social Determinants of Health"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2601U",
+      "name": "Introduction to Health Services Management"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2700U",
+      "name": "Mathematical Reasoning in Health Sciences"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 2802U",
+      "name": "Introduction to the Canadian Healthcare System"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3631U",
+      "name": "Health Policy and Process"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3710U",
+      "name": "Ethics"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3800U",
+      "name": "Introduction to Statistics for Health Sciences"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3805U",
+      "name": "Introduction to Epidemiology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3820U",
+      "name": "Public Health I"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 3910U",
+      "name": "Research Methods for Public Health and Health Care Professionals"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4807U",
+      "name": "Perspectives in Aging"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4820U",
+      "name": "Interdisciplinary Collaboration"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4851U",
+      "name": "Critical Perspectives on Health, Illness, and Healthcare"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4996U",
+      "name": "Research Applications I"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "HLSC 4998U",
+      "name": "Research Practicum I"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

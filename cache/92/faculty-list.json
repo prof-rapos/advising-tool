@@ -1,0 +1,26 @@
+[
+  {
+    "entOid": 2060,
+    "name": "Faculty of Business and Information Technology"
+  },
+  {
+    "entOid": 2061,
+    "name": "Frazer Faculty of Education"
+  },
+  {
+    "entOid": 2063,
+    "name": "Faculty of Engineering and Applied Science"
+  },
+  {
+    "entOid": 2064,
+    "name": "Faculty of Health Sciences"
+  },
+  {
+    "entOid": 2065,
+    "name": "Faculty of Science"
+  },
+  {
+    "entOid": 2066,
+    "name": "Faculty of Social Science and Humanities"
+  }
+]

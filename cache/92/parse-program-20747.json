@@ -1,0 +1,59 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20747",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1910U",
+      "name": "Writing for the Social Sciences"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2000U",
+      "name": "Introduction to Social Science, Humanities and Arts"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 2210U",
+      "name": "Researching Communication and Digital Culture"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 2940U",
+      "name": "Legal Research Methods"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2900U",
+      "name": "Research Methods in Psychology"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 2900U",
+      "name": "Research Methods"
+    }
+  ],
+  "elecRestrictions": {
+    "general": 27
+  },
+  "elecSubsets": {},
+  "elecLabels": {
+    "general": "General"
+  },
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 27
+}

@@ -1,0 +1,27 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20761",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1841U",
+      "name": "Essentials of Biology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

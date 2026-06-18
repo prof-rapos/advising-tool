@@ -1,0 +1,332 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20635",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "BIOL 1841U",
+      "name": "Essentials of Biology"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 1000U",
+      "name": "Introductory Psychology"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 1910U",
+      "name": "Writing for the Social Sciences"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "COMM 1100U",
+      "name": "Introduction to Communication and Digital Media Studies"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "CRMN 1000U",
+      "name": "Introduction to Criminology and Justice"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "LGLS 1000U",
+      "name": "Foundations of Legal Studies"
+    },
+    {
+      "id": "r7",
+      "type": "course",
+      "year": 0,
+      "code": "POSC 1000U",
+      "name": "Introduction to Political Science"
+    },
+    {
+      "id": "r8",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2010U",
+      "name": "Developmental Psychology"
+    },
+    {
+      "id": "r9",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2020U",
+      "name": "Social Psychology"
+    },
+    {
+      "id": "r10",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2030U",
+      "name": "Psychopathology"
+    },
+    {
+      "id": "r11",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2050U",
+      "name": "Brain and Behaviour"
+    },
+    {
+      "id": "r12",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2060U",
+      "name": "Cognitive Psychology"
+    },
+    {
+      "id": "r13",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2900U",
+      "name": "Research Methods in Psychology"
+    },
+    {
+      "id": "r14",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 2910U",
+      "name": "Data Analysis in Psychology"
+    },
+    {
+      "id": "r15",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3210U",
+      "name": "Forensic Psychology"
+    },
+    {
+      "id": "r16",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3910U",
+      "name": "Advanced Data Analysis in Psychology"
+    },
+    {
+      "id": "r17",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 4110U",
+      "name": "Honours Thesis in Forensic Psychology I"
+    },
+    {
+      "id": "r18",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 4120U",
+      "name": "Honours Thesis in Forensic Psychology II"
+    },
+    {
+      "id": "r19",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4098U",
+      "name": "Practicum"
+    },
+    {
+      "id": "r20",
+      "type": "course",
+      "year": 0,
+      "code": "SSCI 4103W",
+      "name": "Internship"
+    },
+    {
+      "id": "r21",
+      "type": "course",
+      "year": 0,
+      "code": "FSCI 1010U",
+      "name": "Introductory Forensic Science"
+    },
+    {
+      "id": "r22",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3039U",
+      "name": "Children, Psychology and the Law"
+    },
+    {
+      "id": "r23",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3055U",
+      "name": "Treatment in Forensic Settings"
+    },
+    {
+      "id": "r24",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3060U",
+      "name": "Personality Psychology"
+    },
+    {
+      "id": "r25",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3110U",
+      "name": "Directed Laboratory Research in Forensic Psychology"
+    },
+    {
+      "id": "r26",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3310U",
+      "name": "Confessions and Interrogations"
+    },
+    {
+      "id": "r27",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3320U",
+      "name": "Eyewitness Psychology"
+    },
+    {
+      "id": "r28",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3400U",
+      "name": "Investigative Psychology"
+    },
+    {
+      "id": "r29",
+      "type": "course",
+      "year": 0,
+      "code": "PSYC 3500U",
+      "name": "Stereotypes and Prejudice"
+    },
+    {
+      "id": "r30",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 3900U",
+      "name": "Special Topics in Forensic Psychology I"
+    },
+    {
+      "id": "r31",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 4050U",
+      "name": "Forensic Assessment"
+    },
+    {
+      "id": "r32",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 4060U",
+      "name": "Wrongful Conviction"
+    },
+    {
+      "id": "r33",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 4070U",
+      "name": "Sexual Offenders"
+    },
+    {
+      "id": "r34",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 4080U",
+      "name": "Psychopathic Behaviour"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 4820U",
+      "name": "Selected Topics in Antisociality"
+    },
+    {
+      "id": "r36",
+      "type": "course",
+      "year": 0,
+      "code": "FPSY 4900U",
+      "name": "Special Topics in Forensic Psychology II"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {
+    "forensicPsychology": [
+      {
+        "code": "FSCI 1010U",
+        "name": "Introductory Forensic Science"
+      },
+      {
+        "code": "FPSY 3039U",
+        "name": "Children, Psychology and the Law"
+      },
+      {
+        "code": "FPSY 3055U",
+        "name": "Treatment in Forensic Settings"
+      },
+      {
+        "code": "PSYC 3060U",
+        "name": "Personality Psychology"
+      },
+      {
+        "code": "FPSY 3110U",
+        "name": "Directed Laboratory Research in Forensic Psychology"
+      },
+      {
+        "code": "FPSY 3310U",
+        "name": "Confessions and Interrogations"
+      },
+      {
+        "code": "FPSY 3320U",
+        "name": "Eyewitness Psychology"
+      },
+      {
+        "code": "FPSY 3400U",
+        "name": "Investigative Psychology"
+      },
+      {
+        "code": "PSYC 3500U",
+        "name": "Stereotypes and Prejudice"
+      },
+      {
+        "code": "FPSY 3900U",
+        "name": "Special Topics in Forensic Psychology I"
+      },
+      {
+        "code": "FPSY 4050U",
+        "name": "Forensic Assessment"
+      },
+      {
+        "code": "FPSY 4060U",
+        "name": "Wrongful Conviction"
+      },
+      {
+        "code": "FPSY 4070U",
+        "name": "Sexual Offenders"
+      },
+      {
+        "code": "FPSY 4080U",
+        "name": "Psychopathic Behaviour"
+      },
+      {
+        "code": "FPSY 4820U",
+        "name": "Selected Topics in Antisociality"
+      },
+      {
+        "code": "FPSY 4900U",
+        "name": "Special Topics in Forensic Psychology II"
+      }
+    ]
+  },
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}

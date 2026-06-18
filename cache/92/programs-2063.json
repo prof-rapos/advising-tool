@@ -1,0 +1,98 @@
+[
+  {
+    "poid": 20664,
+    "name": "Engineering Co-op"
+  },
+  {
+    "poid": 20627,
+    "name": "Engineering and Management programs"
+  },
+  {
+    "poid": 20524,
+    "name": "Automotive Engineering"
+  },
+  {
+    "poid": 20740,
+    "name": "Automotive Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 20525,
+    "name": "Electrical Engineering"
+  },
+  {
+    "poid": 20604,
+    "name": "Electrical Engineering – Smart Grid specialization"
+  },
+  {
+    "poid": 20675,
+    "name": "Energy Engineering"
+  },
+  {
+    "poid": 20676,
+    "name": "Industrial Engineering"
+  },
+  {
+    "poid": 20526,
+    "name": "Manufacturing Engineering"
+  },
+  {
+    "poid": 20742,
+    "name": "Manufacturing Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 20527,
+    "name": "Mechanical Engineering"
+  },
+  {
+    "poid": 20768,
+    "name": "Mechanical Engineering – Aerospace specialization"
+  },
+  {
+    "poid": 20728,
+    "name": "Mechanical Engineering – Artificial Intelligence specialization"
+  },
+  {
+    "poid": 20528,
+    "name": "Mechanical Engineering – Energy Engineering specialization"
+  },
+  {
+    "poid": 20741,
+    "name": "Mechanical Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 20605,
+    "name": "Mechatronics Engineering"
+  },
+  {
+    "poid": 20727,
+    "name": "Mechatronics Engineering – Artificial Intelligence specialization"
+  },
+  {
+    "poid": 20739,
+    "name": "Mechatronics Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 20522,
+    "name": "Nuclear Engineering"
+  },
+  {
+    "poid": 20529,
+    "name": "Software Engineering"
+  },
+  {
+    "poid": 20615,
+    "name": "Software Engineering – Internet of Things specialization"
+  },
+  {
+    "poid": 20769,
+    "name": "Software Engineering – Railway Engineering specialization"
+  },
+  {
+    "poid": 20629,
+    "name": "Health Physics minor"
+  },
+  {
+    "poid": 20746,
+    "name": "Nuclear Technology minor"
+  }
+]

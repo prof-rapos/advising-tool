@@ -1,0 +1,55 @@
+{
+  "programUrl": "https://calendar.ontariotechu.ca/preview_program.php?catoid=92&poid=20752",
+  "requirements": [
+    {
+      "id": "r1",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 2310C",
+      "name": "Foundations for Success in Co-op"
+    },
+    {
+      "id": "r2",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 3310W",
+      "name": "EDST Co-op Work Term I"
+    },
+    {
+      "id": "r3",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4310W",
+      "name": "EDST Co-op Work Term II"
+    },
+    {
+      "id": "r4",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4320W",
+      "name": "EDST Co-op Work Term III"
+    },
+    {
+      "id": "r5",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4330W",
+      "name": "EDST Co-op Work Term IV"
+    },
+    {
+      "id": "r6",
+      "type": "course",
+      "year": 0,
+      "code": "EDST 4340W",
+      "name": "EDST Co-op Work Term V"
+    }
+  ],
+  "elecRestrictions": {},
+  "elecSubsets": {},
+  "elecLabels": {},
+  "elecFilterRules": {},
+  "restrictedElectives": {},
+  "elecSanityOk": true,
+  "elecCardCount": 0,
+  "elecRestrictionSum": 0
+}
