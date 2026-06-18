@@ -122,6 +122,8 @@ async function getFacultyList(catoid) {
 
   const html = await fetchURL(`${CAL}/content.php?catoid=${catoid}&navoid=${byFacLink.navoid}`);
   
+  console.log('html length:', html.length, 'sample:', html.slice(0, 200));
+  
   // Faculties are listed as preview_entity.php links (ent_oid)
   const linkRe = /href="(?:\/)?preview_entity\.php\?catoid=\d+(?:&amp;|&)ent_oid=(\d+)[^"]*"[^>]*>([\s\S]*?)<\/a>/gi;
   
