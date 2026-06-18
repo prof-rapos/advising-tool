@@ -957,7 +957,13 @@ const server = http.createServer(async (req, res) => {
   if (pathname.startsWith('/api/')) {
     try {
       if (pathname === '/api/years') {
-        return jsonRes(res, await getYears());
+        const all = await getYears();
+        const cached = all.filter(y => {
+          const startYear = parseInt((y.label.match(/^(\d{4})/) || [])[1]);
+          return y.type === 'undergraduate' && startYear >= 2020 &&
+                 diskGet(`${y.catoid}/faculty-list.json`) !== null;
+        });
+        return jsonRes(res, cached);
       }
       if (pathname === '/api/nav-links') {
         const catoid = +searchParams.get('catoid');
