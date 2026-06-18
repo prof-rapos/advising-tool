@@ -127,9 +127,9 @@ async function getFacultyList(catoid) {
   
   // Faculties are listed as preview_entity.php links (ent_oid)
   const linkRe = /href="(?:\/)?preview_entity\.php\?catoid=\d+(?:&amp;|&)ent_oid=(\d+)[^"]*"[^>]*>([\s\S]*?)<\/a>/gi;
-  return 'https://calendar.ontariotechu.ca/preview_entity.php?catoid=92&ent_oid=2065';
+  const linkRe = 'https://calendar.ontariotechu.ca/preview_entity.php?catoid=92&ent_oid=2065';
   
-  /*
+  
   
   const faculties = [];
   const seen = new Set();
@@ -142,7 +142,7 @@ async function getFacultyList(catoid) {
       faculties.push({ entOid, name: text });
     }
   }
-  return faculties;*/
+  return faculties;
 }
 
 // ── Programs for a faculty entity page ───────────────────────────
