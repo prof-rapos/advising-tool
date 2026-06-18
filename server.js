@@ -123,10 +123,12 @@ async function getFacultyList(catoid) {
   //const html = await fetchURL(`${CAL}/content.php?catoid=${catoid}&navoid=${byFacLink.navoid}`);
   
   const html = 'https://calendar.ontariotechu.ca/content.php?catoid=92&navoid=4147';
-  return html;
-  /*
+  
+  
   // Faculties are listed as preview_entity.php links (ent_oid)
   const linkRe = /href="(?:\/)?preview_entity\.php\?catoid=\d+(?:&amp;|&)ent_oid=(\d+)[^"]*"[^>]*>([\s\S]*?)<\/a>/gi;
+  return linkRe;
+  /*
   const faculties = [];
   const seen = new Set();
   let m;
