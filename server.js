@@ -120,8 +120,10 @@ async function getFacultyList(catoid) {
   const byFacLink  = indexLinks.find(l => /programs?\s+\(?\s*by\s+faculty/i.test(l.text));
   if (!byFacLink) throw new Error('Cannot find "Programs by faculty" link for catoid ' + catoid);
 
-  const html = await fetchURL(`${CAL}/content.php?catoid=${catoid}&navoid=${byFacLink.navoid}`);
-
+  //const html = await fetchURL(`${CAL}/content.php?catoid=${catoid}&navoid=${byFacLink.navoid}`);
+  
+  const html = 'https://calendar.ontariotechu.ca/content.php?catoid=92&navoid=4147';
+  
   // Faculties are listed as preview_entity.php links (ent_oid)
   const linkRe = /href="(?:\/)?preview_entity\.php\?catoid=\d+(?:&amp;|&)ent_oid=(\d+)[^"]*"[^>]*>([\s\S]*?)<\/a>/gi;
   const faculties = [];
