@@ -1,4 +1,5 @@
 'use strict';
+//
 // Pre-scrapes the Ontario Tech academic calendar using a headless browser.
 // Playwright's Chromium solves the AWS WAF JavaScript challenge automatically.
 // Results are written to cache/ and committed to the repo.
