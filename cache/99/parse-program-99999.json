@@ -405,17 +405,23 @@
     }
   },
   "restrictedElectives": {
-    "fbit": [
-      {
-        "code": "BUSI 1600U",
-        "name": "Management of the Enterprise"
-      }
-    ],
     "fssh": [
-      {
-        "code": "COMM 2620U",
-        "name": "Professional Communication and AI"
-      }
+      { "code": "COMM 2311U", "name": "The Creative Industries: Ideas, Art, Tech, Money, Power" },
+      { "code": "COMM 2620U", "name": "Professional Communication and AI" },
+      { "code": "COMM 4120U", "name": "AI, Ethics and Communication" },
+      { "code": "COMM 4140U", "name": "Ways of Seeing: Immersive Communication and AI" },
+      { "code": "POSC 3700U", "name": "Technology, Politics and Social Theory" },
+      { "code": "LGLS 3520U", "name": "Law and Technology" },
+      { "code": "EDST 2180U", "name": "AI in Education" },
+      { "code": "INDG 4570U", "name": "Indigenous Design and Technology" }
+    ],
+    "fbit": [
+      { "code": "BUSI 2800U", "name": "Fundamentals of AI for Business" },
+      { "code": "BUSI 3830U", "name": "AI Beyond the Hype" },
+      { "code": "BUSI 4800U", "name": "Business Applications of AI" },
+      { "code": "BUSI 4801U", "name": "Special Topics in AI for Business" },
+      { "code": "INFR 2310U", "name": "Animation and A.I. for Games" },
+      { "code": "INFR 4320U", "name": "Artificial Intelligence for Gaming" }
     ],
     "application": [
       {

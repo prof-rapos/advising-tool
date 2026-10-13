@@ -1,0 +1,112 @@
+AI PROGRAM — INTERDISCIPLINARY ELECTIVE COURSE LISTS
+Curated October 2026
+
+These lists populate the restricted elective dropdowns for the example AI program (cache/99).
+Two categories: FSSH (AI in the Social Sciences & Humanities) and FBIT (AI in Business & IT).
+All courses drawn from the 2024-2025 Ontario Tech calendar (catoid 92).
+
+================================================================================
+FSSH — AI IN THE SOCIAL SCIENCES & HUMANITIES (8 courses)
+================================================================================
+
+COMM 2311U  The Creative Industries: Ideas, Art, Tech, Money, Power
+  Level:    2nd year
+  Prereqs:  None
+  Notes:    Stepping stone — satisfies an FSSH elective and unlocks COMM 4140U.
+            Students can take this in year 1-2 and COMM 4140U later for a second
+            FSSH credit; the prereq course itself earns elective credit.
+
+COMM 2620U  Professional Communication and AI
+  Level:    2nd year
+  Prereqs:  Credit restriction with COMM 2600U only (no course prereq)
+  Notes:    AI-focused writing and communication; accessible from year 1.
+
+COMM 4120U  AI, Ethics and Communication
+  Level:    4th year
+  Prereqs:  BSc 4th-year standing
+  Notes:    AI students will have this standing by year 4 — no additional barrier.
+
+COMM 4140U  Ways of Seeing: Immersive Communication and AI
+  Level:    4th year
+  Prereqs:  COMM 2311U
+  Notes:    COMM 2311U is also on this list. Students who take 2311U as an FSSH
+            elective can then take this as a second FSSH elective in year 3-4.
+
+POSC 3700U  Technology, Politics and Social Theory
+  Level:    3rd year
+  Prereqs:  One introductory POSC course
+  FLAG:     Students wishing to take this should plan to use a general elective
+            slot in year 1-2 for an introductory POSC course (e.g. POSC 1000U).
+
+LGLS 3520U  Law and Technology
+  Level:    3rd year
+  Prereqs:  3rd-year standing only
+  Notes:    No course-specific prereqs; any AI student in year 3+ can take this.
+
+EDST 2180U  AI in Education
+  Level:    2nd year
+  Prereqs:  EDST 1000U
+  FLAG:     Students wishing to take this should plan to use a general elective
+            slot for EDST 1000U first. Directly relevant to AI in learning contexts.
+
+INDG 4570U  Indigenous Design and Technology
+  Level:    4th year
+  Prereqs:  None
+  Notes:    Unique offering addressing Indigenous perspectives on AI/technology.
+
+================================================================================
+FBIT — AI IN BUSINESS & IT (6 courses)
+================================================================================
+
+BUSI 2800U  Fundamentals of AI for Business
+  Level:    2nd year
+  Prereqs:  None
+  Notes:    Anchor course — no prerequisites. Taking this in year 1-2 unlocks
+            the full BUSI AI chain (3830U, 4800U, 4801U).
+
+BUSI 3830U  AI Beyond the Hype
+  Level:    3rd year
+  Prereqs:  BUSI 2800U
+  Notes:    BUSI 2800U is on this list; students can chain both across FBIT slots.
+
+BUSI 4800U  Business Applications of AI
+  Level:    4th year
+  Prereqs:  BUSI 2800U
+  Notes:    Senior FBIT elective; same prereq chain as 3830U. Alternative to 4801U.
+
+BUSI 4801U  Special Topics in AI for Business
+  Level:    4th year
+  Prereqs:  BUSI 2800U
+  Notes:    Variable content each offering; prereq met via 2800U.
+
+INFR 2310U  Animation and A.I. for Games
+  Level:    2nd year
+  Prereqs:  GAME 1100U or (INFR 1100U + INFR 1200U)
+  FLAG:     Game development prereqs not in the AI program core. Included with the
+            expectation that a formal prereq amendment will be pursued for AI
+            students who have equivalent math and programming background.
+
+INFR 4320U  Artificial Intelligence for Gaming
+  Level:    4th year
+  Prereqs:  3rd-year standing only
+  Notes:    No course-specific prereqs; covers a distinct AI application domain.
+
+================================================================================
+CHAINING NOTES
+================================================================================
+
+BUSI 2800U chain:
+  A student using all 3 FBIT slots optimally: 2800U (year 1-2), 3830U (year 2-3),
+  and 4800U or 4801U (year 4). All three slots covered with a coherent AI-in-business
+  sequence, no extra prereq courses needed.
+
+COMM 2311U -> COMM 4140U chain:
+  Both courses are on the FSSH list. A student takes 2311U early (FSSH slot 1)
+  and 4140U later (FSSH slot 2 or 3). The prereq course itself earns elective credit —
+  no "wasted" slot for the prereq.
+
+POSC 3700U / EDST 2180U:
+  Both require a single introductory prereq course not in the AI core. Students
+  who want either of these should budget one general elective slot for the prereq.
+  They should not both be pursued unless the student has enough general elective
+  budget to cover two additional prereq courses.
