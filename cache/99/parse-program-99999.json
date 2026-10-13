@@ -350,7 +350,7 @@
     "fssh": "AI in the Social Sciences & Humanities",
     "fbit": "AI in Business & IT",
     "general": "General",
-    "seniorAI": "Senior AI electives",
+    "seniorAi": "Senior AI electives",
     "application": "Applied AI"
   },
   "elecFilterRules": {
@@ -359,7 +359,7 @@
         "BUSI"
       ]
     },
-    "seniorAI": {
+    "seniorAi": {
       "prefixes": [
         "ARTI"
       ],
