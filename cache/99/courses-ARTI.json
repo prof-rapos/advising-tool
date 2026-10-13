@@ -1,14 +1,14 @@
 [
   {
-    "code": "ARTI 3XXXU",
+    "code": "ARTI 3040U",
     "name": "Engineering AI Systems"
   },
   {
-    "code": "ARTI 3YY1U",
+    "code": "ARTI 3001U",
     "name": "Applied Artificial Intelligence Project I"
   },
   {
-    "code": "ARTI 3YY2U",
+    "code": "ARTI 3002U",
     "name": "Applied Artificial Intelligence Project II"
   },
   {
@@ -20,19 +20,19 @@
     "name": "Natural Language Processing II"
   },
   {
-    "code": "ARTI 4TTTU",
+    "code": "ARTI 4100U",
     "name": "Reinforcement Learning"
   },
   {
-    "code": "ARTI 4ZZZU",
+    "code": "ARTI 4200U",
     "name": "Agentic AI Development"
   },
   {
-    "code": "ARTI 4YYYU",
+    "code": "ARTI 4300U",
     "name": "Machine Learning DevOps"
   },
   {
-    "code": "ARTI 4PPPU",
+    "code": "ARTI 4500U",
     "name": "AI Safety and Trust"
   },
   {
