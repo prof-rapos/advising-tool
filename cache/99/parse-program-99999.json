@@ -254,80 +254,38 @@
     },
     {
       "id": "r33",
+      "type": "elective",
+      "year": 4,
+      "elecType": "ai",
+      "label": "electives"
+    },
+    {
+      "id": "r34",
+      "type": "elective",
+      "year": 4,
+      "elecType": "ai",
+      "label": "electives"
+    },
+    {
+      "id": "r35",
       "type": "course",
       "year": 4,
       "code": "ARTI 4040U",
       "name": "AI Ethics"
     },
     {
-      "id": "r34",
+      "id": "r36",
       "type": "course",
       "year": 4,
       "code": "CSCI 4052U",
       "name": "Machine Learning II"
     },
     {
-      "id": "r35",
+      "id": "r37",
       "type": "course",
       "year": 4,
       "code": "CSCI 4610U",
       "name": "Artificial Intelligence"
-    },
-    {
-      "id": "r36",
-      "type": "option",
-      "year": 4,
-      "label": "One of (1/2)",
-      "options": [
-        {
-          "code": "CSCI 4150U",
-          "name": "Data Mining"
-        },
-        {
-          "code": "CSCI 4220U",
-          "name": "Computer Vision II"
-        },
-        {
-          "code": "CSCI 4480U",
-          "name": "Advanced Topics in AI"
-        },
-        {
-          "code": "ARTI 4056U",
-          "name": "Natural Language Processing II"
-        },
-        {
-          "code": "ARTI 4TTTU",
-          "name": "Reinforcement Learning"
-        }
-      ]
-    },
-    {
-      "id": "r37",
-      "type": "option",
-      "year": 4,
-      "label": "One of (2/2)",
-      "options": [
-        {
-          "code": "CSCI 4150U",
-          "name": "Data Mining"
-        },
-        {
-          "code": "CSCI 4220U",
-          "name": "Computer Vision II"
-        },
-        {
-          "code": "CSCI 4480U",
-          "name": "Advanced Topics in AI"
-        },
-        {
-          "code": "ARTI 4056U",
-          "name": "Natural Language Processing II"
-        },
-        {
-          "code": "ARTI 4TTTU",
-          "name": "Reinforcement Learning"
-        }
-      ]
     },
     {
       "id": "r38",
@@ -385,7 +343,8 @@
     "nonscience": 2,
     "business": 1,
     "comm": 1,
-    "general": 4
+    "general": 2,
+    "ai": 2
   },
   "elecSubsets": {
     "business": "nonscience",
@@ -477,6 +436,12 @@
       "prefixes": [
         "COMM"
       ]
+    },
+    "ai": {
+      "prefixes": [
+        "ARTI",
+        "CSCI"
+      ]
     }
   },
   "restrictedElectives": {
@@ -522,6 +487,28 @@
       {
         "code": "COMM 2620U",
         "name": "Professional Communication and AI"
+      }
+    ],
+    "ai": [
+      {
+        "code": "CSCI 4150U",
+        "name": "Data Mining"
+      },
+      {
+        "code": "CSCI 4220U",
+        "name": "Computer Vision II"
+      },
+      {
+        "code": "CSCI 4480U",
+        "name": "Advanced Topics in AI"
+      },
+      {
+        "code": "ARTI 4056U",
+        "name": "Natural Language Processing II"
+      },
+      {
+        "code": "ARTI 4TTTU",
+        "name": "Reinforcement Learning"
       }
     ]
   },
