@@ -221,21 +221,21 @@
       "id": "r28",
       "type": "course",
       "year": 3,
-      "code": "ARTI 3XXXU",
+      "code": "ARTI 3040U",
       "name": "Engineering AI Systems"
     },
     {
       "id": "r29",
       "type": "course",
       "year": 3,
-      "code": "CSCI 3YY1U",
+      "code": "CSCI 3001U",
       "name": "AI Project I"
     },
     {
       "id": "r30",
       "type": "course",
       "year": 3,
-      "code": "CSCI 3YY2U",
+      "code": "CSCI 3002U",
       "name": "AI Project II"
     },
     {
@@ -294,15 +294,15 @@
       "label": "One of",
       "options": [
         {
-          "code": "ARTI 4ZZZU",
+          "code": "ARTI 4200U",
           "name": "Agentic AI Development"
         },
         {
-          "code": "ARTI 4YYYU",
+          "code": "ARTI 4300U",
           "name": "ML DevOps"
         },
         {
-          "code": "ARTI 4PPPU",
+          "code": "ARTI 4500U",
           "name": "AI Safety and Trust"
         }
       ]
@@ -441,7 +441,7 @@
         "name": "Natural Language Processing II"
       },
       {
-        "code": "ARTI 4TTTU",
+        "code": "ARTI 4100U",
         "name": "Reinforcement Learning"
       }
     ]
