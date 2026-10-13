@@ -262,7 +262,7 @@
         { "code": "CSCI 4220U", "name": "Computer Vision II" },
         { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
         { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
-        { "code": "ARTI 4TTTU", "name": "Reinforcement Learning" }
+        { "code": "ARTI 4100U", "name": "Reinforcement Learning" }
       ]
     },
     {
@@ -275,7 +275,7 @@
         { "code": "CSCI 4220U", "name": "Computer Vision II" },
         { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
         { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
-        { "code": "ARTI 4TTTU", "name": "Reinforcement Learning" }
+        { "code": "ARTI 4100U", "name": "Reinforcement Learning" }
       ]
     },
     {
