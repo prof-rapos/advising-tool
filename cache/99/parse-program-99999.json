@@ -254,17 +254,29 @@
     },
     {
       "id": "r33",
-      "type": "elective",
+      "type": "option",
       "year": 4,
-      "elecType": null,
-      "label": "electives"
+      "label": "One of",
+      "options": [
+        { "code": "CSCI 4150U", "name": "Data Mining" },
+        { "code": "CSCI 4220U", "name": "Computer Vision II" },
+        { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
+        { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
+        { "code": "ARTI 4TTTU", "name": "Reinforcement Learning" }
+      ]
     },
     {
       "id": "r34",
-      "type": "elective",
+      "type": "option",
       "year": 4,
-      "elecType": null,
-      "label": "electives"
+      "label": "One of",
+      "options": [
+        { "code": "CSCI 4150U", "name": "Data Mining" },
+        { "code": "CSCI 4220U", "name": "Computer Vision II" },
+        { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
+        { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
+        { "code": "ARTI 4TTTU", "name": "Reinforcement Learning" }
+      ]
     },
     {
       "id": "r35",
@@ -342,16 +354,14 @@
     "fsci": 3,
     "fssh": 3,
     "fbit": 3,
-    "general": 2,
-    "application": 2
+    "general": 2
   },
   "elecLabels": {
     "fsci": "Science",
     "fssh": "AI in the Social Sciences & Humanities",
     "fbit": "AI in Business & IT",
     "general": "General",
-    "seniorAi": "Senior AI electives",
-    "application": "Applied AI"
+    "seniorAi": "Senior AI electives"
   },
   "elecFilterRules": {
     "fbit": {
@@ -394,13 +404,6 @@
         "PSYC",
         "SOCI",
         "SSCI"
-
-      ]
-    },
-    "application": {
-      "prefixes": [
-        "ARTI",
-        "CSCI"
       ]
     }
   },
@@ -422,31 +425,9 @@
       { "code": "BUSI 4801U", "name": "Special Topics in AI for Business" },
       { "code": "INFR 2310U", "name": "Animation and A.I. for Games" },
       { "code": "INFR 4320U", "name": "Artificial Intelligence for Gaming" }
-    ],
-    "application": [
-      {
-        "code": "CSCI 4150U",
-        "name": "Data Mining"
-      },
-      {
-        "code": "CSCI 4220U",
-        "name": "Computer Vision II"
-      },
-      {
-        "code": "CSCI 4480U",
-        "name": "Advanced Topics in AI"
-      },
-      {
-        "code": "ARTI 4056U",
-        "name": "Natural Language Processing II"
-      },
-      {
-        "code": "ARTI 4100U",
-        "name": "Reinforcement Learning"
-      }
     ]
   },
   "elecSanityOk": true,
-  "elecCardCount": 17,
-  "elecRestrictionSum": 10
+  "elecCardCount": 11,
+  "elecRestrictionSum": 11
 }
