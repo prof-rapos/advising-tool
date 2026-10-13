@@ -249,6 +249,18 @@
           "name": "Machine Learning II"
         },
         {
+          "id": "r33",
+          "type": "choice",
+          "label": "One of",
+          "options": [
+            { "code": "CSCI 4150U", "name": "Data Mining" },
+            { "code": "CSCI 4220U", "name": "Computer Vision II" },
+            { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
+            { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
+            { "code": "ARTI 4100U", "name": "Reinforcement Learning" }
+          ]
+        },
+        {
           "id": "r39",
           "type": "choice",
           "label": "One of",
@@ -263,24 +275,7 @@
           ]
         },
         {
-          "id": "r33",
-          "type": "choice",
-          "label": "One of",
-          "options": [
-            { "code": "CSCI 4150U", "name": "Data Mining" },
-            { "code": "CSCI 4220U", "name": "Computer Vision II" },
-            { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
-            { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
-            { "code": "ARTI 4100U", "name": "Reinforcement Learning" }
-          ]
-        },
-        {
           "id": "r31",
-          "type": "elective",
-          "label": "electives"
-        },
-        {
-          "id": "r32",
           "type": "elective",
           "label": "electives"
         }
@@ -315,6 +310,18 @@
           ]
         },
         {
+          "id": "r34",
+          "type": "choice",
+          "label": "One of",
+          "options": [
+            { "code": "CSCI 4150U", "name": "Data Mining" },
+            { "code": "CSCI 4220U", "name": "Computer Vision II" },
+            { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
+            { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
+            { "code": "ARTI 4100U", "name": "Reinforcement Learning" }
+          ]
+        },
+        {
           "id": "r40",
           "type": "choice",
           "label": "One of",
@@ -329,16 +336,9 @@
           ]
         },
         {
-          "id": "r34",
-          "type": "choice",
-          "label": "One of",
-          "options": [
-            { "code": "CSCI 4150U", "name": "Data Mining" },
-            { "code": "CSCI 4220U", "name": "Computer Vision II" },
-            { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
-            { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
-            { "code": "ARTI 4100U", "name": "Reinforcement Learning" }
-          ]
+          "id": "r32",
+          "type": "elective",
+          "label": "electives"
         }
       ]
     }
