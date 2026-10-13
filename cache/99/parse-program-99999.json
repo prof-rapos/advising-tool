@@ -260,6 +260,20 @@
       "name": "AI Ethics"
     },
     {
+      "id": "r34",
+      "type": "course",
+      "year": 4,
+      "code": "CSCI 4052U",
+      "name": "Machine Learning II"
+    },
+    {
+      "id": "r35",
+      "type": "course",
+      "year": 4,
+      "code": "CSCI 4610U",
+      "name": "Artificial Intelligence"
+    },
+    {
       "id": "r36",
       "type": "option",
       "year": 4,
