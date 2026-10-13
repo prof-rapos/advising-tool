@@ -1582,14 +1582,23 @@ function printMap(){
   metaParts.push(`Printed: ${new Date().toLocaleDateString('en-CA',{year:'numeric',month:'long',day:'numeric'})}`);
   document.getElementById('ph-meta').textContent = metaParts.join('   ·   ');
 
-  // Sync live input values into print-only spans before printing
+  // Sync live input values into print-only spans before printing.
+  // Prefer the course text input over the elective-type select so a selected
+  // course isn't replaced by its category label.
   document.querySelectorAll('.card-inputs').forEach(inp => {
     const printVal = inp.previousElementSibling;
     if (!printVal || !printVal.classList.contains('card-print-val')) return;
-    const sel = inp.querySelector('select');
     const txt = inp.querySelector('input[type="text"]');
-    if (sel && sel.value) printVal.textContent = sel.options[sel.selectedIndex]?.text || sel.value;
-    else if (txt && txt.value) printVal.textContent = txt.value;
+    const sels = inp.querySelectorAll('select');
+    // For option slots there's one select; for elective slots the last select
+    // is the type picker and the text input is the course — prefer the text input.
+    if (txt && txt.value) {
+      printVal.textContent = txt.value;
+    } else if (sels.length) {
+      // Use the last select (for option cards it's the only one; skip elec-type selects)
+      const lastSel = sels[sels.length - 1];
+      if (lastSel.value) printVal.textContent = lastSel.options[lastSel.selectedIndex]?.text || lastSel.value;
+    }
   });
 
   window.print();
