@@ -251,7 +251,7 @@
         {
           "id": "r33",
           "type": "choice",
-          "label": "One of",
+          "label": "One of (1/2)",
           "options": [
             { "code": "CSCI 4150U", "name": "Data Mining" },
             { "code": "CSCI 4220U", "name": "Computer Vision II" },
@@ -312,7 +312,7 @@
         {
           "id": "r34",
           "type": "choice",
-          "label": "One of",
+          "label": "One of (2/2)",
           "options": [
             { "code": "CSCI 4150U", "name": "Data Mining" },
             { "code": "CSCI 4220U", "name": "Computer Vision II" },
