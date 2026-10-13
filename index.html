@@ -937,12 +937,19 @@ async function applyMapping(){
         if(req){ byCourse.delete(slot.code); }
 
       } else if(slot.type === 'choice' && slot.options){
-        for(const opt of slot.options){
-          const candidate = byCourse.get(opt.code);
-          if(candidate && !placedIds.has(candidate.id)){
-            req = candidate;
-            for(const o of req.options||[]) byCourse.delete(o.code);
-            break;
+        // Try id-based match first — required when two option cards share identical course lists
+        if(slot.id){
+          const byId = reqs.find(r => r.id === slot.id && !placedIds.has(r.id));
+          if(byId){ req = byId; for(const o of req.options||[]) byCourse.delete(o.code); }
+        }
+        if(!req){
+          for(const opt of slot.options){
+            const candidate = byCourse.get(opt.code);
+            if(candidate && !placedIds.has(candidate.id)){
+              req = candidate;
+              for(const o of req.options||[]) byCourse.delete(o.code);
+              break;
+            }
           }
         }
 
