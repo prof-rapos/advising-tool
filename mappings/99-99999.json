@@ -255,13 +255,28 @@
           "options": [
             {
               "code": "ARTI 4410U",
-              "name": "AI Thesis Project I"
+              "name": "Artificial Intelligence Thesis Project I"
+            },
+            {
+              "text": "Senior AI elective"
             }
           ]
         },
         {
+          "id": "r33",
+          "type": "choice",
+          "label": "One of",
+          "options": [
+            { "code": "CSCI 4150U", "name": "Data Mining" },
+            { "code": "CSCI 4220U", "name": "Computer Vision II" },
+            { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
+            { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
+            { "code": "ARTI 4100U", "name": "Reinforcement Learning" }
+          ]
+        },
+        {
           "id": "r31",
-          "type": "application",
+          "type": "elective",
           "label": "electives"
         },
         {
@@ -291,7 +306,7 @@
             },
             {
               "code": "ARTI 4300U",
-              "name": "ML DevOps"
+              "name": "Machine Learning DevOps"
             },
             {
               "code": "ARTI 4500U",
@@ -306,19 +321,24 @@
           "options": [
             {
               "code": "ARTI 4420U",
-              "name": "AI Thesis Project II"
+              "name": "Artificial Intelligence Thesis Project II"
+            },
+            {
+              "text": "Senior AI elective"
             }
           ]
         },
         {
-          "id": "r33",
-          "type": "application",
-          "label": "electives"
-        },
-        {
           "id": "r34",
-          "type": "elective",
-          "label": "electives"
+          "type": "choice",
+          "label": "One of",
+          "options": [
+            { "code": "CSCI 4150U", "name": "Data Mining" },
+            { "code": "CSCI 4220U", "name": "Computer Vision II" },
+            { "code": "CSCI 4480U", "name": "Advanced Topics in AI" },
+            { "code": "ARTI 4056U", "name": "Natural Language Processing II" },
+            { "code": "ARTI 4100U", "name": "Reinforcement Learning" }
+          ]
         }
       ]
     }
