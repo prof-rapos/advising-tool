@@ -1582,6 +1582,16 @@ function printMap(){
   metaParts.push(`Printed: ${new Date().toLocaleDateString('en-CA',{year:'numeric',month:'long',day:'numeric'})}`);
   document.getElementById('ph-meta').textContent = metaParts.join('   ·   ');
 
+  // Sync live input values into print-only spans before printing
+  document.querySelectorAll('.card-inputs').forEach(inp => {
+    const printVal = inp.previousElementSibling;
+    if (!printVal || !printVal.classList.contains('card-print-val')) return;
+    const sel = inp.querySelector('select');
+    const txt = inp.querySelector('input[type="text"]');
+    if (sel && sel.value) printVal.textContent = sel.options[sel.selectedIndex]?.text || sel.value;
+    else if (txt && txt.value) printVal.textContent = txt.value;
+  });
+
   window.print();
 }
 
