@@ -340,15 +340,15 @@
   ],
   "elecRestrictions": {
     "fsci": 3,
-    "fssh": 2,
-    "fbit": 2,
+    "fssh": 3,
+    "fbit": 3,
     "general": 2,
     "application": 2
   },
   "elecLabels": {
     "fsci": "Science",
-    "fssh": "Social Sciences & Humanities",
-    "fbit": "Business & IT",
+    "fssh": "AI in the Social Sciences & Humanities",
+    "fbit": "AI Business & IT",
     "general": "General",
     "seniorAI": "Senior AI electives",
     "application": "Applied AI"
