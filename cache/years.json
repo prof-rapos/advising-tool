@@ -1,5 +1,11 @@
 [
   {
+    "catoid": 00,
+    "label": "Future",
+    "type": "undergraduate",
+    "archived": false
+  },
+  {
     "catoid": 92,
     "label": "2026-2027",
     "type": "undergraduate",
