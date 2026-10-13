@@ -256,14 +256,14 @@
       "id": "r33",
       "type": "elective",
       "year": 4,
-      "elecType": "ai",
+      "elecType": null,
       "label": "electives"
     },
     {
       "id": "r34",
       "type": "elective",
       "year": 4,
-      "elecType": "ai",
+      "elecType": null,
       "label": "electives"
     },
     {
@@ -339,34 +339,24 @@
     }
   ],
   "elecRestrictions": {
-    "scienceNonCS": 3,
-    "nonscience": 2,
-    "business": 1,
-    "comm": 1,
+    "fsci": 3,
+    "fssh": 2,
+    "fbit": 2,
     "general": 2,
-    "ai": 2
-  },
-  "elecSubsets": {
-    "business": "nonscience",
-    "comm": "nonscience"
+    "application": 2
   },
   "elecLabels": {
-    "scienceNonCS": "Science (Non-CS)",
-    "nonscience": "Non-Science",
-    "business": "Business",
-    "comm": "Communications",
+    "fsci": "Science",
+    "fssh": "Social Sciences & Humanities",
+    "fbit": "Business & IT",
     "general": "General",
-    "seniorAI": "Senior AI electives"
+    "seniorAI": "Senior AI electives",
+    "application": "Applied AI"
   },
   "elecFilterRules": {
-    "business": {
+    "fbit": {
       "prefixes": [
         "BUSI"
-      ]
-    },
-    "communication": {
-      "prefixes": [
-        "COMM"
       ]
     },
     "seniorAI": {
@@ -375,7 +365,7 @@
       ],
       "minLevel": 3000
     },
-    "scienceNonCS": {
+    "fsci": {
       "prefixes": [
         "BIOL",
         "CHEM",
@@ -391,53 +381,23 @@
         "SUST"
       ]
     },
-    "nonscience": {
+    "fssh": {
       "prefixes": [
-        "ALSU",
-        "ARTE",
-        "AUTE",
-        "BUSI",
         "COMM",
         "CRMN",
-        "CURS",
-        "ECON",
         "EDST",
-        "EDUC",
-        "ELEE",
-        "ENEE",
-        "ENGR",
-        "ENSY",
-        "ESNS",
         "FPSY",
-        "HLSC",
         "INDG",
         "INFR",
-        "INSE",
-        "KINE",
-        "LEAP",
         "LGLS",
-        "MANE",
-        "MECE",
-        "METE",
-        "MLSC",
-        "NUCL",
-        "NURS",
         "POSC",
         "PSYC",
-        "RADI",
-        "SIMU",
         "SOCI",
-        "SOFE",
-        "SSCI",
-        "XBIT"
+        "SSCI"
+
       ]
     },
-    "comm": {
-      "prefixes": [
-        "COMM"
-      ]
-    },
-    "ai": {
+    "application": {
       "prefixes": [
         "ARTI",
         "CSCI"
@@ -445,51 +405,19 @@
     }
   },
   "restrictedElectives": {
-    "business": [
+    "fbit": [
       {
         "code": "BUSI 1600U",
         "name": "Management of the Enterprise"
-      },
-      {
-        "code": "BUSI 1700U",
-        "name": "Introduction to Entrepreneurship"
-      },
-      {
-        "code": "BUSI 2000U",
-        "name": "Collaborative Leadership"
-      },
-      {
-        "code": "BUSI 2200U",
-        "name": "Marketing Management"
-      },
-      {
-        "code": "BUSI 2311U",
-        "name": "Organizational Behaviour"
       }
     ],
-    "comm": [
-      {
-        "code": "COMM 1050U",
-        "name": "Technical Communications"
-      },
-      {
-        "code": "COMM 1100U",
-        "name": "Introduction to Communication and Digital Media Studies"
-      },
-      {
-        "code": "COMM 1320U",
-        "name": "Public Speaking and Multimedia Presentation for Web 3.0"
-      },
-      {
-        "code": "COMM 2311U",
-        "name": "The Creative Industries: Ideas, Art, Tech, Money, Power"
-      },
+    "fssh": [
       {
         "code": "COMM 2620U",
         "name": "Professional Communication and AI"
       }
     ],
-    "ai": [
+    "application": [
       {
         "code": "CSCI 4150U",
         "name": "Data Mining"
